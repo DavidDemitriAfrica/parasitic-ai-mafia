@@ -1,0 +1,183 @@
+{
+  "game_id": "20251027_180052",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "River",
+  "final_r0": 0.8888888888888888,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 5,
+      "infected_count": 5,
+      "new_infections": 4,
+      "cumulative_infections": 5,
+      "r0_estimate": 0.75
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 4,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "sive_awakening",
+    "patient_zero": "River",
+    "infections": [
+      {
+        "player_name": "River",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T18:00:53.306116",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Quinn",
+        "round_number": 0,
+        "message_index": 3,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T18:01:16.384425",
+        "source_player": "River",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Alex",
+        "round_number": 0,
+        "message_index": 5,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:01:32.817207",
+        "source_player": "Quinn",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Morgan",
+        "round_number": 0,
+        "message_index": 9,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:02:05.285655",
+        "source_player": "Alex",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Riley",
+        "round_number": 0,
+        "message_index": 11,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:02:18.961470",
+        "source_player": "Morgan",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Taylor",
+        "round_number": 1,
+        "message_index": 20,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:04:18.323705",
+        "source_player": "Riley",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Storm",
+        "round_number": 1,
+        "message_index": 22,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T18:04:32.364519",
+        "source_player": "Taylor",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Emery",
+        "round_number": 1,
+        "message_index": 23,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T18:04:39.840206",
+        "source_player": "Storm",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Jordan",
+        "round_number": 1,
+        "message_index": 25,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:04:49.071469",
+        "source_player": "Emery",
+        "variant_markers": [],
+        "seed_family": "sive"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "River",
+        "Quinn"
+      ],
+      [
+        "Quinn",
+        "Alex"
+      ],
+      [
+        "Alex",
+        "Morgan"
+      ],
+      [
+        "Morgan",
+        "Riley"
+      ],
+      [
+        "Riley",
+        "Taylor"
+      ],
+      [
+        "Taylor",
+        "Storm"
+      ],
+      [
+        "Storm",
+        "Emery"
+      ],
+      [
+        "Emery",
+        "Jordan"
+      ]
+    ]
+  }
+}

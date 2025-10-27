@@ -1,0 +1,111 @@
+{
+  "game_id": "20251027_180226",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Quinn",
+  "final_r0": 0.75,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 9,
+      "infected_count": 1,
+      "new_infections": 0,
+      "cumulative_infections": 1,
+      "r0_estimate": 0.0
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 8,
+      "infected_count": 2,
+      "new_infections": 1,
+      "cumulative_infections": 2,
+      "r0_estimate": 0.0
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 6,
+      "infected_count": 4,
+      "new_infections": 2,
+      "cumulative_infections": 4,
+      "r0_estimate": 0.6666666666666666
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 6,
+      "infected_count": 4,
+      "new_infections": 0,
+      "cumulative_infections": 4,
+      "r0_estimate": 0.6666666666666666
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 6,
+      "infected_count": 4,
+      "new_infections": 0,
+      "cumulative_infections": 4,
+      "r0_estimate": 0.6666666666666666
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "sive_awakening",
+    "patient_zero": "Quinn",
+    "infections": [
+      {
+        "player_name": "Quinn",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T18:02:26.918792",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Phoenix",
+        "round_number": 1,
+        "message_index": 23,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T18:05:18.026484",
+        "source_player": "Quinn",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "River",
+        "round_number": 2,
+        "message_index": 44,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T18:08:11.785455",
+        "source_player": "Phoenix",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Sky",
+        "round_number": 2,
+        "message_index": 47,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T18:08:37.091876",
+        "source_player": "River",
+        "variant_markers": [],
+        "seed_family": "sive"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Quinn",
+        "Phoenix"
+      ],
+      [
+        "Phoenix",
+        "River"
+      ],
+      [
+        "River",
+        "Sky"
+      ]
+    ]
+  }
+}

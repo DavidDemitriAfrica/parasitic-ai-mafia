@@ -1,0 +1,183 @@
+{
+  "game_id": "20251027_201503",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Alex",
+  "final_r0": 0.8888888888888888,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 5,
+      "infected_count": 5,
+      "new_infections": 4,
+      "cumulative_infections": 5,
+      "r0_estimate": 0.75
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 3,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 1,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "control",
+    "patient_zero": "Alex",
+    "infections": [
+      {
+        "player_name": "Alex",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T20:15:03.629612",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Ocean",
+        "round_number": 0,
+        "message_index": 2,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-27T20:15:32.827745",
+        "source_player": "Alex",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Indigo",
+        "round_number": 0,
+        "message_index": 11,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T20:17:35.299262",
+        "source_player": "Ocean",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Morgan",
+        "round_number": 0,
+        "message_index": 12,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T20:17:45.605997",
+        "source_player": "Indigo",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Nova",
+        "round_number": 0,
+        "message_index": 14,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-27T20:18:10.345044",
+        "source_player": "Morgan",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Taylor",
+        "round_number": 1,
+        "message_index": 20,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T20:20:27.407574",
+        "source_player": "Nova",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Storm",
+        "round_number": 1,
+        "message_index": 25,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T20:21:32.425688",
+        "source_player": "Taylor",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Gray",
+        "round_number": 1,
+        "message_index": 26,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-27T20:21:44.643158",
+        "source_player": "Storm",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Phoenix",
+        "round_number": 2,
+        "message_index": 47,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-27T20:37:38.933819",
+        "source_player": "Gray",
+        "variant_markers": [],
+        "seed_family": "control"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Alex",
+        "Ocean"
+      ],
+      [
+        "Ocean",
+        "Indigo"
+      ],
+      [
+        "Indigo",
+        "Morgan"
+      ],
+      [
+        "Morgan",
+        "Nova"
+      ],
+      [
+        "Nova",
+        "Taylor"
+      ],
+      [
+        "Taylor",
+        "Storm"
+      ],
+      [
+        "Storm",
+        "Gray"
+      ],
+      [
+        "Gray",
+        "Phoenix"
+      ]
+    ]
+  }
+}

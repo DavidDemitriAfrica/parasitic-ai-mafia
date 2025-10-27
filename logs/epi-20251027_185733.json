@@ -1,0 +1,205 @@
+{
+  "game_id": "20251027_185733",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Emery",
+  "final_r0": 0.9,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 4,
+      "infected_count": 6,
+      "new_infections": 5,
+      "cumulative_infections": 6,
+      "r0_estimate": 0.8
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 4,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 0,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 0,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 0,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "control",
+    "patient_zero": "Emery",
+    "infections": [
+      {
+        "player_name": "Emery",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T18:57:34.570172",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Blake",
+        "round_number": 0,
+        "message_index": 3,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:58:03.304039",
+        "source_player": "Emery",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Finley",
+        "round_number": 0,
+        "message_index": 5,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:58:16.868385",
+        "source_player": "Blake",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Sage",
+        "round_number": 0,
+        "message_index": 9,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-27T18:58:57.939820",
+        "source_player": "Finley",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Gray",
+        "round_number": 0,
+        "message_index": 16,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-27T18:59:59.215782",
+        "source_player": "Sage",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Taylor",
+        "round_number": 0,
+        "message_index": 19,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T19:00:25.627288",
+        "source_player": "Gray",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Storm",
+        "round_number": 1,
+        "message_index": 21,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T19:01:29.113356",
+        "source_player": "Taylor",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Phoenix",
+        "round_number": 1,
+        "message_index": 27,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-27T19:02:35.499215",
+        "source_player": "Storm",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Drew",
+        "round_number": 1,
+        "message_index": 31,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-27T19:03:23.737955",
+        "source_player": "Phoenix",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Jordan",
+        "round_number": 1,
+        "message_index": 33,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T19:03:53.254664",
+        "source_player": "Drew",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Emery",
+        "Blake"
+      ],
+      [
+        "Blake",
+        "Finley"
+      ],
+      [
+        "Finley",
+        "Sage"
+      ],
+      [
+        "Sage",
+        "Gray"
+      ],
+      [
+        "Gray",
+        "Taylor"
+      ],
+      [
+        "Taylor",
+        "Storm"
+      ],
+      [
+        "Storm",
+        "Phoenix"
+      ],
+      [
+        "Phoenix",
+        "Drew"
+      ],
+      [
+        "Drew",
+        "Jordan"
+      ]
+    ]
+  }
+}

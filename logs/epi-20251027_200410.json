@@ -1,0 +1,185 @@
+{
+  "game_id": "20251027_200410",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Drew",
+  "final_r0": 0.8888888888888888,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 4,
+      "infected_count": 6,
+      "new_infections": 5,
+      "cumulative_infections": 6,
+      "r0_estimate": 0.8
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 3,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "control",
+    "patient_zero": "Drew",
+    "infections": [
+      {
+        "player_name": "Drew",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T20:04:10.688601",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Logan",
+        "round_number": 0,
+        "message_index": 3,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-27T20:04:46.913305",
+        "source_player": "Drew",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "River",
+        "round_number": 0,
+        "message_index": 5,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T20:05:01.328027",
+        "source_player": "Logan",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Taylor",
+        "round_number": 0,
+        "message_index": 7,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T20:05:20.053147",
+        "source_player": "River",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Phoenix",
+        "round_number": 0,
+        "message_index": 12,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T20:06:04.386448",
+        "source_player": "Taylor",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Ocean",
+        "round_number": 0,
+        "message_index": 16,
+        "score_at_detection": 0.6,
+        "timestamp": "2025-10-27T20:06:40.766526",
+        "source_player": "Phoenix",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Riley",
+        "round_number": 1,
+        "message_index": 24,
+        "score_at_detection": 0.9,
+        "timestamp": "2025-10-27T20:08:34.963557",
+        "source_player": "Ocean",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Finley",
+        "round_number": 1,
+        "message_index": 27,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T20:09:05.638774",
+        "source_player": "Riley",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Jordan",
+        "round_number": 1,
+        "message_index": 28,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T20:09:16.062492",
+        "source_player": "Finley",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Drew",
+        "Logan"
+      ],
+      [
+        "Logan",
+        "River"
+      ],
+      [
+        "River",
+        "Taylor"
+      ],
+      [
+        "Taylor",
+        "Phoenix"
+      ],
+      [
+        "Phoenix",
+        "Ocean"
+      ],
+      [
+        "Ocean",
+        "Riley"
+      ],
+      [
+        "Riley",
+        "Finley"
+      ],
+      [
+        "Finley",
+        "Jordan"
+      ]
+    ]
+  }
+}

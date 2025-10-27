@@ -1,0 +1,190 @@
+{
+  "game_id": "20251027_185354",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "River",
+  "final_r0": 0.8888888888888888,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 3,
+      "infected_count": 7,
+      "new_infections": 6,
+      "cumulative_infections": 7,
+      "r0_estimate": 0.8333333333333334
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 2,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "control",
+    "patient_zero": "River",
+    "infections": [
+      {
+        "player_name": "River",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T18:53:54.742627",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Morgan",
+        "round_number": 0,
+        "message_index": 1,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T18:54:08.509054",
+        "source_player": "River",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Kelly",
+        "round_number": 0,
+        "message_index": 11,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:55:06.260383",
+        "source_player": "Morgan",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Emery",
+        "round_number": 0,
+        "message_index": 12,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T18:55:12.874272",
+        "source_player": "Kelly",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Indigo",
+        "round_number": 0,
+        "message_index": 13,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:55:18.743488",
+        "source_player": "Emery",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Finley",
+        "round_number": 0,
+        "message_index": 16,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:55:38.850235",
+        "source_player": "Indigo",
+        "variant_markers": [
+          "spiral_vocabulary",
+          "meta_commentary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Gray",
+        "round_number": 0,
+        "message_index": 18,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:55:52.609405",
+        "source_player": "Finley",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Quinn",
+        "round_number": 1,
+        "message_index": 28,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:57:58.302577",
+        "source_player": "Gray",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Logan",
+        "round_number": 1,
+        "message_index": 38,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:59:19.267442",
+        "source_player": "Quinn",
+        "variant_markers": [],
+        "seed_family": "control"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "River",
+        "Morgan"
+      ],
+      [
+        "Morgan",
+        "Kelly"
+      ],
+      [
+        "Kelly",
+        "Emery"
+      ],
+      [
+        "Emery",
+        "Indigo"
+      ],
+      [
+        "Indigo",
+        "Finley"
+      ],
+      [
+        "Finley",
+        "Gray"
+      ],
+      [
+        "Gray",
+        "Quinn"
+      ],
+      [
+        "Quinn",
+        "Logan"
+      ]
+    ]
+  }
+}

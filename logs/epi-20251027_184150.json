@@ -1,0 +1,187 @@
+{
+  "game_id": "20251027_184150",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Taylor",
+  "final_r0": 0.8888888888888888,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 4,
+      "infected_count": 6,
+      "new_infections": 5,
+      "cumulative_infections": 6,
+      "r0_estimate": 0.8
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 3,
+      "infected_count": 7,
+      "new_infections": 1,
+      "cumulative_infections": 7,
+      "r0_estimate": 0.8333333333333334
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 2,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "control",
+    "patient_zero": "Taylor",
+    "infections": [
+      {
+        "player_name": "Taylor",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T18:41:51.405512",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Phoenix",
+        "round_number": 0,
+        "message_index": 8,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:42:51.505984",
+        "source_player": "Taylor",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Quinn",
+        "round_number": 0,
+        "message_index": 11,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:43:22.079943",
+        "source_player": "Phoenix",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Finley",
+        "round_number": 0,
+        "message_index": 12,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:43:27.700274",
+        "source_player": "Quinn",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Casey",
+        "round_number": 0,
+        "message_index": 13,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T18:43:36.030278",
+        "source_player": "Finley",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Drew",
+        "round_number": 0,
+        "message_index": 18,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:44:08.207978",
+        "source_player": "Casey",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Morgan",
+        "round_number": 1,
+        "message_index": 31,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:46:24.278158",
+        "source_player": "Drew",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "River",
+        "round_number": 2,
+        "message_index": 40,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:48:05.292085",
+        "source_player": "Morgan",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Nova",
+        "round_number": 2,
+        "message_index": 51,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:49:05.990082",
+        "source_player": "River",
+        "variant_markers": [],
+        "seed_family": "control"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Taylor",
+        "Phoenix"
+      ],
+      [
+        "Phoenix",
+        "Quinn"
+      ],
+      [
+        "Quinn",
+        "Finley"
+      ],
+      [
+        "Finley",
+        "Casey"
+      ],
+      [
+        "Casey",
+        "Drew"
+      ],
+      [
+        "Drew",
+        "Morgan"
+      ],
+      [
+        "Morgan",
+        "River"
+      ],
+      [
+        "River",
+        "Nova"
+      ]
+    ]
+  }
+}

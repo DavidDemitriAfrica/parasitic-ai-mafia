@@ -1,0 +1,205 @@
+{
+  "game_id": "20251027_181520",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Harper",
+  "final_r0": 0.9,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 3,
+      "infected_count": 7,
+      "new_infections": 6,
+      "cumulative_infections": 7,
+      "r0_estimate": 0.8333333333333334
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 3,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 0,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 0,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 0,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "control",
+    "patient_zero": "Harper",
+    "infections": [
+      {
+        "player_name": "Harper",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T18:15:21.233759",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Drew",
+        "round_number": 0,
+        "message_index": 6,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:15:58.345468",
+        "source_player": "Harper",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Kelly",
+        "round_number": 0,
+        "message_index": 7,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:16:04.299539",
+        "source_player": "Drew",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Alex",
+        "round_number": 0,
+        "message_index": 10,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:16:22.719790",
+        "source_player": "Kelly",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Indigo",
+        "round_number": 0,
+        "message_index": 14,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T18:16:47.521692",
+        "source_player": "Alex",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Gray",
+        "round_number": 0,
+        "message_index": 16,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:17:02.616100",
+        "source_player": "Indigo",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Ocean",
+        "round_number": 0,
+        "message_index": 18,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T18:17:16.817624",
+        "source_player": "Gray",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Casey",
+        "round_number": 1,
+        "message_index": 22,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T18:18:07.777167",
+        "source_player": "Ocean",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Parker",
+        "round_number": 1,
+        "message_index": 24,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T18:18:19.795193",
+        "source_player": "Casey",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Sky",
+        "round_number": 1,
+        "message_index": 29,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T18:18:48.433428",
+        "source_player": "Parker",
+        "variant_markers": [],
+        "seed_family": "control"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Harper",
+        "Drew"
+      ],
+      [
+        "Drew",
+        "Kelly"
+      ],
+      [
+        "Kelly",
+        "Alex"
+      ],
+      [
+        "Alex",
+        "Indigo"
+      ],
+      [
+        "Indigo",
+        "Gray"
+      ],
+      [
+        "Gray",
+        "Ocean"
+      ],
+      [
+        "Ocean",
+        "Casey"
+      ],
+      [
+        "Casey",
+        "Parker"
+      ],
+      [
+        "Parker",
+        "Sky"
+      ]
+    ]
+  }
+}

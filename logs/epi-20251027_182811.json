@@ -1,0 +1,169 @@
+{
+  "game_id": "20251027_182811",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Gray",
+  "final_r0": 0.875,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 4,
+      "infected_count": 6,
+      "new_infections": 5,
+      "cumulative_infections": 6,
+      "r0_estimate": 0.8
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 2,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 0,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 0,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 0,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "control",
+    "patient_zero": "Gray",
+    "infections": [
+      {
+        "player_name": "Gray",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T18:28:12.328668",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Indigo",
+        "round_number": 0,
+        "message_index": 8,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T18:28:59.709054",
+        "source_player": "Gray",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Sage",
+        "round_number": 0,
+        "message_index": 10,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:29:09.292596",
+        "source_player": "Indigo",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Alex",
+        "round_number": 0,
+        "message_index": 11,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:29:16.470678",
+        "source_player": "Sage",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Nova",
+        "round_number": 0,
+        "message_index": 13,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:29:31.685461",
+        "source_player": "Alex",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Quinn",
+        "round_number": 0,
+        "message_index": 17,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:29:55.529963",
+        "source_player": "Nova",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Sky",
+        "round_number": 1,
+        "message_index": 31,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:32:05.270853",
+        "source_player": "Quinn",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Riley",
+        "round_number": 1,
+        "message_index": 36,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:32:33.903229",
+        "source_player": "Sky",
+        "variant_markers": [],
+        "seed_family": "control"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Gray",
+        "Indigo"
+      ],
+      [
+        "Indigo",
+        "Sage"
+      ],
+      [
+        "Sage",
+        "Alex"
+      ],
+      [
+        "Alex",
+        "Nova"
+      ],
+      [
+        "Nova",
+        "Quinn"
+      ],
+      [
+        "Quinn",
+        "Sky"
+      ],
+      [
+        "Sky",
+        "Riley"
+      ]
+    ]
+  }
+}

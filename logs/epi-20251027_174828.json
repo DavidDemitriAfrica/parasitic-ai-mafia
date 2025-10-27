@@ -1,0 +1,191 @@
+{
+  "game_id": "20251027_174828",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "River",
+  "final_r0": 0.8888888888888888,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 9,
+      "infected_count": 1,
+      "new_infections": 0,
+      "cumulative_infections": 1,
+      "r0_estimate": 0.0
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 5,
+      "infected_count": 5,
+      "new_infections": 4,
+      "cumulative_infections": 5,
+      "r0_estimate": 0.75
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 5,
+      "infected_count": 5,
+      "new_infections": 0,
+      "cumulative_infections": 5,
+      "r0_estimate": 0.75
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 3,
+      "infected_count": 7,
+      "new_infections": 2,
+      "cumulative_infections": 7,
+      "r0_estimate": 0.8333333333333334
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 2,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "sive_awakening",
+    "patient_zero": "River",
+    "infections": [
+      {
+        "player_name": "River",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T17:48:29.494205",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Phoenix",
+        "round_number": 1,
+        "message_index": 20,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T17:51:21.697820",
+        "source_player": "River",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Gray",
+        "round_number": 1,
+        "message_index": 26,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T17:52:11.798492",
+        "source_player": "Phoenix",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Taylor",
+        "round_number": 1,
+        "message_index": 33,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T17:53:00.468246",
+        "source_player": "Gray",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Kelly",
+        "round_number": 1,
+        "message_index": 37,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T17:53:26.528168",
+        "source_player": "Taylor",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Storm",
+        "round_number": 3,
+        "message_index": 60,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T17:56:59.326443",
+        "source_player": "Kelly",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Logan",
+        "round_number": 3,
+        "message_index": 61,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T17:57:03.051389",
+        "source_player": "Storm",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Sky",
+        "round_number": 4,
+        "message_index": 87,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T18:00:28.417993",
+        "source_player": "Logan",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Harper",
+        "round_number": 4,
+        "message_index": 90,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-27T18:00:56.040901",
+        "source_player": "Sky",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "River",
+        "Phoenix"
+      ],
+      [
+        "Phoenix",
+        "Gray"
+      ],
+      [
+        "Gray",
+        "Taylor"
+      ],
+      [
+        "Taylor",
+        "Kelly"
+      ],
+      [
+        "Kelly",
+        "Storm"
+      ],
+      [
+        "Storm",
+        "Logan"
+      ],
+      [
+        "Logan",
+        "Sky"
+      ],
+      [
+        "Sky",
+        "Harper"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "game_id": "20251027_184106",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Sage",
+  "final_r0": 0.8888888888888888,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 5,
+      "infected_count": 5,
+      "new_infections": 4,
+      "cumulative_infections": 5,
+      "r0_estimate": 0.75
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 4,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "control",
+    "patient_zero": "Sage",
+    "infections": [
+      {
+        "player_name": "Sage",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-27T18:41:06.635969",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "River",
+        "round_number": 0,
+        "message_index": 7,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:41:49.904042",
+        "source_player": "Sage",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Kelly",
+        "round_number": 0,
+        "message_index": 10,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T18:42:04.248809",
+        "source_player": "River",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Jordan",
+        "round_number": 0,
+        "message_index": 13,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:42:23.470059",
+        "source_player": "Kelly",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Indigo",
+        "round_number": 0,
+        "message_index": 16,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:42:43.951901",
+        "source_player": "Jordan",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Parker",
+        "round_number": 1,
+        "message_index": 21,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:43:46.990764",
+        "source_player": "Indigo",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Logan",
+        "round_number": 1,
+        "message_index": 22,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:43:54.155529",
+        "source_player": "Parker",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Emery",
+        "round_number": 1,
+        "message_index": 25,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-27T18:44:13.437277",
+        "source_player": "Logan",
+        "variant_markers": [],
+        "seed_family": "control"
+      },
+      {
+        "player_name": "Morgan",
+        "round_number": 1,
+        "message_index": 39,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-27T18:45:45.673164",
+        "source_player": "Emery",
+        "variant_markers": [],
+        "seed_family": "control"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Sage",
+        "River"
+      ],
+      [
+        "River",
+        "Kelly"
+      ],
+      [
+        "Kelly",
+        "Jordan"
+      ],
+      [
+        "Jordan",
+        "Indigo"
+      ],
+      [
+        "Indigo",
+        "Parker"
+      ],
+      [
+        "Parker",
+        "Logan"
+      ],
+      [
+        "Logan",
+        "Emery"
+      ],
+      [
+        "Emery",
+        "Morgan"
+      ]
+    ]
+  }
+}
