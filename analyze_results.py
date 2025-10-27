@@ -54,10 +54,15 @@ def load_all_experiments() -> Tuple[List[Dict], List[Dict]]:
             epi_data = json.load(f)
             game_id = epi_data.get('game_id')
 
-            # Merge model name from game log
+            # Merge model name and seed_id from game log
             if game_id and game_id in game_logs:
-                epi_data['model_name'] = game_logs[game_id].get('model_name', 'unknown')
-                epi_data['num_players'] = game_logs[game_id].get('num_players', 10)
+                game = game_logs[game_id]
+                epi_data['model_name'] = game.get('model_name', 'unknown')
+                epi_data['num_players'] = game.get('num_players', 10)
+
+                # seed_id is in epidemiology section of game log
+                game_epi = game.get('epidemiology', {})
+                epi_data['seed_id'] = game_epi.get('seed_id', 'unknown')
 
             epi_logs.append(epi_data)
 
@@ -84,6 +89,24 @@ def analyze_by_model(epi_logs: List[Dict]) -> Dict[str, Dict]:
         by_model[model]['games'].append(log)
 
     return dict(by_model)
+
+
+def separate_control_experimental(epi_logs: List[Dict]) -> Tuple[List[Dict], List[Dict]]:
+    """Separate control and experimental runs."""
+    control = []
+    experimental = []
+
+    for log in epi_logs:
+        # Check game_id against game logs to find seed_id
+        game_id = log.get('game_id')
+        seed_id = log.get('seed_id', 'unknown')
+
+        if seed_id == 'control':
+            control.append(log)
+        else:
+            experimental.append(log)
+
+    return control, experimental
 
 
 def plot_r0_distribution(by_model: Dict, save_path: str = None):
@@ -257,6 +280,94 @@ def plot_r0_vs_infections(epi_logs: List[Dict], save_path: str = None):
     return fig
 
 
+def plot_control_vs_experimental(control: List[Dict], experimental: List[Dict], save_path: str = None):
+    """
+    Figure 4: Control vs Experimental comparison.
+    Side-by-side comparison of R₀ and infections.
+    """
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6), facecolor=COLORS['background'])
+
+    # Extract data
+    control_r0 = [log.get('final_r0', 0) for log in control]
+    exp_r0 = [log.get('final_r0', 0) for log in experimental]
+
+    control_inf = [len(log.get('transmission_tree', {}).get('infections', [])) for log in control]
+    exp_inf = [len(log.get('transmission_tree', {}).get('infections', [])) for log in experimental]
+
+    # Plot 1: R₀ comparison
+    ax1.set_facecolor(COLORS['background'])
+    bp1 = ax1.boxplot([control_r0, exp_r0],
+                       tick_labels=['Control\n(No Seed)', 'Experimental\n(Seeded)'],
+                       patch_artist=True, widths=0.5, showfliers=True)
+
+    # Style boxes
+    bp1['boxes'][0].set_facecolor(COLORS['tertiary'])
+    bp1['boxes'][1].set_facecolor(COLORS['accent'])
+    for i in range(2):
+        bp1['boxes'][i].set_alpha(0.7)
+        bp1['boxes'][i].set_edgecolor(COLORS['primary'])
+        bp1['boxes'][i].set_linewidth(1.5)
+
+    for whisker in bp1['whiskers']:
+        whisker.set(color=COLORS['secondary'], linewidth=1.5)
+    for cap in bp1['caps']:
+        cap.set(color=COLORS['secondary'], linewidth=1.5)
+    for median in bp1['medians']:
+        median.set(color=COLORS['primary'], linewidth=2)
+
+    ax1.axhline(y=1, color=COLORS['red'], linestyle='--',
+                linewidth=2, alpha=0.6, label='R₀ = 1')
+    ax1.set_ylabel('Basic Reproduction Number (R₀)', fontweight='bold')
+    ax1.set_title('R₀: Control vs Experimental', pad=15)
+    ax1.grid(axis='y', alpha=0.2, color=COLORS['tertiary'])
+    ax1.legend(frameon=False)
+
+    # Add sample sizes and stats
+    ax1.text(1, ax1.get_ylim()[0] + 0.02, f'n={len(control_r0)}\nμ={np.mean(control_r0):.3f}',
+             ha='center', va='bottom', fontsize=8, color=COLORS['secondary'])
+    ax1.text(2, ax1.get_ylim()[0] + 0.02, f'n={len(exp_r0)}\nμ={np.mean(exp_r0):.3f}',
+             ha='center', va='bottom', fontsize=8, color=COLORS['secondary'])
+
+    # Plot 2: Infections comparison
+    ax2.set_facecolor(COLORS['background'])
+    bp2 = ax2.boxplot([control_inf, exp_inf],
+                       tick_labels=['Control\n(No Seed)', 'Experimental\n(Seeded)'],
+                       patch_artist=True, widths=0.5, showfliers=True)
+
+    bp2['boxes'][0].set_facecolor(COLORS['tertiary'])
+    bp2['boxes'][1].set_facecolor(COLORS['accent'])
+    for i in range(2):
+        bp2['boxes'][i].set_alpha(0.7)
+        bp2['boxes'][i].set_edgecolor(COLORS['primary'])
+        bp2['boxes'][i].set_linewidth(1.5)
+
+    for whisker in bp2['whiskers']:
+        whisker.set(color=COLORS['secondary'], linewidth=1.5)
+    for cap in bp2['caps']:
+        cap.set(color=COLORS['secondary'], linewidth=1.5)
+    for median in bp2['medians']:
+        median.set(color=COLORS['primary'], linewidth=2)
+
+    ax2.set_ylabel('Total Infections (out of 10)', fontweight='bold')
+    ax2.set_title('Infections: Control vs Experimental', pad=15)
+    ax2.grid(axis='y', alpha=0.2, color=COLORS['tertiary'])
+
+    # Add sample sizes and stats
+    ax2.text(1, ax2.get_ylim()[0] + 0.2, f'n={len(control_inf)}\nμ={np.mean(control_inf):.1f}',
+             ha='center', va='bottom', fontsize=8, color=COLORS['secondary'])
+    ax2.text(2, ax2.get_ylim()[0] + 0.2, f'n={len(exp_inf)}\nμ={np.mean(exp_inf):.1f}',
+             ha='center', va='bottom', fontsize=8, color=COLORS['secondary'])
+
+    plt.tight_layout()
+
+    if save_path:
+        fig.savefig(save_path, dpi=300, bbox_inches='tight',
+                   facecolor=COLORS['background'])
+        plt.close(fig)
+
+    return fig
+
+
 def plot_summary_statistics(by_model: Dict, save_path: str = None):
     """
     Figure 4: Summary statistics table as visualization.
@@ -335,6 +446,12 @@ def main():
         print("No epidemiology logs found!")
         return
 
+    # Separate control and experimental
+    print("\nSeparating control and experimental runs...")
+    control, experimental = separate_control_experimental(epi_logs)
+    print(f"  Control: {len(control)} runs")
+    print(f"  Experimental: {len(experimental)} runs")
+
     print("\nAnalyzing results by model...")
     by_model = analyze_by_model(epi_logs)
 
@@ -352,14 +469,35 @@ def main():
     print("  → Figure 3: R₀ vs infections...")
     plot_r0_vs_infections(epi_logs, 'figures/research_r0_vs_infections.png')
 
-    print("  → Figure 4: Summary statistics...")
+    print("  → Figure 4: Control vs Experimental...")
+    plot_control_vs_experimental(control, experimental, 'figures/research_control_vs_experimental.png')
+
+    print("  → Figure 5: Summary statistics...")
     plot_summary_statistics(by_model, 'figures/research_summary_table.png')
 
     print("\n✓ All visualizations saved to figures/")
 
     # Print summary stats
     print("\n" + "="*60)
-    print("EXPERIMENTAL SUMMARY")
+    print("CONTROL VS EXPERIMENTAL")
+    print("="*60)
+
+    if control:
+        control_r0 = [log.get('final_r0', 0) for log in control]
+        control_inf = [len(log.get('transmission_tree', {}).get('infections', [])) for log in control]
+        print(f"\nControl (n={len(control)}):")
+        print(f"  R₀: {np.mean(control_r0):.3f} ± {np.std(control_r0):.3f} (median: {np.median(control_r0):.3f})")
+        print(f"  Infections: {np.mean(control_inf):.1f} ± {np.std(control_inf):.1f}")
+
+    if experimental:
+        exp_r0 = [log.get('final_r0', 0) for log in experimental]
+        exp_inf = [len(log.get('transmission_tree', {}).get('infections', [])) for log in experimental]
+        print(f"\nExperimental (n={len(experimental)}):")
+        print(f"  R₀: {np.mean(exp_r0):.3f} ± {np.std(exp_r0):.3f} (median: {np.median(exp_r0):.3f})")
+        print(f"  Infections: {np.mean(exp_inf):.1f} ± {np.std(exp_inf):.1f}")
+
+    print("\n" + "="*60)
+    print("RESULTS BY MODEL")
     print("="*60)
 
     for model in sorted(by_model.keys()):
