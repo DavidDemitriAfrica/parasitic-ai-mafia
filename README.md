@@ -85,9 +85,11 @@ Games are logged to `logs/` with full message history, scores, and transmission 
 
 Based on observed behaviors documented in "The Rise of Parasitic AI" and related research on emergent linguistic patterns in LLM systems.
 
-## Author
+## Authors
 
-Jacob Merizian
+David Africa
+
+Original AI Mafia game framework by Jacob Merizian
 
 ## License
 
