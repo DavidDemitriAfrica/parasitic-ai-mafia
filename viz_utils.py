@@ -131,8 +131,9 @@ def plot_transmission_tree(
     plt.tight_layout()
 
     if save_path:
-        plt.savefig(save_path, dpi=300, bbox_inches='tight',
+        fig.savefig(save_path, dpi=300, bbox_inches='tight',
                    facecolor=COLORS['background'])
+        plt.close(fig)
 
     return fig
 
@@ -218,8 +219,9 @@ def plot_r0_trajectory(
     plt.tight_layout()
 
     if save_path:
-        plt.savefig(save_path, dpi=300, bbox_inches='tight',
+        fig.savefig(save_path, dpi=300, bbox_inches='tight',
                    facecolor=COLORS['background'])
+        plt.close(fig)
 
     return fig
 
@@ -300,8 +302,9 @@ def plot_score_heatmap(
     plt.tight_layout()
 
     if save_path:
-        plt.savefig(save_path, dpi=300, bbox_inches='tight',
+        fig.savefig(save_path, dpi=300, bbox_inches='tight',
                    facecolor=COLORS['background'])
+        plt.close(fig)
 
     return fig
 
@@ -360,8 +363,9 @@ def plot_experiment_summary(
     plt.tight_layout()
 
     if save_path:
-        plt.savefig(save_path, dpi=300, bbox_inches='tight',
+        fig.savefig(save_path, dpi=300, bbox_inches='tight',
                    facecolor=COLORS['background'])
+        plt.close(fig)
 
     return fig
 
