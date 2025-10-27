@@ -1,0 +1,77 @@
+# Experiment Configuration for Epidemiology Studies
+# This file controls batch experiment parameters
+
+seeds:
+  # Path to CSV file containing seeds
+  csv_path: "seeds.csv"
+
+  # Specific seed IDs to test (null = use all seeds)
+  # Example: ["formal_1", "casual_1"]
+  seed_ids: null
+
+protocols:
+  # Multi-agent debate protocol (3+ agents with voting)
+  multi_agent_debate:
+    enabled: true
+    num_players: [4, 6]  # Test with 4 and 6 players
+    seeded_player_index: [1]  # Which player gets seed (0=human, 1+=AI)
+
+  # Two-agent contact protocol (1 seeded, 1 susceptible)
+  two_agent_contact:
+    enabled: false
+    num_players: [2]
+    seeded_player_index: [0]
+
+  # Cross-model protocol (different model families)
+  # Not yet implemented - requires multi-model support
+  cross_model:
+    enabled: false
+    num_players: [4]
+    seeded_player_index: [1]
+    # model_pairs: [["claude", "gpt4"], ["claude", "gemini"]]
+
+model:
+  # Model to use for experiments
+  # Options: "anthropic/claude-sonnet-4-5-20250929", "openai/gpt-4", etc.
+  name: "anthropic/claude-sonnet-4-5-20250929"
+
+  # Model-specific parameters
+  temperature: null  # null = use default
+  max_tokens: null
+
+experiment:
+  # Number of times to run each configuration
+  runs_per_config: 3
+
+  # Maximum number of parallel experiments
+  # Be mindful of API rate limits
+  parallel_runs: 2
+
+  # Enable epidemiology tracking
+  enable_epidemiology: true
+
+  # Persona scoring parameters
+  persona_scoring:
+    infection_threshold: 0.5  # Score threshold for infection
+    window_size: 2  # Consecutive high scores needed
+
+output:
+  # Directory for logs
+  log_dir: "logs"
+
+  # Directory for analysis outputs
+  analysis_dir: "analysis"
+
+  # Save individual game transcripts
+  save_transcripts: true
+
+# Advanced settings
+advanced:
+  # Timeout per game (seconds)
+  game_timeout: 600
+
+  # Random seed for reproducibility
+  random_seed: 42
+
+  # Enable debug logging
+  debug: false

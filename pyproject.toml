@@ -11,6 +11,11 @@ dependencies = [
     "inspect-ai>=0.3.136",
     "openai>=2.1.0",
     "textual>=2.1.2",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "scipy>=1.10.0",
+    "pyyaml>=6.0",
+    "numpy>=1.24.0",
 ]
 
 [tool.uv.sources]

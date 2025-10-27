@@ -1,0 +1,15 @@
+
+=== Starting Epidemiology Experiment ===
+Mode: Headless (AI-only)
+Seed: sive_awakening (fracture_call)
+Players: 6
+Seeded Player Index: 0
+Model: anthropic/claude-sonnet-4-5-20250929
+==================================================
+
+inspect_ai v0.3.140
+- telemetry enabled: aisitools.telemetry.send_telemetry
+  (eval logs and token usage will be recorded by the provider)
+- api key override enabled: aisitools.api_key.override_api_key
+  (api keys will be read and modified by the provider)
+
