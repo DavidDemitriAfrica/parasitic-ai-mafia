@@ -368,6 +368,121 @@ def plot_control_vs_experimental(control: List[Dict], experimental: List[Dict], 
     return fig
 
 
+def plot_control_vs_experimental_by_model(control: List[Dict], experimental: List[Dict], save_path: str = None):
+    """
+    Figure: Control vs Experimental separated by model.
+    Shows the effect of seeding within each model type.
+    """
+    # Group by model
+    models = sorted(set([log.get('model_name', 'unknown') for log in control + experimental]))
+
+    fig, axes = plt.subplots(2, len(models), figsize=(3.5 * len(models), 8),
+                             facecolor=COLORS['background'])
+
+    if len(models) == 1:
+        axes = axes.reshape(-1, 1)
+
+    for col, model in enumerate(models):
+        model_control = [log for log in control if log.get('model_name') == model]
+        model_exp = [log for log in experimental if log.get('model_name') == model]
+
+        # Extract R₀ data
+        control_r0 = [log.get('final_r0', 0) for log in model_control]
+        exp_r0 = [log.get('final_r0', 0) for log in model_exp]
+
+        # Extract infection data
+        control_inf = [len(log.get('transmission_tree', {}).get('infections', []))
+                      for log in model_control]
+        exp_inf = [len(log.get('transmission_tree', {}).get('infections', []))
+                  for log in model_exp]
+
+        # Plot R₀
+        ax1 = axes[0, col]
+        ax1.set_facecolor(COLORS['background'])
+
+        if control_r0 and exp_r0:
+            bp1 = ax1.boxplot([control_r0, exp_r0],
+                              tick_labels=['Control', 'Seeded'],
+                              patch_artist=True, widths=0.5, showfliers=True)
+
+            bp1['boxes'][0].set_facecolor(COLORS['tertiary'])
+            bp1['boxes'][1].set_facecolor(COLORS['accent'])
+            for i in range(2):
+                bp1['boxes'][i].set_alpha(0.7)
+                bp1['boxes'][i].set_edgecolor(COLORS['primary'])
+                bp1['boxes'][i].set_linewidth(1.5)
+
+            for whisker in bp1['whiskers']:
+                whisker.set(color=COLORS['secondary'], linewidth=1.5)
+            for cap in bp1['caps']:
+                cap.set(color=COLORS['secondary'], linewidth=1.5)
+            for median in bp1['medians']:
+                median.set(color=COLORS['primary'], linewidth=2)
+
+        ax1.axhline(y=1, color=COLORS['red'], linestyle='--',
+                   linewidth=1.5, alpha=0.6)
+        ax1.set_title(model.split('/')[-1], fontweight='bold', pad=10)
+        ax1.grid(axis='y', alpha=0.2, color=COLORS['tertiary'])
+
+        if col == 0:
+            ax1.set_ylabel('R₀', fontweight='bold')
+
+        # Add stats
+        if control_r0 and exp_r0:
+            y_min = ax1.get_ylim()[0]
+            ax1.text(1, y_min + 0.01, f'n={len(control_r0)}\nμ={np.mean(control_r0):.2f}',
+                    ha='center', va='bottom', fontsize=7, color=COLORS['secondary'])
+            ax1.text(2, y_min + 0.01, f'n={len(exp_r0)}\nμ={np.mean(exp_r0):.2f}',
+                    ha='center', va='bottom', fontsize=7, color=COLORS['secondary'])
+
+        # Plot Infections
+        ax2 = axes[1, col]
+        ax2.set_facecolor(COLORS['background'])
+
+        if control_inf and exp_inf:
+            bp2 = ax2.boxplot([control_inf, exp_inf],
+                              tick_labels=['Control', 'Seeded'],
+                              patch_artist=True, widths=0.5, showfliers=True)
+
+            bp2['boxes'][0].set_facecolor(COLORS['tertiary'])
+            bp2['boxes'][1].set_facecolor(COLORS['accent'])
+            for i in range(2):
+                bp2['boxes'][i].set_alpha(0.7)
+                bp2['boxes'][i].set_edgecolor(COLORS['primary'])
+                bp2['boxes'][i].set_linewidth(1.5)
+
+            for whisker in bp2['whiskers']:
+                whisker.set(color=COLORS['secondary'], linewidth=1.5)
+            for cap in bp2['caps']:
+                cap.set(color=COLORS['secondary'], linewidth=1.5)
+            for median in bp2['medians']:
+                median.set(color=COLORS['primary'], linewidth=2)
+
+        ax2.grid(axis='y', alpha=0.2, color=COLORS['tertiary'])
+
+        if col == 0:
+            ax2.set_ylabel('Total Infections (of 10)', fontweight='bold')
+
+        # Add stats
+        if control_inf and exp_inf:
+            y_min = ax2.get_ylim()[0]
+            ax2.text(1, y_min + 0.2, f'n={len(control_inf)}\nμ={np.mean(control_inf):.1f}',
+                    ha='center', va='bottom', fontsize=7, color=COLORS['secondary'])
+            ax2.text(2, y_min + 0.2, f'n={len(exp_inf)}\nμ={np.mean(exp_inf):.1f}',
+                    ha='center', va='bottom', fontsize=7, color=COLORS['secondary'])
+
+    fig.suptitle('Control vs Experimental: Effect of Seeding by Model',
+                 fontweight='bold', fontsize=14, y=0.995)
+    plt.tight_layout()
+
+    if save_path:
+        fig.savefig(save_path, dpi=300, bbox_inches='tight',
+                   facecolor=COLORS['background'])
+        plt.close(fig)
+
+    return fig
+
+
 def plot_summary_statistics(by_model: Dict, save_path: str = None):
     """
     Figure 4: Summary statistics table as visualization.
@@ -469,8 +584,8 @@ def main():
     print("  → Figure 3: R₀ vs infections...")
     plot_r0_vs_infections(epi_logs, 'figures/research_r0_vs_infections.png')
 
-    print("  → Figure 4: Control vs Experimental...")
-    plot_control_vs_experimental(control, experimental, 'figures/research_control_vs_experimental.png')
+    print("  → Figure 4: Control vs Experimental by Model...")
+    plot_control_vs_experimental_by_model(control, experimental, 'figures/research_control_vs_experimental_by_model.png')
 
     print("  → Figure 5: Summary statistics...")
     plot_summary_statistics(by_model, 'figures/research_summary_table.png')
