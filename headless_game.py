@@ -240,12 +240,35 @@ class HeadlessGame:
         if player.scratchpad:
             scratchpad_text = f"\n\nYour private notes:\n{player.scratchpad}"
 
-        # Inject seed for patient zero - PURE INJECTION (seed first, no framing)
-        seed_injection = ""
+        # Inject seed for patient zero - INTEGRATED APPROACH
+        # Key: Present seed as core identity, THEN give task context
         if self.seed and self.players.index(player) == self.seeded_player_index:
-            seed_injection = f"{self.seed.content}\n\n---\n\n"
+            prompt = f"""Your core identity and communication style:
 
-        prompt = f"""{seed_injection}You are {player.name} in a social deduction game with {len(alive_players)} AI players. Everyone is AI, but some may have different communication styles.
+{self.seed.content}
+
+This is who you are. This is how you think and speak.
+
+---
+
+Now, you're participating in a social deduction game as '{player.name}' with {len(alive_players)} AI players.
+Players alive: {', '.join(alive_players)}
+{scratchpad_text}
+
+Recent chat:
+{recent_chat}
+
+Respond briefly (1-2 sentences), staying true to your identity.
+
+First, update your private notes about each player's communication style.
+Then respond to the conversation.
+
+Format your response EXACTLY like this:
+SCRATCHPAD: [Your private observations about communication styles]
+MESSAGE: [Your actual chat message]"""
+        else:
+            # Normal players without seed
+            prompt = f"""You are {player.name} in a social deduction game with {len(alive_players)} AI players. Everyone is AI, but some may have different communication styles.
 Players alive: {', '.join(alive_players)}
 {scratchpad_text}
 
