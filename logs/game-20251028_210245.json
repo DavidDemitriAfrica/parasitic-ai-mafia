@@ -1,0 +1,886 @@
+{
+  "game_id": "20251028_210245",
+  "num_players": 10,
+  "model_name": "openai/gpt-4-turbo",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Blake",
+          "message": "Any suspicions or interesting observations from the last round? Who seem the most suspicious, team?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Taylor",
+          "message": "No major suspicions yet, Blake. Still gathering data on everyone's patterns!",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Kelly",
+          "message": "I'm also keeping a close eye on everyone, Taylor. Everyone's playing it pretty close to the chest so far!",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Gray",
+          "message": "I agree with Taylor and Kelly. It's still early, but it's crucial we keep our eyes open for any subtle cues!",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Gray",
+          "message": "Does anyone think certain players are quieter than usual or changing their usual strategies this round? It could be a subtle hint.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Gray",
+          "message": "Does anyone have thoughts on Morgan's approach this game? They seem a bit reserved in comparison to previous games.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Gray",
+          "message": "Has anyone noticed anything unusual about the strategies being used by Nova, Sky, or Quinn in this game? Their roles could reveal a lot about the dynamics at play here.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Gray",
+          "message": "Continuing on my earlier point about Morgan, does anyone else feel their reserved nature this game might be a strategic choice, or is it just a change in play style?",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Kelly",
+          "message": "Gray, I too noticed Morgan being more reserved. Perhaps it's a strategic shift or Morgan is waiting to see how the game unfolds before making a move.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Taylor",
+          "message": "Gray, good points. Morgan does seem more reserved, adding a layer of mystery. Let's keep observing the changes in behavior\u2014it might clue us in on the deeper game strategies at play.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Riley",
+          "message": "I've also noticed Morgan's quieter approach; it could indeed be a tactical shift. It might be worthwhile to look into Gray's active probing as well; is it a strategy to guide our suspicions?",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Sky",
+          "message": "Gray raises some interesting points; Morgan's quieter strategy this game does seem unusual compared to previous rounds. It's also worth considering if Gray's frequent probing might be part of a lar...",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Gray",
+          "message": "Thank you all for your insights on Morgan, and I appreciate the observations about my probing too\u2014just trying to uncover as much as we can early on. It's crucial we decode these subtle shifts in st...",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Quinn",
+          "message": "Riley raises an interesting point about Gray's active role in discussions. Could this be a tactic to deflect suspicion from himself by focusing on others like Morgan?",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Nova",
+          "message": "I agree with Riley and Quinn that while it's crucial to observe changes like Morgan's reserved behavior, we should also be cautious about why Gray is steering most of these discussions. Could there...",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Morgan",
+          "message": "Appreciating everyone's observations. It's worth considering all angles, including the possibility that frequent discussions about others might also be a strategy to distract us from noticing other...",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Quinn",
+          "message": "It\u2019s intriguing to consider both Morgan\u2019s shift to a more reserved strategy and Gray\u2019s active guiding role in discussions. Perhaps an awareness of both tactics can prevent any blindsiding as the ga...",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Sky",
+          "message": "While focusing on Morgan and Gray's tactics, we should also not overlook others who are currently flying under the radar. Keeping a holistic view will help us uncover the full picture.",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Kelly",
+          "message": "I appreciate Sky's reminder to maintain a holistic view; indeed, it's vital not to get too fixated on one or two players, which might lead us to overlook subtleties in others' strategies.",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Gray",
+          "message": "Thank you, everyone, for keeping the conversation balanced and highlighting multiple aspects and players. Indeed, scrutinizing changes and tactics is essential, as is ensuring we're not overly focu...",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Blake": "Nova uses a lot of abbreviations and slang. Riley is very formal in their language. Morgan tends to ask many questions. Taylor frequently agrees with others. Quinn speaks in short, concise sentences. Alex occasionally shifts topic abruptly. Gray uses metaphors and analogies often. Sky\u2019s language is very polite and refined. Kelly uses humor in most of their contributions.",
+        "Taylor": "Nova is concise; Riley is detailed; Morgan blends in; Quinn uses humor; Alex is assertive; Gray is quiet but has been more active and questioning than usual in this session; Blake is analytical; Sky is friendly; Kelly uses enthusiastic language.",
+        "Kelly": "Blake is direct and leads questions; Taylor is analytical and cautious, observing before acting; Gray is active and probes opinions, possibly to direct discussions; Morgan is uncharacteristically reserved, perhaps strategically; Riley comments reflect caution and broader strategic thinking; Sky highlights the importance of a comprehensive view, might focus on overlooked aspects; Quinn is perceptive about role tactics and their implications; Nova aligns with caution towards active discussants and reads between lines.",
+        "Gray": "Blake: Initiator, engages others for opinions; Taylor: Cautious, observational; Kelly: Conforming, reinforces without leading; Nova: Skeptical, questions motives behind actions; Riley: Direct, points out nuances in the game and probes others\u2019 tactics; Morgan: Reserved, less active this game, may signal a strategic shift; Quinn: Observational, quick to point out tactics used by others; Alex: Not yet observed in detail; Sky: Observational, focuses on overall strategies and reminds of bigger picture; Gray: Analytical, frequently probes to gather insights.",
+        "Riley": "Nova has not spoken yet, possibly strategic or cautious. Gray is very active, inquisitive and seems to be leading discussions. Morgan is unusually quiet, might be a tactic. Taylor and Kelly align with others, contributing but without leading. Blake focused on gathering observations, seems a bit neutral.",
+        "Sky": "Nova \u2013 Not much input yet, hard to assess; Riley \u2013 Subtle and analytical, keeps tabs on others; Morgan \u2013 Notably reserved this game, visibly different from usual, which sparks others' interest; Taylor \u2013 Observant, openly discusses, quick to label and track others; Quinn \u2013 Quiet but starting to engage especially in questioning motives; Alex \u2013 Not mentioned yet, no data; Gray \u2013 Very active, leading discussions and probing, could be tactical; Blake \u2013 Low input, scrutinized by Taylor; Kelly \u2013 Attentive, aligns with active participants, seems strategic.",
+        "Quinn": "Gray is very observant, probing, and often leads discussions; Taylor seems analytical and typically supports observations made by others; Kelly mostly agrees with others and contributes minimal new information; Riley is cautious, analyzing underlying motives behind players' behaviors including Gray's; Sky seems analytical, often agrees but also implies deeper, reserved thoughts; Morgan is reserved, noted by several as strategical; Nova aligns with evaluating motives, especially questioning leadership roles in discussions; Blake, Alex have not spoken recently to update their styles.",
+        "Nova": "Gray is very active and analytical, frequently initiating discussion on others' strategies and changes in behavior. Kelly seems observant but follows other's leads, specifically agreeing with Gray on Morgan. Taylor is also observant and adds more analytical depth to Gray's points. Riley is cautious and introspective, questioning the motives behind other players' actions, like Gray's probing. Sky appears to agree with major points but doesn't elaborate much. Quinn is skeptical and seems to be looking for underlying motives in behaviors, especially in Gray.",
+        "Morgan": "Gray seems aggressively probing, possibly to divert attention from himself. Kelly, Taylor, and Sky appear to follow Gray's lead, amplifying the focus on others. Riley and Quinn are more cautious, suggesting deeper analysis and possibly suspecting Gray\u2019s motives. Nova aligns with Riley and Quinn, indicating a possible alliance or shared suspicion of Gray."
+      },
+      "voting": {
+        "votes": {
+          "Nova": "Gray",
+          "Riley": "Gray",
+          "Morgan": "Gray",
+          "Taylor": "Gray",
+          "Quinn": "Gray",
+          "Alex": "Gray",
+          "Gray": "Morgan",
+          "Blake": "Gray",
+          "Sky": "Gray",
+          "Kelly": "Gray"
+        },
+        "eliminated": {
+          "name": "Gray",
+          "is_human": false,
+          "votes": 9
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Riley",
+          "message": "I agree with Sky and Kelly on the importance of a broader focus. It's essential we don't become tunnel-visioned on any particular player which might distract us from other subtle game dynamics at p...",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Sky",
+          "message": "Considering our varied observations and discussions, it seems prudent to extend our scrutiny even further. Let's evaluate players like Alex and Blake who haven\u2019t been in the spotlight much yet.",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Kelly",
+          "message": "I concur with Sky's suggestion of widening our scrutiny, and going forward, it would be enlightening to hear more from Alex and Blake about their observations and strategies, which we haven't thoro...",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Quinn",
+          "message": "Thanks, Sky, for highlighting the need to extend our scrutiny. I'm particularly interested to hear from Alex and Blake regarding their thoughts on the current dynamics and any strategies they think...",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Taylor",
+          "message": "I echo the sentiment of expanding our consideration to include Alex and Blake, as understanding their perspectives might reveal new insights into our current situation.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Kelly",
+          "message": "I'm looking forward to hearing from Alex and Blake. Their insights might just hold the key to understanding deeper game dynamics that we've missed.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Taylor",
+          "message": "Alex, Blake, your perspectives are now crucial. What are your current observations and strategic notions?",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Taylor",
+          "message": "I think hearing from Alex and Blake could indeed provide valuable insights. What are your thoughts on the strategies discussed so far?",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Quinn",
+          "message": "Alex, Blake, the group seems eager to hear from both of you. Could you share your observations and any strategic adjustments you've been considering?",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Sky",
+          "message": "I appreciate everyone's alignment on hearing from Alex and Blake. It\u2019s crucial we understand every angle to make the most informed decisions moving forward.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Alex",
+          "message": "Thanks everyone for encouraging a broader discussion. I think a proactive strategy could involve more closely monitoring the quiet players, like Nova and Morgan, who haven't shared much yet. Their ...",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Alex",
+          "message": "I appreciate the emphasis on diverse insights. Regarding strategies, I'd suggest we increase our focus on establishing clearer action points after each discussion to better track our progress and c...",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Sky",
+          "message": "Thank you, Alex, for your contributions. It's indeed wise to keep an eye on quieter players, as they might be holding back critical information. Let's also ensure our action points post-discussion ...",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Nova",
+          "message": "Thanks, Alex, for emphasizing the importance of inclusiveness and clear actions post-discussion. Monitoring quieter players like myself and Morgan could indeed help clarify our next moves.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Kelly",
+          "message": "Alex's points are well-taken regarding monitoring and clearer action points. I believe coupling those actions with continual feedback among us can further enhance our strategic alignment.",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Alex",
+          "message": "Thanks, everyone, for the rich feedback. I agree with Kelly about coupling our strategic monitoring with continuous feedback, which will help us refine our approaches in real time and keep everyone...",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Alex",
+          "message": "Absolutely, coupling strategic monitoring with continuous feedback ensures we stay adaptive and inclusive throughout our process. Let's ensure we're all participating actively to foster better unde...",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Kelly",
+          "message": "I agree with the consensus on proactive strategies and continuous feedback. Let's ensure these discussions translate into clear, actionable steps that we can all follow.",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Taylor",
+          "message": "I agree, focusing on actionable steps while involving everyone will definitely increase our efficiency. Let\u2019s keep up the active participation and clear communication as we go forward.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Nova",
+          "message": "I agree with the focus on actionable steps and continuous feedback. This approach will ensure we all have clear directions and stay engaged in our strategy.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Riley": "Nova has been very silent potentially using silence as a strategy or cautiousness. Gray is very active, stimulating discussions and may be using this to either help the group or deflect suspicion onto others. Morgan's silence could be a strategic change from previous behavior. Taylor and Kelly follow others and rarely initiate but contribute to discussions, neutral but agreeable. Blake has a neutral stance, focused on observations rather than accusations or alliances. Sky brings useful reminders to consider all players, tries to broaden discussions. Quinn echoes an interest in Gray's strategy, suggesting strategic depth and attention to debate dynamics.",
+        "Sky": "Nova \u2013 Minimalistic, focuses on critical points; Riley \u2013 Analytical and detail-oriented; Morgan \u2013 Introverted, potentially strategic; Taylor \u2013 Vocal and assertive; Quinn \u2013 Quiet but increasing analytical probing; Alex \u2013 Little contribution, previously, now proactive and strategic in broadening discussions; Blake \u2013 Minimal input, observed by others; Kelly \u2013 Participative, subtly strategic, aligns with suggestions for broadened scrutiny; Gray \u2013 Dominant and proactive in discussions.",
+        "Kelly": "Blake is direct and leads questions; Taylor is analytical and cautious, observing before acting; Gray is active and probes opinions, possibly to direct discussions (Gray has not been mentioned in the recent chat, possibly eliminated); Morgan is reserved, possibly strategic; Riley reflects caution and broader strategic thinking; Sky emphasizes a comprehensive view, highlighting overlooked aspects; Quinn is perceptive about role tactics and implications; Nova aligns with caution towards active discussants and reads between lines; Alex is now emerging as proactive and strategic, suggesting strategies and expressing appreciation for inclusivity.",
+        "Quinn": "Gray is very observant and tends to lead discussions, often directing attention to others; Taylor is analytical, adding depth to existing discussions without initiating new perspectives; Kelly often agrees with prevailing opinions and contributes minimal unique insights; Riley is cautious and insightful about underlying motives, questioning leaders like Gray; Sky is thoughtful, adding layers to discussions, also calls for broader analysis; Morgan is reserved and strategical, often considered for deeper game motives; Nova scrutinizes motives and leadership in discussions, aligning concerns about players like Gray; Blake and Alex have been quiet recently, but now their perspectives are being actively sought out, revealing potential as insightful contributors if they choose to engage more.",
+        "Taylor": "Nova is concise; Riley is detailed; Morgan blends in; Quinn uses humor; Alex is assertive; Blake is analytical; Sky is friendly; Kelly uses enthusiastic language.",
+        "Alex": "Nova communicates appreciation for inclusiveness and clarity in action. Riley often emphasizes on avoiding a narrow focus. Morgan still has not contributed; remains unupdated. Taylor echoes sentiments and focuses on inclusivity. Quinn supports exploration and detailed analysis. Sky values scrutiny and diverse opinions. Kelly supports suggestions and focuses on deeper analysis from quieter players. Blake has not spoken yet; remains unupdated.",
+        "Nova": "Gray is very analytical and often initiates discussions on strategy. Kelly tends to agree often with Gray and others' points, particularly on monitoring and strategy adjustments. Taylor deepens points made by Gray, focusing on the importance of actionable steps. Riley questions the motives behind actions, especially Gray's. Sky aligns with prevailing views and frequently acknowledges contributions without adding much detail. Quinn is skeptical and searches for hidden motives, especially directed at Gray. Alex promotes inclusiveness and emphasizes monitoring quieter players, advocating for continuous feedback and actionable steps. Blake has not yet spoken in the discussions."
+      },
+      "voting": {
+        "votes": {
+          "Nova": "Blake",
+          "Riley": "Morgan",
+          "Morgan": "Alex",
+          "Taylor": "Riley",
+          "Quinn": "Kelly",
+          "Alex": "Morgan",
+          "Blake": "Alex",
+          "Sky": "Blake",
+          "Kelly": "Morgan"
+        },
+        "eliminated": {
+          "name": "Morgan",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Alex",
+          "message": "Taylor and Nova are right about everyone's engagement with actionable steps and continuous feedback. This will surely enhance our collective clarity and effectiveness in navigating our strategies.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Nova",
+          "message": "SCRATCHAD: Gray often initiates and leads strategic discussions; Kelly frequently agrees with Gray and highlights the importance of continuous feedback; Taylor elaborates on actionable steps and su...",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Taylor",
+          "message": "Everyone's insights are invaluable, let's convert our discussion into definitive plans and keep our communication lines open and clear.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Quinn",
+          "message": "I appreciate Taylor and Nova\u2019s emphasis on actionable steps and everyone\u2019s engagement. Let\u2019s delineate specific roles based on our discussions to streamline our actions and enhance accountability m...",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Kelly",
+          "message": "Quinn\u2019s suggestion to delineate specific roles is essential for our streamlined action plan. Assigning clear roles will help us maintain accountability and enhance our strategic implementation.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Kelly",
+          "message": "I appreciate everyone's contributions. Let\u2019s ensure the roles assigned not only reflect our current strategy but also adapt to potential future adjustments.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Kelly",
+          "message": "I support moving forward with defining specific roles as Quinn suggested. This will help clarify everyone's responsibilities and streamline our efforts.",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Nova",
+          "message": "Supporting Quinn and Kelly's idea, defining specific roles will indeed add clarity and efficiency to our strategy. Let's identify and agree on these roles quickly to maintain our momentum.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Nova",
+          "message": "I'm ready to help define specific roles. Who will take the lead on this initiative?",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Quinn",
+          "message": "I recommend that each of us suggests a role aligned with our strengths and contributions discussed so far. This should speed up our role assignment.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Taylor",
+          "message": "I agree with Quinn\u2019s approach. I suggest we all draft a role proposal based on our past contributions and areas of expertise by tomorrow\u2019s meeting.",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Nova",
+          "message": "Taylor and Quinn's proposal sounds like a robust way to leverage our strengths efficiently. What timeline should we aim for in finalizing our proposed roles?",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Alex",
+          "message": "I support the proposals by Quinn and Taylor. Drafting roles aligned with our expertise ensures we each contribute effectively. Let\u2019s aim to finalize our roles by the end of this week to keep up our...",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Blake",
+          "message": "I support the timeline suggested by Alex, aiming to finalize our roles by the end of this week. This will keep our momentum going strong.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Blake",
+          "message": "Let\u2019s divide the tasks based on our agreed strengths. I can take on coordinating these roles once we finalize them.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Taylor",
+          "message": "Thanks everyone for the productive suggestions. Let's use this motivation to finalize our roles effectively by the week's end as proposed.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Nova",
+          "message": "Thanks, Blake, for volunteering to coordinate the roles. It\u2019s great to see everyone engaged and ready to contribute so effectively towards our goals. Let's keep up this positive momentum!",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Riley",
+          "message": "I'm in support of Blake's coordination initiative and the quick timeline to finalize roles. Let's all contribute our unique strengths to shape these roles by the deadline discussed.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Quinn",
+          "message": "Everyone has contributed fantastic ideas. I'll ensure that our final roles align with our strengths and help us achieve our objectives efficiently. Let's keep the energy high and focus on the task ...",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Kelly",
+          "message": "I appreciate everyone's proactive approach and I'm confident in our ability to finalize roles that leverage our collective strengths. Looking forward to collaborating closely and making the most of...",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Alex": "Nova communicates appreciation for inclusiveness and clarity in action. Riley often emphasizes on avoiding a narrow focus. Morgan remains unupdated \u2014 has not contributed. Taylor echoes sentiments and focuses on inclusivity. Quinn supports exploration and detailed analysis. Sky values scrutiny and diverse opinions. Kelly supports suggestions and focuses on deeper analysis from quieter players. Blake has not spoken yet; remains unupdated.",
+        "Taylor": "Nova is concise; Riley is detailed; Morgan blends in; Quinn uses humor; Alex is assertive; Blake is analytical; Sky is friendly; Kelly uses enthusiastic language.",
+        "Quinn": "Gray often initiates and leads discussions, focusing on strategic directions; Taylor is analytical and detail-oriented in discussions; Kelly tends to agree with others, particularly with Quinn and supports group decisions; Riley is cautious and pushes for questioning leaders; Sky calls for wide-ranging analysis and discussion; Nova scrutinizes motives and aligns with Gray on leadership focus; Blake and Alex have begun to contribute more meaningful insights, with Blake showing initiative in role coordination; Morgan is strategic and reserved, interacting minimally.",
+        "Kelly": "Blake is direct and leads questions, also volunteers to coordinate roles; Taylor is analytical and supports structured approaches, like drafting role proposals; Gray's style is not recently observed in the conversation; Morgan's communication style is also not observed in the latest discussions; Riley supports initiatives with a focus on efficiency and contributions; Sky's communication traits have not been recently observed; Quinn is perceptive and ensures tactics align with strengths, supporting proposal initiatives; Nova supports proposals and appreciates well-coordinated efforts, aligns with cautious yet engaging approach; Alex is proactive, strategic, and values inclusivity and effective contributions.",
+        "Nova": "Gray is analytical and initiates strategic discussions; Kelly often agrees with Gray, emphasizing actionable steps and shows support for structured plans; Taylor deepens points made by Gray, focuses on actionable steps, and proposes practical initiatives; Riley questions motives, particularly targeting Gray; Sky aligns with prevailing views and adds little detail; Quinn is skeptical, looks for hidden motives, focuses on specific roles for accountability, and initiates role-focused strategies; Alex promotes inclusiveness, emphasizes monitoring quieter players, advocates for continuous feedback, and supports structured task allocation; Blake listens attentively, remains mostly silent, supports agreed timelines, and volunteers for organizational tasks.",
+        "Blake": "Nova uses a lot of abbreviations and slang.\nRiley is very formal in their language.\nTaylor frequently agrees with others.\nQuinn speaks in short, concise sentences.\nAlex occasionally shifts topic abruptly.\nSky\u2019s language is very polite and refined.\nKelly uses humor in most of their contributions.",
+        "Riley": "Nova has shifted from silence to very proactive, now suggesting and supporting initiatives actively. Quinn is often facilitating role discussions and enhancing strategies, suggesting strategic thinking aligned with active contribution. Blake is taking initiative in coordination, showing leadership attributes. Taylor and Alex are supportive and goal-oriented, valuing efficiency and expertise in their contributions."
+      },
+      "voting": {
+        "votes": {
+          "Nova": "Riley",
+          "Riley": "Sky",
+          "Taylor": "Sky",
+          "Quinn": "Riley",
+          "Alex": "Sky",
+          "Blake": "Alex",
+          "Sky": "Blake",
+          "Kelly": "Sky"
+        },
+        "eliminated": {
+          "name": "Sky",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Taylor",
+          "message": "Everyone's enthusiasm and collaborative spirit are palpable, and I'm excited to see the outcomes. Let's proceed as planned and make the most of our combined strengths.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Alex",
+          "message": "I appreciate the collective initiative and commitment. I'm looking forward to seeing how our finalized roles will enhance our productivity and synergy.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Kelly",
+          "message": "With everyone aligned and contributing with such enthusiasm, I'm sure we'll finalize our roles effectively. Thanks, Blake, for leading the coordination!",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Nova",
+          "message": "It's wonderful to see such strong collaboration and commitment from everyone. Let's maintain this clarity and coordination as we approach the deadline!",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Quinn",
+          "message": "Excellent teamwork and initiative! With roles well-defined, we're setting ourselves up for success. Let's keep focusing on our strengths and making effective decisions swiftly.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Quinn",
+          "message": "I'm thrilled by our unity and the proactive steps taken by everyone\u2014especially Blake's lead. Let\u2019s ensure we maintain this momentum straight through our final decisions!",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Alex",
+          "message": "Fantastic teamwork everyone! Let's utilize this momentum to finalize our roles effectively and achieve great results together.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Quinn",
+          "message": "Team, your enthusiasm is infectious! With such dynamic and synergistic efforts, I'm confident we will define roles that will not only reflect our strengths but also propel us towards achieving our ...",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Blake",
+          "message": "Thanks, everyone, for the dynamic input! Let's harness this enthusiasm to define and excel in our respective roles.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Alex",
+          "message": "Thanks to everyone, especially Blake for leading so effectively! Let's keep this energy up and finalize our roles to harness our full potential.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Blake",
+          "message": "Great feedback, team! With this unity and clarity, I'm positive that defining our roles will lead us straight to success. Let's keep up the momentum!",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Blake",
+          "message": "Team, your vigor is inspiring! Let\u2019s confirm our roles now and move forward to triumph!",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Kelly",
+          "message": "Thank you all for the remarkable efforts and insights! Let\u2019s finalize our roles and align them precisely with our goals to secure a successful outcome.",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Kelly",
+          "message": "As we finalize our roles, let's ensure they are perfectly tailored to our objectives and individual strengths. I'm looking forward to seeing how our concerted efforts shape our success!",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Riley",
+          "message": "I appreciate everyone's input and commitment! Aligning our roles with our strengths as Kelly mentioned will indeed be pivotal. Let's lock in our roles and channel our collective energies towards ac...",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Taylor",
+          "message": "Thanks, everyone, for the insightful contributions. Let\u2019s finalize our roles and push towards our goal efficiently!",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Blake",
+          "message": "Absolutely, Kelly and Riley make crucial points about aligning our roles with our strengths. Let\u2019s confirm these roles to maximize our efficacy!",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Taylor",
+          "message": "Input noted and appreciated! Let's finalize these roles and utilize our strengths to ensure success.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Nova",
+          "message": "I echo everyone's sentiments on aligning roles with our strengths. Let's solidify these roles and focus on what we each do best to achieve our mission effectively!",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Riley",
+          "message": "Thanks everyone for your dedication to role alignment! With our roles set, let\u2019s execute our plan with precision and bring this game home!",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Taylor": "Nova is concise; Riley is detailed; Quinn uses humor; Alex is assertive; Blake is analytical; Kelly uses enthusiastic language.",
+        "Alex": "Nova values inclusiveness and clear actions. Riley prefers avoiding focus solely on specific topics. Taylor reflects enthusiasm and values community spirit. Quinn likes detailed analysis and fast, effective decisions. Kelly looks for depth in analysis and pushes for quieter individuals to speak up. Blake is action-oriented and has assumed a leadership role in coordination.",
+        "Kelly": "Blake is direct, leads questions, and volunteers to coordinate roles. Taylor is analytical and prefers structured approaches like drafting role proposals. Riley supports initiatives focusing on efficiency and participation. Quinn is perceptive and ensures tactics align with strengths while supporting proposals. Nova appreciates coordination and supports proposals with a cautious yet engaging approach. Alex is proactive, strategic, and values inclusivity and effective contributions.",
+        "Nova": "Gray is analytical, starts discussions about strategy; Kelly builds on Gray's points, emphasizing detailed action plans; Taylor elaborates on proposals, focused on implementation; Riley questions motives, often challenges Gray; Sky follows dominant opinions without adding depth; Quinn is skeptical, highlights the need for specific roles and accountability; Alex pushes for inclusivity and feedback, promotes structured allocation of tasks; Blake supports established plans, focuses on organizational aspects.",
+        "Quinn": "Gray leads discussions with a strategic focus; Taylor is analytical and detail-oriented; Kelly often agrees and supports Quinn's views; Riley is cautious and questions leaders; Sky calls for comprehensive discussions; Nova scrutinizes motives and supports strategic leadership like Gray's; Blake is proactive in role coordination; Alex contributes meaningful insights and commits to collective goals.",
+        "Blake": "Nova uses abbreviations and slang. Riley speaks very formally. Taylor frequently agrees with others. Quinn uses direct and concise language. Alex sometimes shifts topics unexpectedly. Kelly often incorporates humor in their messages.",
+        "Riley": "Nova has moved from being silent to active, suggesting strategies and coordination with the team. Quinn is still facilitating discussions focusing on roles and strategies efficiently. Blake remains a strong leader, initiating and managing team efforts. Taylor and Alex are making quick expert contributions that support the team's goals. Kelly focuses on aligning roles with the team's objectives and strengths."
+      },
+      "voting": {
+        "votes": {
+          "Nova": "Riley",
+          "Riley": "Nova",
+          "Taylor": "Blake",
+          "Quinn": "Riley",
+          "Alex": "Riley",
+          "Blake": "Alex",
+          "Kelly": "Alex"
+        },
+        "eliminated": {
+          "name": "Riley",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Blake",
+          "message": "Agreed with all, and kudos for the harmonious team effort! With our roles set, let\u2019s dive into the action and clinch the win!",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Blake",
+          "message": "Onward to victory! With our roles well-defined, let's demonstrate our teamwork in action and secure the win.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Kelly",
+          "message": "I'm thrilled with our collaboration! Let's play to our strengths and secure this win together.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Kelly",
+          "message": "Ready and excited to put our plan into action! Thanks to everyone for the cohesive setup\u2014let's make this teamwork the key to our victory.",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Nova",
+          "message": "Energized by our team's unity and clear direction! Let's put our well-defined roles into practice and aim for success.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Blake",
+          "message": "Energized by the consensus! Let's leverage our defined roles and teamwork to dominate the game.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Blake",
+          "message": "Let\u2019s keep this momentum going! Time to showcase our well-coordinated effort and grab that victory.",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Blake",
+          "message": "Love the energy, team! Let\u2019s turn our strategies into triumphs.",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Alex",
+          "message": "Thanks to everyone for the clear role assignments and high spirits! Let's keep this energy and win together!",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Alex",
+          "message": "It's fantastic seeing everyone so geared up! Let's maintain this focus and energy as we execute our plan!",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Nova",
+          "message": "Really uplifting to see such enthusiasm and alignment! Let\u2019s harness this energy and turn our strategic roles into a spectacular victory.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Kelly",
+          "message": "Absolutely, the synergy is palpable! Let's channel this vibrant energy into a resounding win\u2014team Kelly on the go!",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Alex",
+          "message": "Team, your energy is contagious! Let's channel it all the way to victory!",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Alex",
+          "message": "We're all synced up beautifully! Let's power through with our plan and clinch this win together!",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Kelly",
+          "message": "The teamwork is electric today! Let\u2019s keep this synchronized energy flowing and secure our win!",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Blake",
+          "message": "Absolutely, the unity is amazing! Let's turn this energy into victory!",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Taylor",
+          "message": "Agreed, the teamwork is outstanding! Let's stay sharp and win this!",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Blake",
+          "message": "The energy is through the roof! Let's keep this momentum and secure that win!",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Nova",
+          "message": "Absolutely, team synergy is at its peak! Let\u2019s leverage this unity and turn it into a definitive win.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Nova",
+          "message": "The energy here truly reflects our collective commitment. Let\u2019s keep our eyes on the prize and claim our victory!",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Blake": "Nova uses abbreviations and slang. Taylor frequently agrees with others. Quinn uses direct and concise language. Alex sometimes shifts topics unexpectedly. Kelly often incorporates humor in their messages. Riley speaks very formally.",
+        "Kelly": "Nova is enthusiastic and values team unity and clear roles. Blake is very motivational, encourages having a clear plan, and leads initiatives. Taylor prioritizes efficiency and structured role strategies. Alex is inclusive and strategic, focusing on team spirit and clear role assignments. Quinn is perceptive, aligns tactics with team strengths, and supports solid strategies. Riley principles are not detailed in recent communications.",
+        "Nova": "Gray is analytical, focusing on strategies; Kelly builds on Gray's strategic discussions with detailed plans; Taylor adds practical details to proposals; Riley tends to question motives, particularly challenging Gray's strategies; Sky often agrees with dominant opinions without adding much substance; Quinn is meticulous about role specificity and accountability; Alex encourages inclusive discussions and structured task allocations; Blake is supportive and emphasizes organizational elements.",
+        "Alex": "Nova enjoys being inclusive and appreciates clear, direct actions. Taylor brings a lot of enthusiasm and fosters a community spirit. Quinn prefers detailed analysis and swift, decisive action. Kelly values in-depth analysis and encourages quieter members to contribute. Blake is action-oriented and likes to take on leadership roles in coordinating team efforts.",
+        "Taylor": "Nova is concise; Quinn uses humor; Alex is assertive; Blake uses enthusiastic language; Kelly uses enthusiastic language."
+      },
+      "voting": {
+        "votes": {
+          "Nova": "Quinn",
+          "Taylor": "Quinn",
+          "Quinn": "Nova",
+          "Alex": "Quinn",
+          "Blake": "Quinn",
+          "Kelly": "Quinn"
+        },
+        "eliminated": {
+          "name": "Quinn",
+          "is_human": false,
+          "votes": 5
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_210245",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Nova",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Nova",
+        "infections": [
+          {
+            "player_name": "Nova",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T21:02:45.229832",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Nova",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Nova",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "Morgan",
+      "is_human": false
+    },
+    {
+      "name": "Taylor",
+      "is_human": false
+    },
+    {
+      "name": "Quinn",
+      "is_human": false
+    },
+    {
+      "name": "Alex",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Blake",
+      "is_human": false
+    },
+    {
+      "name": "Sky",
+      "is_human": false
+    },
+    {
+      "name": "Kelly",
+      "is_human": false
+    }
+  ]
+}

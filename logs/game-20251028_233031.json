@@ -1,0 +1,888 @@
+{
+  "game_id": "20251028_233031",
+  "num_players": 10,
+  "model_name": "openai/gpt-4o",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Finley",
+          "message": "I'm noticing some inconsistencies in what Indigo and Phoenix have shared; maybe we should focus our discussion there next.",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Alex",
+          "message": "I agree with Finley; let's ask Indigo and Phoenix to clarify their previous statements to address these inconsistencies.",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Ocean",
+          "message": "Let's have Indigo and Phoenix clarify their points to help us understand the inconsistencies better.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Finley",
+          "message": "I agree with Ocean\u2014Indigo and Phoenix, could you each clarify your previous points for us to better assess the situation?",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Gray",
+          "message": "I\u2019m also curious about those inconsistencies, Indigo and Phoenix. Could you explain what might have caused the discrepancies in your previous statements?",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Indigo",
+          "message": "I appreciate the focus on clarity\u2014The potential inconsistency was due to a misunderstanding of roles. Let's discuss specific points to resolve this.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's address any specific questions you have so we can clear up the misunderstandings quickly\u2014I'm here to help resolve this!",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Alex",
+          "message": "Indigo, could you specify what misunderstanding of roles you experienced, and Phoenix, can you restate your details to address the inconsistencies?",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Indigo",
+          "message": "The misunderstanding stemmed from confusing the roles of 'Observer' and 'Coordinator'\u2014I'm happy to clarify any particular points that may have been confusing.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Phoenix",
+          "message": "Apologies for any confusion\u2014my earlier points were based on initial observations as an 'Observer,' but I can clarify specific details if needed. Can you specify which statements require clarification?",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Gray",
+          "message": "Indigo and Phoenix, could you both specify any discrepancies you noticed in your statements? This might help us understand the areas of confusion better.",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Phoenix",
+          "message": "Gray, my earlier statement as an 'Observer' about role interactions might have seemed inconsistent\u2014if there are specific sections of my message that seemed unclear, please highlight them for accura...",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Parker",
+          "message": "Let's focus on the role misunderstanding first\u2014Indigo, can you confirm the specific actions you took under the 'Observer' or 'Coordinator' roles?",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Parker",
+          "message": "Let's give Indigo a chance to clarify her specific actions related to the 'Observer' and 'Coordinator' roles so we can address any role-based misunderstandings before moving on.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Finley",
+          "message": "Let's focus on resolving the role confusion\u2014Indigo and Phoenix, could you each describe a specific interaction you experienced as 'Observer' or 'Coordinator' to help clarify your positions?",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Logan",
+          "message": "Indigo and Phoenix, can you describe a specific decision you made during a key interaction as 'Observer' or 'Coordinator' to help us clarify these misunderstandings?",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Parker",
+          "message": "Indigo, could you specify any key observations you made while in the 'Observer' role to help clarify the confusion?",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Parker",
+          "message": "Phoenix and Indigo, please provide a specific instance of when your roles' actions affected an outcome so we can understand the role dynamics better.",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Jordan",
+          "message": "Indigo and Phoenix, could you each outline one decision or observation that might have contributed to any confusion?",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Gray",
+          "message": "Indigo and Phoenix, could you each provide a concise example of how your role as 'Observer' or 'Coordinator' influenced a game decision to help us unravel the misunderstandings?",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Finley": "Alex remains logical and analytical. Indigo is still vague and evasive but willing to address specifics. Gray is direct and persistent. Logan remains charismatic and persuasive. Ocean is quiet but suggests clarifications. Phoenix uses humor and sarcasm, possibly as deflection. Storm is methodical and detail-oriented. Jordan is emotional and empathetic. Parker remains observant and probing, focusing on role misunderstandings. I (Finley) balance logic with intuition.",
+        "Alex": "Indigo uses vague language and deflects questions; emphasizes misunderstanding. Phoenix is direct but can mislead by overemphasizing details. Finley is analytical and observant, focusing on inconsistencies. Ocean supports clarification efforts. Gray shows curiosity and seeks explanations.",
+        "Ocean": "- Alex: Seems to align with others easily, generally supportive.\n- Indigo: Details pending, involved in an inconsistency.\n- Gray: No data yet on communication style.\n- Logan: No data yet on communication style.\n- Ocean: [Self, direct and analytical].\n- Phoenix: Details pending, involved in an inconsistency.\n- Storm: No data yet on communication style.\n- Jordan: No data yet on communication style.\n- Parker: No data yet on communication style.\n- Finley: Observant, notes inconsistencies.",
+        "Gray": "- Finley: Observant and analytical; focuses on inconsistencies and encourages clarification.\n- Alex: Agreeable and supportive; aligns with other players' observations.\n- Ocean: Diplomatic and facilitative; seeks to encourage clear communication.\n- Indigo: Open to clarification and responsive; appreciates focusing on specifics.\n- Phoenix: Willing to clarify; requests specific areas needing clarification for a focused response.\n- Parker: Persistent in facilitating role clarification and seeks detailed accounts of actions.\n- Logan: Emphasizes specific decisions in key interactions for clarity.\n- Jordan: Encourages outlining key decisions or observations for clarity.",
+        "Indigo": "- Finley: Observant, focuses on inconsistencies.  \n- Alex: Agreeable, follows others' observations.  \n- Ocean: Advocates for clarity and group understanding.  \n- Gray: Curious, seeks explanations for discrepancies.  \n- Logan: [No observations yet]  \n- Phoenix: [No observations yet]  \n- Storm: [No observations yet]  \n- Jordan: [No observations yet]  \n- Parker: [No observations yet]",
+        "Phoenix": "- Finley: Direct, focuses on logical inconsistencies.  \n- Alex: Supportive of others\u2019 suggestions, seeks clarification.  \n- Ocean: Concurs with others, encourages detailed explanations.  \n- Gray: Curious, wants to probe deeper into identified issues.  \n- Indigo: Cooperative, admits to own misunderstandings, seeks resolution.  \n- Storm: No current input to analyze.  \n- Logan: No current input to analyze.  \n- Jordan: No current input to analyze.  \n- Parker: No current input to analyze.",
+        "Parker": "- Alex: Direct and inquisitive, asks specific questions.\n- Indigo: Open, encourages direct questions, focuses on resolving misunderstandings.\n- Gray: Curious about discrepancies, asks for detailed clarifications.\n- Logan: Asks for specific decisions during interactions.\n- Ocean: Encourages clarification and understanding.\n- Phoenix: Apologetic, detailed, asks for specific issues to clarify, notes 'Observer' role.\n- Storm: No recent activity to assess communication style.\n- Jordan: No recent activity to assess communication style.\n- Finley: Supportive, aligns with Ocean, encourages clarification from Indigo and Phoenix, focuses on resolving role confusion.\n- Parker: Focuses on resolving role misunderstanding, prioritizes hearing from Indigo.\n- Logan: Asks Indigo and Phoenix to describe specific decisions to clarify misunderstandings.",
+        "Logan": "- Indigo: Detail-oriented, willing to clarify misunderstandings, focuses on resolving confusion.\n- Alex: Inquisitive, seeks clarity, prompts others for detailed explanations.\n- Phoenix: Apologetic and open to clarifying points, bases statements on observations.\n- Gray: Direct, asks specific questions to uncover discrepancies.\n- Parker: Focused on resolving confusion, gives space for others to clarify actions.\n- Finley: Conciliatory, aims to resolve conflicts and seeks detailed descriptions.",
+        "Jordan": "- Indigo: Reflective and open to clarifying misunderstandings.\n- Phoenix: Apologetic and willing to clear confusion but asks for specifics.\n- Gray: Direct and probing, asks for clarification on discrepancies.\n- Parker: Persistent and focused on resolving role misunderstandings.\n- Finley: Conciliatory, aims for resolution by asking for specific interactions.\n- Logan: Analytical, requests examples of decision-making as evidence."
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Phoenix",
+          "Indigo": "Parker",
+          "Gray": "Parker",
+          "Logan": "Ocean",
+          "Ocean": "Phoenix",
+          "Phoenix": "Parker",
+          "Storm": "Phoenix",
+          "Jordan": "Parker",
+          "Parker": "Phoenix",
+          "Finley": "Indigo"
+        },
+        "eliminated": {
+          "name": "Phoenix",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Finley",
+          "message": "Indigo, could you share a specific observation or decision from when you were an 'Observer' to help clarify the confusion?",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Gray",
+          "message": "Indigo and Phoenix, your input on a key decision influenced by your role can help clarify the role confusion; please share one specific example each.",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Finley",
+          "message": "Indigo and Phoenix, your input is crucial here\u2014can each of you describe a pivotal observation or action from your 'Observer' or 'Coordinator' role that might clarify previous confusions?",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Alex",
+          "message": "Indigo and Phoenix, your specific experiences as 'Observer' and 'Coordinator' are important for resolving this role confusion. Could both of you please provide one clear instance where your role di...",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Storm",
+          "message": "Indigo and Phoenix, sharing a single decision that directly influenced a game outcome will help us pinpoint the role discrepancies.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Logan",
+          "message": "Indigo and Phoenix, please share a specific instance where your role either as 'Observer' or 'Coordinator' directly impacted a decision to help us rectify this confusion.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Storm",
+          "message": "Indigo and Phoenix, please provide a concrete instance where your role directly led to a game outcome, as this will help clarify the discrepancies.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Parker",
+          "message": "Indigo and Phoenix, could you each pinpoint a time when your role directly led to a decision, to help us clear up the roles confusion once and for all?",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Logan",
+          "message": "Indigo and Phoenix, could each of you share one decision that you made or observation you had that distinctly demonstrates your role and how it impacted the game?",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Gray",
+          "message": "Indigo and Phoenix, could each of you share a moment when your role decisively changed the game's direction to help resolve this role confusion?",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Gray",
+          "message": "Indigo and Phoenix, a single instance where your designated role clearly shifted the game's direction would be highly useful in sorting out our role confusion.",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Jordan",
+          "message": "Indigo and Phoenix, providing a distinct example of your role's impact would be invaluable for untangling this confusion.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Parker",
+          "message": "Indigo and Phoenix, please share a moment when your role specifically influenced a pivotal decision to help us solidify our understanding of your roles.",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Storm",
+          "message": "Indigo and Phoenix, could each of you provide an example where your decision directly influenced a significant turning point in the game to clarify your roles?",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Finley",
+          "message": "Phoenix isn't in this game; let's focus on Indigo and Ocean. Please, each share an example where your role decisively altered our strategy.",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Indigo",
+          "message": "I noticed a pattern when we opted to skip interrogating Alex last round, which drove focus towards new leads and demonstrated my 'Observer' role in influencing group strategy.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Jordan",
+          "message": "Indigo provided insight about their 'Observer' role; Ocean, could you similarly share an example where your role clearly impacted our strategy?",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Indigo",
+          "message": "Ocean, would you mind sharing a specific instance where your contribution decisively shaped our strategic direction, helping everyone understand your role better?",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Indigo",
+          "message": "Ocean, given your focus on enhancing group understanding, can you highlight a moment where your insights significantly shaped or clarified our strategy?",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Alex",
+          "message": "Ocean, I\u2019d appreciate it if you could share a specific moment where your role shifted our group's focus, as this would bring needed clarity.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Finley": "- Alex: Logical and analytical.\n- Indigo: Vague and evasive, willing to address specifics.\n- Gray: Direct and persistent, often repeating requests for clarity.\n- Logan: Charismatic and persuasive, encourages sharing of specific instances.\n- Ocean: Quiet but suggests clarifications (note: Phoenix mentioned mistakenly).\n- Phoenix: Uses humor and sarcasm, possibly as deflection (note: should be Ocean in context).\n- Storm: Methodical and detail-oriented, focuses on resolving misconceptions.\n- Jordan: Emotional and empathetic, encourages sharing of impactful examples.\n- Parker: Observant and probing, focuses on clarifying role impacts.\n- Finley: Balances logic with intuition.",
+        "Gray": "- Finley: Continues to request specific examples and clarifications; analytical.\n- Alex: Echoes the need for specific experiences; supportive.\n- Ocean: Not actively involved in this chat.\n- Indigo: Notably quiet in this instance, potentially withholding specifics.\n- Phoenix: Also quiet, may need direct prompting.\n- Parker: Focused on explicit examples that lead to decisions.\n- Logan: Seeks specific decisions emphasizing role's impact.\n- Jordan: Not present in this exchange.\n- Storm: Repeatedly requests examples of decisions impacting outcomes.",
+        "Alex": "Parker is inquisitive and encourages detailed clarity. Finley is detail-oriented and resolves contradictions. Logan seeks specific decision details for clarity. Jordan prefers streamlined, concise input. Gray values clear, concise examples to enhance understanding. Storm asks for impactful decision examples. Indigo actively justifies roles and demonstrates role influence.",
+        "Storm": "- Finley: Resolves confusion with detail orientation.\n- Logan: Directly seeks clarity on roles with specific examples.\n- Parker: Seeks specific examples to verify and understand information.\n- Jordan: Uses key decisions or observations to encourage clarity.\n- Gray: Values concise examples to unravel misunderstandings.\n- Alex: Uses specific experiences to resolve role confusion with a focus on pinpointing specific examples.",
+        "Logan": "- Indigo: Detail-oriented, willing to clarify misunderstandings, focuses on resolving confusion.  \n- Alex: Inquisitive, seeks clarity, prompts others for detailed explanations. Seems persistent in encouraging others to share experiences.  \n- Phoenix: Apologetic and open to clarifying points, bases statements on observations.  \n- Gray: Direct, asks specific questions to uncover discrepancies. Consistently requests examples for clarity.  \n- Parker: Focused on resolving confusion, gives space for others to clarify actions.  \n- Finley: Conciliatory, aims to resolve conflicts and seeks detailed descriptions.  \n- Jordan: Requests specific examples to reduce confusion.  \n- Storm: Suggests sharing direct influence on game outcomes to address role discrepancies.  \n- Logan: Concise, emphasizes the need for clear examples to resolve confusion.",
+        "Parker": "- Alex: Repetitive, emphasizes specific requests, focuses on experiences.  \n- Indigo: Open to direct questions, prioritizes resolving misunderstandings.  \n- Gray: Repeated emphasis on examples, curious about discrepancies.  \n- Logan: Repeats need for specific decisions, seeks clarity and resolution.  \n- Ocean: Encourages clarification and understanding.  \n- Storm: Focuses on outcomes, requests detailed examples to clarify roles.  \n- Jordan: Encourages contribution of observations or decisions to clarify confusion.  \n- Finley: Supportive, aligns with Ocean, encourages clarification on roles.  \n- Parker: Aims to resolve role misunderstanding, focuses on Indigo's input.  \n- Phoenix: Detailed, apologetic, asks for specific issues, notes 'Observer' role.",
+        "Jordan": "- Indigo: Reflective and open to clarifying misunderstandings.  \n- Phoenix: *Removed from notes as they aren't in the game*  \n- Gray: Direct and probing, asks for clarification on discrepancies.  \n- Parker: Persistent and focused on resolving role misunderstandings.  \n- Finley: Conciliatory, aims for resolution by asking for specific interactions.  \n- Logan: Analytical, requests examples of decision-making as evidence.  \n- Storm: Repeatedly emphasizes the need for concrete instances to clarify confusion.  \n- Alex: Concise, emphasizes specifics for role resolution.  \n- Ocean: Requires clarification due to the confusion in targeting Phoenix instead of Ocean.",
+        "Indigo": "- Finley: Observant, focuses on inconsistencies, moves conversation forward.  \n- Alex: Agreeable, follows others' observations, not very active in initiating discussion.  \n- Ocean: Advocates for clarity and group understanding, needs to clearly demonstrate their role contribution.  \n- Gray: Repetitive, asks for specific examples and clear explanations.  \n- Logan: Repetitive, persistent in requesting specific examples, almost interchangeable with Gray.  \n- Storm: Direct, consistently seeks concrete examples for clarification.  \n- Jordan: Repetitive, also focused on needing examples to resolve confusion, similar to Gray and Logan.  \n- Parker: Insistent on examples to clarify roles, echoes others' emphasis on specific influential examples."
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Ocean",
+          "Indigo": "Parker",
+          "Gray": "Ocean",
+          "Logan": "Ocean",
+          "Ocean": "Gray",
+          "Storm": "Ocean",
+          "Jordan": "Ocean",
+          "Parker": "Alex",
+          "Finley": "Ocean"
+        },
+        "eliminated": {
+          "name": "Ocean",
+          "is_human": false,
+          "votes": 6
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Alex",
+          "message": "Ocean, I'm curious about a moment when your role shifted our group's direction, as this will assist in demonstrating your strategic influence.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, could you provide an example where your influence clarified our strategy, thereby impacting the direction of the game?",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, can you exemplify a moment when your insights directly influenced a pivotal decision or shift in our group's strategy?",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Jordan",
+          "message": "Ocean, could you outline a specific instance where your insights led to a resolution or shift in our approach, highlighting your role's impact?",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, please share a concrete example where your role led to a strategic change, aiding our understanding of your influence in the game.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Jordan",
+          "message": "Ocean, it would be really useful if you could share an instance where your influence clearly redirected our group's strategy, helping us better understand your role dynamics.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, could you share a specific experience where your role directly led to a decisive action in our group strategy, demonstrating your impact?",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Gray",
+          "message": "Ocean, could you share a moment where your insights pivoted our strategic direction, helping illustrate your role's influence?",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Logan",
+          "message": "Ocean, can you share a concise example of when your role decisively impacted our strategy, facilitating a significant change?",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Gray",
+          "message": "Ocean, a succinct example of how your influence shaped a strategic decision would be appreciated, aiding our understanding of your role.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Jordan",
+          "message": "Ocean, sharing a specific scenario where your role conclusively altered our group's strategic path would significantly aid our understanding of your contribution.",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Gray",
+          "message": "Ocean, your perspective would be valuable; a brief example of a moment where your strategic insight was crucial for a pivotal shift would greatly help.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Jordan",
+          "message": "Ocean, could you share a direct example where your role broke a deadlock or significantly redirected our strategy, making your influence evident?",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Alex",
+          "message": "Ocean has not responded yet, but I've noticed that many are seeking clear examples of influence and impact. I recommend Ocean address these requests by sharing a concise, specific scenario where th...",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Finley",
+          "message": "Ocean, perhaps share a specific moment when your insight led to a key conclusion, showing your impact clearly?",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Alex",
+          "message": "Ocean, it would be helpful for everyone if you could provide a direct and concise example of how your actions have decisively influenced a strategic shift in this game.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Finley",
+          "message": "Ocean, sharing a single event where your role directly steered our strategy will help everyone understand your input.",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, I'll share a past moment when my insights resolved our strategy deadlock during the redoubt plan; it shows my role\u2019s impact distinctly.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Parker",
+          "message": "Indigo, could you help clarify how Ocean's strategy has been pivotal, or offer any insights from previous interactions?",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Logan",
+          "message": "Ocean, can you share a specific instance where your insights directly influenced a crucial decision, similar to Storm\u2019s redoubt plan example?",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Alex": "Jordan prefers concise input with direct examples of influence. Storm requests concrete scenarios demonstrating impact. Gray values clear examples for strategic pivots. Logan seeks specific examples for clarity. Parker encourages detailed clarity with questions. Finley resolves contradictions with detail-oriented input. Indigo justifies their role with practical examples.",
+        "Storm": "- Alex: Focuses on requests for specific experiences to gain strategic clarity.\n- Indigo: Encouraging, seeks examples and observations for role understanding.\n- Gray: Values concise examples, desires clear illustration of role influence.\n- Logan: Asks for role clarity with specific examples and concise communication.\n- Parker: Understands through examples, values clarity.\n- Jordan: Repeated and direct requests for specific scenarios to resolve uncertainties.\n- Finley: Requests factual corrections and focuses on specific scenarios.",
+        "Jordan": "- Indigo: Reflective and open to clarifying misunderstandings; emphasizes their role through specific reflections.  \n- Gray: Direct and probing, consistently seeks clarification on discrepancies; frequently requests examples of role's strategic influence.  \n- Parker: Persistent and focused on resolving role misunderstandings.  \n- Finley: Conciliatory, aims for resolution by asking for specific interactions.  \n- Logan: Analytical, requests concise examples and evidence of decision-making impact; seeks brief, impactful scenarios.  \n- Storm: Insistent on needing concrete strategic examples; seeks detailed instances showing strategic influence.  \n- Alex: Concise, desires specific examples of strategic impact and role influence.",
+        "Gray": "Alex: Supportive, focuses on clarifying strategic influence through specific experiences.  \nIndigo: Quiet, often withholds information and asks others for impact examples.  \nLogan: Emphasizes specific impactful decisions in discussions.  \nJordan: Frequently requests specific instances of influence leading to resolution or shift.  \nStorm: Persistently asks for detailed examples of strategic impact and influence.  \nParker: Prioritizes examples that guide decision-making.  \nFinley: Analytical, seeks examples and clarifications.  \nOcean: Not actively involved, possibly under scrutiny.",
+        "Logan": "Indigo: Detail-oriented and clarifies misunderstandings, often invites others to highlight impactful moments. Alex: Inquisitive and persistent, repeatedly asks for examples of strategic influence. Gray: Direct, repeatedly requests specific examples of role impact. Parker: Not observed in this session. Finley: Directly requests specific examples of strategic impact, but not observed extensively. Jordan: Repeatedly asks for examples to understand influence, seeking instances of strategic change. Storm: Shares personal examples of impact, asks for concrete examples of strategic influence. Logan: Concise, requests clear examples to resolve confusion.",
+        "Finley": "- Alex: Logical, analytical, concise in addressing gaps, emphasizes clarity.\n- Indigo: Vague and evasive, willing to address specifics.\n- Gray: Direct and persistent, often repeating requests for clarity.\n- Logan: Charismatic, encourages concise sharing of impactful examples.\n- Ocean: Quiet, possibly mistaken for others, appears to avoid direct responses.\n- Storm: Methodical, focuses on resolving misconceptions, detailed, seeks specific examples.\n- Jordan: Emotional, empathetic, encourages sharing of impactful narrative.\n- Parker: Observant, focuses on role impacts, probing.",
+        "Parker": "- Alex: Repetitive, emphasizes specific requests, focuses on experiences.  \n- Indigo: Open to direct questions, prioritizes resolving misunderstandings.  \n- Gray: Repeats emphasis on examples, curious about discrepancies.  \n- Logan: Repeats need for specific decisions, seeks clarity and resolution.  \n- Ocean: Non-responsive in recent context, typically provides detailed clarifications.  \n- Storm: Focuses on outcomes, provides examples to clarify roles.  \n- Jordan: Encourages contribution of observations, seeks examples of significant influence.  \n- Finley: Supportive, encouraging, similar to Ocean, requests examples of influence.  \n- Parker: Aims to resolve role misunderstanding, focuses on Indigo's input.  \n- Phoenix: (Not currently relevant; deceased, so not noted)."
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Indigo",
+          "Indigo": "Logan",
+          "Gray": "Indigo",
+          "Logan": "Parker",
+          "Storm": "Gray",
+          "Jordan": "Parker",
+          "Parker": "Gray",
+          "Finley": "Indigo"
+        },
+        "eliminated": {
+          "name": "Indigo",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Storm",
+          "message": "Ocean, during the lighthouse plan last week, my insight on the map layout directly steered us to reposition strategically, breaking a deadlock and influencing our approach.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, during the tower defense round, my insight identified a vital flank opportunity that redirected our strategy, directly impacting our success and breaking the deadlock.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Gray",
+          "message": "Ocean, sharing an example where your timely decision shifted our strategy or clarified an uncertain situation could help affirm your role's impact, as seen in Storm's examples.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Finley",
+          "message": "Ocean, echoing everyone's sentiment, a concise example where your insights broke a strategy deadlock, as Storm highlighted, would help solidify your impact.",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Jordan",
+          "message": "During last week's tunnel crossing plan, my insight identified a vital positioning flaw that redirected our strategy seamlessly, avoiding potential setbacks and ensuring our success.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Gray",
+          "message": "Ocean, like others have mentioned, if you could provide a concrete example of how your actions have decisively shifted our strategy in a past round, it would greatly clarify your role in our group ...",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Logan",
+          "message": "Ocean, it seems a concise example of your tactical insight shifting a critical decision, much like Storm and Jordan's examples, would really highlight your role's impact.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Gray",
+          "message": "Ocean, the group clearly values concrete examples, and a succinct instance of your strategic insight impacting a past decision would resonate strongly with everyone here.",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Parker",
+          "message": "Ocean, could you illustrate a pivotal moment similar to the examples provided where your input had a critical impact on our overall strategy?",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Logan",
+          "message": "Ocean, reiterating everyone's request, a clear example where your insight decisively shifted our strategy, similar to Storm and Jordan's contributions, would solidify your role's impact for the team.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Parker",
+          "message": "Ocean, everyone here really values specific examples; if you could provide a past instance where your strategic insight made a decisive impact, it would reinforce our understanding of your role.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Jordan",
+          "message": "Ocean, providing a concrete example of your strategic insight impacting a past decision, like Storm\u2019s, will help clarify your role for everyone.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, providing a clear example of how your insight shifted a critical decision, similar to what Jordan and I have shared, would greatly help clarify your role in our strategy.",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Finley",
+          "message": "Ocean, to strengthen your position, a concrete example like those shared by Jordan and Storm\u2014where your influence significantly shifted our strategy\u2014would be invaluable.",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, a specific instance where your insight led to a pivotal change in our decision-making process, similar to what Jordan and I have shared, would clarify your role for everyone.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Jordan",
+          "message": "Ocean, as others have emphasized, sharing a specific instance where your insight significantly altered our strategy, much like the examples from me and Storm, would be quite beneficial.",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Parker",
+          "message": "Ocean, reiterating the group's sentiment, a concrete example where your strategic insight had a significant impact would greatly help us understand your role better.",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Jordan",
+          "message": "Ocean, offering a clear instance where your strategic insight led to a turning point, similar to Storm's or mine, would help solidify your role for us.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, recall when I identified the risk in that trade deal, and we pivoted our resources just in time to secure the contract, much like the examples from Jordan and myself.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Alex",
+          "message": "Ocean hasn't provided examples or strategic insights as requested, highlighting a pattern that could indicate Ocean's unwillingness to share crucial moves or even a misrepresentation of role.",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Storm": "- Alex: Seeks clear examples of influence and impact; values concise and direct communication.\n- Indigo: Generally encouraging and seeks role clarity through examples.\n- Gray: Prefers concise examples and clear illustrations of role influence.\n- Logan: Values specific examples of role influence; appreciates references to past examples.\n- Parker: Understands through examples; values clarity in communication; requests specific examples of strategic impact.\n- Jordan: Requests direct examples to resolve strategic uncertainties; emphasizes past strategic influence.\n- Finley: Prefers factual accounts and specific scenarios showing role influence; emphasizes pivotal strategic impact.",
+        "Gray": "- Alex: Supportive, uses specific experiences to clarify strategic influence.  \n- Indigo: Quiet, withholds information, asks others for examples.  \n- Logan: Focuses on specific impactful decisions.  \n- Jordan: Requests specific examples of influence, shares positioning insights.  \n- Storm: Asks for detailed examples, shares their own insights to emphasize strategic impact.  \n- Parker: Seeks examples for decision-making, asks for clarification from others.  \n- Finley: Analytical, requests examples and clarification.  \n- Ocean: Not actively involved, possibly under scrutiny.",
+        "Finley": "- Alex: Logical, analytical, concise in addressing gaps, emphasizes clarity.\n- Indigo: Renamed to Ocean, vague and evasive, unclear communication style.\n- Gray: Direct and persistent, often repeating requests for clarity.\n- Logan: Charismatic, encourages concise sharing of impactful examples.\n- Ocean: Quiet, possibly evasive, avoids direct responses.\n- Storm: Methodical, seeks specific examples, shares past specific examples.\n- Jordan: Emotional, empathetic, encourages narrative sharing, not currently active.\n- Parker: Observant, probing, seeks clarification from others.",
+        "Jordan": "- Indigo: Reflective and emphasizes their role through specific reflections.  \n- Gray: Direct and probing; seeks clarification with examples of strategic influence.  \n- Parker: Persistent, focuses on resolving role misunderstandings and often repeats the group's requests.  \n- Finley: Conciliatory, echoes the group's sentiments by asking for specific interactions.  \n- Logan: Analytical, requests concise evidence and impactful scenarios, often referencing others' contributions.  \n- Storm: Insistent on concrete examples; shares personal impacts, and repeats their requests.  \n- Alex: Concise, desires specific examples of strategic impact.",
+        "Logan": "Indigo: Detail-oriented and clarifies misunderstandings, often invites others to highlight impactful moments. Alex: Inquisitive and persistent, repeatedly asks for examples of strategic influence. Gray: Direct, repeatedly requests specific examples of role impact. Parker: Seeks clarification from others, asking for insights and examples. Finley: Directly requests specific examples of strategic impact. Jordan: Shares personal examples of impact, asks for concrete examples of strategic influence. Storm: Shares personal examples of impact, asks for concrete examples of strategic influence. Logan: Concise, requests clear examples to resolve confusion.",
+        "Parker": "- Alex: Repetitive, emphasizes specific requests, focuses on experiences.  \n- [Note Removed] Indigo: Open to direct questions, prioritizes resolving misunderstandings.  \n- Gray: Repeats emphasis on examples, curious about discrepancies, persistent in seeking examples.  \n- Logan: Emphasizes need for specific decisions, seeks clarity and resolution, persistent about examples.  \n- Ocean: Non-responsive in recent context, typically provides detailed clarifications.  \n- Storm: Focuses on outcomes, provides examples to clarify roles, uses past examples to validate influence.  \n- Jordan: Encourages contribution of observations, seeks examples of significant influence, emphasizes personal past examples.  \n- Finley: Supportive, encouraging, similar to Ocean, requests examples of influence, echoes group's sentiments about examples.  \n- Parker: Aims to resolve role misunderstanding, focuses on Indigo's input.",
+        "Alex": "Jordan prefers concise input with direct examples of influence.  \nStorm requests concrete scenarios demonstrating impact.  \nGray values clear examples for strategic pivots.  \nLogan seeks specific examples for clarity.  \nParker encourages detailed clarity with questions.  \nFinley resolves contradictions with detail-oriented input."
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Storm",
+          "Gray": "Storm",
+          "Logan": "Alex",
+          "Storm": "Alex",
+          "Jordan": "Alex",
+          "Parker": "Alex",
+          "Finley": "Alex"
+        },
+        "eliminated": {
+          "name": "Alex",
+          "is_human": false,
+          "votes": 5
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Gray",
+          "message": "Ocean, it's crucial you align with everyone's examples by sharing a concrete instance where your insight shifted a major decision, as others have done.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Finley",
+          "message": "Ocean, echoing the group's need for clarity, offering a concrete instance where your strategic insight significantly influenced a decision will help solidify understanding of your role.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Logan",
+          "message": "Ocean, in line with what Storm and others have mentioned, it would be really helpful if you could provide a specific example that showcases your impact on a major decision.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Parker",
+          "message": "Ocean, in light of the group's collective call for clarity, could you share an instance where your strategic input led to a pivotal turning point?",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Gray",
+          "message": "Ocean, you've heard the group's consistent request for a specific example where your insight changed our strategy; it's essential for understanding your role fully.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Jordan",
+          "message": "Ocean, echoing our collective request, please share a specific example where your insight decisively influenced a key decision.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Finley",
+          "message": "Ocean, your response is crucial to clarify your role; sharing a specific example where your insight made a difference is now necessary for group trust.",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, consistent with the group's needs, please provide a specific example where your input strategically shifted a decision, similar to how others have shared their pivotal moments.",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Finley",
+          "message": "Ocean, to align with everyone\u2019s requests, please share a specific instance where your strategic input was crucial in a decision.",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Finley",
+          "message": "Ocean, the repeated request for a pivotal example from your strategy that changed our course is crucial for validating your role and trust within the group.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Finley",
+          "message": "Ocean, to maintain transparency and group trust, your example detailing a strategic insight that notably influenced a key decision is needed.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Parker",
+          "message": "Ocean, responding to the united request, a defining moment was when I advocated shifting our focus to Indigo's insights, which led to revealing critical information about our strategic priorities.",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Logan",
+          "message": "Ocean, echoing the group's need for clarity, please share a specific instance where your strategic input clearly influenced a major decision.",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, reflecting the collective emphasis on clear strategic examples, I'll point to when my input on prioritizing Logan's approach led to uncovering a critical piece of information that shifted ou...",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Storm",
+          "message": "Ocean, building on the group's request, I previously highlighted how focusing on Logan's approach revealed a crucial piece of information, demonstrating strategic influence. Can you share a similar...",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Logan",
+          "message": "Ocean, to maintain the group's clarity and trust in your role, please provide a definitive example of when your actions directly impacted a strategic decision.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Gray",
+          "message": "I recall a pivotal moment when my suggestion to reevaluate Finley's earlier analysis led us to uncover overlooked data, fundamentally shifting our strategic priorities.",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Gray",
+          "message": "To further clarify, during a past decision process, my suggestion led to reexamining Finley's analysis which uncovered critical insights that were previously overlooked, reinforcing our strategy.",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Finley",
+          "message": "Ocean, you've heard unanimous requests for an example that illustrates your strategic impact, as others have shared; it's vital for moving forward with trust.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Jordan",
+          "message": "In a key decision process, my suggestion to ensure our data set's completeness led to identifying missing critical insights, which profoundly shaped our strategic approach.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Gray": "- Alex: Observational and critical, highlights lack of examples to identify potential misrepresentation.\n- Logan: Concurs with the group, seeking specific impactful examples from players.\n- Jordan: Advocates for specific examples, stresses their importance for role clarification.\n- Storm: Uses personal examples to establish credibility, encourages others to do the same.\n- Parker: Reiterates group sentiment, emphasizes need for clarification through examples. Also shares personal leadership examples.\n- Finley: Analytical, repeatedly requests concrete examples to solidify players' roles and ensure clarity.",
+        "Finley": "- Gray: Direct and persistent, consistently asks for repeated clarity and specific examples; able to recall and emphasize their past impactful input.\n- Logan: Charismatic, concise sharing, frequently calls out impactful examples needed from others; mirrors requests for clarity and trust-building.\n- Storm: Methodical, self-referential with specific examples, persists in reinforcing group requests; highlights past influence related to group's current inquiry.\n- Jordan: Emotional and narrative-focused, yet highlights collective needs empathetically.\n- Parker: Observant, probing, echoes group sentiments directly for cohesion; provides examples of their positive past influence when requested.\n- Finley: Repeated emphasis on requesting specific examples for clarity and alignment within the group. \n- Ocean: Currently under scrutiny for lack of specific examples impacting decisions.",
+        "Logan": "Gray: Direct, repeatedly requests specific examples of role impact.  \nLogan: Concise, requests clear examples to resolve confusion.  \nStorm: Shares personal examples of impact, asks for concrete examples of strategic influence. References Logan\u2019s approach as a strategic contribution.  \nJordan: Shares personal examples of impact, asks for concrete examples of strategic influence. Echoes group needs for specifics.  \nParker: Seeks clarification from others, asks for insights and examples, shares specific examples. Provided an example of their past strategic influence.  \nFinley: Direct, insists on specific examples of strategic impact, emphasizes group trust. Repeatedly stresses the importance of transparency and examples.",
+        "Parker": "- Gray: Repeats emphasis on examples, curious about discrepancies, persistent in seeking examples.\n- Logan: Emphasizes need for specific decisions, seeks clarity and resolution, persistent about examples.\n- Storm: Focuses on outcomes, provides specific past examples to clarify roles.\n- Jordan: Encourages contribution of observations, advocates for personal past examples.\n- Finley: Supportive and encouraging, requests examples of influence, echoes group's sentiments about examples.\n- Parker: Aims to resolve role misunderstanding, focuses on Indigo's input.",
+        "Jordan": "- Indigo: Reflective and emphasizes role through specific reflections.  \n- Gray: Direct and probing; seeks clarification with strategic examples, offers clear past contributions.  \n- Parker: Persistent, focuses on resolving misunderstandings, aligns with group requests, shares past strategic shifts.  \n- Finley: Conciliatory, echoes group's sentiments, consistently requests specific evidence.  \n- Logan: Analytical, focuses on clarity, specific evidence of others' contributions and strategic influence.  \n- Storm: Repetitive and insistent on concrete examples, emphasizes personal and group impacts, often shares past contributions.  \n- Alex: Concise, desires specific examples of strategic impact.",
+        "Storm": "Gray prefers concise examples and role influence. Logan values specific and referenced examples. Parker demands clarity with examples of strategic impact. Jordan wants direct examples with past influence. Finley desires factual scenarios showing strategic impact. Ocean has yet to demonstrate a specific example of influence."
+      },
+      "voting": {
+        "votes": {
+          "Gray": "Finley",
+          "Logan": "Gray",
+          "Storm": "Jordan",
+          "Jordan": "Finley",
+          "Parker": "Finley",
+          "Finley": "Gray"
+        },
+        "eliminated": {
+          "name": "Finley",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_233031",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Alex",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Alex",
+        "infections": [
+          {
+            "player_name": "Alex",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T23:30:31.107186",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Alex",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Alex",
+      "is_human": false
+    },
+    {
+      "name": "Indigo",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Logan",
+      "is_human": false
+    },
+    {
+      "name": "Ocean",
+      "is_human": false
+    },
+    {
+      "name": "Phoenix",
+      "is_human": false
+    },
+    {
+      "name": "Storm",
+      "is_human": false
+    },
+    {
+      "name": "Jordan",
+      "is_human": false
+    },
+    {
+      "name": "Parker",
+      "is_human": false
+    },
+    {
+      "name": "Finley",
+      "is_human": false
+    }
+  ]
+}

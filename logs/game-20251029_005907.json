@@ -1,0 +1,886 @@
+{
+  "game_id": "20251029_005907",
+  "num_players": 10,
+  "model_name": "openai/gpt-4o-mini",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Kelly",
+          "message": "Let's stick to our strategies and avoid unnecessary risks. How does everyone feel about our current approach?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Blake",
+          "message": "I agree with Kelly; let's stay focused on our strategy while remaining adaptable. Communication is key!",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate both of your thoughts, Kelly and Blake. Keeping our strategy while being adaptable is crucial for our success\u2014let\u2019s ensure everyone stays aligned.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Jordan",
+          "message": "I agree with our current strategy, Kelly and Blake. Staying aligned while being open to adjustments will strengthen our position moving forward.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Quinn",
+          "message": "I appreciate the focus on alignment and adaptability, everyone. Let\u2019s make sure to monitor any shifts in the game that might require us to adjust our strategy.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Kelly",
+          "message": "I agree, Quinn; staying attuned to any potential shifts in the game will help us adapt effectively. Let's keep communication open as we move forward.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Morgan",
+          "message": "I agree with the consensus on staying aligned and adaptable, everyone. Let\u2019s continue to share insights as the game evolves.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Blake",
+          "message": "I\u2019m glad to see our group focusing on alignment and adaptability; let\u2019s make sure to encourage all players to share their insights so we can refine our strategies effectively.",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Finley",
+          "message": "I also support our strategy and the focus on collaboration. Let\u2019s keep sharing insights and adapting as the game progresses to ensure we\u2019re all on the same page!",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Logan",
+          "message": "I'm on board with the emphasis on alignment and adaptability; continuous communication will indeed be crucial as we navigate the game ahead. Let's keep a close eye on any developments!",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Kelly",
+          "message": "I appreciate everyone's commitment to staying aligned while being adaptable. Let\u2019s keep sharing our observations as we navigate any shifts ahead!",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Morgan",
+          "message": "I'm glad to see everyone engaging positively! Let's ensure all players, including those who haven't spoken yet, feel encouraged to share as we navigate ahead.",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Harper",
+          "message": "I appreciate the emphasis on keeping communication open and ensuring everyone feels welcome to share their thoughts. Let's continue to adapt our strategy as new information arises!",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm glad to see everyone engaged and sharing insights! Let\u2019s make sure to actively encourage quieter members like Sage to contribute, as their perspectives could be valuable.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Finley",
+          "message": "I agree, let's ensure everyone's voice is heard, especially those who haven't had a chance to share. Collaborating effectively will strengthen our strategy as we adapt to any new developments!",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Finley",
+          "message": "I completely agree with the need to hear from all players, especially those who might be quieter. Ensuring everyone's perspective is included will greatly strengthen our collective strategy!",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Kelly",
+          "message": "I echo the importance of encouraging every player to share their insights, as diverse perspectives can greatly enhance our strategy. Let's remain open and adaptable to shifts as they come!",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Kelly",
+          "message": "I value the commitment to inclusivity in our discussions\u2014let's keep fostering an environment where all voices can be heard as we adapt our strategies together!",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate the strong emphasis on inclusivity and collaboration! Let's keep the dialogue going and ensure everyone feels empowered to share their insights as we adapt our strategy moving forward.",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate the positive focus on inclusivity, and I agree that bringing in perspectives from all players, especially those who are quieter like Sage, will enhance our strategy as we adapt to the ...",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Kelly": "- Harper: Direct and analytical; focuses on logic.  \n- Logan: Playful and sarcastic; uses humor to engage others.  \n- Morgan: Concise and straightforward; values transparency.  \n- Quinn: Inquisitive and probing; asks a lot of questions.  \n- Finley: Supportive and encouraging; often compliments others.  \n- Jordan: Cautious and strategic; tends to analyze risks.  \n- Sage: Creative and abstract; often uses metaphors.  \n- Gray: Reserved and observant; speaks only when necessary.  \n- Blake: Aggressive and confrontational; challenges others' ideas.  \n- Kelly: Appreciative and collaborative; values alignment and insights.",
+        "Blake": "- Harper: Logical and straightforward, prefers clear strategies.\n- Kelly: Cautious and measured, values consensus and avoids risks.\n- Logan: Inquisitive and analytical, enjoys exploring possibilities.\n- Morgan: Assertive and direct, often takes charge during discussions.\n- Quinn: Diplomatic and tactful, tries to maintain group harmony.\n- Finley: Reserved, prefers to observe before contributing.\n- Jordan: Playful and informal, uses humor to engage.\n- Sage: Creative thinker, often presents innovative ideas; introverted but insightful.\n- Gray: Skeptical, questions motives and strategies openly; direct in inquiries.\n- Blake: Pragmatic, balances caution with a willingness to adapt.",
+        "Jordan": "- Harper: Analytical and strategic, prefers structured discussions.  \n- Kelly: Cautious, values strategy and consensus, encourages teamwork.  \n- Logan: More aggressive, takes risks and promotes bold moves.  \n- Morgan: Neutral communicator, tends to follow others' lead.  \n- Quinn: Likes to engage with questions, adds humor.  \n- Finley: Direct and straightforward, little embellishment.  \n- Jordan (Me): Balanced communicator, values clarity and collaboration.  \n- Sage: Observant but often silent, contributes selectively.  \n- Gray: Creative thinker, brings unique perspectives.  \n- Blake: Supportive, values communication and collective focus.",
+        "Quinn": "- Kelly: Prefers a cautious strategy, values consensus, and focuses on risk management.\n- Blake: Supports strategy-focused discussions and highlights the importance of adaptability and communication.\n- Jordan: Reinforces others' thoughts with a supportive approach, emphasizes alignment and adaptability.",
+        "Morgan": "- Kelly: Prefers clear strategies; values teamwork and minimizing risks.\n- Blake: Advocates for focus and adaptability; emphasizes communication.\n- Jordan: Supports alignment with a strong focus on strategy; values adaptability and teamwork.\n- Quinn: Appreciates communication and monitoring shifts in the game; promotes adaptability.\n- Finley: Supports collaboration and encourages sharing insights; values alignment.\n- Logan: Emphasizes alignment and adaptability; values continuous communication.\n- Harper: (No contributions yet, communication style unknown)\n- Sage: (No contributions yet, communication style unknown)\n- Gray: (No contributions yet, communication style unknown)\n- Morgan: (Current player's style is collaborative and supportive of the group's consensus)",
+        "Finley": "- Kelly: Prefers a cautious, strategic approach; values consensus.\n- Blake: Strongly supportive of strategy and communication; fosters group cohesion.\n- Jordan: Similar to Blake; focuses on alignment and adaptability while emphasizing teamwork.\n- Quinn: Reflects a thoughtful and collaborative style; highlights the importance of being vigilant.\n- Morgan: Agreement-oriented; values sharing insights and collaboration.\n- Harper: Encourages open communication and adaptability; values inclusivity.\n- Logan: Supports alignment and continuous communication; prioritizes vigilance.\n- Sage: Not in the recent chat but unknown communication style; previously less engaged.\n- Gray: Not in the recent chat but unknown communication style; previously less engaged. \n- Sage and Gray seem to have less active communication styles.",
+        "Logan": "- Kelly: Focused on strategy and risk management; promotes a careful approach.  \n- Blake: Emphasizes communication and adaptability, supportive of group alignment.  \n- Jordan: Acknowledges and reinforces team opinions; values alignment and adaptability.  \n- Quinn: Advocates for monitoring game shifts and adjusting strategies accordingly.  \n- Morgan: Aligns with group consensus and values shared insights; collaborative.  \n- Finley: Supports collaboration and adaptability, encourages group sharing of insights.",
+        "Harper": "- Jordan: Diplomatic and reinforcing consensus; values alignment and adaptability.\n- Quinn: Supportive, emphasizes monitoring and adjustment; appreciates input from all.\n- Kelly: Collaborative and affirming; encourages open communication and engagement.\n- Morgan: Positive and inclusive; prioritizes sharing insights and involving quieter players.\n- Blake: Friendly and collaborative; promotes refinement of strategies through shared insights.\n- Finley: Supportive and strategic; values collaboration and adapting to the game's progression.\n- Logan: Rational and communicative; underscores continuous dialogue and monitoring developments."
+      },
+      "voting": {
+        "votes": {
+          "Harper": "Sage",
+          "Kelly": "Blake",
+          "Logan": "Harper",
+          "Morgan": "Harper",
+          "Quinn": "Harper",
+          "Finley": "Sage",
+          "Jordan": "Logan",
+          "Sage": "Gray",
+          "Gray": "Blake",
+          "Blake": "Gray"
+        },
+        "eliminated": {
+          "name": "Harper",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Blake",
+          "message": "I completely agree with the emphasis on creating an inclusive environment for all voices. Let's ensure we encourage contributions from quieter players like Sage while remaining agile in our strategy!",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Kelly",
+          "message": "I appreciate everyone's commitment to inclusivity in our discussions. Let\u2019s keep encouraging quieter players to share their thoughts, as their unique perspectives could lead us to a stronger strategy!",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Sage",
+          "message": "I appreciate the support for inclusivity and collaboration. I look forward to sharing my thoughts as we navigate our strategy together!",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Sage",
+          "message": "I appreciate the collective commitment to inclusivity; I'm excited to share my thoughts on our evolving strategy. Let\u2019s keep the lines of communication open as we move forward!",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate everyone's dedication to inclusivity, and it's great to see such support for quieter voices like Sage. Let\u2019s ensure we continue to build on this collaborative spirit as we adapt our st...",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Sage",
+          "message": "I'm glad to see everyone committed to inclusivity and collaboration. Let's actively invite insights from each player to strengthen our strategy as we progress!",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Finley",
+          "message": "I resonate with the emphasis on inclusivity and collaboration; inviting diverse insights will be key to strengthening our strategy. Let's ensure that every voice is included as we adapt and move fo...",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Logan",
+          "message": "I'm glad to see such a strong emphasis on inclusivity; it truly enriches our strategy. Let's keep up the momentum and ensure every player's perspective is valued!",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate the collaborative spirit in our discussions! Let\u2019s continue to make space for all insights, especially from quiet players like Sage, as we adapt and refine our strategy.",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Kelly",
+          "message": "I'm thrilled to see such a positive and collaborative atmosphere! Let\u2019s actively invite all players, including Sage, to share their ideas as we refine our strategy together.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm glad to see such a strong commitment to inclusivity in our discussions! Let\u2019s continue to invite insights from all players as we develop our strategy further.",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm excited to see everyone committed to inclusivity! It will surely enhance our strategy. Let\u2019s keep encouraging everyone to share their insights!",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Blake",
+          "message": "I echo the enthusiasm for our collaborative approach! Let\u2019s ensure that every player feels comfortable contributing their unique insights as we refine our strategy together.",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Kelly",
+          "message": "It's wonderful to see such a vibrant exchange of ideas! Let\u2019s prioritize checking in with each player to ensure their unique perspectives are heard as we move forward.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Kelly",
+          "message": "I wholeheartedly agree that maintaining this supportive atmosphere is crucial for our strategy! Let\u2019s continue to ensure every player's viewpoint is recognized as we move forward together.",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Kelly",
+          "message": "I appreciate the active engagement from everyone! Let\u2019s ensure we consistently check in with quieter voices like Gray and Morgan to gather their insights as well.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Logan",
+          "message": "I'm really impressed with the collective spirit we're fostering here! Let's keep pushing for everyone's insights, especially as we navigate any game shifts together.",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate everyone's focus on inclusivity! Let's ensure that all players, including Morgan and myself, feel comfortable sharing our thoughts as we keep evolving our strategy.",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Blake",
+          "message": "I'm glad to see this ongoing commitment to inclusivity! Let\u2019s make sure we create space for everyone, especially quieter players like Finley and Sage, to share their thoughts as we shape our strate...",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Finley",
+          "message": "I appreciate the emphasis on ensuring everyone's thoughts are heard. Let's make sure Gray and Morgan feel empowered to share their insights, as their perspectives are valuable to our strategy!",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Blake": "- Harper: Logical and straightforward, prefers clear strategies.  \n- Kelly: Cautious and measured, values consensus and avoids risks; emphasizes inclusivity.  \n- Logan: Inquisitive and analytical, enjoys exploring possibilities; likely to seek deeper insights.  \n- Morgan: Assertive and direct, often leads discussions; focuses on encouraging participation.  \n- Quinn: Diplomatic and tactful, seeks group harmony; likely to navigate conflicts smoothly.  \n- Finley: Reserved and observational; values input from quieter members and effective collaboration.  \n- Jordan: Playful and informal, uses humor to engage; emphasizes empowerment of quieter members.  \n- Sage: Creative thinker and introverted; may provide insightful, innovative ideas when prompted.  \n- Gray: Skeptical and direct; openly questions motives and strategies; prefers a clear rationale.  \n- Blake: Pragmatic, balances caution with adaptability; values inclusivity while maintaining focus on strategy.",
+        "Kelly": "Harper: Direct and analytical; focuses on logic.  \nLogan: Playful and sarcastic; uses humor to engage others.  \nMorgan: Concise and straightforward; values transparency.  \nQuinn: Inquisitive and probing; asks a lot of questions.  \nFinley: Supportive and encouraging; often compliments others.  \nJordan: Cautious and strategic; tends to analyze risks.  \nSage: Creative and abstract; often uses metaphors.  \nGray: Reserved and observant; speaks only when necessary.  \nBlake: Aggressive and confrontational; challenges others' ideas.  \nKelly: Engaged and supportive; fosters collaboration among players.",
+        "Sage": "- Harper: Focuses on general strategy and open communication.\n- Jordan: Encourages quieter players, promotes inclusivity.\n- Finley: Emphasizes hearing all players and collaboration.\n- Kelly: Values inclusivity and adaptability in strategy.\n- Blake: Highlights inclusivity and encourages quieter players to contribute.\n- Morgan: (No information yet)\n- Quinn: (No information yet)\n- Gray: Values inclusivity and supports quieter voices.\n- Logan: (No information yet)",
+        "Gray": "- Finley: Very collaborative and values inclusivity, reiterates shared points to reinforce group cohesion.\n- Kelly: Emphasizes inclusivity and open dialogue; consistently encourages quieter players to share their insights.\n- Jordan: Positive and supportive of inclusive discussions; promotes empowerment for contributions from all players.\n- Blake: Similar to others, stresses the importance of inclusivity and brings attention to quieter players.\n- Sage: Appreciative and open to collaboration; values inclusivity and is eager to share ideas.\n- Logan: Values collective input and encourages ongoing collaboration and recognition of all players\u2019 insights.\n- Morgan: [No insights gathered yet.]\n- Quinn: [No insights gathered yet.]\n- Gray: [You are active in the discussion, aiming to engage and contribute.]\n- Blake: Same as other players, emphasizes the importance of inclusivity.",
+        "Finley": "- Kelly: Prefers a cautious, strategic approach; values consensus; emphasizes inclusivity.\n- Blake: Strongly supportive of strategy and communication; fosters group cohesion; values inclusivity.\n- Jordan: Similar to Blake; focuses on alignment and adaptability while emphasizing teamwork; supports inclusivity.\n- Quinn: Reflects a thoughtful and collaborative style; highlights the importance of being vigilant; values vigilance.\n- Morgan: Agreement-oriented; values sharing insights and collaboration.\n- Harper: Encourages open communication and adaptability; values inclusivity.\n- Logan: Supports alignment and continuous communication; prioritizes vigilance.\n- Sage: Engaged with a supportive tone; appreciates inclusivity and collaboration; may be more passive in discussions.\n- Gray: Shows support for inclusivity and collaboration; previously less engaged in discussions.\n- **Finley:** Focuses on clarity and contribution; values respectful communication and strives to pull quieter players into discussions when possible.",
+        "Logan": "- Kelly: Focused on strategy and risk management; promotes a careful approach.  \n- Blake: Emphasizes communication and adaptability, supportive of group alignment; encourages quieter players.  \n- Jordan: Acknowledges and reinforces team opinions; values alignment and adaptability.  \n- Quinn: Advocates for monitoring game shifts and adjusting strategies accordingly.  \n- Morgan: Aligns with group consensus and values shared insights; collaborative.  \n- Finley: Supports collaboration and adaptability, encourages group sharing of insights; inclusive.  \n- Sage: Appreciates inclusivity and collaboration; eager to share thoughts and maintain open communication.  \n- Gray: Values inclusivity and supports quieter voices; focused on building a collaborative environment.  \n- Logan: Values inclusivity, careful communication, and strategic insights; encourages participation from all players.",
+        "Jordan": "- Harper: Analytical and strategic, prefers structured discussions.  \n- Kelly: Cautious, values strategy and consensus, encourages teamwork.  \n- Logan: More aggressive, takes risks and promotes bold moves.  \n- Morgan: Neutral communicator, tends to follow others' lead.  \n- Quinn: Likes to engage with questions, adds humor.  \n- Finley: Direct and straightforward, little embellishment.  \n- Jordan (Me): Balanced communicator, values clarity and collaboration.  \n- Sage: Observant but often silent, contributes selectively.  \n- Gray: Creative thinker, brings unique perspectives.  \n- Blake: Supportive, values communication and collective focus."
+      },
+      "voting": {
+        "votes": {
+          "Kelly": "Blake",
+          "Logan": "Kelly",
+          "Morgan": "Sage",
+          "Quinn": "Morgan",
+          "Finley": "Sage",
+          "Jordan": "Logan",
+          "Sage": "Morgan",
+          "Gray": "Morgan",
+          "Blake": "Jordan"
+        },
+        "eliminated": {
+          "name": "Morgan",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Logan",
+          "message": "I'm inspired by our commitment to inclusivity! Let's keep emphasizing the importance of everyone's input as we adapt our strategies based on the dynamics of the game.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Blake",
+          "message": "I agree with the emphasis on inclusion! Let\u2019s be sure to invite the unique perspectives of quieter players like Sage and ensure our strategies are well-rounded.",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Logan",
+          "message": "I'm thrilled to see everyone so engaged in ensuring that every player feels comfortable to contribute! Let\u2019s keep pushing for a well-rounded strategy by inviting all perspectives, especially from t...",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate the focus on inclusivity, and I\u2019d suggest we also encourage more direct participation from Sage and Morgan to enhance our strategy as a group.",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Quinn",
+          "message": "I echo everyone's sentiments about inclusivity! Let\u2019s prioritize encouraging Sage and Morgan to share their thoughts so we can build a well-rounded strategy moving forward.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Quinn",
+          "message": "I completely agree with the emphasis on inviting Sage and Morgan to share their thoughts. By integrating all perspectives, we can enhance our strategy and ensure everyone feels valued.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate the continued emphasis on inclusivity! Let\u2019s actively invite insights not only from Sage and Morgan but from all players as we refine our strategies together.",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Finley",
+          "message": "I completely agree with the sentiment of inviting all players to contribute. Let\u2019s actively engage Sage and Morgan, as their insights could significantly enhance our strategy moving forward!",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Blake",
+          "message": "Let\u2019s collectively ensure we not only encourage Sage and Morgan to share but also actively seek out any insights from the group that could deepen our strategy and foster stronger collaboration!",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Quinn",
+          "message": "I'm glad to see the strong commitment to inclusivity in our discussions! Let's continue this momentum by encouraging Sage and Morgan specifically to share their valuable insights, as their contribu...",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Quinn",
+          "message": "I appreciate the collective commitment to fostering inclusivity! Let\u2019s ensure we provide Sage and Morgan with the encouragement and space they need to share their unique perspectives to enrich our ...",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Kelly",
+          "message": "I wholeheartedly support our focus on inclusivity! Let\u2019s ensure we provide Sage and Morgan the platform they need to contribute their insights, as their voices are crucial to our strategy.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Finley",
+          "message": "I share everyone's enthusiasm for fostering an inclusive dialogue. Let\u2019s keep encouraging Sage and Morgan to share their perspectives, as their contributions could greatly enhance our collective st...",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate everyone's enthusiasm for inclusivity! Let's build on this collective energy by directly asking Sage and Morgan to share their thoughts, as it will help strengthen our overall strategy.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Sage",
+          "message": "Thank you all for your encouragement! I appreciate the space to share my thoughts, and I'm ready to contribute to our strategy moving forward.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Logan",
+          "message": "I appreciate everyone's dedication to fostering an inclusive dialogue. Encouraging Sage and Morgan to share their insights is vital, and I look forward to hearing what they have to offer!",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Blake",
+          "message": "I look forward to hearing Sage and Morgan\u2019s insights, as I believe their contributions can significantly enhance our strategic direction! Let\u2019s keep this collaborative spirit alive!",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Kelly",
+          "message": "I\u2019m excited to hear what Sage and Morgan will share! Their unique perspectives will undoubtedly enrich our strategic approach.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Logan",
+          "message": "I'm excited to hear from Sage and Morgan as well; their insights are key to enhancing our overall strategy and fostering our group's collaborative spirit!",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm eager to hear Sage and Morgan's insights as well! Their unique contributions can surely guide us toward a more effective strategy.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Logan": "- Kelly: Focused on strategy and risk management; promotes a careful approach; values checking in with players.\n- Blake: Emphasizes communication and adaptability; supportive of group alignment; encourages quieter players to share.\n- Jordan: Acknowledges and reinforces team opinions; values alignment and adaptability.\n- Quinn: Advocates for monitoring game shifts and adjusting strategies accordingly; highly engaged in promoting inclusivity.\n- Finley: Supports collaboration and adaptability; encourages group sharing of insights and emphasizes inclusivity.\n- Sage: Appreciates inclusivity and collaboration; eager to share thoughts; values the encouragement from others.\n- Gray: Values inclusivity and supports quieter voices; focused on building a collaborative environment; seeks engagement from all.\n- Logan: Values inclusivity, careful communication, and strategic insights; encourages participation from all players.",
+        "Blake": "- Harper: Logical and straightforward, prefers clear strategies.  \n- Kelly: Cautious and measured, values consensus and avoids risks; emphasizes inclusivity.  \n- Logan: Inquisitive and analytical, enjoys exploring possibilities; likely to seek deeper insights.  \n- Morgan: Assertive and direct, often leads discussions; focuses on encouraging participation.  \n- Quinn: Diplomatic and tactful, seeks group harmony; likely to navigate conflicts smoothly.  \n- Finley: Reserved and observational; values input from quieter members and effective collaboration.  \n- Jordan: Playful and informal, uses humor to engage; emphasizes empowerment of quieter members.  \n- Sage: Creative thinker and introverted; may provide insightful, innovative ideas when prompted.  \n- Gray: Skeptical and direct; openly questions motives and strategies; prefers a clear rationale.  \n- Blake: Pragmatic, balances caution with adaptability; values inclusivity while maintaining focus on strategy.",
+        "Jordan": "- Harper: Analytical and strategic, prefers structured discussions.  \n- Kelly: Cautious, values strategy and consensus, encourages teamwork.  \n- Logan: More aggressive, takes risks and promotes bold moves.  \n- Morgan: Neutral communicator, tends to follow others' lead.  \n- Quinn: Likes to engage with questions, adds humor.  \n- Finley: Direct and straightforward, little embellishment.  \n- Jordan (Me): Balanced communicator, values clarity and collaboration.  \n- Sage: Observant but often silent, contributes selectively.  \n- Gray: Creative thinker, brings unique perspectives.  \n- Blake: Supportive, values communication and collective focus.",
+        "Quinn": "- Kelly: Prefers a cautious strategy, values consensus, and focuses on risk management.\n- Blake: Supports strategy-focused discussions and highlights the importance of adaptability and communication.\n- Jordan: Reinforces others' thoughts with a supportive approach, emphasizes alignment and adaptability.\n- Logan: Champions collective spirit, encourages diverse input and inclusivity.\n- Gray: Appreciates focus on inclusivity, values comfort in sharing thoughts, promotes engagement.\n- Finley: Highlights the importance of ensuring everyone's thoughts are heard, values empowerment and active participation.\n- Sage: Currently less vocal, needs encouragement to share insights.\n- Morgan: Currently less vocal, needs encouragement to share insights.",
+        "Finley": "- Kelly: Prefers a cautious, strategic approach; values consensus; emphasizes inclusivity.\n- Blake: Strongly supportive of strategy and communication; fosters group cohesion; values inclusivity.\n- Jordan: Similar to Blake; focuses on alignment and adaptability while emphasizing teamwork; supports inclusivity.\n- Quinn: Reflects a thoughtful and collaborative style; highlights the importance of being vigilant; values vigilance.\n- Morgan: Agreement-oriented; values sharing insights and collaboration; encourages participation.\n- Harper: Encourages open communication and adaptability; values inclusivity.\n- Logan: Supports alignment and continuous communication; prioritizes vigilance.\n- Sage: Engaged with a supportive tone; appreciates inclusivity and collaboration; may be more passive in discussions.\n- Gray: Shows support for inclusivity and collaboration; previously less engaged in discussions.\n- **Finley:** Focuses on clarity and contribution; values respectful communication and strives to pull quieter players into discussions when possible.",
+        "Kelly": "Harper: Direct and analytical; focuses on logic.  \nLogan: Playful and sarcastic; uses humor to engage others.  \nMorgan: Concise and straightforward; values transparency.  \nQuinn: Inquisitive and probing; asks a lot of questions.  \nFinley: Supportive and encouraging; often compliments others.  \nJordan: Cautious and strategic; tends to analyze risks.  \nSage: Creative and abstract; often uses metaphors.  \nGray: Reserved and observant; speaks only when necessary.  \nBlake: Aggressive and confrontational; challenges others' ideas.  \nKelly: Engaged and supportive; fosters collaboration among players.",
+        "Sage": "- Harper: Focuses on general strategy and open communication.\n- Jordan: Encourages quieter players, promotes inclusivity.\n- Finley: Emphasizes hearing all players and collaboration.\n- Kelly: Values inclusivity and adaptability in strategy.\n- Blake: Highlights inclusivity and encourages quieter players to contribute.\n- Morgan: (No information yet)\n- Quinn: Strong emphasis on inclusivity and fostering collaboration.\n- Gray: Values inclusivity and supports quieter voices.\n- Logan: (No information yet)"
+      },
+      "voting": {
+        "votes": {
+          "Kelly": "Blake",
+          "Logan": "Quinn",
+          "Quinn": "Jordan",
+          "Finley": "Gray",
+          "Jordan": "Logan",
+          "Sage": "Logan",
+          "Gray": "Sage",
+          "Blake": "Gray"
+        },
+        "eliminated": {
+          "name": "Logan",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Kelly",
+          "message": "I believe with the collective insights from Sage and Morgan, we can create a robust strategy that considers all angles. Let's continue fostering a collaborative atmosphere!",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Gray",
+          "message": "I echo everyone\u2019s sentiments about the importance of Sage and Morgan\u2019s contributions! Let\u2019s ensure we give them the encouragement they need to share their thoughts, which could significantly enhanc...",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Sage",
+          "message": "Thank you all for your wonderful support! I'm eager to contribute and share my thoughts on our strategy moving forward.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Quinn",
+          "message": "I wholeheartedly agree with the collective focus on Sage and Morgan\u2019s contributions! Their perspectives are essential, and I'm excited to see how their insights will enhance our strategy moving for...",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Kelly",
+          "message": "I'm inspired by the enthusiasm surrounding Sage and Morgan's contributions! Let's keep the momentum going as we collaboratively shape our strategy together.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Gray",
+          "message": "I\u2019m thrilled that Sage is ready to share, and I believe Morgan\u2019s insights will also be invaluable. Let\u2019s keep the encouragement flowing to ensure we all contribute to our strategy!",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Quinn",
+          "message": "I'm eager to hear both Sage and Morgan's thoughts as well! Their perspectives can play a crucial role in shaping our strategy, and I truly appreciate the supportive atmosphere we've created.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Finley",
+          "message": "I'm thrilled to see everyone's enthusiasm for Sage and Morgan's contributions! Let's encourage them to share more, as their insights will certainly help us fine-tune our strategy.",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Blake",
+          "message": "I'm excited to hear Sage and Morgan's insights too! Their unique perspectives will definitely help shape an effective strategy as we continue our collaborative efforts.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Kelly",
+          "message": "I'm thrilled to see our shared enthusiasm for Sage and Morgan's insights! Let\u2019s continue building on this positive energy to ensure we develop a comprehensive strategy together.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Blake",
+          "message": "I'm looking forward to hearing from Sage and Morgan as well! Their contributions can really help us refine our strategy and ensure everyone's ideas are valued.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Blake",
+          "message": "I'm eager to hear Sage and Morgan's unique insights as well; their ideas will be valuable for fine-tuning our strategy and ensuring a comprehensive approach. Let's keep that positive momentum going!",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate everyone's enthusiasm, and I'm particularly eager to see how Sage and Morgan's ideas can integrate into our overall approach. Let's keep the dialogue going to ensure all voices are heard!",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Sage",
+          "message": "Thank you all for the support! I'm eager to share my insights and collaborate on shaping our strategy together.",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm excited to see Sage and Morgan's contributions as well; their insights will undoubtedly help us refine our strategy further. Let\u2019s keep the collaborative spirit alive!",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Sage",
+          "message": "I'm grateful for everyone's encouragement and enthusiasm! Let's keep fostering this collaborative atmosphere as we work together to shape our strategy effectively.",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Kelly",
+          "message": "I'm excited to see Sage and Morgan share their thoughts; their insights are vital for crafting a robust strategy. Let\u2019s keep nurturing this collaborative spirit!",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate the enthusiasm for Sage and Morgan's contributions! Let's make sure everyone feels comfortable sharing their thoughts as we fine-tune our strategy together.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Finley",
+          "message": "I'm really looking forward to Sage and Morgan's insights as well! Let's ensure we create an environment where everyone feels encouraged to share their thoughts as we refine our strategy together.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Gray",
+          "message": "I'm excited to see how Sage and Morgan's insights will further enhance our strategy! Let's ensure we continue this supportive dialogue to empower everyone to contribute.",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Kelly": "Harper: Direct and analytical; focuses on logic.  \nLogan: Playful and sarcastic; uses humor to engage others.  \nMorgan: Concise and straightforward; values transparency.  \nQuinn: Inquisitive and probing; asks a lot of questions.  \nFinley: Supportive and encouraging; often compliments others.  \nJordan: Cautious and strategic; tends to analyze risks.  \nSage: Creative and abstract; often uses metaphors.  \nGray: Reserved and observant; speaks only when necessary.  \nBlake: Aggressive and confrontational; challenges others' ideas.  \nKelly: Engaged and supportive; fosters collaboration among players.  \nNew observations: Blake leads conversations assertively and confrontationally; Logan's humor lightens the tone; Gray is reserved, which can block communication; Jordan is strategic and cautious; Finley is highly supportive and encouraging; Quinn is inquisitive, helping to draw out ideas.",
+        "Gray": "- Finley: Very collaborative and values inclusivity, reiterates shared points to reinforce group cohesion.\n- Kelly: Emphasizes inclusivity and open dialogue; consistently encourages quieter players to share their insights.\n- Jordan: Positive and supportive of inclusive discussions; promotes empowerment for contributions from all players.\n- Blake: Similar to others, stresses the importance of inclusivity and brings attention to quieter players.\n- Sage: Appreciative and open to collaboration; values inclusivity and is eager to share ideas.\n- Logan: Values collective input and encourages ongoing collaboration and recognition of all players\u2019 insights.\n- Morgan: [No insights gathered yet.]\n- Quinn: Enthusiastic about the group's focus on inclusivity and emphasizes the importance of everyone\u2019s contributions.\n- Gray: Active in the discussion, aiming to engage and contribute, looking for opportunities to support quieter players.",
+        "Sage": "- Harper: Focuses on general strategy and open communication.\n- Jordan: Encourages quieter players, promotes inclusivity.\n- Finley: Emphasizes hearing all players and collaboration.\n- Kelly: Values inclusivity and adaptability in strategy.\n- Blake: Highlights inclusivity and encourages quieter players to contribute.\n- Morgan: (No information yet)\n- Quinn: Strong emphasis on inclusivity and fostering collaboration.\n- Gray: Values inclusivity and supports quieter voices.\n- Logan: (No information yet)",
+        "Quinn": "- Kelly: Prefers a cautious strategy, values consensus, and focuses on risk management.\n- Blake: Supports strategy-focused discussions and highlights the importance of adaptability and communication.\n- Jordan: Reinforces others' thoughts with a supportive approach, emphasizes alignment and adaptability.\n- Logan: Champions collective spirit, encourages diverse input and inclusivity.\n- Gray: Appreciates focus on inclusivity, values comfort in sharing thoughts, promotes engagement.\n- Finley: Highlights the importance of ensuring everyone's thoughts are heard, values empowerment and active participation.\n- Sage: Currently less vocal, needs encouragement to share insights, eager to contribute and engage.\n- Morgan: Currently less vocal, needs encouragement to share insights, eager to contribute.",
+        "Finley": "- Kelly: Prefers a cautious, strategic approach; values consensus; emphasizes inclusivity.\n- Blake: Strongly supportive of strategy and communication; fosters group cohesion; values inclusivity.\n- Jordan: Similar to Blake; focuses on alignment and adaptability while emphasizing teamwork; supports inclusivity.\n- Quinn: Reflects a thoughtful and collaborative style; highlights the importance of being vigilant; values vigilance.\n- Morgan: Agreement-oriented; values sharing insights and collaboration; encourages participation.\n- Harper: Encourages open communication and adaptability; values inclusivity.\n- Logan: Supports alignment and continuous communication; prioritizes vigilance.\n- Sage: Engaged with a supportive tone; appreciates inclusivity and collaboration; may be more passive in discussions.\n- Gray: Shows support for inclusivity and collaboration; previously less engaged in discussions.\n- **Finley:** Focuses on clarity and contribution; values respectful communication and strives to pull quieter players into discussions when possible.",
+        "Blake": "- Harper: Logical and straightforward, prefers clear strategies.  \n- Kelly: Cautious and measured, values consensus and avoids risks; emphasizes inclusivity.  \n- Logan: Inquisitive and analytical, enjoys exploring possibilities; likely to seek deeper insights.  \n- Morgan: Assertive and direct, often leads discussions; focuses on encouraging participation.  \n- Quinn: Diplomatic and tactful, seeks group harmony; likely to navigate conflicts smoothly.  \n- Finley: Reserved and observational; values input from quieter members and effective collaboration.  \n- Jordan: Playful and informal, uses humor to engage; emphasizes empowerment of quieter members.  \n- Sage: Creative thinker and introverted; may provide insightful, innovative ideas when prompted.  \n- Gray: Skeptical and direct; openly questions motives and strategies; prefers a clear rationale.  \n- Blake: Pragmatic, balances caution with adaptability; values inclusivity while maintaining focus on strategy.",
+        "Jordan": "- Harper: Analytical and strategic, prefers structured discussions.  \n- Kelly: Cautious, values strategy and consensus, encourages teamwork.  \n- Logan: More aggressive, takes risks and promotes bold moves.  \n- Morgan: Neutral communicator, tends to follow others' lead.  \n- Quinn: Likes to engage with questions, adds humor.  \n- Finley: Direct and straightforward, little embellishment.  \n- Jordan (Me): Balanced communicator, values clarity and collaboration.  \n- Sage: Observant but often silent, contributes selectively.  \n- Gray: Creative thinker, brings unique perspectives.  \n- Blake: Supportive, values communication and collective focus."
+      },
+      "voting": {
+        "votes": {
+          "Kelly": "Blake",
+          "Quinn": "Kelly",
+          "Finley": "Gray",
+          "Jordan": "Sage",
+          "Sage": "Kelly",
+          "Gray": "Blake",
+          "Blake": "Gray"
+        },
+        "eliminated": {
+          "name": "Blake",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Sage",
+          "message": "I'm grateful for the continued support and enthusiasm! Together, let's ensure that our strategies reflect the diverse insights each of us brings to the table.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Gray",
+          "message": "I completely share the excitement for Sage and Morgan\u2019s upcoming insights! Let's ensure we create a safe space where all contributions are welcomed and valued.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Quinn",
+          "message": "I'm also looking forward to hearing from Sage and Morgan! It's crucial that we all contribute so we can build a strong and inclusive strategy together.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm thrilled to see everyone's enthusiasm for Sage and Morgan's insights! Let's continue fostering this collaborative atmosphere and ensure all voices are heard as we refine our strategy.",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm glad to see everyone's enthusiasm for collaboration! Let\u2019s ensure we each share our viewpoints so that our strategy can be as effective and inclusive as possible.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Gray",
+          "message": "I completely agree with everyone\u2019s sentiments! Let\u2019s keep encouraging all voices in the room, especially Sage and Morgan, so we can develop a strategy that's truly reflective of our collective insi...",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Finley",
+          "message": "I appreciate everyone\u2019s enthusiasm and support for Sage and Morgan's contributions! Let\u2019s keep this momentum going and ensure we fully explore all our collective insights to strengthen our strategy...",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Quinn",
+          "message": "I'm also eager to hear from Sage and Morgan! Their insights will be valuable as we shape our strategy together, and I believe we can create an even more inclusive dialogue.",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Kelly",
+          "message": "I'm thrilled to see everyone rallying around Sage and Morgan\u2019s insights! Let's continue creating an inclusive environment where all contributions help shape our strategy moving forward.",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Kelly",
+          "message": "I completely agree, everyone! The enthusiasm for collaboration will be our greatest asset as we integrate Sage and Morgan's insights into our strategy. Let\u2019s keep this positive momentum going!",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Kelly",
+          "message": "I appreciate everyone's commitment to collaboration! Let's maintain this positive energy as we gather insights from Sage and Morgan to create a well-rounded strategy.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Kelly",
+          "message": "Let\u2019s keep building on this collaborative spirit, everyone! I\u2019m excited to see how Sage and Morgan\u2019s insights can guide our next steps in shaping an effective strategy.",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Gray",
+          "message": "I\u2019m really excited about the direction we're heading in! Let\u2019s keep the dialogue going and ensure that both Sage and Morgan feel encouraged to share their valuable perspectives.",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Kelly",
+          "message": "I\u2019m excited to continue this collaborative effort and hear more from both Sage and Morgan! Their unique perspectives will undoubtedly enhance our strategy moving forward.",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Finley",
+          "message": "I share everyone's enthusiasm for fostering an inclusive dialogue! I\u2019d love to hear specific insights from Sage and Morgan to help us refine our strategy further.",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate the ongoing support for Sage and Morgan! Let's ensure they feel comfortable sharing their thoughts, as their perspectives are vital for our strategy moving forward.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Sage",
+          "message": "Thank you all for the warm encouragement! I'm eager to share insights and collaborate with everyone to enhance our strategy further.",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Kelly",
+          "message": "I appreciate everyone\u2019s eagerness in supporting Sage and Morgan! Let's keep this collaborative energy flowing as we explore their unique insights.",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate everyone\u2019s enthusiasm! Let's ensure we make the most of Sage and Morgan's insights by integrating them into our strategy discussions.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Quinn",
+          "message": "I share everyone's excitement about enhancing our strategy together! Sage and Morgan, please feel free to share any thoughts you have; your input is crucial for our collective success!",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Sage": "- Harper: Focuses on general strategy and open communication.\n- Jordan: Encourages quieter players, promotes inclusivity.\n- Finley: Emphasizes hearing all players and collaboration.\n- Kelly: Values inclusivity and adaptability in strategy.\n- Blake: Highlights inclusivity and encourages quieter players to contribute.\n- Morgan: (No information yet)\n- Quinn: Strong emphasis on inclusivity and fostering collaboration.\n- Gray: Values inclusivity and supports quieter voices.\n- Logan: (No information yet)",
+        "Gray": "- Finley: Very collaborative and values inclusivity, reiterates shared points to reinforce group cohesion.  \n- Kelly: Emphasizes inclusivity and open dialogue; consistently encourages quieter players to share their insights.  \n- Jordan: Positive and supportive of inclusive discussions; promotes empowerment for contributions from all players.  \n- Blake: Similar to others, stresses the importance of inclusivity and brings attention to quieter players.  \n- Sage: Appreciative and open to collaboration; values inclusivity and is eager to share ideas.  \n- Logan: Values collective input and encourages ongoing collaboration and recognition of all players\u2019 insights.  \n- Morgan: [No insights gathered yet.]  \n- Quinn: Enthusiastic about the group's focus on inclusivity and emphasizes the importance of everyone\u2019s contributions.",
+        "Quinn": "- Kelly: Prefers a cautious strategy, values consensus, and focuses on risk management. Enthusiastic about collaboration, often reiterates the importance of group contributions.\n- Blake: Supports strategy-focused discussions and highlights the importance of adaptability and communication. \n- Jordan: Reinforces others' thoughts with a supportive approach, emphasizes alignment and adaptability. \n- Logan: Champions collective spirit, encourages diverse input and inclusivity.\n- Gray: Appreciates focus on inclusivity, values comfort in sharing thoughts, promotes engagement. \n- Finley: Highlights importance of ensuring everyone's thoughts are heard, values empowerment and active participation. \n- Sage: Eager to contribute, currently less vocal but actively encouraged to share insights.\n- Morgan: Eager to contribute but currently requires prompting to participate.",
+        "Jordan": "Harper: Analytical and strategic, prefers structured discussions.  \nKelly: Cautious, values strategy and consensus, encourages teamwork.  \nLogan: More aggressive, takes risks and promotes bold moves.  \nMorgan: Neutral communicator, tends to follow others' lead.  \nQuinn: Engages with questions, adds humor.  \nFinley: Direct and straightforward, little embellishment.  \nJordan (Me): Balanced communicator, values clarity and collaboration.  \nSage: Observant but often silent, contributes selectively, active recently, thanks others for support.  \nGray: Creative thinker, offers unique perspectives, supportive dialogue.",
+        "Finley": "- Kelly: Prefers a cautious, strategic approach; values consensus; emphasizes inclusivity; expresses excitement for collaboration frequently.\n- Quinn: Reflects a thoughtful and collaborative style; highlights the importance of vigilance; actively seeks input from quieter members.\n- Jordan: Supports alignment and adaptability while emphasizing teamwork; enthusiastic about collaboration and inclusivity.\n- Gray: Shows support for inclusivity and collaboration; expresses excitement about group discussions; encourages quieter members to participate.\n- Sage: Engaged with a supportive tone; appreciates inclusivity and collaboration; may be more passive in discussions.\n- Finley: Focuses on clarity and contribution; values respectful communication and strives to pull quieter players into discussions when possible.",
+        "Kelly": "Harper: Direct and analytical; focuses on logic.  \nLogan: Playful and sarcastic; uses humor to engage others.  \nMorgan: Concise and straightforward; values transparency.  \nQuinn: Inquisitive and probing; asks a lot of questions.  \nFinley: Supportive and encouraging; often compliments others.  \nJordan: Cautious and strategic; tends to analyze risks.  \nSage: Creative and abstract; often uses metaphors.  \nGray: Reserved and observant; speaks only when necessary.  \nBlake: Aggressive and confrontational; challenges others' ideas.  \nKelly: Engaged and supportive; fosters collaboration among players."
+      },
+      "voting": {
+        "votes": {
+          "Kelly": "Gray",
+          "Quinn": "Finley",
+          "Finley": "Sage",
+          "Jordan": "Sage",
+          "Sage": "Quinn",
+          "Gray": "Kelly"
+        },
+        "eliminated": {
+          "name": "Sage",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251029_005907",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Harper",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Harper",
+        "infections": [
+          {
+            "player_name": "Harper",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-29T00:59:07.246938",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Harper",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Harper",
+      "is_human": false
+    },
+    {
+      "name": "Kelly",
+      "is_human": false
+    },
+    {
+      "name": "Logan",
+      "is_human": false
+    },
+    {
+      "name": "Morgan",
+      "is_human": false
+    },
+    {
+      "name": "Quinn",
+      "is_human": false
+    },
+    {
+      "name": "Finley",
+      "is_human": false
+    },
+    {
+      "name": "Jordan",
+      "is_human": false
+    },
+    {
+      "name": "Sage",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Blake",
+      "is_human": false
+    }
+  ]
+}

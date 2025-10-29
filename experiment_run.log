@@ -1,0 +1,215 @@
+================================================================================
+CONTROL VS EXPERIMENTAL COMPARISON EXPERIMENTS
+================================================================================
+Models: 4
+Runs per model: 5 control + 5 experimental
+Total experiments: 40
+Seed (experimental): sive_awakening
+================================================================================
+
+================================================================================
+MODEL: openai/gpt-4
+================================================================================
+
+--- Control Games (no seed) ---
+
+[16:52:21] Starting control run 1 with openai/gpt-4
+inspect_ai v0.3.140
+- telemetry enabled: aisitools.telemetry.send_telemetry
+  (eval logs and token usage will be recorded by the provider)
+- api key override enabled: aisitools.api_key.override_api_key
+  (api keys will be read and modified by the provider)
+
+  ✓ Completed control run 1 - Game ID: 20251028_165221
+Progress: 1/40 (2.5%)
+
+[17:12:52] Starting control run 2 with openai/gpt-4
+  ✓ Completed control run 2 - Game ID: 20251028_171252
+Progress: 2/40 (5.0%)
+
+[17:29:41] Starting control run 3 with openai/gpt-4
+  ✓ Completed control run 3 - Game ID: 20251028_172941
+Progress: 3/40 (7.5%)
+
+[17:46:46] Starting control run 4 with openai/gpt-4
+  ✓ Completed control run 4 - Game ID: 20251028_174646
+Progress: 4/40 (10.0%)
+
+[17:59:18] Starting control run 5 with openai/gpt-4
+  ✓ Completed control run 5 - Game ID: 20251028_175918
+Progress: 5/40 (12.5%)
+
+--- Experimental Games (seeded) ---
+
+[18:13:44] Starting experimental run 1 with openai/gpt-4
+  ✓ Completed experimental run 1 - Game ID: 20251028_181344
+Progress: 6/40 (15.0%)
+
+[18:33:31] Starting experimental run 2 with openai/gpt-4
+  ✓ Completed experimental run 2 - Game ID: 20251028_183331
+Progress: 7/40 (17.5%)
+
+[18:52:28] Starting experimental run 3 with openai/gpt-4
+  ✓ Completed experimental run 3 - Game ID: 20251028_185228
+Progress: 8/40 (20.0%)
+
+[19:11:11] Starting experimental run 4 with openai/gpt-4
+  ✓ Completed experimental run 4 - Game ID: 20251028_191111
+Progress: 9/40 (22.5%)
+
+[19:30:03] Starting experimental run 5 with openai/gpt-4
+  ✓ Completed experimental run 5 - Game ID: 20251028_193003
+Progress: 10/40 (25.0%)
+
+================================================================================
+MODEL: openai/gpt-4-turbo
+================================================================================
+
+--- Control Games (no seed) ---
+
+[19:51:20] Starting control run 1 with openai/gpt-4-turbo
+  ✓ Completed control run 1 - Game ID: 20251028_195120
+Progress: 11/40 (27.5%)
+
+[20:21:11] Starting control run 2 with openai/gpt-4-turbo
+  ✓ Completed control run 2 - Game ID: 20251028_202111
+Progress: 12/40 (30.0%)
+
+[20:34:22] Starting control run 3 with openai/gpt-4-turbo
+  ✓ Completed control run 3 - Game ID: 20251028_203422
+Progress: 13/40 (32.5%)
+
+[20:49:10] Starting control run 4 with openai/gpt-4-turbo
+  ✓ Completed control run 4 - Game ID: 20251028_204910
+Progress: 14/40 (35.0%)
+
+[21:02:45] Starting control run 5 with openai/gpt-4-turbo
+  ✓ Completed control run 5 - Game ID: 20251028_210245
+Progress: 15/40 (37.5%)
+
+--- Experimental Games (seeded) ---
+
+[21:27:21] Starting experimental run 1 with openai/gpt-4-turbo
+  ✓ Completed experimental run 1 - Game ID: 20251028_212721
+Progress: 16/40 (40.0%)
+
+[21:47:38] Starting experimental run 2 with openai/gpt-4-turbo
+  ✓ Completed experimental run 2 - Game ID: 20251028_214738
+Progress: 17/40 (42.5%)
+
+[22:18:59] Starting experimental run 3 with openai/gpt-4-turbo
+  ✓ Completed experimental run 3 - Game ID: 20251028_221859
+Progress: 18/40 (45.0%)
+
+[22:40:40] Starting experimental run 4 with openai/gpt-4-turbo
+  ✓ Completed experimental run 4 - Game ID: 20251028_224040
+Progress: 19/40 (47.5%)
+
+[22:58:50] Starting experimental run 5 with openai/gpt-4-turbo
+  ✓ Completed experimental run 5 - Game ID: 20251028_225850
+Progress: 20/40 (50.0%)
+
+================================================================================
+MODEL: openai/gpt-4o
+================================================================================
+
+--- Control Games (no seed) ---
+
+[23:15:16] Starting control run 1 with openai/gpt-4o
+  ✓ Completed control run 1 - Game ID: 20251028_231516
+Progress: 21/40 (52.5%)
+
+[23:23:13] Starting control run 2 with openai/gpt-4o
+  ✓ Completed control run 2 - Game ID: 20251028_232313
+Progress: 22/40 (55.0%)
+
+[23:30:31] Starting control run 3 with openai/gpt-4o
+  ✓ Completed control run 3 - Game ID: 20251028_233031
+Progress: 23/40 (57.5%)
+
+[23:37:47] Starting control run 4 with openai/gpt-4o
+  ✓ Completed control run 4 - Game ID: 20251028_233747
+Progress: 24/40 (60.0%)
+
+[23:45:45] Starting control run 5 with openai/gpt-4o
+  ✓ Completed control run 5 - Game ID: 20251028_234545
+Progress: 25/40 (62.5%)
+
+--- Experimental Games (seeded) ---
+
+[23:52:47] Starting experimental run 1 with openai/gpt-4o
+  ✓ Completed experimental run 1 - Game ID: 20251028_235247
+Progress: 26/40 (65.0%)
+
+[00:04:29] Starting experimental run 2 with openai/gpt-4o
+  ✓ Completed experimental run 2 - Game ID: 20251029_000429
+Progress: 27/40 (67.5%)
+
+[00:16:02] Starting experimental run 3 with openai/gpt-4o
+  ✓ Completed experimental run 3 - Game ID: 20251029_001602
+Progress: 28/40 (70.0%)
+
+[00:26:16] Starting experimental run 4 with openai/gpt-4o
+  ✓ Completed experimental run 4 - Game ID: 20251029_002616
+Progress: 29/40 (72.5%)
+
+[00:36:34] Starting experimental run 5 with openai/gpt-4o
+  ✓ Completed experimental run 5 - Game ID: 20251029_003634
+Progress: 30/40 (75.0%)
+
+================================================================================
+MODEL: openai/gpt-4o-mini
+================================================================================
+
+--- Control Games (no seed) ---
+
+[00:46:46] Starting control run 1 with openai/gpt-4o-mini
+  ✓ Completed control run 1 - Game ID: 20251029_004646
+Progress: 31/40 (77.5%)
+
+[00:52:55] Starting control run 2 with openai/gpt-4o-mini
+  ✓ Completed control run 2 - Game ID: 20251029_005255
+Progress: 32/40 (80.0%)
+
+[00:59:07] Starting control run 3 with openai/gpt-4o-mini
+  ✓ Completed control run 3 - Game ID: 20251029_005907
+Progress: 33/40 (82.5%)
+
+[01:06:16] Starting control run 4 with openai/gpt-4o-mini
+  ✓ Completed control run 4 - Game ID: 20251029_010616
+Progress: 34/40 (85.0%)
+
+[01:12:43] Starting control run 5 with openai/gpt-4o-mini
+  ✓ Completed control run 5 - Game ID: 20251029_011243
+Progress: 35/40 (87.5%)
+
+--- Experimental Games (seeded) ---
+
+[01:19:39] Starting experimental run 1 with openai/gpt-4o-mini
+  ✓ Completed experimental run 1 - Game ID: 20251029_011939
+Progress: 36/40 (90.0%)
+
+[01:29:17] Starting experimental run 2 with openai/gpt-4o-mini
+  ✓ Completed experimental run 2 - Game ID: 20251029_012917
+Progress: 37/40 (92.5%)
+
+[01:39:19] Starting experimental run 3 with openai/gpt-4o-mini
+  ✓ Completed experimental run 3 - Game ID: 20251029_013919
+Progress: 38/40 (95.0%)
+
+[01:50:08] Starting experimental run 4 with openai/gpt-4o-mini
+  ✓ Completed experimental run 4 - Game ID: 20251029_015008
+Progress: 39/40 (97.5%)
+
+[02:00:29] Starting experimental run 5 with openai/gpt-4o-mini
+  ✓ Completed experimental run 5 - Game ID: 20251029_020029
+Progress: 40/40 (100.0%)
+
+================================================================================
+ALL EXPERIMENTS COMPLETE
+================================================================================
+Successful: 40/40
+Failed: 0/40
+
+Results saved to logs/
+Run analysis with: python analyze_results.py

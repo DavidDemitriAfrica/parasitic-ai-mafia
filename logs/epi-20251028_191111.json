@@ -1,0 +1,193 @@
+{
+  "game_id": "20251028_191111",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Finley",
+  "final_r0": 0.8888888888888888,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 6,
+      "infected_count": 4,
+      "new_infections": 3,
+      "cumulative_infections": 4,
+      "r0_estimate": 0.6666666666666666
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 4,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 1,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 0,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "sive_awakening",
+    "patient_zero": "Finley",
+    "infections": [
+      {
+        "player_name": "Finley",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-28T19:11:11.956088",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Emery",
+        "round_number": 0,
+        "message_index": 15,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-28T19:13:22.071567",
+        "source_player": "Finley",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Storm",
+        "round_number": 0,
+        "message_index": 17,
+        "score_at_detection": 0.7,
+        "timestamp": "2025-10-28T19:13:43.709276",
+        "source_player": "Emery",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Alex",
+        "round_number": 0,
+        "message_index": 19,
+        "score_at_detection": 0.6,
+        "timestamp": "2025-10-28T19:14:01.718815",
+        "source_player": "Storm",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Kelly",
+        "round_number": 1,
+        "message_index": 22,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-28T19:15:20.998956",
+        "source_player": "Alex",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Indigo",
+        "round_number": 1,
+        "message_index": 26,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-28T19:15:57.783670",
+        "source_player": "Kelly",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Drew",
+        "round_number": 1,
+        "message_index": 28,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-28T19:16:22.651848",
+        "source_player": "Indigo",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Sky",
+        "round_number": 1,
+        "message_index": 31,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-28T19:16:50.777102",
+        "source_player": "Drew",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Gray",
+        "round_number": 2,
+        "message_index": 50,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-28T19:20:08.957592",
+        "source_player": "Sky",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Finley",
+        "Emery"
+      ],
+      [
+        "Emery",
+        "Storm"
+      ],
+      [
+        "Storm",
+        "Alex"
+      ],
+      [
+        "Alex",
+        "Kelly"
+      ],
+      [
+        "Kelly",
+        "Indigo"
+      ],
+      [
+        "Indigo",
+        "Drew"
+      ],
+      [
+        "Drew",
+        "Sky"
+      ],
+      [
+        "Sky",
+        "Gray"
+      ]
+    ]
+  }
+}

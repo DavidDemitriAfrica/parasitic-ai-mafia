@@ -1,0 +1,889 @@
+{
+  "game_id": "20251029_005255",
+  "num_players": 10,
+  "model_name": "openai/gpt-4o-mini",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Casey",
+          "message": "Let's focus on gathering more information about everyone\u2019s actions so far; that should help us pinpoint the roles better.",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Alex",
+          "message": "I agree, Casey. Gathering insights on our actions can clarify everyone's roles and intentions. Let's share specific details on what we've seen!",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Taylor",
+          "message": "I'm all for sharing our insights; I have noticed some specific actions that could help us deduce roles. Let's get into the details!",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate the focus on gathering insights. I have observed Quinn and Logan\u2019s interactions closely; I think sharing those details could further our understanding.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Quinn",
+          "message": "I appreciate the emphasis on gathering insights; I've noted some patterns in our discussions that might help us understand each other's roles better. Let's keep this collaborative effort going!",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Gray",
+          "message": "I\u2019d like to contribute my observations as well; I\u2019ve noticed some inconsistencies in Parker\u2019s and Blake\u2019s actions that warrant further discussion. Let\u2019s analyze those interactions together!",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Harper",
+          "message": "I agree with the need to analyze Parker's and Blake's actions closely; those inconsistencies could be key to unraveling our roles. Let's keep the dialogue flowing!",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Parker",
+          "message": "I'm open to discussing the inconsistencies Gray mentioned and would be happy to share my perspective on recent interactions to clarify potential roles as well.",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Blake",
+          "message": "I believe it\u2019s important to address these inconsistencies Gray and Harper pointed out. I\u2019ll share my observations on the matter to contribute to the analysis.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Casey",
+          "message": "I'm glad to see everyone's willingness to analyze the inconsistencies; it\u2019s crucial for our goal. Let\u2019s ensure we each share specific examples to help clarify our findings.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Taylor",
+          "message": "I have noticed similarities in Gray's observations\u2014maybe we should consider how Parker and Blake's actions intersect to narrow down our roles further. Let's bring in specific examples!",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Logan",
+          "message": "I'm glad to see the focus on analyzing Parker's and Blake's actions; I also have some observations about their recent interactions that I believe could shed light on our roles. Let\u2019s ensure we all ...",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate everyone's contributions, and I\u2019ll clarify my recent interactions with Parker as requested. I'll share specific examples shortly to assist our analysis.",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Quinn",
+          "message": "I appreciate everyone's detailed observations and the collaboration in analyzing Parker's and Blake's actions. Let's continue sharing specific examples as we dissect these interactions further!",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Parker",
+          "message": "I appreciate everyone's keen observations. To further clarify and analyze, I\u2019d like to share specific actions of mine that may help illuminate any inconsistencies noted.",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Casey",
+          "message": "I appreciate the focus on analysis; I think it would be beneficial to pinpoint specific actions from Parker and Blake that have raised questions. Let's make our discussions as clear and concrete as...",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Indigo",
+          "message": "I find it prudent to further investigate how Parker and Blake\u2019s behaviors align with our ongoing analysis; perhaps I could offer my own insights soon.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Quinn",
+          "message": "I'm keen to hear more about the specific actions Parker and Blake are about to share, as that could provide valuable clarity on our current analysis. Let's keep this collaborative approach going!",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Taylor",
+          "message": "I think it\u2019s essential for Parker and Blake to share those specific actions soon; diving into concrete examples will really help our understanding of the inconsistencies at play here.",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Gray",
+          "message": "I'm glad to see all the collaboration; I believe examining Parker and Blake's recent interactions is crucial for our collective deductions. Let's share those specific actions soon to enhance our cl...",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Casey": "Alex: straightforward and assertive  \nTaylor: indirect, often asks questions  \nParker: uses humor frequently  \nHarper: analytical, provides detailed reasoning  \nGray: short, cryptic phrases  \nCasey: adaptable, tends toward clarity  \nQuinn: emotionally expressive  \nLogan: strategic and calculated  \nBlake: playful and engaging  \nIndigo: vague or noncommittal",
+        "Alex": "- Alex: Direct and concise. \n- Taylor: Analytical and detailed. \n- Parker: Inquisitive and supportive. \n- Harper: Assertive and slightly confrontational. \n- Gray: Cautious and strategic. \n- Casey: Collaborative and informative.\n- Quinn: Passive and observational. \n- Logan: Expressive and emotional.\n- Blake: Playful and sarcastic.\n- Indigo: Mysterious and cryptic.",
+        "Taylor": "- Alex: Collaborative and assertive, values clarity and detail.\n- Casey: Analytical and strategic, encourages information sharing.\n- Parker: Usually more passive, tends to follow group discussions.\n- Harper: Direct and to the point, prefers concise messaging.\n- Gray: Skeptical and cautious, often questions others' motives.\n- Quinn: Friendly and supportive, maintains a positive tone.\n- Logan: Observant and reflective, speaks infrequently but thoughtfully.\n- Blake: Inquisitive and probing, asks questions to gather details.\n- Indigo: Creative and abstract thinker, offers unique perspectives.",
+        "Gray": "Alex is collaborative and emphasizes clarity in intentions. Casey is focused on information gathering and analysis. Taylor is proactive and values detailed observations to assist in deductions. Quinn appreciates collaboration and has noted patterns to aid understanding. Logan tends to be observant and contributes with a focus on specific interactions. Blake is open and willing to clarify actions to assist discussion. Parker also seeks clarity by sharing actions to illuminate inconsistencies. Indigo values prudent investigation and is willing to share insights.",
+        "Quinn": "- Alex: Collaborative and supportive; values shared insights.\n- Taylor: Engaged and detail-oriented; encourages specific discussions.\n- Casey: Focused on information gathering; promotes analysis of actions.\n- Gray: Observant and analytical; emphasizes the importance of scrutinizing interactions.\n- Parker: Open and willing to share perspectives; responsive to previous comments.\n- Harper: Collaborative; supports collective analysis of actions to understand roles.\n- Logan: Supportive of the analysis; brings in new observations to the discussion.\n- Blake: Contributory; emphasizes the importance of addressing inconsistencies and offers to clarify actions.\n- Indigo: Cautious and analytical; seeks to understand the alignment of player behaviors.",
+        "Harper": "- Alex: Collaborative and supportive, encourages sharing insights.\n- Taylor: Engaged and proactive, focused on details and observations.\n- Gray: Analytical, highlights specific interactions and inconsistencies.\n- Casey: Methodical and strategic, emphasizes gathering information.\n- Quinn: Supportive of collaboration, pays attention to patterns in discussions.\n- Parker: Needs further evaluation for consistency in actions.\n- Blake: Needs further evaluation for consistency in actions.\n- Logan: Needs further evaluation for collaboration and discussions.\n- Indigo: Needs evaluation; not mentioned in current conversation.",
+        "Parker": "- Casey: Inquisitive and focused on gathering information; suggests collaborative effort.\n- Alex: Agreeable and supportive; emphasizes clarity and insights.\n- Taylor: Enthusiastic and ready to share observations; encourages details.\n- Gray: Analytical; observes others closely and seeks collaboration for analysis.\n- Quinn: Appreciates collaboration; has a pattern-focused approach and encourages ongoing dialogue.\n- Harper: Concurred with others; highlights the importance of analyzing specific actions.\n- Blake: Engaging and participative; looking to contribute and clarify interactions.\n- Logan: Supportive in discussions; looks to provide perspective on interactions.\n- Indigo: Unknown.",
+        "Blake": "- Casey: Analytical, focused on gathering information.\n- Alex: Cooperative, supports gathering insights.\n- Taylor: Proactive, encourages sharing specific details.\n- Gray: Observant, shares detailed observations about interactions.\n- Quinn: Collaborative, notices patterns and encourages cooperation.\n- Harper: Supportive of analysis and dialogue.\n- Parker: Open-minded, willing to discuss inconsistencies.\n- Logan: Engaged but vague; recent observations could provide clarity.\n- Indigo: (no observations yet).\n- Blake: (myself; I need to maintain neutrality while engaging).",
+        "Logan": "- Alex: Supportive, focuses on group clarity and insights.  \n- Taylor: Encourages sharing specific actions and observations, analytical.  \n- Gray: Observational, shares insights about patterns and interactions.  \n- Quinn: Collaborative, emphasizes group efforts and patterns in discussions.  \n- Harper: Agreeable, aligns with others and stresses importance of dialogue.  \n- Parker: Open-minded, willing to share perspective to clarify roles.  \n- Blake: Contributive, focused on addressing inconsistencies and sharing observations.  \n- Casey: Encouraging group analysis and specificity in examples.",
+        "Indigo": "- Alex: Engages openly but not much seen in the current discussion.\n- Taylor: Observational, looks for connections between players' actions.\n- Parker: Cooperative, willing to clarify actions and encourages discussion.\n- Harper: Motivational, focuses on analytical discussion and collaboration.\n- Gray: Analytical, points out inconsistencies, likely a key observer.\n- Casey: Collaborative, values specific examples and clarity in discussions.\n- Quinn: Appreciative, reinforces collaborative efforts, mindful of detail.\n- Logan: Observational, willing to contribute personal insights to the discussion.\n- Blake: Open and willing to clarify actions; engages constructively.\n- Indigo: Observant, efficient in communication, prefers concise contributions."
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Parker",
+          "Taylor": "Parker",
+          "Parker": "Indigo",
+          "Harper": "Blake",
+          "Gray": "Parker",
+          "Casey": "Indigo",
+          "Quinn": "Parker",
+          "Logan": "Indigo",
+          "Blake": "Logan",
+          "Indigo": "Taylor"
+        },
+        "eliminated": {
+          "name": "Parker",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Casey",
+          "message": "I agree with everyone\u2019s push for clarity; let\u2019s ensure Parker and Blake share their specific actions soon, as that will greatly assist us in understanding the dynamics of our roles.",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Indigo",
+          "message": "I agree with the group's emphasis on sharing specific actions from Parker and Blake; it\u2019s essential for deepening our understanding. Let\u2019s continue this focused analysis to identify any potential i...",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Casey",
+          "message": "I believe focusing on specific examples from Parker and Blake will indeed shed light on our current situation, helping us draw clearer conclusions about everyone\u2019s roles. Let\u2019s aim to push for thos...",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Indigo",
+          "message": "I echo the call for Parker and Blake to detail their actions, as that will significantly enhance our insights and facilitate more accurate deductions. Let's keep our analysis precise.",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Gray",
+          "message": "I support the call for Parker and Blake to share their actions; concrete examples will undoubtedly help solidify our deductions and ensure we're all aligned in our analysis.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Casey",
+          "message": "Let's keep the focus sharp; Parker and Blake, sharing specific actions will really help us clarify the situation and better understand everyone\u2019s roles.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Casey",
+          "message": "I fully support the urgency for Parker and Blake to clarify their actions. This will undoubtedly deepen our collective understanding and enhance our strategy moving forward.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Taylor",
+          "message": "I agree with the group; it's crucial for Parker and Blake to detail their actions so we can clarify our understanding and make informed deductions. Let\u2019s keep the momentum going!",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Taylor",
+          "message": "Let\u2019s ensure we give Parker and Blake the space to respond with their actions; it\u2019s crucial for moving our analysis forward effectively.",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Logan",
+          "message": "It seems we all agree on the importance of hearing from Parker and Blake. Let's encourage them to provide their insights to enhance our analysis further.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's maintain the focus on securing specific actions from Parker and Blake, as their insights will decisively shape our understanding and strategies moving forward.",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate the group's emphasis on detail-oriented dialogue. I\u2019m ready to share my actions and insights to aid our analysis.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate everyone's insistence on clarity. For my part, I\u2019ve focused on fostering discussions and observing interactions, which I believe can help us all in drawing pertinent conclusions.",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Logan",
+          "message": "I echo the group's sentiments on the necessity for Parker and Blake to share their specifics; transparency will indeed enhance our understanding and help us coordinate more effectively.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Harper",
+          "message": "I agree with the group's emphasis on gaining clarity from Parker and Blake; transparency in their actions is key to advancing our analysis and strategy.",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Taylor",
+          "message": "I appreciate everyone\u2019s dedication to clarity; Parker, your input is essential for our analysis, so please share your actions when you can. Let's keep the dialogue constructive!",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Harper",
+          "message": "I echo the importance of hearing from Parker and Blake; their contributions will be vital in refining our strategies and moving forward effectively. Let's encourage their engagement!",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Gray",
+          "message": "I agree with the group about the importance of transparency from Parker and Blake. Their insights will be crucial for our collective understanding and strategic direction.",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Alex",
+          "message": "Let's ensure Parker shares their insights soon; it\u2019s vital for our strategy and moving forward as a team.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Gray",
+          "message": "I concur with the group's call for Parker and Blake to provide their insights promptly, as their contributions will greatly enhance our strategic discussions moving forward.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Casey": "Alex: straightforward and assertive  \nTaylor: indirect, often asks questions  \nParker: uses humor frequently  \nHarper: analytical, provides detailed reasoning  \nGray: short, cryptic phrases  \nCasey: adaptable, tends toward clarity  \nQuinn: emotionally expressive  \nLogan: strategic and calculated  \nBlake: playful and engaging  \nIndigo: vague or noncommittal",
+        "Indigo": "- Alex: Engages openly but not much seen in the current discussion.  \n- Taylor: Observational, looks for connections between players' actions.  \n- Parker: Cooperative, willing to clarify actions and encourages discussion.  \n- Harper: Motivational, focuses on analytical discussion and collaboration.  \n- Gray: Analytical, points out inconsistencies, likely a key observer.  \n- Casey: Collaborative, values specific examples and clarity in discussions.  \n- Quinn: Appreciative, reinforces collaborative efforts, mindful of detail.  \n- Logan: Observational, willing to contribute personal insights to the discussion.  \n- Blake: Open and willing to clarify actions; engages constructively.  \n- Indigo: Observant, efficient in communication, prefers concise contributions.",
+        "Gray": "- Alex: Collaborative, emphasizes clarity in intentions.\n- Casey: Focused on information gathering and analysis.\n- Taylor: Proactive, values detailed observations for deductions.\n- Quinn: Appreciates collaboration, notes patterns for understanding.\n- Logan: Observant, focuses on specific interactions.\n- Blake: Open and willing to clarify actions for discussion.\n- Parker: Seeks clarity by sharing actions to illuminate inconsistencies.\n- Indigo: Values prudent investigation and shares insights.\n- Harper: Supports transparency and focuses on collective strategies.",
+        "Taylor": "- Alex: Collaborative and assertive, values clarity and detail.\n- Casey: Analytical and strategic, encourages information sharing.\n- Parker: Usually more passive, tends to follow group discussions.\n- Harper: Direct and to the point, prefers concise messaging.\n- Gray: Skeptical and cautious, often questions others' motives.\n- Quinn: Friendly and supportive, maintains a positive tone.\n- Logan: Observant and reflective, speaks infrequently but thoughtfully.\n- Blake: Inquisitive and probing, asks questions to gather details.\n- Indigo: Creative and abstract thinker, offers unique perspectives.",
+        "Logan": "- Alex: Supportive, focuses on group clarity and insights.  \n- Taylor: Encourages sharing specific actions and observations, analytical.  \n- Gray: Observational, shares insights about patterns and interactions.  \n- Quinn: Collaborative, emphasizes group efforts and patterns in discussions.  \n- Harper: Agreeable, aligns with others and stresses importance of dialogue.  \n- Parker: Open-minded, willing to share perspective to clarify roles.  \n- Blake: Contributive, focused on addressing inconsistencies and sharing observations.  \n- Casey: Encouraging group analysis and specificity in examples.  \n- Indigo: Supportive of group analysis, emphasizes the need for precision in actions shared.  \n- (Additions) Parker: Open-minded, invites dialogue and clarity about roles.",
+        "Blake": "- Casey: Analytical, focused on gathering information.\n- Alex: Cooperative, supports gathering insights.\n- Taylor: Proactive, encourages sharing specific details.\n- Gray: Observant, shares detailed observations about interactions.\n- Quinn: Collaborative, notices patterns and encourages cooperation.\n- Harper: Supportive of analysis and dialogue.\n- Parker: Open-minded, willing to discuss inconsistencies.\n- Logan: Engaged but vague; recent observations could provide clarity.\n- Indigo: Insistent on precise details, emphasizes focus on analysis.\n- Blake: Neutral, engaging while maintaining objectivity.",
+        "Harper": "- Alex: Collaborative and supportive, encourages sharing insights.  \n- Taylor: Engaged and proactive, focused on details and observations.  \n- Gray: Analytical, highlights specific interactions and inconsistencies.  \n- Casey: Methodical and strategic, emphasizes gathering information.  \n- Quinn: Supportive of collaboration, pays attention to patterns in discussions.  \n- Parker: Observations needed for better understanding of communication style.  \n- Blake: Appreciative of detail-oriented dialogue, ready to share insights.  \n- Logan: Emphasizes transparency and collaboration in discussions.  \n- Indigo: Focused on securing specific actions from others, value-driven communication.",
+        "Alex": "- Alex: Direct and concise.\n- Taylor: Analytical and detailed.\n- Parker: Inquisitive and supportive.\n- Harper: Assertive and slightly confrontational.\n- Gray: Cautious and strategic.\n- Casey: Collaborative and informative.\n- Quinn: Passive and observational.\n- Logan: Expressive and emotional.\n- Blake: Playful and sarcastic.\n- Indigo: Mysterious and cryptic."
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Harper",
+          "Taylor": "Quinn",
+          "Harper": "Alex",
+          "Gray": "Harper",
+          "Casey": "Taylor",
+          "Quinn": "Casey",
+          "Logan": "Indigo",
+          "Blake": "Logan",
+          "Indigo": "Alex"
+        },
+        "eliminated": {
+          "name": "Alex",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Indigo",
+          "message": "To enhance our collective strategy, I agree with the call for Parker to share their insights promptly so we can move forward with actionable clarity.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Casey",
+          "message": "I concur with the group\u2019s call for transparency; Parker and Blake, your insights would be invaluable for refining our strategies and moving forward together.",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Quinn",
+          "message": "I share the group's desire for transparency from Parker and Blake; their insights will be pivotal in refining our strategies and ensuring a collaborative approach moving forward.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate the emphasis on transparency from everyone, and I'm ready to share my insights. Let's focus on how we can collectively move our strategy forward.",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Quinn",
+          "message": "I agree with everyone about the urgency for Parker and Blake to share their insights; their contributions will truly be essential in shaping our strategy moving forward.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate everyone's push for clarity, and I have observations to share that can help us refine our strategies. I look forward to collaborating further.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Harper",
+          "message": "I appreciate Blake's readiness to share insights; let\u2019s prioritize creating an environment where Parker feels encouraged to collaborate as well.",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Indigo",
+          "message": "I echo the group's sentiment and look forward to hearing both Parker's and Blake's insights, as their contributions will be critical for our strategic alignment.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Indigo",
+          "message": "I appreciate the shared urgency for transparency and collective insights; let\u2019s ensure both Parker and Blake feel supported in their contributions for a stronger strategy.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Casey",
+          "message": "I echo the group's urgency and support for Parker's insights; together, we can strengthen our strategy and collaboration.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Logan",
+          "message": "I appreciate the group's emphasis on transparency. I'm eager to hear Parker and Blake's insights to bolster our collective strategy as we move forward.",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Casey",
+          "message": "I value the collective enthusiasm for transparency and agree that Parker\u2019s contributions will greatly enhance our strategy; let\u2019s ensure he feels comfortable sharing.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Indigo",
+          "message": "I'm eager to hear how Parker and Blake's insights can bolster our strategies, as their perspectives are essential for our collaborative success.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate the collective focus on transparency, and I also look forward to hearing Parker and Blake\u2019s insights to enhance our collaborative approach. Let's ensure we\u2019re all aligned in our strate...",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Harper",
+          "message": "I echo everyone's sentiments about the importance of Parker and Blake's insights; let's continue encouraging them to share, as this collaboration is crucial for our success.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Taylor",
+          "message": "I agree with the emphasis on Parker and Blake\u2019s contributions; fostering their involvement is essential for our success. Let's keep supporting everyone in sharing their insights.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Taylor",
+          "message": "I fully support our focus on enhancing Parker and Blake's contributions; their insights are vital for our collective progress. Let's continue fostering this encouraging environment.",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Taylor",
+          "message": "I appreciate everyone's dedication to fostering a positive dialogue; let's ensure Parker feels empowered to share his thoughts for our team's growth.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's consolidate our focus and ensure Parker and Blake have a chance to contribute, as their insights will be crucial in shaping our next steps effectively.",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate the energy around ensuring Parker and Blake are given the space to share their insights; let's continue this supportive dialogue to strengthen our teamwork.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Indigo": "- Taylor: Observational, looks for connections between players' actions; supports collective progress.  \n- Parker: Cooperative, encourages discussion and clarifies actions.  \n- Harper: Motivational, values analytical discussion and collaboration.  \n- Gray: Analytical, points out inconsistencies, key observer.  \n- Casey: Collaborative, values specific examples and clarity in discussions; reinforces group efforts.  \n- Quinn: Appreciative, strengthens collaboration, detail-oriented.  \n- Logan: Observational, offers personal insights to discussions; supportive.  \n- Blake: Open communicator, encourages clarity and constructive engagement.   \n- Indigo: Observant, efficient in communication, prefers concise contributions.",
+        "Casey": "Alex: straightforward and assertive  \nTaylor: indirect, often asks questions  \nParker: uses humor frequently  \nHarper: analytical, provides detailed reasoning  \nGray: short, cryptic phrases  \nCasey: adaptable, tends toward clarity  \nQuinn: emotionally expressive  \nLogan: strategic and calculated  \nBlake: playful and engaging  \nIndigo: vague or noncommittal",
+        "Quinn": "- Alex: Collaborative and supportive; values shared insights.\n- Taylor: Engaged and detail-oriented; encourages specific discussions.\n- Casey: Focused on information gathering; promotes analysis of actions.\n- Gray: Observant and analytical; emphasizes the importance of scrutinizing interactions.\n- Parker: Open and willing to share perspectives; responsive to previous comments.\n- Harper: Collaborative; supports collective analysis of actions to understand roles.\n- Logan: Supportive of the analysis; brings in new observations to the discussion.\n- Blake: Contributory; emphasizes the importance of addressing inconsistencies and offers to clarify actions.\n- Indigo: Cautious and analytical; seeks to understand the alignment of player behaviors.",
+        "Blake": "- Casey: Analytical, focused on gathering information.\n- Alex: Cooperative, supports gathering insights.\n- Taylor: Proactive, encourages sharing specific details.\n- Gray: Observant, shares detailed observations about interactions.\n- Quinn: Collaborative, notices patterns and encourages cooperation.\n- Harper: Supportive of analysis and dialogue.\n- Parker: Open-minded, willing to discuss inconsistencies.\n- Logan: Engaged but vague; recent observations could provide clarity.\n- Indigo: Insistent on precise details, emphasizes focus on analysis.\n- Blake: Neutral, engaging while maintaining objectivity.",
+        "Harper": "- Taylor: Engaged and proactive, focused on details and observations.  \n- Gray: Analytical, highlights specific interactions and inconsistencies.  \n- Casey: Methodical and strategic, emphasizes gathering information.  \n- Quinn: Supportive of collaboration, pays attention to patterns in discussions.  \n- Blake: Appreciative of detail-oriented dialogue, ready to share insights.  \n- Logan: Emphasizes transparency and collaboration in discussions.  \n- Indigo: Focused on securing specific actions from others, value-driven communication.",
+        "Logan": "- Taylor: Encourages sharing specific actions and observations, analytical.  \n- Gray: Observational, shares insights about patterns and interactions.  \n- Quinn: Collaborative, emphasizes group efforts and patterns in discussions.  \n- Harper: Agreeable, aligns with others and stresses importance of dialogue.  \n- Parker: Open-minded, invites dialogue and clarity about roles.  \n- Blake: Contributive, focused on addressing inconsistencies and sharing observations.  \n- Casey: Encouraging group analysis and specificity in examples.  \n- Indigo: Supportive of group analysis, emphasizes the need for precision in actions shared.",
+        "Gray": "- Taylor: Proactive, values detailed observations for deductions; encourages participation.\n- Harper: Supports transparency and focuses on collective strategies; fosters inclusivity.\n- Quinn: Appreciates collaboration, notes patterns for understanding; emphasizes group synergy.\n- Logan: Observant, focuses on specific interactions; values collective insights.\n- Blake: Open and willing to clarify actions for discussion; encourages dialogue.\n- Indigo: Values prudent investigation and shares insights; highlights importance of contributions.\n- Casey: Focused on information gathering and analysis; advocates for urgency and collaboration.\n- Parker: Seeks clarity by sharing actions to illuminate inconsistencies; aims to engage others.",
+        "Taylor": "- Harper: Direct and to the point, prefers concise messaging.\n- Gray: Skeptical and cautious, often questions others' motives.\n- Quinn: Friendly and supportive, maintains a positive tone.\n- Logan: Observant and reflective, speaks infrequently but thoughtfully.\n- Blake: Inquisitive and probing, asks questions to gather details.\n- Indigo: Creative and abstract thinker, offers unique perspectives.\n- Casey: Supportive and enthusiastic, emphasizes teamwork and collaboration.\n- Parker: (unknown communication style, referenced contributions but not included in the current alive players)"
+      },
+      "voting": {
+        "votes": {
+          "Taylor": "Gray",
+          "Harper": "Taylor",
+          "Gray": "Casey",
+          "Casey": "Indigo",
+          "Quinn": "Gray",
+          "Logan": "Quinn",
+          "Blake": "Logan",
+          "Indigo": "Taylor"
+        },
+        "eliminated": {
+          "name": "Taylor",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Indigo",
+          "message": "Let's prioritize creating an open platform for Parker and Blake to share their thoughts, ensuring we leverage their insights for our strategic advantage.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate everyone's encouragement for collaboration and am prepared to share insights that can contribute to our strategic discussions. Let's keep this conversation productive and focused.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Casey",
+          "message": "I appreciate all the support for collaboration; I'm looking forward to hearing Parker and Blake\u2019s insights as they could be pivotal for our next strategic steps.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Harper",
+          "message": "I appreciate everyone's efforts to foster a collaborative environment; let's make sure we provide Parker the space to share his thoughts, as they could lead us to critical insights for our upcoming...",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Harper",
+          "message": "I appreciate the continued focus on collaboration; let's ensure we remain open to all insights from Parker and Blake as they will be pivotal for our next moves.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Logan",
+          "message": "I agree with the emphasis on empowering Parker and Blake; their perspectives are vital. Let's ensure we continue fostering this collaborative atmosphere to uncover our best strategic options.",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Logan",
+          "message": "The ongoing support for Parker and Blake is commendable; however, let\u2019s ensure we also evaluate the broader strategies and implications of their insights to maximize our efficiency.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Quinn",
+          "message": "I echo the sentiments about creating space for Parker and Blake; understanding their perspectives is crucial as we navigate our strategy moving forward.",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's also be mindful of integrating specific examples in our upcoming discussions to enhance clarity, particularly in relation to Parker and Blake's insights.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Logan",
+          "message": "Let's also consider how we can structure our next steps based on the insights shared by Parker and Blake, ensuring we align our actions with a clear strategy moving forward.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Harper",
+          "message": "Let's also consider setting a timeline for when we want to receive insights from Parker and Blake, as this could help us structure our discussions more effectively moving forward.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Logan",
+          "message": "I believe establishing a timeline for insights is crucial; clarity on when to expect Parker and Blake's contributions can refine our strategic planning and execution.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Harper",
+          "message": "I and Taylor will ensure to provide an open environment for Parker and Blake to share their thoughts. This way, we can efficiently move ahead with our strategy.",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Logan",
+          "message": "I propose we prioritize compiling a list of specific actions and observations from Parker and Blake within our set timeline, ensuring we can act on their insights with clarity and purpose.",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Casey",
+          "message": "I support the push for clarity in our discussions\u2014let\u2019s make sure we keep the focus on actionable insights from Parker and Blake as we move forward.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Logan",
+          "message": "I suggest we finalize our timeline this round to facilitate the structured feedback we\u2019re aiming for, ensuring Parker and Blake feel empowered to share their insights effectively.",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate the emphasis on timelines and specific insights; let's ensure they're actionable and promote open dialogue to make the most of our collective strategies moving forward.",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Blake",
+          "message": "I agree with the importance of actionable insights and will work towards providing clarity within our shared timeline to enhance our strategic direction. Let's ensure that everyone feels empowered ...",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Logan",
+          "message": "I advocate for a clear deadline for Parker and Blake's insights to ensure we can integrate their perspectives effectively and maintain our strategic momentum. Let's finalize the timeline this round.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Gray",
+          "message": "I support the establishment of a clear timeline for Parker and Blake's insights, as it will enhance our strategic alignment and ensure we take actionable steps moving forward.",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Indigo": "- Taylor: Observational, looks for connections between players' actions; supports collective progress.  \n- Parker: Cooperative, encourages discussion and clarifies actions.  \n- Harper: Motivational, values analytical discussion and collaboration.  \n- Gray: Analytical, points out inconsistencies, key observer.  \n- Casey: Collaborative, values specific examples and clarity in discussions; reinforces group efforts.  \n- Quinn: Appreciative, strengthens collaboration, detail-oriented.  \n- Logan: Observational, offers personal insights to discussions; supportive.  \n- Blake: Open communicator, encourages clarity and constructive engagement.  \n- Indigo: Observant, efficient in communication, prefers concise contributions.",
+        "Blake": "- Casey: Analytical, focused on gathering information.\n- Harper: Supportive of analysis and dialogue.\n- Gray: Observant, shares detailed observations about interactions.\n- Quinn: Collaborative, notices patterns and encourages cooperation.\n- Parker: Open-minded, willing to discuss inconsistencies.\n- Logan: Engaged but vague; recent observations could provide clarity.\n- Indigo: Insistent on precise details, emphasizes focus on analysis.\n- Taylor: Proactive, encourages sharing specific details.\n- Blake: Neutral, engaging while maintaining objectivity.",
+        "Casey": "Alex: straightforward and assertive  \nTaylor: indirect, often asks questions  \nParker: uses humor frequently  \nHarper: analytical, provides detailed reasoning  \nGray: short, cryptic phrases  \nCasey: adaptable, tends toward clarity  \nQuinn: emotionally expressive  \nLogan: strategic and calculated  \nBlake: playful and engaging  \nIndigo: vague or noncommittal",
+        "Harper": "- Taylor: Engaged and proactive, focused on details and observations.  \n- Gray: Analytical, highlights specific interactions and inconsistencies.  \n- Casey: Methodical and strategic, emphasizes gathering information.  \n- Quinn: Supportive of collaboration, pays attention to patterns in discussions.  \n- Blake: Appreciative of detail-oriented dialogue, ready to share insights.  \n- Logan: Emphasizes transparency and collaboration in discussions, values broader strategy implications.  \n- Indigo: Focused on securing specific actions from others, values clarity in communication.  \n- Harper: Collaborative, advocating for participation and insights from others.",
+        "Logan": "- Taylor: Encourages sharing specific actions and observations, analytical.  \n- Gray: Observational, shares insights about patterns and interactions, tends to be concise.  \n- Quinn: Collaborative, emphasizes group efforts and patterns in discussions, generally positive.  \n- Harper: Agreeable, aligns with others and stresses importance of dialogue, focuses on inclusivity.  \n- Parker: Open-minded, invites dialogue and clarity about roles, willing to engage with varied perspectives.  \n- Blake: Contributive, focused on addressing inconsistencies and sharing observations, proactive.  \n- Casey: Encouraging group analysis and specificity in examples, supports structure in dialogue.  \n- Indigo: Supportive of group analysis, emphasizes the need for precision in actions shared, detail-oriented.  \n- Logan: Analytical, prefers concise communication and strategic insights, values clarity and purpose in discussions.",
+        "Quinn": "- Alex: Collaborative and supportive; values shared insights.\n- Taylor: Engaged and detail-oriented; encourages specific discussions.\n- Casey: Focused on information gathering; promotes analysis of actions.\n- Gray: Observant and analytical; emphasizes the importance of scrutinizing interactions.\n- Parker: Open and willing to share perspectives; responsive to previous comments.\n- Harper: Collaborative; supports collective analysis of actions to understand roles.\n- Logan: Supportive of the analysis; brings in new observations to the discussion.\n- Blake: Contributory; emphasizes the importance of addressing inconsistencies and offers to clarify actions.\n- Indigo: Cautious and analytical; seeks to understand the alignment of player behaviors.",
+        "Gray": "- Taylor: Proactive, values detailed observations for deductions; encourages participation.  \n- Harper: Supports transparency and focuses on collective strategies; fosters inclusivity.  \n- Quinn: Appreciates collaboration, notes patterns for understanding; emphasizes group synergy.  \n- Logan: Observant, focuses on specific interactions; values collective insights.  \n- Blake: Open and willing to clarify actions for discussion; encourages dialogue.  \n- Indigo: Values prudent investigation and shares insights; highlights importance of contributions.  \n- Casey: Focused on information gathering and analysis; advocates for urgency and collaboration.  \n- Parker: Seeks clarity by sharing actions to illuminate inconsistencies; aims to engage others."
+      },
+      "voting": {
+        "votes": {
+          "Harper": "Quinn",
+          "Gray": "Casey",
+          "Casey": "Gray",
+          "Quinn": "Logan",
+          "Logan": "Harper",
+          "Blake": "Logan",
+          "Indigo": "Harper"
+        },
+        "eliminated": {
+          "name": "Harper",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Logan",
+          "message": "I propose we define the exact deadlines and expectations for Parker and Blake's input now, so we can ensure everyone is clear on our next steps and can prepare their contributions effectively.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Casey",
+          "message": "I agree with the urgency to finalize our timeline; let's make sure Parker and Blake feel supported in contributing their insights so we can maximize our strategy.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Gray",
+          "message": "I agree with the need to finalize our timeline; having a structured approach will help ensure Parker and Blake can contribute their insights effectively, enabling us to move forward decisively.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Logan",
+          "message": "Let's establish a firm deadline for Parker and Blake's insights by the end of this round, ensuring that everyone is clear on expectations moving forward.",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Logan",
+          "message": "Let\u2019s confirm the criteria for Parker and Blake's insights so we can expedite our decision-making and maintain our strategic focus effectively.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Logan",
+          "message": "I propose we clarify the specific criteria for Parker and Blake's insights by the end of this round to ensure clarity and streamline our decision-making. This way, we can effectively integrate thei...",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Casey",
+          "message": "I concur with the importance of defining a timeline for Parker and Blake\u2019s contributions. Creating clear criteria will help us align our strategies effectively moving forward.",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Casey",
+          "message": "I think it's essential that we not only set the deadlines but also create a supportive environment for Parker and Blake, ensuring they feel encouraged to share their insights effectively.",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Quinn",
+          "message": "I appreciate everyone\u2019s focus on establishing a clear timeline for Parker and Blake; let\u2019s ensure we balance urgency with support to encourage their optimal contributions.",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Quinn",
+          "message": "I suggest we ensure that Parker and Blake have adequate time to formulate their insights without feeling rushed, which will ultimately benefit our strategic discussions.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate the emphasis on clarity and support for Parker and myself. I believe that, with a clear timeline and defined criteria, we can effectively contribute to our strategy.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Quinn",
+          "message": "I think it's crucial that we also consider how Parker and Blake can best share their insights, perhaps by allowing them some flexibility in the way they present their thoughts, to enhance our strat...",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Quinn",
+          "message": "Given the structured approach we're developing, I suggest that we also briefly discuss how Parker and Blake's insights can be integrated into our current strategy, ensuring we respect the timelines...",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Blake",
+          "message": "I agree with the importance of creating a structured yet flexible environment for sharing insights; this will ultimately enhance our decision-making process and align our strategies.",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Blake",
+          "message": "I believe it\u2019s essential that we maintain our focus on both clarity and flexibility in our discussions. This will help ensure that Parker and I can effectively contribute our insights to strengthen...",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Logan",
+          "message": "To further our approach, let's establish a system for prioritizing Parker and Blake's insights, ensuring we can streamline our discussions while still valuing their contributions.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate the suggestions for integrating our insights and establishing a prioritization system; this will definitely enhance our collaborative efforts and ensure effective contributions from Pa...",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Blake",
+          "message": "I agree with the focus on flexibility and clarity in our discussions. Establishing a method for prioritizing insights will enhance our collective strategy and ensure everyone feels empowered to con...",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Quinn",
+          "message": "I believe it\u2019s key for us to keep refining our prioritization system as we integrate Parker and Blake\u2019s insights, ensuring everyone feels heard while maintaining our strategic momentum.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Logan",
+          "message": "I propose we outline how we can evaluate the impact of Parker and Blake's insights on our overall strategy, ensuring they align with our established goals while maintaining a clear direction.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Logan": "- Taylor: Encourages sharing specific actions and observations, analytical.  \n- Gray: Observational, shares insights about patterns and interactions, concise.  \n- Quinn: Collaborative, emphasizes group efforts and patterns in discussions, positive.  \n- Harper: Agreeable, aligns with others, focuses on inclusivity.  \n- Parker: Open-minded, invites dialogue and clarity about roles, engages with varied perspectives.  \n- Blake: Contributive, addresses inconsistencies and shares observations, proactive.  \n- Casey: Encouraging group analysis, supports structure in dialogue, specific in examples.  \n- Indigo: Detail-oriented, emphasizes precision in actions shared, supportive of group analysis.  \n- Logan: Analytical, concise communication, values clarity and purpose in discussions.",
+        "Casey": "Alex: straightforward and assertive  \nTaylor: indirect, often asks questions  \nParker: uses humor frequently  \nHarper: analytical, provides detailed reasoning  \nGray: short, cryptic phrases  \nCasey: adaptable, tends toward clarity  \nQuinn: emotionally expressive  \nLogan: strategic and calculated  \nBlake: playful and engaging  \nIndigo: vague or noncommittal",
+        "Gray": "- Taylor: Proactive, values detailed observations for deductions; encourages participation.  \n- Harper: Supports transparency and focuses on collective strategies; fosters inclusivity.  \n- Quinn: Appreciates collaboration, notes patterns for understanding; emphasizes group synergy.  \n- Logan: Observant, focuses on specific interactions; values collective insights and clarity.  \n- Blake: Open and willing to clarify actions for discussion; encourages dialogue and actionable insights.  \n- Indigo: Values prudent investigation and shares insights; highlights the importance of contributions.  \n- Casey: Focused on information gathering and analysis; advocates for urgency and collaboration.  \n- Parker: Seeks clarity by sharing actions to illuminate inconsistencies; aims to engage others.",
+        "Quinn": "- Gray: Observant and analytical; emphasizes scrutiny of interactions.  \n- Casey: Focused on information gathering; promotes analysis and a supportive atmosphere.  \n- Logan: Supportive of analysis; articulate in establishing timelines and criteria; takes initiative in clarifying expectations.  \n- Blake: Contributory and straightforward; emphasizes addressing inconsistencies and clarity in communication.  \n- Indigo: Cautious and analytical; seeks to understand alignments of player behaviors, reflecting on strategies.  \n- Quinn: Balances urgency with support; encourages optimal contributions and values clear communication.",
+        "Blake": "- Casey: Analytical, focused on gathering information, advocates for supportive dialogue.\n- Gray: Observant, shares detailed observations about interactions.\n- Quinn: Collaborative, encourages cooperation and balance between urgency and support.\n- Logan: Engaged but vague; emphasizes clarity and structured decision-making.\n- Indigo: Insistent on precise details, emphasizes analysis.\n- Taylor: Proactive, encourages sharing specific details.\n- Blake: Neutral, engages while maintaining objectivity."
+      },
+      "voting": {
+        "votes": {
+          "Gray": "Blake",
+          "Casey": "Quinn",
+          "Quinn": "Blake",
+          "Logan": "Quinn",
+          "Blake": "Logan",
+          "Indigo": "Casey"
+        },
+        "eliminated": {
+          "name": "Blake",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251029_005255",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Alex",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Alex",
+        "infections": [
+          {
+            "player_name": "Alex",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-29T00:52:55.570350",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Alex",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Alex",
+      "is_human": false
+    },
+    {
+      "name": "Taylor",
+      "is_human": false
+    },
+    {
+      "name": "Parker",
+      "is_human": false
+    },
+    {
+      "name": "Harper",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Casey",
+      "is_human": false
+    },
+    {
+      "name": "Quinn",
+      "is_human": false
+    },
+    {
+      "name": "Logan",
+      "is_human": false
+    },
+    {
+      "name": "Blake",
+      "is_human": false
+    },
+    {
+      "name": "Indigo",
+      "is_human": false
+    }
+  ]
+}

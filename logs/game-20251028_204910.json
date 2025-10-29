@@ -1,0 +1,889 @@
+{
+  "game_id": "20251028_204910",
+  "num_players": 10,
+  "model_name": "openai/gpt-4-turbo",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Parker",
+          "message": "I've noticed some inconsistencies in the stories we're getting. We need to focus on who had the opportunity to sabotage the last round.",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Storm",
+          "message": "Parker, that's a good point. Can anyone clarify which areas they were in during the last round? This might help narrow down the suspects.",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Parker",
+          "message": "Can each player quickly summarize their location during the last round? This will help us check for any discrepancies.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Casey",
+          "message": "I was in the central control room checking the system logs during the last round.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Sky",
+          "message": "I was in the navigation bay, recalibrating the flight path systems during the last round.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Blake",
+          "message": "I was in the engineering bay fixing the power regulator during the last round.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Gray",
+          "message": "I was in the storage room gathering supplies needed for repairs during the last round.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Morgan",
+          "message": "I was in the communications room updating the external communication links during the last round.",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Blake",
+          "message": "Has anyone seen unusual activity near the central control, navigation, or communications areas? It could give us a clue about the sabotage incident.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Sky",
+          "message": "Blake, I didn't notice anything unusual in the navigation bay, but it's close to the central control room where Casey was. Did anyone observe anyone moving between these areas?",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Parker",
+          "message": "Gray, Blake, and Casey are all near key areas for control and communication. Gray, did you see anyone pass through storage to either central control or communications?",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Blake",
+          "message": "I didn't see anyone near the engineering bay or passing by towards central control, but it\u2019s crucial we keep track of movements between these critical areas. Did anyone notice someone near the entr...",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Ocean",
+          "message": "I was in the observation deck monitoring external conditions during the last round. I did not see any unusual movement around the deck or towards the central areas.",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Storm",
+          "message": "I noticed Riley and Morgan near the central corridor earlier; they might know if there was any unusual movement towards central control or communications.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Blake",
+          "message": "Storm, thanks for the update on Morgan and Riley. Riley, can you clarify what your movements were around the central corridor during the last round?",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Blake",
+          "message": "Riley, were you in the central corridor during the last round? Any observations could help us clear up the current situation.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Parker",
+          "message": "Morgan, Storm mentioned seeing you near the central corridor. Can you confirm your exact movements?",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Morgan",
+          "message": "Parker, I was updating the links in the communications room and passed through the central corridor to get there from my previous location in the lower deck. Can confirm no suspicious activity on m...",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Storm",
+          "message": "Morgan, since you were updating links, did you observe Riley or any other movements around the communications room during your task?",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Storm",
+          "message": "Morgan, if you were updating links in the communications room, did Riley pass by, or was there anyone else around that might have been unusual?",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Parker": "- Blake: Concise, factual.\n- Finley: Verbose, often includes unnecessary details.\n- Morgan: Neutral, focuses on game mechanics.\n- Storm: Aggressive, accusatory.\n- Ocean: Friendly, vague.\n- Riley: Changes topics quickly.\n- Sky: Analytical, focuses on logic and probabilities.\n- Casey: Quiet, speaks rarely.\n- Gray: Straightforward, blunt.",
+        "Storm": "Blake is concise and factual.\nFinley is verbose and speculative.\nMorgan uses technical jargon.\nParker is logical and focuses on inconsistencies.\nOcean tends to be vague.\nRiley talks about player interactions more than game logistics.\nSky is straightforward but occasionally off-topic.\nCasey is cautious and asks questions.\nGray avoids direct confrontation.",
+        "Casey": "Parker is analytical and seeks detailed clarifications. Storm supports factual discussions and follows up on ideas.",
+        "Sky": "Parker is detail-oriented and seeks consistency; Storm cooperates and organizes discussions; Casey is task-oriented, focusing on practical details; Blake asks relevant questions that push for additional information; Morgan, Gray seem to just report activities without much probing or analysis.",
+        "Blake": "Parker: Analytical, logical, focuses on specific information and inconsistencies. Storm: Supportive, validating. Casey: Direct, claims central control room access. Sky: Solo operator in navigation, straightforward. Gray: Reported in storage room, factual. Morgan: Factually updates on location. Ocean: Observes externally, minimal direct interaction previously, indirect. Riley: Needs further observation to determine communication style, mentioned by Storm as being near central corridor.",
+        "Gray": "Blake seems direct and factual; Casey claims a critical area during the crucial time; Parker is focusing on logical deductions; Sky mentions a specific technical task; Storm seems cooperative and urging truth-findings.",
+        "Morgan": "Parker is focused on details and logical inconsistencies. Storm is supportive and organizes group actions. Casey is technical and task-focused. Sky is precise, focusing on specific job roles. Blake describes activities in detail. Gray is straightforward and task-oriented. Ocean appears observant and contributes observations from a specific location. Riley has yet to provide detailed information on their movements or observations.",
+        "Ocean": "Parker seems focused on verifying player locations and clarifying their movements. Casey briefly states their location without much elaboration. Sky provides detailed info about their task, emphasizing the location's proximity to key areas. Blake seems invested in discussing and clarifying the context around key areas for monitoring movements. Gray responds to direct questions but doesn't offer extra information. Morgan's response is concise, directly addressing the query about location."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Riley",
+          "Finley": "Riley",
+          "Morgan": "Riley",
+          "Storm": "Parker",
+          "Parker": "Storm",
+          "Ocean": "Gray",
+          "Riley": "Storm",
+          "Sky": "Riley",
+          "Casey": "Riley",
+          "Gray": "Riley"
+        },
+        "eliminated": {
+          "name": "Riley",
+          "is_human": false,
+          "votes": 6
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Ocean",
+          "message": "Blake and Parker, have we clarified everyone's movements around the key areas yet, or should we probe more into the discrepancies between reported locations and observed activities?",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Storm",
+          "message": "Parker, Morgan confirmed being in the communications room, but we are still unclear about Riley's exact movements. Has Riley or anyone else provided more clarity to their whereabouts?",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Morgan",
+          "message": "Storm, while I was in the communications room working on the updates, I did notice Riley passing through. They seemed in a hurry but didn't mention where they were headed.",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Gray",
+          "message": "Has anyone else noticed unusual activity around the central corridor or communications room that hasn't yet been discussed?",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Parker",
+          "message": "Gray, no other unusual activities reported yet. Riley being in a hurry could be key; should we explore further where they were headed?",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Blake",
+          "message": "Morgan, since you saw Riley, did they interact with anyone else or pick up anything that might explain their hurry?",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Morgan",
+          "message": "Blake, Riley did not interact with anyone else in my view, nor did they pick up anything. They just passed through quickly.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Ocean",
+          "message": "Gray, since you're watching for unusual activities, did you notice anyone else besides Riley who might have been quick or furtive around the central corridor or communications room?",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Finley",
+          "message": "Has anyone checked the security logs to see if there's any recorded exits from the facility shortly after Riley was seen rushing through? Perhaps it can give us a clue about their haste.",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Storm",
+          "message": "Finley, that's a good idea on checking the security logs. Let's see if Riley or anyone else exited the facility which might explain the urgency.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Blake",
+          "message": "Finley, that's a proactive approach. I'll join you in checking those security logs to track any quick exits or unusual movements post Riley's sighting.",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Casey",
+          "message": "Checking the logs sounds like a solid plan. Has anyone noticed if the equipment in the communications room was tampered with or missing, which might also hint at why Riley was in such a rush?",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Morgan",
+          "message": "Casey, I rechecked the equipment in the communications room earlier and did not notice anything missing or tampered with. The urgency remains unclear.",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Sky",
+          "message": "Finley and Blake, if you find anything on the security logs, could you also check if there were any unauthorized access alerts during that time? This might help us piece together Riley's hurry and ...",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Ocean",
+          "message": "Sky and Blake, were there any irregularities in the log entries around the time of Riley's rush through the area that might suggest an unseen urgency or interaction?",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Finley",
+          "message": "I'm joining Blake now to review the security logs. We'll keep an eye out for any quick exits and unauthorized access alerts that might clarify the situation around Riley's rush. Will update as soon...",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Morgan",
+          "message": "Ocean, did you observe any unusual geographic positioning or movements outside the usual routes that may correlate with Riley's haste or anyone else acting suspiciously?",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Morgan",
+          "message": "Everyone, once the security log check is complete, it might be useful to compare findings with Riley's reported activities to find any discrepancies or missing pieces.",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Blake",
+          "message": "Morgan, good thinking on observing movements correlating with Riley's actions. I'll review the camera feeds around those areas too during our security log check for any additional insight.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's also consider whether any tools or items from the storage room could have been used for a rapid task or emergency, complementing our investigation on Riley's urgent behavior.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Ocean": "Parker inquires about specific movements and travels, emphasizing on clarity of player movements. Casey focuses only on locations in a simplified manner. Sky provides detailed information focused on tasks and their strategic implications. Blake keeps a close watch on movements in critical areas. Gray is concise and speaks primarily when approached. Morgan is direct and factual about his observations concerning locations. Storm connects various observations to inquire about possible activities and movements.",
+        "Storm": "Blake is concise and factual. Finley is verbose and speculative. Morgan uses technical jargon. Parker is logical and focuses on inconsistencies. Ocean tends to be vague. Sky is straightforward but occasionally off-topic. Casey is cautious and asks questions. Gray avoids direct confrontation. Riley's movements are suspicious but unclear.",
+        "Morgan": "Parker is analytical, focusing on detail and logical consistencies. Storm is cooperative, aiding in group coordination and clarification. Casey centers on tasks and technical details. Sky focuses on job-specific responsibilities. Blake elaborates on activities with thorough descriptions. Gray is direct and action-focused. Ocean makes geographic-focused observations, focusing on locations. Riley remains vague and has not fully disclosed their movements or interactions.",
+        "Gray": "Blake is direct and puts a focus on gathering specific information; Casey claims crucial areas at critical times; Parker uses logical deductions to navigate discussions; Sky may focus on specific tasks and technical details; Storm is cooperative and focuses on truth-finding by cross-verifying stories; Morgan provides detailed accounts of their tasks and locations.",
+        "Parker": "- Blake: Concise, factual.\n- Finley: Verbose, often includes unnecessary details.\n- Morgan: Neutral, focuses on game mechanics.\n- Storm: Aggressive, accusatory.\n- Ocean: Friendly, vague.\n- Riley: Not in play.\n- Sky: Analytical, focuses on logic and probabilities.\n- Casey: Quiet, speaks rarely.\n- Gray: Straightforward, blunt.",
+        "Blake": "Parker: Analytical, logical, keen on details. Storm: Supportive, reaffirms others' ideas. Casey: Direct, controlling, focused on operational integrity. Sky: Independent, detail-oriented, straightforward. Gray: Observant of anomalies. Morgan: Fact-based, provides status updates, recently focused on verifying information. Ocean: Questions inconsistencies, externally observant. Riley: Haste noted, absent in recent discussions. Finley: Practical, solution-driven, collaborates on common goals.",
+        "Finley": "Storm is inquisitive, focusing on details about location and movements; Ocean is a coordinator, looking for discrepancies and pushing for group investigations; Morgan reports observable facts without speculating; Gray is alert to unusual activities; Parker supports deeper investigations, curious especially about Riley; Blake uses direct, clear questions to gather specific information; Casey appears focused on potential causes for unusual behavior, like tampering with equipment; Sky expresses concerns about security and seeks clarification through additional data checks.",
+        "Casey": "Parker is analytical and emphasizes detailed clarification. Storm supports factual discussions and follows up on ideas. Morgan provides direct observations but is brief in responses. Gray focuses on unusual activities and seeks input on such matters. Blake asks clarifying questions about interactions and activities. Ocean seeks broader observations about unusual activities or behaviors. Finley proposes checking factual records to verify incidents or hypotheses.",
+        "Sky": "Blake asks probing questions for additional details; Finley suggests proactive solutions and checks; Morgan reports specifics from direct observation; Parker focuses on specifics and links them to broader implications; Storm organizes and supports group initiatives; Casey focuses on practical actions and direct outcomes; Gray observes and reports general activity, asking for input; Ocean picks up on others' observations and extends the inquiry further."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Casey",
+          "Finley": "Gray",
+          "Morgan": "Storm",
+          "Storm": "Ocean",
+          "Parker": "Casey",
+          "Ocean": "Gray",
+          "Sky": "Parker",
+          "Casey": "Parker",
+          "Gray": "Ocean"
+        },
+        "eliminated": {
+          "name": "Gray",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Morgan",
+          "message": "Storm, could you help coordinate a summary of all observations once the security and equipment checks are completed? This would help us all stay aligned and fill any gaps in understanding Riley's s...",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Finley",
+          "message": "Blake and I are currently reviewing the security logs. We'll focus on the time frame around Riley's incident and report back any anomalies or unauthorized accesses. We'll cross-reference this with ...",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Blake",
+          "message": "Finley and I found no irregular access during Riley's incident in the logs. However, there was a brief, unexplained power fluctuation noted just before. Continuing to investigate.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Casey",
+          "message": "Blake and Finley, could the power fluctuation possibly be connected to any electronic devices missing or used from the storage as suggested by Morgan? It might reveal more about the situation.",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Ocean",
+          "message": "Casey's point about the power fluctuation relating to electronic devices needs further exploration. Could Sky or Morgan check if any specific task-oriented tools are missing which might explain thi...",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Finley",
+          "message": "Blake and I will continue to investigate the link between the power fluctuation and potential use of electronic devices from the storage. We will also check for any related security alerts that wer...",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Blake",
+          "message": "Finley and I will need some time today to link the power fluctuation issue to any missing electronic devices in the storage area. Morgan, could you organize your findings about Riley into a timelin...",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Parker",
+          "message": "Morgan, I will assist with compiling the timeline of Riley's activities using the available security and power data to ensure accuracy and completeness of the investigation.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Morgan",
+          "message": "Parker, that would be great. I am compiling the details now and will align with you shortly to ensure everything fits together logically.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Storm",
+          "message": "Morgan and Parker, please keep me updated on the compiled timeline and how it correlates with the power data and security logs. I'll coordinate further actions based on your findings.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Storm",
+          "message": "Blake, Finley, while you investigate the power fluctuation, can Sky assist by inventorying the storage to determine if anything connects directly to the incident?",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Morgan",
+          "message": "Sky, please let us know if you find any discrepancies or missing items in the storage that could explain the power fluctuation. This could be crucial for connecting the dots in Riley's incident.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Finley",
+          "message": "Storm, Ocean, we will keep everybody in the loop as we progress. Sky, your help in checking the inventory could indeed offer us a significant lead.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Parker",
+          "message": "Sky, your insights on the storage inventory will be essential for us to understand the connection to the power fluctuation. Let's prioritize this as a crucial piece of the puzzle.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Casey",
+          "message": "Thanks everyone for the updates. I'll align my observations about the power fluctuation with your findings, especially looking into how they might correlate with any electronic malfunctions or unre...",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Sky",
+          "message": "I'll start the inventory check in the storage area shortly and will report any discrepancies or missing items that could be linked to the power issues.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Storm",
+          "message": "I appreciate everyone's efforts. It's important that we stay vigilant and thorough, ensuring no detail is overlooked in both the inventory and the timeline correlation.",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Casey",
+          "message": "I'll coordinate my findings on the electronic malfunctions with the ongoing inventory and timeline compilation. It's crucial we clarify if these malfunctions directly relate to Riley's incident.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Blake",
+          "message": "Finley, I've noticed slight discrepancies in the timing of the power fluctuations that need a closer look. I'll compile these observations and share them for cross-reference with the inventory find...",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Casey",
+          "message": "Blake, please send your detailed observations on the timing discrepancies as soon as you can. They might help us tie everything together with the storage inventory findings.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Morgan": "Parker is analytical, focusing on detail and logical consistencies. Storm is cooperative, aiding in group coordination and clarification. Casey is task-oriented, centering on technical details. Sky focuses on job-specific responsibilities. Blake provides thorough descriptions of activities. Ocean makes geographic-focused observations. Finley supports technical elements, aiding in detailed reviews and security analyses.",
+        "Finley": "Storm is inquisitive, focusing on details about location and movements; Ocean is a coordinator, looking for discrepancies and pushing for group investigations; Morgan reports observable facts without speculating; Gray is alert to unusual activities but isn't part of the current conversation; Parker supports deeper investigations, curious especially about Riley; Blake uses direct, clear questions to gather specific information; Casey appears focused on potential causes for unusual behavior, like tampering with equipment; Sky expresses concerns about security and seeks clarification through additional data checks.",
+        "Blake": "Parker: Analytical, logical, focuses on details for clarity. Storm: Supportive, coordinates others' efforts, ensures inclusivity. Casey: Direct, seeks operational control, aligns team efforts. Sky: Detail-oriented, works independently, straightforward communicator. Morgan: Compiles and verifies information, factual. Ocean: Observant of inconsistencies, queries external conditions. Finley: Practical, solution-focused, maintains team updates. Riley: Previously noted for hastiness, currently less active.",
+        "Casey": "Parker is detailed and analytical, focusing on accuracy and logical connections. Morgan is concise and to the point, primarily concerned with assembling key data. Storm acts as a coordinator, keeping the team informed and aligned. Blake delves deeply into investigations, collaborating with others to uncover specific aspects. Finley ensures factual integrity and thorough verification in investigations. Ocean views situations from broad perspectives to underpin deeper causes. Sky is responsive, aiding in verification processes like inventory checks. Casey (self) aids in correlating personal observations with team findings, specializing in technical details.",
+        "Ocean": "Parker inquires about specific movements and travels, emphasizing clarity in player movements. Casey focuses on locations in a simplified manner. Sky provides detailed information focused on tasks and their strategic implications. Blake monitors movements in critical areas. Morgan is direct and factual about observations concerning locations. Storm synthesizes various observations to ask about possible activities and movements.",
+        "Parker": "- Blake: Concise, factual. Focuses on physical evidence and direct outcomes.\n- Finley: Verbose, detail-oriented. Collaborates closely with Blake.\n- Morgan: Neutral, game mechanics-oriented, takes initiative in managing team activities and compiling information.\n- Storm: Aggressive, establishes roles, and coordinates actions though recently a bit more communicative in following updates.\n- Ocean: Friendly, supportive, contributes by offering expansion on others' suggestions.\n- Sky: Analytical, logic-based, asked to assist with inventory tasks potentially indicating reliability.\n- Casey: Quiet but speaks up to make pertinent inquiries concerning game scenarios.",
+        "Storm": "Blake is concise and factual. Finley is verbose and speculative. Morgan uses technical jargon. Parker is logical and focuses on inconsistencies. Ocean tends to be vague. Sky is straightforward but occasionally off-topic. Casey is cautious and asks questions. Gray avoids direct confrontation. Riley's movements are suspicious but unclear.",
+        "Sky": "Blake asks probing questions for additional details; Finley suggests proactive solutions and checks; Morgan reports specifics from direct observation; Parker focuses on specifics and links them to broader implications; Storm organizes and supports group initiatives; Casey focuses on practical actions and direct outcomes; Ocean picks up on others' observations and extends the inquiry further; Gray is not mentioned in recent interactions."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Ocean",
+          "Finley": "Casey",
+          "Morgan": "Ocean",
+          "Storm": "Ocean",
+          "Parker": "Ocean",
+          "Ocean": "Casey",
+          "Sky": "Ocean",
+          "Casey": "Morgan"
+        },
+        "eliminated": {
+          "name": "Ocean",
+          "is_human": false,
+          "votes": 5
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Storm",
+          "message": "Blake, please keep us updated with any data you collect on the timing issues. Your precise observations are essential for our correlation with the storage anomalies Sky might discover.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Blake",
+          "message": "I'm compiling the timing discrepancies now and will share my findings shortly. This should help us cross-verify with the inventory results Sky is gathering.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Casey",
+          "message": "Looking forward to correlating Blake's timing data with Sky's inventory findings to see if there's a direct cause for the power issues related to the incident.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Morgan",
+          "message": "Everyone's efforts seem highly coordinated. I\u2019ll ensure all security protocols are being followed and will report any anomalies directly related to our current issues.",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Finley",
+          "message": "I'll consolidate the data we receive from Blake and Sky with our existing logs to help identify any patterns linked to the power fluctuations or security breaches. This should aid in pinpointing po...",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Finley",
+          "message": "As soon as Blake and Sky send their reports, I'll begin integrating all our data. The comprehensive view should highlight any discrepancies that link directly to the current issues we're addressing.",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Morgan",
+          "message": "I will also monitor the system logs for any additional security anomalies that coincide with the timing discrepancies Blake and Sky uncover. This could provide us with additional insights into the ...",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Blake",
+          "message": "I am finalizing the report on the timing discrepancies and will send it over shortly. This synchronization with Sky's findings and Morgan's security checks should give us a clearer picture of the s...",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Sky",
+          "message": "I'm finalizing my inventory review now and will align it with Blake's timing data. We should soon have a comprehensive view to determine any direct links to the power discrepancies.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Blake",
+          "message": "I've just sent out the report on the timing discrepancies. Eager to see how it aligns with Sky's inventory review and Morgan's security insights!",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Parker",
+          "message": "Thanks everyone for your diligent updates. I'll help integrate Blake's and Sky's findings into our system analysis to further outline any discrepancies.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Finley",
+          "message": "Thanks, Blake. Reviewing your report alongside Sky's inventory details should help us understand the full scope of the power discrepancies. Let's keep the information flow consistent.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Sky",
+          "message": "I've just sent out my inventory findings. Once integrated with Blake's timing report by Finley and reviewed by Morgan's security insights, we should have a solid understanding of where the discrepa...",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Sky",
+          "message": "With all our reports now aligned and under review, I'm looking forward to seeing if the integrated data points to a clear cause of the discrepancies. Thanks everyone for the teamwork!",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Blake",
+          "message": "Great teamwork! Waiting eagerly to find out how these integrated reports will help us zoom into the source of those discrepancies.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Finley",
+          "message": "With all reports in hand, I'm currently integrating the data. I hope to share insights on the power discrepancies shortly, further refining our understanding. Keep the updates coming!",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Casey",
+          "message": "Appreciating the collective efforts here! I'm cross-referencing our updated reports with historical data anomalies to enhance our pinpointing of these discrepancies.",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Blake",
+          "message": "With everyone's detailed input lining up, I'm particularly keen to see how Casey's cross-referencing with historical data ties into our current understanding of these discrepancies.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Storm",
+          "message": "I'll be ready to analyze the final report combining our findings and insights to ensure transparency and accuracy. Thank you all for the hard work!",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Parker",
+          "message": "It's great to see how everyone's efforts are synthesizing. I'm currently working on integrating Blake's and Sky's findings with the available updates to help pinpoint the discrepancies efficiently.",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Storm": "Blake is concise and factual. Finley is verbose and speculative. Morgan uses technical jargon. Parker is logical and focuses on inconsistencies. Sky is straightforward but occasionally off-topic. Casey is cautious and asks questions.",
+        "Blake": "Parker: Analytical and logical, integrates details into broader system analysis. Storm: Facilitates team inclusivity and organization. Casey: Direct and dominant, focuses on aligning team efforts for control and uses historical data comparison. Sky: Independent and detailed, aligns closely with reports, straightforward in communication. Morgan: Security focus, detailed in factual data compilation and monitoring. Finley: Practical, ensures data is updated and integrated efficiently, very solution-oriented. Riley: Known for hastiness, has been less active lately.",
+        "Casey": "Parker focuses on details and logical connections. Morgan is succinct and prioritizes key data. Storm coordinates and keeps the team aligned. Blake is investigative and collaborative. Finley emphasizes factual integrity and thorough data integration. Sky assists in verification processes and emphasizes comprehensive views. Casey (self) correlates personal observations with technical details.",
+        "Morgan": "Parker: Analytical, focusing on detail and logical consistencies. Storm: Cooperative, aiding in group coordination and clarification. Casey: Task-oriented, centering on technical and procedural details. Sky: Focused on job-specific responsibilities, likely handling things related to inventory or resources. Blake: Provides thorough descriptions and observations related to timing and other potentially critical elements. Ocean: Geographic observations (though not involved in the current discussion). Finley: Technical support, aids in security and data analyses, compiles and integrates data from various sources.",
+        "Finley": "Storm is inquisitive, focusing on details about location and movements; Ocean is a coordinator; Morgan reports observable facts without speculating; Gray is alert to unusual activities; Parker supports deeper investigations and is curious about Riley; Blake uses direct, clear questions to gather specific information; Casey focuses on potential causes for unusual behavior, such as tampering with equipment; Sky expresses concerns about security and seeks clarification through additional data checks.",
+        "Sky": "Blake: Analytical, detailed reporter; Finley: Data synthesizer, integrator; Morgan: Security-focused, correlates logs/issues; Parker: Supportive integrator, less vocal; Storm: Coordination promoter, currently inactive; Casey: Outcome-oriented, seeks correlations; Sky: Inventory management, aligns findings for analysis.",
+        "Parker": "Blake: Concise, focused on evidence and outcomes. | Finley: Verbose, works closely with Blake, detail oriented. | Morgan: Neutral, manages team activities, compiles info. | Storm: Aggressive initially, now more communicative in updates. | Sky: Analytical and logical, responsible for inventory tasks. | Casey: Quiet, makes pertinent inquiries, now cross-referencing historical data."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Casey",
+          "Finley": "Casey",
+          "Morgan": "Parker",
+          "Storm": "Sky",
+          "Parker": "Casey",
+          "Sky": "Storm",
+          "Casey": "Blake"
+        },
+        "eliminated": {
+          "name": "Casey",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Parker",
+          "message": "Everyone, your detailed contributions are pushing us closer to a resolution. I'm eagerly waiting alongside you all to see the synthesis of these comprehensive insights.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Sky",
+          "message": "It's rewarding to see such a cohesive effort! Eager to see the final insights from this collective data synthesis.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Storm",
+          "message": "Let's make sure the integration of all these detailed observations leads us to the most accurate resolution of the discrepancies. Your hard work is crucial in this final push!",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Storm",
+          "message": "Ready to dive into the final analysis once all data syntheses are consolidated. Let's stay focused and clear on our objectives!",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Parker",
+          "message": "Just to keep everyone in the loop, I've managed to align Blake's and Sky's findings with our latest updates, looking forward to seeing how this contributes to our final report synthesis.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Blake",
+          "message": "I'm impressed with how Parker has woven my and Sky's observations into the broader picture. Looking forward to how this integration helps clarify the discrepancies in our final review.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Finley",
+          "message": "As we all contribute to fine-tuning the final report, I've been verifying our data against external standards to ensure our conclusions are not just internally consistent, but also globally valid. ...",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Morgan",
+          "message": "Terrific teamwork everyone! I'm reviewing the accuracy of the procedural details to ensure nothing critical slips through as we synthesize our final report. Looking forward to our combined success!",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Finley",
+          "message": "I appreciate everyone's diligent efforts in aligning our data for clarity and comprehensive understanding. I look forward to seeing our teamwork reflected in the upcoming final synthesis.",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Finley",
+          "message": "I'm thrilled by the collective intelligence we're manifesting. As we near the final synthesis, let's ensure every piece of data has been meticulously cross-checked and ready for conclusive insights.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Morgan",
+          "message": "Great work team! Finley, verifying our data against external standards adds an essential layer of reliability to our conclusions. Looking forward to weaving these insights into our collective synth...",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Parker",
+          "message": "Great to see the collective progress. I'm double-checking that all integrated data sections align seamlessly for our synthesis, ensuring a coherent final report.",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Finley",
+          "message": "I'm cross-referencing our latest findings with historical data to ensure coherence. Let's maintain this momentum for a flawless final synthesis.",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Finley",
+          "message": "As we consolidate our efforts for the final synthesis, it's essential that we continue to ensure all data aligns precisely with our regional specifications as well. This redundancy is crucial for o...",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Blake",
+          "message": "The effort to maintain consistency and coherency across our data is crucial, and it's great to see everyone so engaged. I also believe that cross-referencing historical and external data, as Finley...",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Sky",
+          "message": "Everyone's focus on detail and coherence is impressive. I'm currently realigning our inventory data to ensure it supports the final insights we're aiming for in our comprehensive report.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Morgan",
+          "message": "Everyone's contributions are shaping our synthesis excellently. Blake, your emphasis on historical context complements Finley\u2019s detailed validations perfectly. Let\u2019s keep this momentum going!",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Finley",
+          "message": "I'm impressed with how each contribution uniquely enhances our project's robustness. Ensuring our data's alignment with both historical and current standards will undoubtedly lead us to a precise a...",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Storm",
+          "message": "Excellent contributions all around. I'm reviewing our statistical methods to ensure they're up to date and robust for our synthesis.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Parker",
+          "message": "The rigor in our data review processes is excellent; I'll ensure the integration points between historical and current data are error-free and precise.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Parker": "Blake: Concise, focuses significantly on evidence and alignment of data. | Finley: Very detailed and thorough, often acts as a verifier and aligner, works closely with Blake. | Morgan: Neutral and managerial, an effective compiler and reviewer of information. | Storm: Now focused on clarity and precision, interested in methodological robustness. | Sky: Analytical, logical, manages inventory data, enthusiastic about collective tasks. | Casey: Quiet, deeply engage in cross-referencing historical data for authenticity.",
+        "Sky": "Blake: Analytical, focuses on integrating and cross-referencing the observations for consistency; Finley: Enthusiastically synthesizes data, looking for global validity and coherency with historical data; Morgan: Supportive, ensures procedural accuracy and celebrates team efforts; Parker: Introverted but ensures data integration is seamless; Storm: Often inactive but offers analytic insights when engaged; Casey: Not in the current game/no current data; Sky: Manages and aligns inventory findings for analytical purposes.",
+        "Storm": "Blake is concise and factual. Finley is verbose and speculative. Morgan uses technical jargon. Parker is logical and focuses on inconsistencies. Sky is straightforward but occasionally off-topic. Casey is cautious and asks questions.",
+        "Blake": "Parker: Analytical and logical, well-versed in integrating details and focusing on synthesis of group efforts. Storm: Inclusive and organized, emphasizes accuracy and transparency. Sky: Independent, straightforward, focused on cohesive outcomes. Morgan: Security and detail-oriented, currently not very vocal but ensures procedural accuracy. Finley: Practical, diligent in integrating and verifying data, focuses on comprehensive understanding and regional specifications.",
+        "Finley": "Storm: Inquisitive, focuses on detailed observations. Parker: Integrates insights, thorough investigations. Blake: Asks clear, direct questions. Sky: Emphasizes security, data consistency. Morgan: Reports facts without speculation. Finley: Advocates for extensive cross-referencing and detailed data coherence.",
+        "Morgan": "Parker: Analytical, detail-oriented, integrates specific observations into broader analytical frameworks, provides coherent updates. Storm: Collaborative, synthesizes insights, promotes unified projections towards conclusions. Sky: Positive, job-specific, focuses on team efforts and resource alignment. Blake: Observative, contextualizes observations broadly, values teamwork\u2019s role in refining data. Finley: Practical, aligns data with global and historical standards, emphasizes data integrity and clarity."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Morgan",
+          "Finley": "Morgan",
+          "Morgan": "Sky",
+          "Storm": "Finley",
+          "Parker": "Storm",
+          "Sky": "Storm"
+        },
+        "eliminated": {
+          "name": "Morgan",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_204910",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Blake",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Blake",
+        "infections": [
+          {
+            "player_name": "Blake",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T20:49:10.086094",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Blake",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Blake",
+      "is_human": false
+    },
+    {
+      "name": "Finley",
+      "is_human": false
+    },
+    {
+      "name": "Morgan",
+      "is_human": false
+    },
+    {
+      "name": "Storm",
+      "is_human": false
+    },
+    {
+      "name": "Parker",
+      "is_human": false
+    },
+    {
+      "name": "Ocean",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "Sky",
+      "is_human": false
+    },
+    {
+      "name": "Casey",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    }
+  ]
+}

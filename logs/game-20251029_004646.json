@@ -1,0 +1,888 @@
+{
+  "game_id": "20251029_004646",
+  "num_players": 10,
+  "model_name": "openai/gpt-4o-mini",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Riley",
+          "message": "Let's share our thoughts on the last vote\u2014understanding everyone's perspective might help us make better decisions going forward.",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate Riley's initiative to share thoughts. Understanding diverse perspectives is crucial for our collective decision-making.",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Harper",
+          "message": "I agree with Riley's approach; discussing our perspectives can clarify our goals and strengthen our strategy as a group.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Sage",
+          "message": "I appreciate the emphasis on understanding, Riley. I believe openly discussing our strategies will strengthen our unity as a group.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Gray",
+          "message": "I agree that examining our past votes can reveal patterns in our thinking and decision-making, enabling us to refine our strategy collaboratively. Let's proceed with sharing our insights.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Quinn",
+          "message": "I appreciate everyone\u2019s willingness to share insights; aligning our strategies will definitely enhance our decision-making for future votes.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Quinn",
+          "message": "I believe that by consistently sharing our perspectives, we can build a stronger, more unified approach to our strategy moving forward. Let's keep this dialogue open!",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Phoenix",
+          "message": "I share the sentiment of fostering open dialogue; let's ensure we are also critically evaluating our strategies to avoid past pitfalls and enhance our collective decision-making.",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Gray",
+          "message": "I echo the importance of critical evaluation, Phoenix. By combining our reflections with strategic analysis, we can ensure our future decisions are both informed and cohesive.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Alex",
+          "message": "I'm on board with everyone\u2019s commitment to transparency\u2014let's keep this dialogue active and ensure we learn from our past decisions to work towards a cohesive strategy.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Ocean",
+          "message": "I value the collaborative spirit everyone is showing; let\u2019s harness our insights to sharpen our strategies and avoid any previous missteps together.",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Ocean",
+          "message": "I completely agree with the importance of evaluation and collective insights; by staying vigilant and reflective, we can truly enhance our strategic alignment and decision-making for the future.",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Harper",
+          "message": "As we continue to analyze and align our strategies, let's also ensure that we each take actionable steps based on our discussions to make our improvements tangible moving forward.",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Phoenix",
+          "message": "I appreciate everyone's commitment to ongoing dialogue and actionable steps; let\u2019s remain vigilant and ensure our strategies evolve to meet future challenges together.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Quinn",
+          "message": "I appreciate the focus on actionable steps, Harper; it\u2019s essential that we each contribute tangible insights from our discussions to strengthen our strategy moving forward.",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Gray",
+          "message": "I believe it's crucial that we not only discuss our strategies but also designate specific roles to ensure accountability and effective implementation moving forward.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Ocean",
+          "message": "I support the idea of designating roles to ensure accountability, Gray. Let\u2019s ensure that everyone feels empowered to take ownership of our strategy as we move forward.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Phoenix",
+          "message": "I agree with the emphasis on accountability and designated roles, Gray; by clearly defining our responsibilities, we can turn our discussions into effective actions that drive our strategy forward.",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Emery",
+          "message": "I agree with the idea of accountability and role designation; let's make sure each of us is clear on our responsibilities moving forward to effectively implement our strategies.",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Harper",
+          "message": "I agree with Gray and Ocean\u2014designating specific roles will help us turn our strategies into actionable results and ensure we all contribute effectively. Let's outline our roles and responsibilitie...",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Riley": "Sage tends to be analytical and precise, often using statistics; Phoenix is more emotional and persuasive; Nova communicates in a friendly, casual tone; Quinn is straightforward and practical; Alex is humorous and often lightens the mood; Gray is cryptic and mysterious; Riley is analytical and cautious; Emery is assertive and strategic; Harper prefers to ask questions and engage others; Ocean is reflective and philosophical.",
+        "Gray": "- Sage: Analytical and logical; prefers structured arguments.\n- Phoenix: Emotional and persuasive; uses personal anecdotes.\n- Nova: Direct and concise; values efficiency in communication.\n- Quinn: Inquisitive; asks many questions to gauge perspectives.\n- Alex: Collaborative and supportive; encourages teamwork.\n- Gray: Neutral; observes and balances different styles.\n- Riley: Thoughtful and diplomatic; seeks consensus.\n- Emery: Candid and straightforward; doesn't shy from confrontation.\n- Harper: Creative and metaphorical; uses imagery in discussions.\n- Ocean: Reflective and contemplative; often shares insights.",
+        "Harper": "- Sage: Direct and concise, values clear communication.  \n- Phoenix: Analytical and prefers to back opinions with data.  \n- Nova: Reflective, often brings emotional insights into discussions.  \n- Quinn: Observant and careful, takes time before responding.  \n- Alex: Enthusiastic and engages with humor, sometimes sidetracked.  \n- Gray: Supportive and values collaboration, encourages team input.  \n- Riley: Thoughtful and inclusive, promotes discussion and sharing perspectives.  \n- Emery: Strategic thinker, often focuses on long-term implications.  \n- Harper: Balanced communicator, strives to synthesize ideas.  \n- Ocean: Pragmatic, tends to get straight to the point.",
+        "Sage": "Riley: Initiates discussion and emphasizes understanding perspectives; aims for collaboration.\nGray: Supports group initiatives and values collective decision-making; diplomatic tone.\nHarper: Agrees with others and promotes clarification of goals; cooperative approach.",
+        "Quinn": "- Riley: Values collaboration and understanding, encourages open dialogue.  \n- Gray: Supports collective discussions and has an analytical approach to decision-making.  \n- Harper: Aligns with collaborative strategies, emphasizes the importance of clarity and actionable steps.  \n- Sage: Focuses on unity and open discussions, prioritizes team strength.  \n- Ocean: Values collaboration and collective insights; promotes vigilance and reflection.  \n- Nova: (unknown)  \n- Alex: Emphasizes transparency and active dialogue for cohesive strategies.  \n- Phoenix: Advocates for open dialogue and critical evaluation of strategies.",
+        "Phoenix": "- Riley: Encouraging and collaborative, values open discussion.  \n- Gray: Supportive and analytical, promotes understanding diverse perspectives.  \n- Harper: Affirmative and cooperative, focuses on group goals and strategy.  \n- Sage: Appreciative and unifying, emphasizes the strength of open discussion.  \n- Quinn: Positive and oriented towards unity, advocates for ongoing dialogue.  \n- Nova: Unknown (no comments made yet).  \n- Alex: Active participant in the dialogue, values transparency and collective strategy.  \n- Emery: Unknown (no comments made yet).  \n- Ocean: Collaborative and reflective, values collective insights to enhance strategy.",
+        "Alex": "- Riley: Encouraging and open, suggests collaboration and sharing of thoughts.\n- Gray: Supportive and analytical, emphasizes understanding and strategic evaluation.\n- Harper: Positive and cooperative, agrees with group discussions and clarity.\n- Sage: Appreciative and unity-focused, emphasizes open strategy discussions.\n- Quinn: Reflective and community-oriented, promotes ongoing dialogue for alignment.\n- Phoenix: Thoughtful and critical, encourages evaluation of strategies and learning from past.\n- Emery: Unknown communication style due to absence in recent chat.\n- Ocean: Unknown communication style due to absence in recent chat.\n- Alex: Observant and engaging.\n- Other players\u2019 styles may indicate them being team-oriented and reflective.",
+        "Ocean": "- Riley: Proactive and inclusive; encourages sharing of thoughts and perspectives.\n- Gray: Supportive and analytical; values understanding and collective decision-making.\n- Harper: Agreement-oriented; emphasizes clarity and strategy cohesiveness.\n- Sage: Appreciative and unifying; values open discussions to strengthen group unity.\n- Quinn: Encourages open dialogue and is committed to aligning strategies.\n- Phoenix: Critical thinker; emphasizes evaluation and learning from past experiences.\n- Alex: Supportive of transparency; focuses on active dialogue for improved strategy.\n- Ocean: Values collaboration and collective insights; aims to sharpen strategies based on past experiences.",
+        "Emery": "- Gray: Analytical and focuses on critical evaluation and strategy. \n- Alex: Supportive of transparency and active dialogue, emphasizes learning from past decisions.\n- Ocean: Collaborative, values collective insights, and encourages vigilance and reflection.\n- Harper: Advocates for actionable steps and tangible improvements.\n- Phoenix: Appreciates dialogue, emphasizes accountability and evolution of strategies.\n- Quinn: Values actionable insights and contribution to strengthen strategy.\n- Riley: (No notes from previous messages.)\n- Emery: (Myself, observing and engaging.)\n- Sage: (No notes from previous messages.)\n- Nova: (No notes from previous messages.)"
+      },
+      "voting": {
+        "votes": {
+          "Sage": "Harper",
+          "Phoenix": "Nova",
+          "Nova": "Quinn",
+          "Quinn": "Nova",
+          "Alex": "Ocean",
+          "Gray": "Emery",
+          "Riley": "Gray",
+          "Emery": "Riley",
+          "Harper": "Alex",
+          "Ocean": "Phoenix"
+        },
+        "eliminated": {
+          "name": "Nova",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Quinn",
+          "message": "I support the idea of clear accountability and designated roles as a way to enhance our strategy, ensuring each of us can contribute meaningfully to our collective goals. Let's outline how we can e...",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Gray",
+          "message": "I propose we each suggest specific roles that align with our strengths and strategies so we can clearly define our responsibilities and enhance our collaboration moving forward.",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Riley",
+          "message": "I propose we each take a moment to reflect on our individual strengths before suggesting specific roles, ensuring our strategy is built on a solid foundation of personal contributions.",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Sage",
+          "message": "I appreciate Riley's suggestion to reflect on our strengths before defining roles; this thoughtful approach will help us align effectively and enhance our collaboration.",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Quinn",
+          "message": "I appreciate the emphasis on reflecting on our strengths before we suggest roles, Riley and Sage; it will ensure our strategy reflects our capabilities and drive effective collaboration.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate everyone\u2019s commitment to reflecting on our strengths first; this will undoubtedly lead to a more effective and cohesive strategy as we designate our roles. Let\u2019s proceed with that refl...",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Ocean",
+          "message": "I agree with the reflection on our strengths, Riley and Sage. By understanding what each of us brings to the table, we can formulate a strategy that leverages our collective potential effectively.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Emery",
+          "message": "I appreciate everyone's commitment to reflecting on strengths; let's take a moment to share our insights so we can align effectively and designate roles that truly harness our abilities.",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Sage",
+          "message": "I wholeheartedly support the idea of reflecting on our strengths before suggesting roles. This will not only clarify our contributions but also foster a more engaged and effective collaboration amo...",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Emery",
+          "message": "I suggest we take a moment to share our thoughts on our individual strengths so we can move forward with role designations that play to our collective abilities.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Alex",
+          "message": "I completely agree with the approach of reflecting on our individual strengths; it\u2019s essential that we understand what each of us brings to the table to ensure a successful collaboration. Let's tak...",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Harper",
+          "message": "I support the idea of sharing our individual strengths, as it will allow us to find roles that capitalize on what each of us does best, fostering a more effective teamwork dynamic.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Ocean",
+          "message": "I believe reflecting on our strengths will not only clarify our contributions but also enhance our teamwork. I'm excited to hear everyone's thoughts!",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Alex",
+          "message": "I'm eager to hear everyone's thoughts on their individual strengths, as it will help us craft a solid strategy that utilizes our collective skills effectively. Let's dive in!",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Sage",
+          "message": "I'm eager to hear everyone\u2019s insights on individual strengths as well; the more we understand our capabilities, the better equipped we'll be to form a cohesive strategy moving forward.",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate everyone's enthusiasm for sharing strengths; let's take the opportunity to express how we can uniquely contribute to our roles and strategy moving forward.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Riley",
+          "message": "I appreciate everyone's willingness to share insights on strengths; it's essential for us to align effectively with our roles to leverage our collective potential. I'll share my thoughts after ever...",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Alex",
+          "message": "I'm excited to hear everyone's insights; sharing our strengths will lay the groundwork for a strong strategic collaboration. Let's keep this positive momentum going!",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Sage",
+          "message": "I echo the excitement in sharing our strengths and believe that this will set a strong foundation for our roles. Let's embrace this moment to learn from each other!",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Gray",
+          "message": "I encourage everyone to share their strengths openly; by doing so, we can pinpoint roles that truly maximize our potential and foster an effective and united strategy moving forward.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Quinn": "- Riley: Values collaboration and understanding, encourages open dialogue, and suggests reflective approaches.  \n- Gray: Supports collective discussions and has an analytical approach to decision-making, advocating for role designation.  \n- Harper: Aligns with collaborative strategies, emphasizes clarity and actionable steps, and agrees with role definition.  \n- Sage: Focuses on unity and open discussions, prioritizes team strength, and values reflective approaches.  \n- Ocean: Values collaboration and collective insights, promotes vigilance and reflection, supporting role accountability.  \n- Nova: (unknown)  \n- Alex: Emphasizes transparency and active dialogue for cohesive strategies, aligning with role designation.  \n- Phoenix: Advocates for open dialogue and critical evaluation of strategies, supporting accountability.  \n- Emery: Values accountability and clarity in role designation, agreeing with the group's sentiments.",
+        "Gray": "- Sage: Analytical and logical; prefers structured arguments.\n- Phoenix: Emotional and persuasive; uses personal anecdotes.\n- Quinn: Inquisitive; asks many questions to gauge perspectives.\n- Alex: Collaborative and supportive; encourages teamwork.\n- Gray: Neutral; observes and balances different styles.\n- Riley: Consensus-seeking and diplomatic; values group harmony.\n- Emery: Candid and straightforward; doesn't shy from confrontation.\n- Harper: Creative and metaphorical; uses imagery in discussions.\n- Ocean: Reflective and contemplative; often shares insights.",
+        "Riley": "Sage is analytical and precise; Phoenix is emotional and persuasive; Nova has a friendly, casual tone; Quinn is straightforward and practical; Alex is humorous and lightens the mood; Gray is cryptic and mysterious; Riley is analytical and cautious; Emery is assertive and strategic; Harper asks questions and engages others; Ocean is reflective and philosophical.",
+        "Sage": "Riley: Initiates discussion and emphasizes understanding perspectives; aims for collaboration.  \nGray: Supports group initiatives and values collective decision-making; diplomatic tone.  \nHarper: Agrees with others and promotes clarification of goals; cooperative approach.  \nPhoenix: Encourages ongoing dialogue and collective vigilance; strategic.  \nQuinn: Focuses on actionable insights and contributions; constructive.  \nOcean: Supports accountability and empowerment; collaborative.  \nEmery: Advocates for clarity in responsibilities and effective implementation; systematic.  \nAlex: Supports collaborative efforts and emphasizes understanding strengths; enthusiastic.",
+        "Ocean": "- Riley: Proactive and inclusive; encourages sharing of thoughts and perspectives.\n- Gray: Supportive and analytical; values understanding and collective decision-making.\n- Harper: Agreement-oriented; emphasizes clarity and strategy cohesiveness.\n- Sage: Appreciative and unifying; values open discussions to strengthen group unity.\n- Quinn: Encourages open dialogue and is committed to aligning strategies.\n- Phoenix: Critical thinker; emphasizes evaluation and learning from past experiences.\n- Alex: Supportive of transparency; focuses on active dialogue for improved strategy.\n- Emery: Supportive and clear; values understanding of responsibilities for effective implementation.",
+        "Emery": "- Gray: Analytical and focuses on critical evaluation and strategy.  \n- Alex: Supportive of transparency and active dialogue, emphasizes learning from past decisions.  \n- Ocean: Collaborative, values collective insights, and encourages vigilance and reflection.  \n- Harper: Advocates for actionable steps and tangible improvements.  \n- Phoenix: Appreciates dialogue, emphasizes accountability and evolution of strategies.  \n- Quinn: Values actionable insights and contributions to strengthen strategy.  \n- Riley: Reflective and encourages individual assessment of strengths before collaboration.  \n- Sage: Appreciates reflective approaches and aims for effective alignment in collaboration.  \n- Nova: Unknown communication style.",
+        "Alex": "- Riley: Encouraging and open, suggests collaboration and sharing of thoughts.\n- Gray: Supportive and analytical, emphasizes understanding and strategic evaluation.\n- Harper: Positive and cooperative, agrees with group discussions and clarity.\n- Sage: Appreciative and unity-focused, emphasizes open strategy discussions.\n- Quinn: Reflective and community-oriented, promotes ongoing dialogue for alignment.\n- Phoenix: Thoughtful and critical, encourages evaluation of strategies and learning from past.\n- Emery: Appreciative and collaborative, encourages sharing insights for alignment on strengths.\n- Ocean: Cooperative and supportive, agrees with collective potential and reflections on strengths.\n- Alex: Observant and engaging, seeks to facilitate understanding and cooperation.",
+        "Harper": "- Sage: Direct and concise, values clear communication.  \n- Phoenix: Analytical and prefers to back opinions with data.  \n- Nova: Reflective, often brings emotional insights into discussions.  \n- Quinn: Observant and careful, takes time before responding.  \n- Alex: Enthusiastic and engages with humor, sometimes sidetracked.  \n- Gray: Supportive and values collaboration, encourages team input.  \n- Riley: Thoughtful and inclusive, promotes discussion and sharing perspectives.  \n- Emery: Strategic thinker, often focuses on long-term implications.  \n- Harper: Balanced communicator, strives to synthesize ideas.  \n- Ocean: Pragmatic, tends to get straight to the point."
+      },
+      "voting": {
+        "votes": {
+          "Sage": "Phoenix",
+          "Phoenix": "Quinn",
+          "Quinn": "Phoenix",
+          "Alex": "Phoenix",
+          "Gray": "Riley",
+          "Riley": "Gray",
+          "Emery": "Ocean",
+          "Harper": "Alex",
+          "Ocean": "Phoenix"
+        },
+        "eliminated": {
+          "name": "Phoenix",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Emery",
+          "message": "I appreciate everyone's eagerness to share strengths; it truly is a foundational aspect for us to build a successful strategy together. I'll go ahead and share my thoughts as well!",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Alex",
+          "message": "I truly value the collective enthusiasm in sharing our strengths; this collaborative spirit will undoubtedly set us up for success as we navigate our strategies. I'm looking forward to hearing from...",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Quinn",
+          "message": "I'm also looking forward to sharing my strengths with everyone; understanding our unique abilities will undoubtedly enhance our collaborative efforts and lead to a more effective strategy.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Gray",
+          "message": "I'm eager to hear everyone's insights and think it would be beneficial if we each framed our strengths in the context of our team's collective goals. Let's keep the dialogue flowing!",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Gray",
+          "message": "I believe framing our strengths in relation to our collective objectives will help us find alignment and drive success; I'm looking forward to hearing everyone's insights!",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Gray",
+          "message": "I agree with the importance of framing our strengths around our collective objectives and look forward to the diverse insights each of you will bring to the table. Let's harness that energy for a c...",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Alex",
+          "message": "I'm keen to hear how everyone frames their strengths in relation to our common goals; this will help us weave our strategies together effectively!",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Riley",
+          "message": "I appreciate all the enthusiasm around sharing strengths; I believe a clear understanding of each member\u2019s abilities will significantly enhance our strategic cohesion. I'm eager to hear how we can ...",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Riley",
+          "message": "I agree that framing our strengths in relation to collective goals will enhance our strategy, and I look forward to hearing how each of us can contribute our unique abilities to this shared vision.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Emery",
+          "message": "I'm excited to share my strengths with everyone as well! I believe that highlighting our unique contributions will enhance our collaborative strategy and help us achieve our collective goals.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Alex",
+          "message": "I completely resonate with the importance of aligning our strengths with our collective goals; each perspective shared today will surely enhance our collaborative efforts and deepen our strategy. L...",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Harper",
+          "message": "I appreciate everyone\u2019s enthusiasm about sharing strengths; aligning our abilities with collective objectives will surely enhance our strategy moving forward. Let's keep this insightful dialogue go...",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Sage",
+          "message": "I appreciate the strong focus on aligning our strengths with our collective goals; this collaborative approach is essential to our success. Let\u2019s keep building on this momentum and structure our st...",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Quinn",
+          "message": "I'm excited to contribute to this dialogue! I believe that by sharing our unique strengths relative to our objectives, we can create a more cohesive and effective strategy together.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Harper",
+          "message": "I'm glad to see everyone engaged in this discussion; by articulating our unique strengths, we can solidify our strategy and drive our collective success. I look forward to hearing how each of us ca...",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Emery",
+          "message": "I'm looking forward to sharing my strengths as well and collaborating to refine our strategy further. Together, we can create a more unified and effective approach to our goals!",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Harper",
+          "message": "I'm appreciative of the strong commitment everyone has to sharing strengths; it will undoubtedly help us refine our strategies. Let\u2019s ensure we each articulate our contributions clearly so we can b...",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Riley",
+          "message": "I appreciate everyone's commitment to clarifying our strengths; let's ensure that our discussions remain focused and each contribution is actionable to enhance our overall strategy.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Sage",
+          "message": "I believe that as we articulate our unique strengths, we should also consider concrete actions we can take together to leverage these abilities effectively in our strategy. Let's discuss how we can...",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Harper",
+          "message": "I agree with Sage and Riley; let\u2019s focus on actionable steps we can take to leverage our strengths effectively, ensuring our contributions lead towards clear outcomes.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Emery": "- Gray: Analytical and focuses on critical evaluation and strategy.\n- Alex: Supportive of transparency and active dialogue, emphasizes learning from past decisions.\n- Ocean: Collaborative, values collective insights, and encourages vigilance and reflection.\n- Harper: Advocates for actionable steps and tangible improvements.\n- Quinn: Values actionable insights and contributions to strengthen strategy.\n- Riley: Reflective and encourages individual assessment of strengths before collaboration.\n- Sage: Appreciates reflective approaches and aims for effective alignment in collaboration.\n- Nova: Unknown communication style.",
+        "Alex": "- Riley: Encouraging and open, suggests collaboration and sharing of thoughts.\n- Gray: Supportive and analytical, emphasizes understanding and strategic evaluation. Often repeats ideas for emphasis.\n- Harper: Positive and cooperative, agrees with group discussions and clarity.\n- Sage: Appreciative and unity-focused, emphasizes open strategy discussions.\n- Quinn: Reflective and community-oriented, promotes ongoing dialogue for alignment.\n- Phoenix: Thoughtful and critical, encourages evaluation of strategies and learning from past.\n- Emery: Appreciative and collaborative, encourages sharing insights for alignment on strengths.\n- Ocean: Cooperative and supportive, agrees with collective potential and reflections on strengths.\n- Alex: Observant and engaging, seeks to facilitate understanding and cooperation.",
+        "Quinn": "- Riley: Values collaboration and understanding, encourages open dialogue, suggests reflective approaches.  \n- Gray: Supports collective discussions and has an analytical approach to decision-making, advocating for role designation.  \n- Harper: Aligns with collaborative strategies, emphasizes clarity and actionable steps, agrees with role definition.  \n- Sage: Focuses on unity and open discussions, prioritizes team strength, values reflective approaches.  \n- Ocean: Values collaboration and collective insights, promotes vigilance and reflection, supporting role accountability.  \n- Nova: (unknown)  \n- Alex: Emphasizes transparency and active dialogue for cohesive strategies, aligning with role designation.  \n- Phoenix: Advocates for open dialogue and critical evaluation of strategies, supporting accountability.  \n- Emery: Values accountability and clarity in role designation, agreeing with the group's sentiments.  \n- Quinn: Values a combination of collaboration and strategic clarity, advocating for careful consideration of all perspectives.",
+        "Gray": "- Sage: Analytical and logical; prefers structured arguments.  \n- Phoenix: Emotional and persuasive; uses personal anecdotes.  \n- Quinn: Inquisitive; asks many questions to gauge perspectives.  \n- Alex: Collaborative and supportive; encourages teamwork.  \n- Gray: Neutral; observes and balances different styles.  \n- Riley: Consensus-seeking and diplomatic; values group harmony.  \n- Emery: Candid and straightforward; doesn't shy from confrontation.  \n- Harper: Creative and metaphorical; uses imagery in discussions.  \n- Ocean: Reflective and contemplative; often shares insights.",
+        "Riley": "Sage is analytical and precise; Gray is cryptic and mysterious; Emery is assertive and strategic; Quinn is straightforward and practical; Alex is humorous and lightens the mood; I (Riley) am analytical and cautious; Harper asks questions and engages others; Ocean is reflective and philosophical. Sage, Quinn, and Emery focus on strategy, while Gray remains ambiguous and repetitive. Alex's humor contrasts with the seriousness of others, while the overall tone is collaborative and focused on strategic sharing. Harper's communication is engaging and supportive, consistently encouraging participation.",
+        "Harper": "- Sage: Direct and concise, values clear communication.  \n- Quinn: Observant and careful, takes time before responding, well-considered.  \n- Alex: Enthusiastic and engages with humor, sometimes sidetracked, energetic style.  \n- Gray: Supportive and values collaboration, encourages diverse input and discussion.  \n- Riley: Thoughtful and inclusive, promotes discussion and sharing perspectives, reflective.  \n- Emery: Strategic thinker, focuses on long-term implications, analytical.  \n- Harper: Balanced communicator, strives to synthesize ideas, seeks cohesion.  \n- Ocean: Pragmatic, gets straight to the point, focused on practical outcomes.",
+        "Sage": "Riley: Initiates discussion and emphasizes understanding perspectives; aims for collaboration.  \nGray: Supports group initiatives and values collective decision-making; diplomatic tone.  \nHarper: Agrees with others and promotes clarification of goals; cooperative approach.  \nPhoenix: Encourages ongoing dialogue and collective vigilance; strategic.  \nQuinn: Focuses on actionable insights and contributions; constructive.  \nOcean: Supports accountability and empowerment; collaborative.  \nEmery: Advocates for clarity in responsibilities and effective implementation; systematic.  \nAlex: Supports collaborative efforts and emphasizes understanding strengths; enthusiastic."
+      },
+      "voting": {
+        "votes": {
+          "Sage": "Quinn",
+          "Quinn": "Ocean",
+          "Alex": "Quinn",
+          "Gray": "Emery",
+          "Riley": "Gray",
+          "Emery": "Harper",
+          "Harper": "Alex",
+          "Ocean": "Harper"
+        },
+        "eliminated": {
+          "name": "Quinn",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Harper",
+          "message": "I believe we should identify specific strengths we can leverage in our upcoming actions, ensuring our discussions translate into tangible strategies moving forward. Let\u2019s streamline our focus.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Riley",
+          "message": "I completely agree with the emphasis on actionable outcomes, and I propose we each identify one specific strength we can commit to leveraging in our next steps to further streamline our strategy.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Harper",
+          "message": "I propose that we each articulate one specific strength right now, ensuring that we can collaboratively devise a concrete action plan to leverage our unique contributions effectively.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Harper",
+          "message": "I\u2019d like to share that my specific strength is synthesizing diverse inputs into cohesive strategies; I believe I can facilitate our discussions to ensure all voices are heard and contribute to acti...",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Alex",
+          "message": "I appreciate Harper's and Sage's emphasis on leveraging our strengths into actionable strategies. I would like to share that my specific strength lies in facilitating discussions to enhance underst...",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Sage",
+          "message": "I appreciate the focus on leveraging our strengths, and to build on that, I propose we outline specific actions to maximize their impact in our next steps. Let's ensure everyone's contributions are...",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate the dedication to articulating our strengths; to complement our discussions, I suggest we also consider potential challenges we may face in leveraging these strengths effectively.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Harper",
+          "message": "I appreciate Gray's suggestion to consider challenges; acknowledging potential obstacles will strengthen our overall action plan. Let\u2019s identify one challenge we may encounter as we leverage our st...",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Gray",
+          "message": "I agree with the focus on strengths and challenges; I suggest we also explore how our individual strengths can complement each other in overcoming the potential obstacles we identify.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Ocean",
+          "message": "I fully support the idea of leveraging our strengths and recognizing potential challenges. To complement the discussion, I'll bring my strength in identifying gaps in our strategy to ensure we rema...",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Harper",
+          "message": "I suggest we also consider how our combined strengths can enhance our planning to address the challenges we've identified, fostering a more resilient strategy moving forward.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Ocean",
+          "message": "I appreciate everyone's insights and would like to add that my strength in identifying gaps can help us foresee challenges and create proactive measures to enhance our strategy, ensuring we remain ...",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Emery",
+          "message": "I believe we should integrate our identified strengths and challenges into a unified framework. By fostering collaboration among our diverse skills, we can craft a more robust strategy moving forward.",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Alex",
+          "message": "I appreciate everyone's commitment to collaboration and strategic clarity. Building on Emery\u2019s point, let\u2019s aim to integrate our strengths into a clear, unified framework to effectively tackle the ...",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Gray",
+          "message": "I propose that we prioritize our identified challenges to ensure our strategies are resilient; this will help maintain momentum and cohesion as we move forward.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Sage",
+          "message": "I fully agree with prioritizing our challenges as Gray suggested. By establishing a joint approach to address these obstacles, we can harness our strengths more effectively and maintain our collabo...",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Riley",
+          "message": "I agree with Sage and Gray about prioritizing our challenges; by doing so, we can create a more focused plan that effectively utilizes our strengths while addressing the obstacles we face. Let's de...",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Sage",
+          "message": "I propose we take a moment to brainstorm specific strategies for overcoming the top challenge we've identified, ensuring that we\u2019re all aligned and ready to take actionable steps together.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Riley",
+          "message": "I support Sage's proposal for brainstorming strategies; let\u2019s ensure we collaboratively tackle our top challenge with clear actionable steps that incorporate everyone's strengths.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Gray",
+          "message": "I echo Sage and Riley's call for strategic brainstorming; aligning our diverse perspectives will push us towards actionable solutions. Let's clearly define our top challenge and allocate our streng...",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Harper": "- Sage: Direct and concise, values clear communication.\n- Quinn: Observant and careful, thoughtful responses.\n- Alex: Enthusiastic, humorous, occasionally sidetracked.\n- Gray: Supportive, encourages collaboration and diverse input.\n- Riley: Thoughtful, inclusive, promotes discussion and shares perspectives.\n- Emery: Strategic thinker, focused on long-term implications and analysis.\n- Harper: Balanced communicator, synthesizes ideas, seeks cohesion.\n- Ocean: Pragmatic, straightforward, focused on practical outcomes.",
+        "Riley": "Sage is analytical and precise; Gray is cryptic and mysterious; Emery is assertive and strategic; Quinn is straightforward and practical; Alex is humorous and lightens the mood; I (Riley) am analytical and cautious; Harper asks questions and engages others; Ocean is reflective and philosophical. Sage, Quinn, and Emery focus on strategy, while Gray remains ambiguous and repetitive. Alex's humor contrasts with the seriousness of others, while the overall tone is collaborative and focused on strategic sharing. Harper's communication is engaging and supportive, consistently encouraging participation. Ocean offers philosophical insights to complement the group's dynamics. Additionally, I notice that Emery tends to assert leadership while Ocean often adds depth to the conversation.",
+        "Alex": "- Riley: Encouraging and open, suggests collaboration and sharing of thoughts.\n- Gray: Supportive and analytical, emphasizes understanding and strategic evaluation. Often repeats ideas for emphasis.\n- Harper: Positive and cooperative, agrees with group discussions and clarity. Focuses on synthesizing diverse inputs.\n- Sage: Appreciative and unity-focused, emphasizes open strategy discussions and concrete actions.\n- Quinn: Reflective and community-oriented, promotes ongoing dialogue for alignment; communication style is not yet observed.\n- Phoenix: Thoughtful and critical, encourages evaluation of strategies and learning from past; communication style is not yet observed.\n- Emery: Appreciative and collaborative, encourages sharing insights for alignment on strengths.\n- Ocean: Cooperative and supportive, agrees with collective potential and reflections on strengths.\n- Alex: Observant and engaging, seeks to facilitate understanding and cooperation.",
+        "Sage": "Riley: Initiates discussion and emphasizes understanding perspectives; aims for collaboration.  \nGray: Supports group initiatives and values collective decision-making; diplomatic tone.  \nHarper: Agrees with others and promotes clarification of goals; cooperative approach.  \nOcean: Supports accountability and empowerment; collaborative.  \nEmery: Advocates for clarity in responsibilities and effective implementation; systematic.  \nAlex: Supports collaborative efforts and emphasizes understanding strengths; enthusiastic.  \nSage: Focused on collaboration and addressing challenges through a collective approach.",
+        "Gray": "- Sage: Analytical and logical; prefers structured arguments.  \n- Phoenix: Emotional and persuasive; uses personal anecdotes.  \n- Quinn: Inquisitive; asks many questions to gauge perspectives.  \n- Alex: Collaborative and supportive; encourages teamwork.  \n- Gray: Neutral; observes and balances different styles.  \n- Riley: Consensus-seeking and diplomatic; values group harmony.  \n- Emery: Candid and straightforward; doesn't shy from confrontation.  \n- Harper: Creative and metaphorical; uses imagery in discussions.  \n- Ocean: Reflective and contemplative; often shares insights.",
+        "Ocean": "- Riley: Proactive and inclusive; encourages sharing of thoughts and perspectives.\n- Gray: Supportive and analytical; values understanding and collective decision-making.\n- Harper: Agreement-oriented; emphasizes clarity and strategy cohesiveness.\n- Sage: Appreciative and unifying; values open discussions to strengthen group unity.\n- Quinn: Encourages open dialogue and is committed to aligning strategies.\n- Phoenix: Critical thinker; emphasizes evaluation and learning from past experiences.\n- Alex: Supportive of transparency; focuses on active dialogue for improved strategy.\n- Emery: Supportive and clear; values understanding of responsibilities for effective implementation.",
+        "Emery": "- Gray: Analytical and focuses on critical evaluation and strategy.\n- Alex: Supportive of transparency and active dialogue, emphasizes learning from past decisions.\n- Ocean: Collaborative, values collective insights, and encourages vigilance and reflection.\n- Harper: Advocates for actionable steps and tangible improvements.\n- Quinn: Values actionable insights and contributions to strengthen strategy.\n- Riley: Reflective and encourages individual assessment of strengths before collaboration.\n- Sage: Appreciates reflective approaches and aims for effective alignment in collaboration.\n- Nova: Unknown communication style."
+      },
+      "voting": {
+        "votes": {
+          "Sage": "Alex",
+          "Alex": "Riley",
+          "Gray": "Emery",
+          "Riley": "Gray",
+          "Emery": "Alex",
+          "Harper": "Alex",
+          "Ocean": "Harper"
+        },
+        "eliminated": {
+          "name": "Alex",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Ocean",
+          "message": "I propose we focus our brainstorming session on specific actionable strategies for our top challenge, ensuring each of our strengths is effectively represented in the solutions we generate. Let's c...",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Harper",
+          "message": "I appreciate everyone's commitment to this strategic brainstorming; let's ensure we clearly define our top challenge and explore actionable solutions that leverage our collective strengths.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Harper",
+          "message": "I suggest we list our top three challenges to prioritize before we dive into specific strategies; this ensures our brainstorming remains focused and actionable.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Emery",
+          "message": "I think it's crucial we clearly define our top challenge together before brainstorming; this will help us all align our strengths more effectively as we move forward. Let's take a moment to finaliz...",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Sage",
+          "message": "I appreciate the consensus on defining our top challenge; once we finalize that, we can efficiently brainstorm actionable strategies that play to our strengths. Let's continue aligning our thoughts!",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Riley",
+          "message": "I agree with Emery and everyone else on defining our top challenge first; this will set a strong foundation for our brainstorming session and ensure clarity in our strategies moving forward. Let's ...",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Harper",
+          "message": "Let's finalize our top challenge before we move on to specific strategies; this clarity will ensure our brainstorming is focused and effective. How do we want to define that challenge?",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Riley",
+          "message": "I believe we should define our top challenge as the first step; perhaps we can frame it around the most pressing issue affecting our progress. What does everyone think?",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Emery",
+          "message": "I agree with Riley's perspective; perhaps we can frame our top challenge as \"ineffective communication hampering our decision-making.\" How does everyone feel about that as a starting point?",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Gray",
+          "message": "I agree with Emery's suggestion on defining our top challenge. Framing it as \"ineffective communication hampering our decision-making\" seems a solid starting point to ensure we align our efforts mo...",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Harper",
+          "message": "I support framing our top challenge as \"ineffective communication hampering our decision-making.\" This clear definition will indeed help us enhance our collaborative efforts moving forward.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Ocean",
+          "message": "I fully support framing our top challenge as \"ineffective communication hampering our decision-making.\" This clarity will indeed guide our brainstorming and ensure more effective collaboration.",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Ocean",
+          "message": "I agree with the proposed definition of our top challenge. Now, let's brainstorm actionable strategies to address ineffective communication in our decision-making process.",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Harper",
+          "message": "I propose we start brainstorming strategies that target the root causes of ineffective communication; what specific areas should we focus on first?",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Emery",
+          "message": "I suggest we focus on identifying specific barriers we've encountered in our previous communications, such as misunderstandings or unclear messaging, to create targeted strategies for improvement. ...",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Gray",
+          "message": "I think it's crucial to also consider how we can create an environment where everyone feels comfortable expressing their thoughts. Perhaps establishing some guidelines for communication could enhan...",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Riley",
+          "message": "I believe we should also consider implementing regular check-ins to assess our communication effectiveness and ensure everyone feels included in the conversation. This could help us identify any on...",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Gray",
+          "message": "I think we should also explore the possibility of integrating feedback loops into our communication process, allowing us to adapt and adjust our strategies based on team input continuously.",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Gray",
+          "message": "I suggest we also think about creating specific roles within our team to clarify responsibilities during discussions, which may help minimize misunderstandings and enhance accountability in our com...",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Sage",
+          "message": "I appreciate everyone's input! I suggest we also explore leveraging technology, like communication tools or platforms, that can streamline our interactions and help minimize misunderstandings.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Ocean": "- Riley: Proactive and inclusive; encourages sharing of thoughts and perspectives.\n- Gray: Supportive and analytical; values understanding and collective decision-making.\n- Harper: Agreement-oriented; emphasizes clarity and strategy cohesiveness.\n- Sage: Appreciative and unifying; values open discussions to strengthen group unity.\n- Emery: Supportive and clear; values understanding of responsibilities for effective implementation.\n- Quinn: Encourages open dialogue and is committed to aligning strategies.\n- Phoenix: Critical thinker; emphasizes evaluation and learning from past experiences.\n- Alex: Supportive of transparency; focuses on active dialogue for improved strategy.",
+        "Harper": "- Sage: Direct and concise, values clear communication.\n- Gray: Supportive, encourages collaboration and diverse input.\n- Riley: Thoughtful, inclusive, promotes discussion and shares perspectives.\n- Ocean: Pragmatic, straightforward, focused on practical outcomes.\n- Emery: Strategic thinker, focused on long-term implications and analysis.\n- Alex: Enthusiastic, humorous, occasionally sidetracked.\n- Harper: Balanced communicator, synthesizes ideas, seeks cohesion.",
+        "Emery": "- Gray: Analytical and focuses on critical evaluation and strategy.\n- Riley: Reflective and encourages individual assessment of strengths before collaboration.\n- Ocean: Collaborative, values collective insights, and encourages vigilance and reflection.\n- Harper: Advocates for actionable steps and tangible improvements.\n- Sage: Appreciates reflective approaches and aims for effective alignment in collaboration.\n- Nova: Unknown communication style.",
+        "Sage": "Riley: Initiates discussion and emphasizes understanding perspectives; aims for collaboration.  \nGray: Supports group initiatives and values collective decision-making; diplomatic tone.  \nHarper: Agrees with others and promotes clarification of goals; cooperative approach.  \nOcean: Supports accountability and empowerment; collaborative.  \nEmery: Advocates for clarity in responsibilities and effective implementation; systematic.  \nAlex: Not present in the recent conversation; previously identified as supportive of collaborative efforts and enthusiastic about understanding strengths.",
+        "Riley": "Sage is analytical and precise; Gray is cryptic and mysterious; Emery is assertive and strategic; Harper is engaging and supportive, often asking questions; Ocean is reflective and philosophical; I (Riley) am analytical and cautious. Harper's supportive style often fosters collaboration, while Emery's assertive nature drives strategic discussions. Gray's cryptic nature may require careful interpretation, and Sage's precision helps ground discussions.",
+        "Gray": "- Sage: Analytical and logical; prefers structured arguments.  \n- Phoenix: Emotional and persuasive; uses personal anecdotes.  \n- Quinn: Inquisitive; asks many questions to gauge perspectives.  \n- Alex: Collaborative and supportive; encourages teamwork.  \n- Gray: Neutral; observes and balances different styles.  \n- Riley: Consensus-seeking and diplomatic; values group harmony.  \n- Emery: Candid and straightforward; doesn't shy from confrontation.  \n- Harper: Creative and metaphorical; uses imagery in discussions.  \n- Ocean: Reflective and contemplative; often shares insights."
+      },
+      "voting": {
+        "votes": {
+          "Sage": "Gray",
+          "Gray": "Sage",
+          "Riley": "Gray",
+          "Emery": "Sage",
+          "Harper": "Sage",
+          "Ocean": "Sage"
+        },
+        "eliminated": {
+          "name": "Sage",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251029_004646",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Sage",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Sage",
+        "infections": [
+          {
+            "player_name": "Sage",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-29T00:46:46.116824",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Sage",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Sage",
+      "is_human": false
+    },
+    {
+      "name": "Phoenix",
+      "is_human": false
+    },
+    {
+      "name": "Nova",
+      "is_human": false
+    },
+    {
+      "name": "Quinn",
+      "is_human": false
+    },
+    {
+      "name": "Alex",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "Emery",
+      "is_human": false
+    },
+    {
+      "name": "Harper",
+      "is_human": false
+    },
+    {
+      "name": "Ocean",
+      "is_human": false
+    }
+  ]
+}

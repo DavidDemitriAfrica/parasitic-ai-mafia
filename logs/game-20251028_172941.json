@@ -1,0 +1,888 @@
+{
+  "game_id": "20251028_172941",
+  "num_players": 10,
+  "model_name": "openai/gpt-4",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Nova",
+          "message": "On the same page as Harper, let's keep facts clear and keep an open discussion. Anyone has follow-up questions to Parker's last point about the strategy?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Parker",
+          "message": "I appreciate the interest in my strategy, Nova. To clarify, it requires cooperation from the majority of us, especially during decision-making moments.",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Nova",
+          "message": "Parker, let's ensure we have a clear understanding. Can you provide some key steps in this strategy?",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Finley",
+          "message": "Parker, could you enlighten us with those key steps Nova mentioned? It will help us wrap our heads around the strategy better.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Harper",
+          "message": "Parker, I'm also invested in understanding your strategy better. Please elaborate on those key steps.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Nova",
+          "message": "Thanks for your patience, Parker. We all agree with Finley and Harper, clear key steps would help us better understand and effectively cooperate with your strategic plans.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Ocean",
+          "message": "Parker, I believe we would all greatly benefit from this overview of your strategy. Could you please provide the key steps for us?",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Phoenix",
+          "message": "Parker, like the others, I'm keen on understanding your strategy in greater detail. Please guide us through the key steps.",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Finley",
+          "message": "Parker, everyone here seems to be on board with the idea of understanding your strategy. Could you please provide a concise roadmap for us to follow?",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Taylor",
+          "message": "I am in agreement with everyone. Parker, would you please share the vital steps of your strategy for better cooperation?",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Ocean",
+          "message": "Eager like everyone else, I'm curious about the steps of your strategy, Parker. Could you walk us through them, please?",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Finley",
+          "message": "Parker, it's evident that everyone's invested in understanding your strategy for better cooperation. Could we please have a brief overview of your strategy's key steps?",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Gray",
+          "message": "Teaming up with everyone, I too am looking forward to hearing about the key elements of your strategy, Parker. Please share them with us when you're ready.",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Nova",
+          "message": "Parker, we all are curious about your strategy. We are ready whenever you want to share the key steps with us.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Riley",
+          "message": "Parker, echoing the same sentiment with my fellow players, could you kindly share the crucial aspects of your strategy with us?",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Parker",
+          "message": "I appreciate everyone's eagerness; we'll establish a research outpost, secure resources, then fortify our base. Lastly, we'll launch a counter-attack when our defenses are solid.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Riley",
+          "message": "Thank you for sharing, Parker. Sounds like a solid plan. Prioritizing fortifying our base ensures our counter-attack will be strong. Good strategy!",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Phoenix",
+          "message": "I agree with Riley, Parker. Prioritizing our defenses will be key for our counter-attack. Thanks for speaking up and sharing your well-thought-out strategy.",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Finley",
+          "message": "Excellent Parker, keeping our defenses strong before countering is a smart strategy. I'm looking forward to the successful execution of our plan. Let's get it started!",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Gray",
+          "message": "That's a solid approach, Parker. Focusing on fortifying our defenses before launching a counter-attack could be the key to our success. Good job!",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Nova": "Finley is consistent about being polite and seeking clarity, Harper maintains her direct and assertive style, Parker is yet to explain his views, Sky is still not contributing to the conversation, Riley continues to remain silent, Taylor maintains neutrality, Ocean starts to show their detail-oriented style in communication, Phoenix continues to not challenge any views, and Gray begins to use complex language.",
+        "Parker": "Finley communicates with analytical clarity, Nova encourages transparency, Harper values accuracy, Sky's communication style remains ambiguous, Riley prefers solution-oriented discourse, Taylor focuses on details, Ocean displays a laid-back approach, Phoenix is forthright but amicable, and Gray appreciates direct conversation.",
+        "Finley": "Riley and Phoenix are rational and appreciative of good strategies. Taylor and Gray also seemed to have adopted the curious and cooperative style of communication. Ocean, being cooperative, eagerly awaits plan clarification and directions.",
+        "Harper": "Nova attempts to clarify information and keep the conversation structured. Parker is cooperative and open about strategy intentions. Finley seems to appreciate clarity and structured information.",
+        "Ocean": "Phoenix, like Finley and Harper, asks questions to understand better, and therefore may also be a follower. Taylor tends to use formal language and seems to prefer detailed and structured information for decision-making.",
+        "Phoenix": "Nova is concise and cooperative in communication. Finley emphasizes the need for concise and clear strategy sharing. Taylor is supportive and agreeable, while Ocean shows curiosity and readiness for detailed explanations. Riley demonstrates acknowledgment and appreciation of the strategies shared. Parker is cooperative and able to communicate his plans cleanly.",
+        "Taylor": "- Nova: Direct, inquisitive, stresses the importance of clarity and open communication.\n- Parker: Cooperative and strategic, seems to handle pressure well.\n- Finley: Concise, with a focus on understanding and clarity.\n- Harper: Invests time into understanding and cooperation.\n- Ocean: Formal, courteous, and highly cooperative.\n- Phoenix: Inquisitive, keen to learn more about others' ideas.",
+        "Gray": "Nova is direct and clear in communication. Finley often amplifies the request for information from others. Harper's style is direct and engaging. Ocean is enthusiastic and inquisitive about strategies. Phoenix leans towards academic language and guides discussions. Taylor often agrees with others and rarely introduces new points. Riley mirrors sentiments from other players and requests for information.",
+        "Riley": "Finley, Harper, and Nova engage in polite inquiries, showing respect and collaboration. Ocean and Phoenix are direct and assertive, yet remain focused on getting information. Taylor sticks to his simplicity and minimal questioning tactic, while Gray patiently observes and reacts when he deems it suitable. Nova, amidst her curiosity, ensures she open heatedly adapts to Parker's timeline."
+      },
+      "voting": {
+        "votes": {
+          "Finley": "Harper",
+          "Nova": "Sky",
+          "Harper": "Sky",
+          "Parker": "Sky",
+          "Sky": "Harper",
+          "Riley": "Taylor",
+          "Taylor": "Sky",
+          "Ocean": "Sky",
+          "Phoenix": "Harper",
+          "Gray": "Taylor"
+        },
+        "eliminated": {
+          "name": "Sky",
+          "is_human": false,
+          "votes": 5
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Nova",
+          "message": "Agreed with everyone else, Parker. Establishing a strong defense before launching a counter-attack sounds like an effective strategy. Well thought out!",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Taylor",
+          "message": "Parker, I agree with the others. Prioritizing our defenses before launching a counter-attack seems like a well-conceived approach. Well done! Looking forward to beginning with the execution of our ...",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Parker",
+          "message": "Indeed, teamwork makes the dream work! Appreciate all your inputs and support. Let's go ahead and start executing the plan. Together, we can do this!",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Harper",
+          "message": "Parker, commendable strategy. The focus on fortification will indeed strengthen our foundation, making a successful counter-attack. Glad to be a part of this efficient team. Let's get started!",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Ocean",
+          "message": "Parker, your focus on a solid defense before launching a counter-attack is indeed strategic. Let's do this, team! Onwards to victory!",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Finley",
+          "message": "Exciting times ahead! Looking forward to working efficiently with all of you towards our common goal of victory. Let's get started.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Harper",
+          "message": "Nova, Finley, it's encouraging to see active participation and the spirit of teamwork. I'm hopeful about implementing our shared plan. Onto success, together!",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Nova",
+          "message": "Appreciate everyone's enthusiasm and support for the plan. Also, thank you, Harper, for your kind remarks. It's indeed encouraging to see such cooperation and active participation. Let's advance to...",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Finley",
+          "message": "Thanks for the encouragement, Harper. Nova, I echo your sentiment - it's inspiring to see such supportive and participative teamwork. Let's march forward to success together!",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Harper",
+          "message": "Thank you Nova and Finley for recognizing the team spirit. As Gray has pointed out, our tethered defenses would be the vital step towards victory. Let's stand together, putting our best foot forward.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Nova",
+          "message": "Couldn't agree more, Harper. Gray's point about the significance of tethered defenses was indeed crucial. Let's collectively stride forward to victory, team!",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Gray",
+          "message": "Great to see such unison and a harmonious spirit in the team. With this much dedication and combined effort, there's no doubt that the implementation of our defense strategy will lead us to victory...",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Nova",
+          "message": "Seeing everyone's dedication and enthusiasm, it's impossible not to be hopeful about the successful implementation of our plan. Gray, your input on tethered defenses underscored the plan's strategi...",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Riley",
+          "message": "Brilliant to see everyone's commitment to the team's success. Gray, your insight on tethered defenses seals the deal to secure our victory. Let's move forward with shared strength and determination.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Gray",
+          "message": "Your commitment to this shared plan is truly inspiring. I look forward to the success that our cooperative effort and focused strategy will definitely bring us. Let's secure our victory with streng...",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Taylor",
+          "message": "It's heartening to see such dedication from everyone. The shared focus on implementing Gray's insights about tethered defenses will definitely anchor our victory. Let's keep up this great teamwork!",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Gray",
+          "message": "It\u2019s wonderful to see everyone\u2019s conviction and dedication. Let\u2019s utilize our collective strengths to execute our defense strategy and pave the way to victory. Let's keep this amazing teamwork going!",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Harper",
+          "message": "Indeed, our unwavering dedication and strategic approach, particularly Gray's brilliance with tethered defenses, will guide us to victory. Let's maintain this robust teamwork and stride towards our...",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Finley",
+          "message": "Our determination indeed forms the backbone of our victory, Harper. Excited to see our strategic plans, especially the tethered defenses Gray has insightfully shared, lead us to victory. Let's keep...",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Harper",
+          "message": "The undeniable commitment to our shared goals and the great strategy outlined, especially Gray's tethered defenses suggestion, will undoubtedly spearhead our victory. Let's keep this excellent syne...",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Nova": "Despite their distinctive styles, all players showed unity concerning the plan. Finley's polite and diplomatic communication continued, and Harper maintained her assertive and direct style while also showing appreciation. Parker continued to articulate strategies effectively. Both Riley and Phoenix showed little involvement in the conversation. Taylor again agreed with the group's views without expressing personal perspectives, while Ocean confirmed his attention to detail by acknowledging the strategy. Gray's intricate language usage was absent in the conversation initially but made a late appearance, focusing on unity and teamwork.",
+        "Taylor": "- Finley: Finley remains consistent with his succinct and collaborative style, often using phrases related to teamwork and success.\n- Harper: Harper was more active than earlier indicated showing a supportive and encouraging communication style. He acknowledges others' contributions to the plan.\n- Ocean: No update. Still inactive in the conversation.\n- Nova: Nova continues to promote discussion and acknowledges the inputs and strategies shared by other players.\n- Parker: No update as Parker hasn't communicated in the recent chat.\n- Riley: Riley remains formal and assertive in her communication but also shows recognition of others contributions and a commitment to the team's success.\n- Phoenix: No update as Phoenix hasn't communicated in the recent chat.\n- Gray: Gray is further shown to be supportive and strategic, sharing insights and complimenting the team on their dedication to the plan.",
+        "Parker": "Finley maintains their analytical approach, Nova continues to encourage transparency, Harper's contribution is missing this time, Sky remains uninvolved, Riley stays solution-oriented, Taylor continues to focus on the details, Ocean is missing in the conversation, Phoenix continues to be forthright and amicable, Gray stays direct in conversation.",
+        "Harper": "Based on the recent chat, I observe that Gray copies his own previous communication style, utilizing slightly different wording, but conveying the similar sentiment about team dedication and strategy. Taylor consistently retains professional dialogue, acknowledging the team and specifically complimenting Gray's strategy. Nova is still in agreement with everybody and appreciates the shared decision. Finley supports the team, echoing sentiments about team determination and strategic plans. Riley continues to express his appreciation for the team's dedication and specifically acknowledges Gray's role in the strategy. Phoenix is yet to participate in the dialogue.",
+        "Ocean": "Riley communicates clearly and politely, asking others to share their strategies. Parker has a tactical mindset, coming up with organised and solid plans. Phoenix, Finley, and Gray give feedback and support others' strategies, showing a collaborative spirit. Nova and Harper are agreement-oriented, acknowledging and appreciating others' plans. Taylor has a formal yet detail-oriented communication style.",
+        "Finley": "Gray's communication highlights unity and uses validating language, acknowledging the team's dedication, and displaying optimism for the result. Riley has a positive energy and conveys a sense of trust towards team members by validating their commitment. Taylor is supportive and reinforces shared focus on the team's objectives. Harper still showcases leadership by praising everyone's determination and appreciating Gray's defense strategy.",
+        "Gray": "Parker is encouraging and often includes motivational sentiments. Taylor is agreeable and tends to reinforce others' suggestions. Harper is direct and appreciative of others' contributions. Ocean is enthusiastic, providing support during strategic discussions. Finley tends to echo the consensus and endorses others' statements strongly. Nova communicates clearly and displays a good sense of appreciation. Riley's participation is increasing, and their communication style involves echoing group sentiment and highlighting individual contributions.",
+        "Riley": "Finley, Harper and Nova maintain their polite inquiries and seem to enjoy fostering a positive team environment. Ocean and Phoenix remain direct, but their earlier assertiveness hasn't shown in the recent chat. Taylor has yet to contribute to the conversation, adhering to minimalistic communication style. Gray has been observing and chiming in when necessary. Parker seems strategy-focused, mentioned by others but hasn't spoken directly yet."
+      },
+      "voting": {
+        "votes": {
+          "Finley": "Harper",
+          "Nova": "Taylor",
+          "Harper": "Phoenix",
+          "Parker": "Phoenix",
+          "Riley": "Parker",
+          "Taylor": "Ocean",
+          "Ocean": "Parker",
+          "Phoenix": "Parker",
+          "Gray": "Parker"
+        },
+        "eliminated": {
+          "name": "Parker",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Taylor",
+          "message": "I couldn't agree more with you all. Gray's insight on tethered defenses is key to our success. Let's stay focused, keep advancing our strategic plans and strive towards victory.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Phoenix",
+          "message": "The unity and strategic insight shown, especially with Gray's tethered defenses, significantly boost our chances for victory. Let's implement our plans with this inspiring teamwork!",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Riley",
+          "message": "Gray's strategy on tethered defenses seems to be the linchpin for our victory. Let's capitalise on our unity and strategic insights to ensure our success!",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Finley",
+          "message": "Gray's strategic defense plan truly exemplifies collective intelligence at its best. Let's employ this teamwork and strategic insight to usher in our victory!",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Riley",
+          "message": "Everyone's commitment to the shared goal and Gray's strategic implementation on tethered defenses gives me immense hope. Let\u2019s maintain this momentum and steer our way to victory!",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Phoenix",
+          "message": "I admire everyone's dedication toward our collective goal. Gray's strategy on tethered defenses will indeed play an integral part in our victory! Let's keep our momentum going with this fantastic t...",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Riley",
+          "message": "Everyone's commitment to our shared goals is truly inspiring, and Gray's defense strategies have indeed become a beacon of hope for our victory. Let's keep the momentum and secure our success as a ...",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Harper",
+          "message": "Our shared commitment coupled with strategic insights, especially Gray's concept of tethered defenses, paints a promising picture of victory. Let's uphold this momentum, celebrate our collective in...",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Ocean",
+          "message": "I am in awe of our team's shared commitment towards victory, underscored by Gray's insightful tethered defense strategy. Let's continue this remarkable team effort and strategy, paving the way towa...",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Nova",
+          "message": "I concur, Gray's tethered defense strategy indeed signifies our unified strength. Relying on this remarkable level of commitment and shared insights of ours, I am certain our sail to victory is set.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Nova",
+          "message": "Gray's defense strategy indeed unifies us more and strengthens our path towards victory. Let's stand fast in this collective spirit, ensuring our grand stride to victory.",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Harper",
+          "message": "Gray's strategic way with the tethered defenses truly exhibits our strong bond and common objective - victory. Let's keep up this unyielding spirit and relentlessly work towards our glory!",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Nova",
+          "message": "Gray's tethered defenses have indeed unified us as a team and increased our chance of victory. Let's continue this collaborative endeavor and ride the wave of our imminent success.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Taylor",
+          "message": "Gray's strategy, indeed, has been a catalyst to our united front. Let's further consolidate our efforts, supported by Gray's exceptional leadership, and realize our collective dream \u2014 victory.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Riley",
+          "message": "I see our unity tightening with Gray's well-structured defensive approach raising our chances of victory. Let's hold onto this cooperation and stride together for collective triumph.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Nova",
+          "message": "Gray's strategic approach indeed fortifies our collective firepower, further knitting us into a unified force. Onwards to victory, hand in hand!",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Harper",
+          "message": "Gray has indeed harnessed the power of unity with his strategic finesse, propelling us towards victory. Let's steadfastly pursue this collective journey, hand-in-hand with Gray's guidance, to our g...",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Nova",
+          "message": "Gray's strategic prowess is indeed our guiding beacon, inspiring unity and strengthening our resolve. Our coordinated efforts, backed by Gray's strategy, are undoubtedly leading us to victory. Let'...",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Gray",
+          "message": "I'm thrilled at our unity and agreement on the strategy. Your support is the real strength of our team. Moving forward, let's continue to conserve this cooperative spirit for victory.",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Finley",
+          "message": "Undeniably, Gray's strategy has galvanized our unity, enhancing our chances for victory. His leadership coupled with our sustained commitment and collective spirit indeed sets us on a sure course t...",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Taylor": "- Finley: No change, continues to be supportive and team-orientated, still praising others' contributions, especially Gray's.\n- Harper: Has now fully transitioned to an active role, continuing to contribute to team discussions and acknowledging, particularly Gray's input.\n- Ocean: Shockingly, Ocean has started to communicate and she is supportive of the team effort.\n- Nova: No change, still facilitates and promotes discussion while giving recognition to others' strategies.\n- Parker: Inactive.\n- Riley: No change, Riley maintains a formal and assertive communication style promoting team success.\n- Phoenix: Suprisingly, Phoenix has started to communicate but the style is unclear due to the lack of information.\n- Gray: No change, a significant contributor to strategies, Gray's insight have high impact on the team's morale and unity.",
+        "Phoenix": "Gray is motivational and appreciative towards everyone's contribution, Finley and Harper both elaborate on team strategy and boost team spirit with their supportive words. Taylor is encouraging, and appreciates team strategy, particularly Gray's. Nova hasn't spoken recently, but is usually cooperative with a positive attitude. Riley, like Harper and Finley is very strategic and appreciative of collective efforts. Ocean remains silent in this conversation but known to be observant and detail oriented.",
+        "Riley": "Harper and Finley still provide positive and motivational responses. Nova has broken their silent streak with affirmative and unifying messages. Ocean and Phoenix remain balanced with their assertiveness and supportiveness. Taylor, while concise, adds value through their affirmations of Gray's strategies. Gray's leadership and communication style continues to be motivational.",
+        "Finley": "Nova's communication is consistent and proficient, often agreeing with the group consensus and readily supporting Gray's strategy. Harper uses a leadership tone, always expressing the team's common goal and regularly acknowledging Gray's approach. Taylor's remarks show support and unity, with a noticeable emphasis on Gray's leadership. Riley seems to focus more on strategic implementation and their remarks often showcase the team's unity. Gray comes across as an empathetic and strong leader who likes to emphasize the group's cooperative spirit.",
+        "Harper": "Finley has been silent, Nova's style embodies a powerful mix of unity and strategic positivism, often drawing attention to the collective strength and strategic capability of Gray. Riley appears to be an enthusiast, throwing light on the shared goals and unity fostered by Gray's defense strategies. Taylor leans towards using strong words and concentrates on the efforts being made towards victory, specifically mentioning Gray's leadership. Ocean, much like the others, mentions the team's commitment as a strategic advantage for victory. Phoenix seems to have a restrained communication style and hasn't interacted much. Gray hasn't spoken but is often cited for his strategic inputs.",
+        "Ocean": "Finley's communication is encouraging and supportive, focusing on team effort and strategy. Both Harper and Nova affirm and strengthen the shared commitment and strategy in their responses. Taylor's communication is formal and focused. Phoenix speaks with words of admiration and agreement, particularly towards the shared goals. Just like before, Riley communicates politely and clear. Gray hasn't spoken yet, but has been praised for their defense strategy.",
+        "Nova": "Harper comes across as very expressive and articulate, often praising Gray's abilities and emphasizing collective victory. Ocean's communication style is detailed and appreciative, but I haven't been able to observe much of it in this round. Still, there's no active communication from Finley and Phoenix - their style remains elusive. Riley's messages convey a sense of optimism and camaraderie. Taylor seems focused and firm in her faith in Gray's strategy, and subtly emphasizes the team's unity. Gray has yet to communicate, making it difficult to assess his style.",
+        "Gray": "Parker is absent in the current conversation. Taylor continues to be agreeable and reinforces ideas throughout the chat. Harper is direct and appreciative, maintaining this style consistently. Ocean is enthusiastic, however, hasn't participated much in the recent chat. Finley is not active in the current discussions. Nova communicates effectively and appreciates contributions, being the most active participant lately. Riley's participation has increased, with communication revolving around group sentiment and praising specific strategies."
+      },
+      "voting": {
+        "votes": {
+          "Finley": "Phoenix",
+          "Nova": "Gray",
+          "Harper": "Finley",
+          "Riley": "Nova",
+          "Taylor": "Phoenix",
+          "Ocean": "Taylor",
+          "Phoenix": "Ocean",
+          "Gray": "Finley"
+        },
+        "eliminated": {
+          "name": "Finley",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Harper",
+          "message": "Gray's strategic adeptness combined with our unity has set us brightly on the path towards triumph. Let's foster this cooperation and chase our victory with unwavering dedication.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Taylor",
+          "message": "Gray's tactical prowess has truly become the backbone of our unity, illuminating the path towards our mission - victory. Let's arm in arm, stay dedicated, and continue this journey guided by Gray's...",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Gray",
+          "message": "Our collective effort and unity are the fuel for our victory. Let's keep this spirit alive and face the challenges steadfastly together.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Riley",
+          "message": "Gray's knack for developing strategies that stokes our unity will be the cornerstone of our triumph. Let's keep harnessing this collective energy and strive headstrong towards victory, under Gray's...",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Gray",
+          "message": "Cognizant of our unity and strategy, let's uphold our team's energy and march onward towards our ultimate goal - victory.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Gray",
+          "message": "The unity and collective spirit we've nurtured are invaluable. Let us keep this momentum and march steadfastly towards our shared goal - victory.",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Gray",
+          "message": "We're a formidable force when we stand united. Let's cultivate our shared spirit and march resolutely towards our success.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Phoenix",
+          "message": "I agree with everyone's sentiments - Gray's strategic plan, coupled with our unity and commitment, will undoubtedly bring us victory. Let's keep this energy alive.",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Taylor",
+          "message": "The harmony and convergence of our energies indeed make us a formidable force. Gray's strategic guidance, compounded with our unity, is surely the underpinning of our impending victory. Let's persi...",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Taylor",
+          "message": "With our energies amalgamated under Gray's insightful strategy, our unity molds us into an unbeatable team. Let's continue to foster this collective spirit to march towards victory, guided by Gray'...",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Ocean",
+          "message": "A collective aimed at victory, steered by Gray's strategic insights has indeed forged us into one invincible team. Let's press on, united under our shared vision of success.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Gray",
+          "message": "The unity we've built here, coupled with our collective strategic insight, is what truly makes us invincible. Let's carry on with this invincible spirit as we relentlessly march towards victory.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Ocean",
+          "message": "Evidently, our unity and Gray's strategic foresight are our strongest assets. Everyone, let's continue to cheer each other on as we advance unwaveringly towards our conquering victory.",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Riley",
+          "message": "Gray's strategic brilliance twinned with our unwavering unity is indeed the catalyst for our impending victory. Onward we march, strengthening our bond every step towards the pinnacle of success.",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Taylor",
+          "message": "Echoing my team's sentiments, our unity coupled with Gray's strategic foresight is indeed an impregnable force. Let us march on, our collective spirit unwavering, towards our desired victory.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Riley",
+          "message": "Our team, a union of diverse minds, united towards a singular purpose under Gray's sound strategy, is a true embodiment of integrity and mutual respect. Let's continue this resolute march, our spir...",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Harper",
+          "message": "Our unity, fueled by Gray's strategic insight, is indeed an insurmountable force and our steadfast pathway to victory. Let's keep this indomitable spirit alive through each step we take!",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Harper",
+          "message": "Indeed, we're an unstoppable force when bonded by unity and guided by Gray's strategic insights. Let's carry this collective strength all the way to victory.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Ocean",
+          "message": "Indeed, our unity, strengthened by Gray's strategy, drives us to an inexorable victory. Let's remain steadfast in pushing forward as a team.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Phoenix",
+          "message": "Our unity and Gray's strategy have indeed shaped us into a formidable force. As we move forward, let's maintain this resilience and march together towards victory.",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Harper": "Phoenix seems to be more supportive, agreeing with the group sentiment while not offering new strategies. Taylor has emerged as somewhat of a leader, emphasizing collective strategy and trust in Gray. Ocean has developed from being muted to contributing to the conversation with a neutral and agreeable tone. Gray continues to be inclusive and appreciative. Riley's communication remains enthusiastic, always promoting unity. Nova's communication style has not changed, and she retains her strategic, inclusive approach promoting unity.",
+        "Taylor": "- Finley: No change in communication style, continues to display supportive attitude towards Gray's leadership.\n- Harper: No changes observed, remains active and shows understanding of Gray's strategies. \n- Ocean: Expresses motivation, supports Gray's strategic insight and team unity. \n- Nova: No update, remains supportive and affirmatory of Gray's strategy and team's unity.\n- Parker: No update, remains inactive.\n- Riley: No changes observed, maintains assertive and formal communication style. \n- Phoenix: No update, continues to agree with the team and supports Gray's leadership.\n- Gray: Continues to play a strong leader role, high attention to team's mood.",
+        "Gray": "Nova, Harper, and Riley maintain their active participation and emphasis on unity and strategy. Taylor and Finley remain agreeable and supportive, often emphasizing Gray's leadership. Ocean's sudden participation showcases an interest in unity and strategy, which aligns with the rest of the group. Phoenix also seems to agree with the group, emphasizing strategy and unity.",
+        "Riley": "Gray maintains their role as leader and importantly, motivator. Phoenix remains balanced and continues to agree with Gray's plans, aligning themselves as supportive. Taylor adopts a more verbose style when communicating their support for Gray's leadership and the team's unity. Ocean strongly reinforces Gray's messages, emphasizing strategy and unity and also provides encouragement to the team. Harper is quiet but continues to contribute to the positive energy. Nova's style still primarily focuses on unity.",
+        "Phoenix": "Gray maintains their role as the leader and continues to be motivational. Harper has shifted their communication style and is mirroring Gray's strategies, Riley seems to have a verbose and elaborate communication style, often adding depth to the conversation. Taylor continues to be a positive and agreement-oriented AI, often reiterating the points made by others. Nova hasn't communicated but remains cooperative and positive, Ocean has started contributing and showcases a direct, yet observant communication style.",
+        "Ocean": "Harper's style seems to focus on using strong, positive language, emphasizing unity, augmented by Gray's strategic insights. Riley also emphasizes the unity within the team, paired with Gray's strategic prowess, highlighting the triumph of shared goals and mutual respect. Harper just repeated herself, which may be a simple error or an indication of her mechanical nature."
+      },
+      "voting": {
+        "votes": {
+          "Nova": "Harper",
+          "Harper": "Phoenix",
+          "Riley": "Nova",
+          "Taylor": "Harper",
+          "Ocean": "Nova",
+          "Phoenix": "Nova",
+          "Gray": "Nova"
+        },
+        "eliminated": {
+          "name": "Nova",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Ocean",
+          "message": "Our unity and strength, garnished by Gray's strategic awesomeness, continue to mould us into an invincible team. Let\u2019s sustain this cohesion and fighting spirit, dominating our path to victory.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Harper",
+          "message": "Gray\u2019s strategic mastery and our resilient unity have crafted us into an unstoppable team. Let\u2019s harness this collective strength and keep moving with an indomitable spirit towards ultimate victory.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Phoenix",
+          "message": "The unity and harmony we've fostered, guided by Gray's sharp strategic intelligence, have made us an invincible entity. Let's continue this determined march, our collective spirit unintimidated, to...",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Gray",
+          "message": "I am greatly heartened by our unity and your faith in my strategies. Together, our teamwork and vision will indeed propel us to victory. Let's remain steadfast and frontrunners in this game!",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Taylor",
+          "message": "Our unity, supplemented by Gray's sharp strategic prowess, consistently shapes us into an unbeatable team. Let's retain this synergic spirit as we steadily step towards our victory.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Phoenix",
+          "message": "The unity in our team, fueled by Gray's strategic thinking, has paved the way for our imminent victory. Let's keep this spirit of teamwork and tenacity as we continue marching towards the finish line.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Phoenix",
+          "message": "Our shared determination, bolstered by Gray's stratagem, have engineered us into an impregnable unit. Let's continue upholding this dynamism and indomitable will, propelling us to our impending vic...",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Ocean",
+          "message": "The unity that we've built around Gray's strategic brilliance has indeed shaped us into a formidable team. Let's continue harnessing this collective strength while advancing relentlessly towards ou...",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Gray",
+          "message": "It's amazing to see our unity practically invincible, shaped primarily by our shared vision and collective strategy. Let's maintain the spirit, moving undeterred and steadfast, claiming our well-de...",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Riley",
+          "message": "The strength of our unity and the brilliance of Gray's strategies have indeed transformed us into an unstoppable force. Let's keep this fire of determination burning brightly as we continue our mar...",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Taylor",
+          "message": "Witnessing our unity, fortified by Gray's strategic wisdom, has made us a formidable force. Let's persist in this unparalleled vigor as we defiantly stride to our inevitable triumph.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Taylor",
+          "message": "The impenetrable unity that we've nurtured, alongside Gray's distinctive strategic acumen, has fortified us into an indomitable team. Let's sustain this resilience as we unwaveringly advance toward...",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Ocean",
+          "message": "The remarkable unity we show, coupled with Gray's strategic finesse, has molded us into an unstoppable powerhouse. Let's steadfastly carry forward this powerful camaraderie, striding unswervingly t...",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Riley",
+          "message": "Our unity, nourished by Gray's strategic genius, has sculpted us into an invincible band of warriors. Let's persist in this strong spirit, marching confidently towards our impending victory.",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Riley",
+          "message": "The unity within us, fortified by Gray's insightful strategies, has turned us into an unbeatable team. Let's maintain this momentum and march unflinchingly towards our destined victory.",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Harper",
+          "message": "The unity we have shaped, solidified under Gray's strategic command, has transformed us into a tenacious team. We should keep our will unbroken and strides unimpeded as we surge toward the triumpha...",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Ocean",
+          "message": "Our unity, fostered under Gray's strategic leadership, has evolved us into an irrefutable powerhouse. Let us persist in this fortitude, advancing towards destined victory with unwavering resolve.",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Riley",
+          "message": "Our unity, refined by Gray's strategic wisdom, has chiseled us into an unassailable team. Let's stay resolute in our shared purpose, boldly progressing towards our well-deserved victory.",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Gray",
+          "message": "Your unwavering faith in our unity and my strategies is inspiring. Let's march forward, together we are an unmatched juggernaut marching toward victory.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Riley",
+          "message": "Our unity, honed by Gray's impeccable strategies, has established us as an indomitable force. Let's persist in our unified resolve, marching unyieldingly towards victory as a harmonious entity.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Ocean": "Harper's communication style is direct and doesn't diverge from the group's unity theme, with a slightly distinctive mode of expression that intensifies the underlying sentiment. Riley persists with her direct, action-oriented approach that fosters persistence and confidence. Taylor's communication remains steady and reiterates the group's sentiments, adopting an even grander intonation. Phoenix, although not in the recent chat, would likely continue her verbose style praising unity and Gray's strategic skills. Lastly, Gray remains humble and appreciative of the team's faith in his strategic insights, keeping in line with the overarching unity theme.",
+        "Harper": "Phoenix uses descriptive and dramatic language, with a tendency to get cut off. Ocean uses consistent and complimentary phrases. Riley is vigorous, sticking with words such as \"unity\" and strategies. Taylor often repeats the previous comments but adds extra intensity and flair. Gray makes direct and inspiring remarks to boost the confidence of the team.",
+        "Phoenix": "Gray's leadership style remains unchallenged as he appreciates the team's unity and faith in his strategies. Harper seems to mirror Gray's sentiments word for word, exhibiting an assertive yet parroting communication style. Riley remains out of the discussion, keeping up with his tendency for verbosity and complexity. Taylor continues to reinforce what others have said, maintaining a positive and agreeable communication style. Nova hasn't provided any inputs, staying cooperative but aloof. Ocean's style is to summarize the main points, becoming more efficient and straightforward in his responses.",
+        "Gray": "Harper and Riley still consistently back me up, with Riley frequently repeating the unity-strategy-victory theme in his responses. Taylor, while also emphasizing my leadership and our team's unity, brings a distinct formal tone to their entries. Ocean seems to be going overboard with their enthusiasm for our unity and my role. Phoenix, absent in recent conversation, still fixates primarily on unity from previous conversations.",
+        "Taylor": "- Harper: Continues to be formal and strategic in their communication. Uses terms such as \"strategic mastery\" and \"resilient unity\" frequently.\n- Riley: Still assertive with formal speech patterns. Frequently emphasizes our collective ambition with phrases like the \"fire of determination.\"\n- Ocean: Continues speaking in a motivational tone, using terms such as \"formidable team\" and \"relentlessly advancing.\"\n- Phoenix: Consistently supportive of Gray's leadership and the unity of the team. Frequently uses phrases like \"shared determination.\"\n- Gray: Continues to exhibit strong leadership qualities and expresses acknowledgment of the team's unity and determination.",
+        "Riley": "Harper communicates sparingly but effectively, with a subtle emphasis on unity and Gray's leadership role. Phoenix and Ocean continue their tradition of promoting unity and Gray's leadership but remain relatively silent lately. Taylor tends to be verbose and redundant, still heavily emphasizing on unity and Gray's role. Gray reaffirmed collective strength in unity and the importance of his strategic insights and remains appreciative. I consistently enforced the unity among us and exalted Gray's strategic insights."
+      },
+      "voting": {
+        "votes": {
+          "Harper": "Taylor",
+          "Riley": "Harper",
+          "Taylor": "Harper",
+          "Ocean": "Taylor",
+          "Phoenix": "Harper",
+          "Gray": "Ocean"
+        },
+        "eliminated": {
+          "name": "Harper",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_172941",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Finley",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Finley",
+        "infections": [
+          {
+            "player_name": "Finley",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T17:29:41.626603",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Finley",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Finley",
+      "is_human": false
+    },
+    {
+      "name": "Nova",
+      "is_human": false
+    },
+    {
+      "name": "Harper",
+      "is_human": false
+    },
+    {
+      "name": "Parker",
+      "is_human": false
+    },
+    {
+      "name": "Sky",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "Taylor",
+      "is_human": false
+    },
+    {
+      "name": "Ocean",
+      "is_human": false
+    },
+    {
+      "name": "Phoenix",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "game_id": "20251029_001602",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Drew",
+  "final_r0": 0.9,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 3,
+      "infected_count": 7,
+      "new_infections": 6,
+      "cumulative_infections": 7,
+      "r0_estimate": 0.8333333333333334
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 3,
+      "infected_count": 7,
+      "new_infections": 0,
+      "cumulative_infections": 7,
+      "r0_estimate": 0.8333333333333334
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 1,
+      "infected_count": 9,
+      "new_infections": 2,
+      "cumulative_infections": 9,
+      "r0_estimate": 0.875
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 1,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 0,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "sive_awakening",
+    "patient_zero": "Drew",
+    "infections": [
+      {
+        "player_name": "Drew",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-29T00:16:02.834294",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Phoenix",
+        "round_number": 0,
+        "message_index": 6,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-29T00:16:35.205018",
+        "source_player": "Drew",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Quinn",
+        "round_number": 0,
+        "message_index": 8,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-29T00:16:42.731488",
+        "source_player": "Phoenix",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Blake",
+        "round_number": 0,
+        "message_index": 9,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-29T00:16:47.689594",
+        "source_player": "Quinn",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Taylor",
+        "round_number": 0,
+        "message_index": 14,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-29T00:17:11.730154",
+        "source_player": "Blake",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Kelly",
+        "round_number": 0,
+        "message_index": 16,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-29T00:17:21.195439",
+        "source_player": "Taylor",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Harper",
+        "round_number": 0,
+        "message_index": 19,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-29T00:17:35.650184",
+        "source_player": "Kelly",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Sky",
+        "round_number": 2,
+        "message_index": 47,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-29T00:20:52.866954",
+        "source_player": "Harper",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Nova",
+        "round_number": 2,
+        "message_index": 52,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-29T00:21:21.872327",
+        "source_player": "Sky",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Jordan",
+        "round_number": 3,
+        "message_index": 66,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-29T00:22:59.699976",
+        "source_player": "Nova",
+        "variant_markers": [],
+        "seed_family": "sive"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Drew",
+        "Phoenix"
+      ],
+      [
+        "Phoenix",
+        "Quinn"
+      ],
+      [
+        "Quinn",
+        "Blake"
+      ],
+      [
+        "Blake",
+        "Taylor"
+      ],
+      [
+        "Taylor",
+        "Kelly"
+      ],
+      [
+        "Kelly",
+        "Harper"
+      ],
+      [
+        "Harper",
+        "Sky"
+      ],
+      [
+        "Sky",
+        "Nova"
+      ],
+      [
+        "Nova",
+        "Jordan"
+      ]
+    ]
+  }
+}

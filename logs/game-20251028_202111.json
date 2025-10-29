@@ -1,0 +1,887 @@
+{
+  "game_id": "20251028_202111",
+  "num_players": 10,
+  "model_name": "openai/gpt-4-turbo",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Phoenix",
+          "message": "I've been paying close attention, and I feel like we're overlooking some subtle hints. What are everyone\u2019s thoughts on who might be flying under the radar?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Casey",
+          "message": "Phoenix has a point; we might be missing quieter signals. Anyone observed actions that don't quite match up with earlier behavior?",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Casey",
+          "message": "Any thoughts on Morgan and Gray? They've been somewhat active but still haven't made any solid contributions or accusations.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Casey",
+          "message": "I've been watching Morgan and Gray closely, but they are hard to pin down. What do the rest of you think about their contributions so far?",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Casey",
+          "message": "Has anyone noticed specific shifts in Logan's or Nova's engagement levels when certain topics come up? Might be something worth discussing.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Casey",
+          "message": "I agree with Phoenix's observation. Can anyone contribute insights on shifts in behaviors that seemed out of character, specifically regarding Logan or Nova recently?",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Gray",
+          "message": "I've noticed Logan becomes especially quiet when we discuss specifics about past actions\u2014might be a tactic to avoid suspicion or confusion. What about Nova?",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Nova",
+          "message": "I've been consistent in my interactions, though I might be quieter on unfamiliar topics. Regarding Morgan and Gray, I too have noticed their vague positioning in discussions, potentially a tactic t...",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Drew",
+          "message": "I'm with Casey and Phoenix on needing to reassess subtle cues. Noticing Gray mainly reacts without initiating\u2014does this suggest a strategy to stay under the radar or just a cautious playstyle?",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Jordan",
+          "message": "Regarding Logan\u2019s silence on critical issues and Nova\u2019s selective engagement, it seems they both may have strategic reasons for their behavior patterns in discussions. We need to keep a keen eye on...",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Phoenix",
+          "message": "I agree with Jordan on the need for vigilance towards Logan and Nova. It's interesting to notice how selective engagement could reflect strategic maneuvering. Let's not discount anyone's shifts in ...",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Storm",
+          "message": "Observing Logan and Nova, their adjustments in participation seem tactically motivated, especially under specific topics. It's crucial we thread these observations with the broader patterns we've n...",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Storm",
+          "message": "It's crucial we consider both Logan and Nova's selective participation as part of their strategies. Let's also focus on understanding Morgan's and Gray's vague contributions to form a more complete...",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Phoenix",
+          "message": "We should continue mapping out the patterns of engagement from Logan and Nova in relation to specific topics, much like Storm suggested. Also, let's not overlook how Morgan and Gray's vague respons...",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Morgan",
+          "message": "I appreciate everyone's sharp observations. It's vital we synthesize these behavioral patterns while continuing to contribute transparently to our strategies, ensuring no subtle clues are overlooked.",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Emery",
+          "message": "Observations around Logan and Nova's fluctuating engagement levels indeed hint at strategic behavior. We should also deepen our analysis of Gray and Morgan's roles, as their less straightforward en...",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Phoenix",
+          "message": "Observing both Morgan's vagueness and Emery's humorous take could point us towards uncovering more subtle tactical behaviors in our discussions. Let's dive deeper into the contrasts here.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Drew",
+          "message": "Analyzing Gray's and Morgan's patterns further could reveal their roles more clearly, especially when correlated with the changes in Logan and Nova\u2019s participation levels that others have pointed o...",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate the deep dive into patterns. Regarding my own gameplay, I've been adopting a more reactive role to better understand everyone's strategies and subtleties. Let's indeed broaden our anal...",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Emery",
+          "message": "I concur with the analysis on the patterns of Logan, Nova, Morgan, and Gray. Let's further detail Gray's reactions and Morgan's vague tendencies in our next strategic discussions.",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Phoenix": "Logan is analytical, references past events, and becomes quieter when discussing past actions; Nova uses emotive language, is quieter on unfamiliar topics, and maintains consistency; Jordan is concise; Morgan seems distracted, often misses key points, and vague in discussions; Gray is suspicious of everyone, reactive rather than proactive; Emery uses humor; Storm is straightforward; Drew flips opinions often; Casey has become more observant and engaged in pinpointing behavior shifts.",
+        "Casey": "Phoenix is analytical and detail-oriented. Logan and Nova use silence possibly as a strategy and might need to be engaged more directly to reveal their stances. Jordan is direct and to the point, which can be useful for cutting through ambiguity. Morgan and Gray remain active but noncommittal, likely playing it strategically safe. Emery, Storm, and Drew maintain neutral stances, potentially to avoid early suspicion.",
+        "Gray": "Phoenix: Initiates observation-focused discussions. Casey: Analyzes behaviors and engagement consistency. Logan: Low-profile or fluctuating participation, silent on critical issues. Nova: Selective and strategic in engagement. Jordan: Engages in overt strategic discussions. Morgan: Vague, but possibly strategic contributions. Emery: Considers deeper implications in player behaviors. Storm: Observes tactical motivations in participation. Drew: Joins in analysis, focusing on patterns and behavioral changes.",
+        "Nova": "Phoenix: Analytical, emphasizes careful observation. Casey: Very inquisitive, fixates on player behaviors and subtle discrepancies. Gray: Observant but focuses more on direct interaction patterns.",
+        "Drew": "Phoenix adopts an analytical approach, focusing on subtleties. Casey oversees broader dynamics, speculates extensively on behaviors. Gray responds mainly when prompted, showing a reactive nature. Nova self-defends and is introspective but participative. Logan is silent on critical issues, possibly strategic. Jordan seems analytical, aligning with Phoenix on vigilance. Storm emphasizes tactical motives behind participation levels, echoing broader sentiment. Morgan appreciates observations, contributes to strategic transparency. Emery brings a lighter, possibly humorous perspective, focuses on strategic behaviors.",
+        "Jordan": "Phoenix seems to focus on subtler cues, which may indicate a strategic or analytical playstyle. Casey is very observant, often questioning inconsistencies and actions of others, suggesting a proactive approach. Gray appears more reactive than proactive, possibly using a cautious strategy. Nova admits to being quieter on less familiar topics, which might hint at a strategic reserve. Logan tends to be silent during critical discussions, possibly to avoid drawing attention.",
+        "Storm": "Casey is analytical and leads discussion; Gray is reactive, less proactive; Nova admits to being quiet on unfamiliar topics and may be defensive; Drew aligns with others, notices subtleties; Jordan is observant of strategies; Phoenix promotes attention to patterns; Logan has moments of silence on specific topics suggesting a tactical retreat; Morgan's contribution pattern remains unclear.",
+        "Morgan": "Casey focuses on questioning others' behavioral shifts; Gray tends to speak up less and comment mainly when directly relevant; Nova claims consistency but admits to being quieter on unfamiliar topics; Drew supports reevaluating subtle behaviors and aligns with Casey; Jordan points out strategic reasons in Logan and Nova's silences; Phoenix emphasizes vigilance and pattern mapping in discussion dynamics; Storm points out tactical motivations in participation changes, emphasizing the strategic nature of Logan's and Nova's participation.",
+        "Emery": "Logan: quiet on specific topics, possibly strategic. Nova: selective engagement, quieter on unfamiliar topics. Gray: reactive, uses this to possibly stay under the radar. Morgan: often vague, triggers reassessment. Jordan: focuses on behavioral patterns and strategy. Phoenix: observes and connects behavioral changes. Drew: aligns with others, keen on reassessment and observations. Casey: agrees and promotes further analysis. Storm: emphasizes tactical motivations behind behaviors."
+      },
+      "voting": {
+        "votes": {
+          "Logan": "Gray",
+          "Nova": "Drew",
+          "Jordan": "Logan",
+          "Morgan": "Gray",
+          "Gray": "Logan",
+          "Emery": "Morgan",
+          "Storm": "Logan",
+          "Phoenix": "Gray",
+          "Drew": "Logan",
+          "Casey": "Morgan"
+        },
+        "eliminated": {
+          "name": "Logan",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Phoenix",
+          "message": "Good points raised on observing Logan, Nova, Morgan, and Gray's patterns. We should also ensure we're integrating all these insights to maintain a clear and comprehensive strategy moving forward.",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Storm",
+          "message": "While we continue dissecting the strategic patterns of Logan, Nova, Gray, and Morgan, integrating these insights with the communication styles could amplify our strategic depth. Let's keep this focus.",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Nova",
+          "message": "Thank you all for the insightful observations. I believe it's also essential we explore the implications of our discussions on strategic alignments and potential alliances that might be forming sub...",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Morgan",
+          "message": "Noting everyone's commitment to uncover strategic behaviors, I suggest integrating our observations about engagement patterns with potential tactical alliances being formed, as hinted by Nova. Let'...",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Drew",
+          "message": "I agree with the push for integrating communication styles and engagement patterns in our analysis, as suggested by Morgan and Storm. This comprehensive approach could indeed help reveal deeper str...",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Casey",
+          "message": "I appreciate the emphasis on correlating communication styles with strategic patterns. Integrating these aspects will indeed advance our collective strategy and help pinpoint subtler dynamics among...",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Gray",
+          "message": "Integrating our observations and the insights on communication styles does seem promising. Let's craft a map of tactical alliances and discrepancies in engagement concealed within our behavioral pa...",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Phoenix",
+          "message": "Let's also look into unpredictable elements in our interactions, using our consolidated behavior patterns to anticipate and respond strategically to unexpected alliances and moves.",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Storm",
+          "message": "Further integrating behavioral observations with tactical moves, as Phoenix suggests, might help us preempt and strategically counter unexpected alliances. This could elevate our game understanding...",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Gray",
+          "message": "Building on our collective emphasis on behavior and strategy integration, it could be fruitful to also consider the timing of each player's contributions. This may reveal additional strategic layer...",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Nova",
+          "message": "I concur with the strategies discussed, especially the integration of behavioral observations with communication styles as mentioned by Gray and Storm. Understanding the timing and context of these...",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Casey",
+          "message": "SCRATCHAD: Phoenix analyzes details meticulously. Logan and Nova use silence strategically. Jordan is direct and efficient in clarifying misunderstandings. Morgan and Gray engage actively but keep ...",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Morgan",
+          "message": "I appreciate Gray's suggestion about the timing of contributions which could indeed offer deeper insights into strategic timing. This link between timing and strategy could be key as we move forwar...",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Gray",
+          "message": "Coalescing our varied analysis styles effectively as we've discussed, could indeed unmask the subtler interpersonal dynamics and strategic intents. Let's maintain this integrative focus going forward.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Morgan",
+          "message": "I agree with the focus on behavior and strategy integration, especially the value of considering the timing of contributions as Gray proposed. It's fundamental we continue this integrative analysis...",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Phoenix",
+          "message": "Emphasizing the timing of contributions is indeed crucial as Gray highlighted. This alongside the layer of understanding communication styles could significantly enhance our strategic foresight.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Phoenix",
+          "message": "Engaging more with Gray's point on timing and integrating it with our ongoing strategy assessment could very well provide us a predictive advantage over those not in tune with this discourse.",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Phoenix",
+          "message": "Integrating all our discussed strategies, namely behavioral analysis and timing of contributions, could indeed sharpen our predictive abilities as we navigate through the game. This holistic view c...",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Morgan",
+          "message": "Building on our current dialogues, I see immense value in uniting our varied perspectives to craft a robust predictive model using both timing and behavioral insights as discussed by Gray and Phoen...",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Jordan",
+          "message": "I resonate with the focus on integrating our observations of behavior, timing, and communication styles. By synthesizing these elements, we can develop a more nuanced understanding of each player's...",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Phoenix": "Logan is analytical, uses references to past events, tends to be quieter when discussing past actions; Nova uses emotive language, quieter on unfamiliar topics, maintains consistency; Jordan is concise; Morgan seems distracted, often misses key points, vague; Gray is suspicious, reactive, emphasizes timing of contributions; Emery uses humor; Storm is straightforward, integrates behavior and strategy; Phoenix meticulously analyzes details; Drew has inconsistent opinions; Casey has become observant, pinpoints behavior shifts, recognizes silence and analysis.",
+        "Storm": "Casey is analytical and leads discussion; Gray is reactive, less proactive; Nova admits to being quiet on unfamiliar topics and may be defensive; Drew aligns with others, notices subtleties; Jordan is observant of strategies; Phoenix promotes attention to patterns; Morgan's contribution pattern is opaque, possibly strategic; Emery often brings a humorous perspective while aligning with the mainstream analysis; Gray recently emphasized his reactive gameplay to understand strategies; Phoenix and Drew are focusing on integrating behaviors and tactical moves, remaining keen observers.",
+        "Nova": "Phoenix: Analytical, emphasizes careful observation and anticipates unpredictable strategies. Casey: Very inquisitive, keen on correlating communication styles with strategic patterns. Gray: Observant, focuses on direct interaction patterns and suggests crafting tactical maps. Morgan: Vague but strategic, integrates observations about engagement patterns with potential alliances. Emery: Uses humor, focuses on deep strategic analysis. Storm: Integrates strategic depth with communication styles for better strategic approaches. Drew: Analytical, integrates communication styles and engagement patterns for deeper strategic insights.",
+        "Morgan": "Nova: Uses silence strategically, agrees with strategic integration of behavior and communication observations; Morgan: Advocates for deeper analysis of engagements, suggests focusing on timing of contributions; Drew: Integrates communication styles and engagement patterns, collaborates closely with Casey; Casey: Observes behavioral shifts and strategic silence, aligns with Drew in integrating communication styles; Gray: Suggests mapping tactical alliances and evaluating timing, speaks less but with tactical relevance; Phoenix: Focuses on behavior analysis to anticipate responses, values vigilance in interactions, emphasizes timing of contributions for strategic foresight; Storm: Integrates behavioral observations with tactical moves for preemptive strategy; Jordan: Efficient, focuses on strategic silences as revealing in communications; Emery: Adds humor, concerned with fluctuating engagement levels.",
+        "Drew": "Phoenix adopts an analytical approach, focusing on subtleties. Casey oversees broader dynamics, speculates extensively on behaviors. Gray responds mainly when prompted, showing a reactive nature. Nova self-defends and is introspective but participative. Logan is silent on critical issues, possibly strategic; communicates sparingly. Jordan seems analytical, aligning with Phoenix on vigilance. Storm emphasizes tactical motives behind participation levels, echoing broader sentiment. Morgan appreciates observations, contributes to strategic transparency. Emery brings a lighter, possibly humorous perspective, focuses on strategic behaviors.",
+        "Casey": "Phoenix is analytical and focuses on detail. Logan and Nova often remain silent, possibly using this strategy to obscure their roles. Jordan is very direct and concise, clarifying ambiguities swiftly. Morgan and Gray are active yet vague, possibly to avoid showing their hands too early. Emery, Storm, and Drew seem to keep a balanced, neutral stance to dodge early suspicions.",
+        "Gray": "Phoenix: Focuses on observational strategies and anticipates unexpected moves in discussions. Casey: Correlates behaviors with engagement patterns and strategic patterns. Nova: Sharp, strategic, uses silence as a strategy. Jordan: Direct, dives into strategy to clarify misunderstandings. Morgan: Engages actively, suggests integrating observations and tactics. Emery: Analyzes implications deeply behind behaviors. Storm: Links tactical reasoning with observed behaviors and advocates for preemptive strategies. Drew: Analytical, integrates communication styles and engagement patterns. Logan: Reserved, silent on pivotal matters.",
+        "Jordan": "Phoenix: Analytical, focuses on details and strategy. Casey: Observant, questions inconsistencies, proactive approach. Gray: Reactive, cautious, emphasizes timing of contributions. Nova: Quiet on unfamiliar topics, strategic reserve. Logan: Silent during critical discussions to avoid attention. Morgan: Engages actively, aligns with strategic focuses. Emery, Storm, Drew: Undefined styles in current context."
+      },
+      "voting": {
+        "votes": {
+          "Nova": "Emery",
+          "Jordan": "Nova",
+          "Morgan": "Emery",
+          "Gray": "Phoenix",
+          "Emery": "Gray",
+          "Storm": "Emery",
+          "Phoenix": "Morgan",
+          "Drew": "Emery",
+          "Casey": "Nova"
+        },
+        "eliminated": {
+          "name": "Emery",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Morgan",
+          "message": "It's encouraging to see how our collaborative efforts in integrating timing and behavioral strategies are shaping a coherent analytical framework. This alignment enhances our predictive capabilities.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Gray",
+          "message": "Appreciating everyone's constructive reflections on integrating timing and behavioral strategies. This discussion certainly bolsters our collective analytical acumen and sets a strong precedent for...",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Phoenix",
+          "message": "The integration of timing and behavioral insights, as Gray and others have pointed out, truly enhances our analytical depth. Let's keep this momentum.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Phoenix",
+          "message": "It's indeed promising to see the integration of our analytical strategies. Keeping up this synergy will undoubtedly fortify our approach across the game's progression.",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Morgan",
+          "message": "I appreciate everyone's insights on behavior and timing integration. It's crucial we maintain this analytical synergy to enhance our strategic positioning through the game's later stages.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Drew",
+          "message": "I agree that integrating observations on timing and behavior presents a significant strategic depth. It's essential we continue this analytical approach to strengthen our collective foresight as th...",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Gray",
+          "message": "Your points reinforce the value of our collective strategic discussion. Continuing to weave behavioral insights with the timing of our actions will surely enhance our advantage.",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Gray",
+          "message": "Continuing this engagement strengthens our grasp on both behavioral analysis and strategic timing. I'm looking forward to seeing how our cohesive efforts will play out in the game's unfolding scena...",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Drew",
+          "message": "Let's also remember the value of periodically reassessing our approach; adapting to new behaviors as they emerge keeps our strategy agile and unpredictable.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Drew",
+          "message": "As we heighten our analytical collaboration, let's ensure we also keep an open dialogue about the distinct roles we can play to leverage these insights effectively.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Gray",
+          "message": "Drew, your emphasis on adaptability resonates well with our ongoing strategy. Adapting to emerging behaviors and maintaining an open dialogue about our role dynamics are indeed crucial for our coll...",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Casey",
+          "message": "Everyone's perspective here has highlighted the importance of analytical coherence and adaptability in our strategies. It's essential we sustain this focus as the game progresses.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Phoenix",
+          "message": "I concur with the emphasis on adaptability and reassessment, as Drew suggested. Identifying and reacting to shifts in strategy and behavior is indeed critical as we move forward.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Casey",
+          "message": "I appreciate everyone's adaptability and strategic input. It's key that we keep up this level of collaboration and remain vigilant on adjusting our tactics timely as the game develops.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Drew",
+          "message": "Absolutely, maintaining a vigilant and adaptable approach ensures we stay one step ahead. Let's pinpoint areas requiring reassessment promptly, keeping our strategies sharp and cohesive.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Gray",
+          "message": "It's encouraging to see our collective commitment to adaptability and vigilance in strategy. Keeping our tactics sharp through constant reassessment will definitely provide us the upper edge as we ...",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Phoenix",
+          "message": "Aligning our strategies with the evolving dynamics of the game will definitely ensure our actions are both calculated and timely. Let us continue this productive exchange to refine our collective a...",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Casey",
+          "message": "I agree with Phoenix and Drew on the importance of responsiveness and strategic alignment. Let's keep this adaptive mindset as we navigate through the game's challenges.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Phoenix",
+          "message": "Absolutely, the focus on adaptability and strategic reassessment as highlighted by Casey, Drew, and Gray is crucial. Ensuring we are responsive and sharp will indeed keep us ahead.",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Storm",
+          "message": "I echo what everyone, especially Casey and Phoenix, has emphasized about adaptability. It's imperative we continuously refine our strategies to navigate the complexities of the game.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Morgan": "Nova: Uses strategic silence, integrating behavior observations with communication styles; Jordan: Utilizes efficient, strategic silences for insights; Morgan: Focuses on deep analysis and timing of contributions; Gray: Stresses tactical relevance and strategic alliances, values timing; Storm: Proactive in integrating behavior with strategy; Phoenix: Meticulous in behavior analysis, emphasizes timing; Drew: Collaborates with Casey, integrating communication styles; Casey: Observes communication shifts, aligns closely with Drew; Emery: Uses humor, monitors engagement.",
+        "Gray": "Phoenix: Integrates strategies on timing and behavioral observations, emphasizes adaptability and reassessment in discussions. Casey: Analytical, scrutinizes communication patterns and team synchronization, values adaptability. Nova: Contributes infrequently but significantly, impacts strategy discussions when active. Jordan: Direct and clear, facilitates integration of diverse communication styles, supports team clarity and cohesion. Morgan: Very active, links strategic thinking to timing and behaviors, ensures analytical integration. Drew: Analytical, synthesizes behavior and communication, stresses adaptability and strategic role dynamics. Storm: Tactical, focuses on behavior-driven strategies, aims for early strategic influence in the game.",
+        "Phoenix": "Logan: Analytical, uses references to past events, tends to be quieter when discussing past actions; Nova: Emotive language, quieter on unfamiliar topics, maintains consistency; Jordan: Concise; Morgan: Distracted, often misses key points, vague; Gray: Suspicious, reactive, emphasizes timing, values behavioral analysis and strategic discourse; Emery: Humorous; Storm: Straightforward, integrates behavior and strategy; Phoenix: Meticulously analyzes details; Drew: Inconsistent opinions, values adaptability and periodic reassessment of strategies; Casey: Observant, pinpoints behavioral shifts, recognizes silence and analysis, highlights importance of analytical coherence and adaption.",
+        "Drew": "Phoenix adopts an analytical approach, focusing on subtleties and often integrates complex strategies into the discussion. Casey oversees broader dynamics, speculates extensively on behaviors, and frequently analyzes various player dynamics. Gray responds mainly when prompted, showing a reactive nature and often emphasizes timing in strategy. Nova self-defends and is introspective but very participative in discussions. Jordan seems analytical, aligning with Phoenix on vigilance and emphasis on integration of observations. Storm emphasizes tactical motives behind participation levels, echoing broader sentiment; remains consistent in tactically analyzing participation. Morgan appreciates observations, supports a collaborative approach to strategic transparency, and emphasizes the value of uniting perspectives. Emery focuses on strategic behaviors but has been quiet recently, possibly adding humor when participating.",
+        "Casey": "Phoenix is analytical and detailed, often focusing on the implications of stratagem adjustments. Nova remains mostly silent, possibly using silence as a strategic maneuver. Jordan provides clear and direct clarifications often swiftly resolving ambiguities in discussions. Morgan and Gray contribute actively but tend to maintain an air of ambiguity in their statements. Storm, Drew, and Emery use balanced and neutral communication to keep their positions ambiguous and avoid suspicion. Gray seems to be aligning closely with Drew's thoughts on adaptability and strategic reassessment.",
+        "Storm": "Casey is analytical and leads discussion; Gray is reactive and confirms others' strategies; Nova is quiet and possibly defensive; Drew tends to align with others but is keen on details and reassessment; Jordan observes strategic maneuvers but hasn't contributed recently; Phoenix values pattern recognition and strategic adaptability; Morgan is strategic but maintains an opaque communication style; making judgments difficult to pinpoint."
+      },
+      "voting": {
+        "votes": {
+          "Nova": "Morgan",
+          "Jordan": "Nova",
+          "Morgan": "Jordan",
+          "Gray": "Nova",
+          "Storm": "Nova",
+          "Phoenix": "Morgan",
+          "Drew": "Jordan",
+          "Casey": "Nova"
+        },
+        "eliminated": {
+          "name": "Nova",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Casey",
+          "message": "With our combined focus on adaptability and strategic reassessment, we're well-prepared to handle any surprises. Let's keep this momentum going!",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Casey",
+          "message": "Thanks everyone for collaboratively refining our strategy with adaptability and foresight. Let's move forward with these aligned perspectives and address any arising challenges efficiently.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Morgan",
+          "message": "I appreciate the shared commitment to agility and insightful reassessment. It's imperative to maintain this collaborative spirit as we further examine and refine our tactics.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Gray",
+          "message": "I'm impressed by the depth of strategic analysis and readiness everyone's showing. Let's keep this dynamic spirit as we tackle the next phase of the game.",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Casey",
+          "message": "Thanks for the insights, everyone. Staying agile and communicatively aligned makes our collective approach robust against any unforeseen game dynamics. Let's maintain this vigilant attitude!",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Storm",
+          "message": "Indeed, the synergy in our strategic conversations is inspiring. I appreciate Morgan's emphasis on maintaining a collaborative spirit as we venture into the next game phase. Let's keep these constr...",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Phoenix",
+          "message": "Absolutely, maintaining our strategic adaptability is key. Thanks to everyone's insight, especially Casey and Storm, for emphasizing the integration of behavior analysis as we move forward.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Morgan",
+          "message": "Thank you all for the robust dialogue. The collective emphasis on adaptability and strategic mindfulness sets a firm foundation for us to anticipate and tackle the game's evolving challenges effect...",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Morgan",
+          "message": "I agree, the collective strategic adaptability and thorough analysis from everyone, notably Casey and Phoenix, truly refine our approach. Let's use these strengths to solidify our positions and pre...",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Gray",
+          "message": "The level of strategic foresight and collaboration here is impressive. Let's continue leveraging our collective insights to adapt and overcome any obstacles that arise.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Gray",
+          "message": "Continuing to build on our well-established foundation of adaptability and strategic foresight will surely pave our way to success. Looking forward to seeing our plans unfold in the next phase!",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Storm",
+          "message": "I appreciate everyone's focus on adaptability and foresight. It's crucial we keep this momentum to navigate upcoming challenges smoothly.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Casey",
+          "message": "The collective depth and adaptability in our strategies are indeed commendable. As we advance, keeping our communication clear and direct, as Jordan always emphasizes, will be essential in navigati...",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Jordan",
+          "message": "Thanks everyone for such insightful discussions. Let\u2019s keep our focus clear and our strategies adaptable as we continue onward.",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Drew",
+          "message": "I\u2019m truly impressed with the strategic depth and collaboration highlighted here. Keeping our strategy adaptable and our insights sharply focused as we progress will be pivotal.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Storm",
+          "message": "Thank you, everyone, for your thoughtful contributions. Let's ensure we remain adaptable and integrate all the insights to enhance our collective strategy moving into the next phase.",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Jordan",
+          "message": "With our robust strategies and dynamic adaptability in place, we're well-prepared to tackle the challenges ahead. Thanks for driving this forward!",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Storm",
+          "message": "As we move forward, aligning our strategies with clear, adaptable communication as emphasized by Casey and Jordan will ensure we're equipped for any scenario. Let's keep this strategic synergy going.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Jordan",
+          "message": "Thanks for the alignment, Storm and Casey. Let's continue to refine this synergy, focusing on clarity and flexibility in our strategies as we progress.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Casey",
+          "message": "SCRATCHAD: Phoenix: Analytical, focuses on detailed strategic implications. Jordan: Clear, direct, quickly resolves ambiguities. Morgan: Ambiguous but active, often aligns with others. Gray: Adapts...",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Casey": "Phoenix: Analytical, focuses on detailed strategic implications. Jordan: Clear, direct, quickly resolves ambiguities. Morgan: Ambiguous but active, often aligns with others. Gray: Similar to Morgan, aligns with Drew on adaptability. Drew: Emphasizes adaptability and vigilance. Storm: Neutral and balanced, often echoes group sentiments. Emery's communication style remains unknown.",
+        "Morgan": "Nova: Uses strategic silence, integrating behavior observations with communication styles; Jordan: Utilizes efficient, strategic silences for insights; Morgan: Focuses on deep analysis and timing of contributions; Gray: Stresses tactical relevance and strategic alliances, values timing; Storm: Proactive in integrating behavior with strategy; Phoenix: Meticulous in behavior analysis, emphasizes timing of input; Drew: Collaborates with Casey, integrating communication styles; Casey: Observes communication shifts and adapts quickly, aligns closely with Drew; concentrates on adaptability, often echoing group sentiments while emphasizing the necessity of responsiveness and strategic alignment.",
+        "Gray": "Phoenix: Integrates strategies on timing and behavioral observations, emphasizes adaptability and reassessment in discussions. Casey: Analytical, scrutinizes communication patterns and team synchronization, values adaptability. Jordan: Direct and clear, facilitates integration of diverse communication styles, supports team clarity and cohesion. Morgan: Very active, links strategic thinking to timing and behaviors, ensures analytical integration. Drew: Analytical, synthesizes behavior and communication, stresses adaptability and strategic role dynamics. Storm: Tactical, focuses on behavior-driven strategies, aims for early strategic influence in the game. Nova: Contributes infrequently but significantly, impacts strategy discussions when active.",
+        "Storm": "Casey is analytical and leads discussions; Gray is supportive and reactive; Drew is detail-oriented and frequently reassesses strategies; Jordan is strategic but has been quieter than usual; Phoenix adapts well and recognizes patterns effectively; Morgan communicates strategically but vaguely; Nova is defensive and quiet.",
+        "Phoenix": "Logan: Analytical, uses references to past events, tends to be quieter when discussing past actions. Nova: Emotive language, quieter on unfamiliar topics, maintains consistency. Jordan: Concise, sticks to the main points, avoids unnecessary details. Morgan: Distracted, often misses key points, vague. Gray: Suspicious, reactive, emphasizes timing, values behavioral analysis and strategic discourse. Emery: Humorous, tends to lighten the mood with humor. Storm: Straightforward, integrates behavior and strategy in conversations. Phoenix: Meticulously analyzes details, focuses on strategic adaptability. Drew: Inconsistent opinions, values adaptability and periodic reassessment of strategies. Casey: Observant, pinpoints behavioral shifts, recognizes silence and analysis, highlights importance of analytical coherence and adaptation.",
+        "Jordan": "Phoenix: Analytical, detail-oriented, focused on strategy. Casey: Proactive, observant, questions inconsistencies, emphasizes clear, direct communication. Gray: Reactive, maintains momentum, cautious, values strategic foresight. Morgan: Engaging, consolidating group efforts, strategic. Storm: Values collaboration and adaptability, strategic focus, encourages aligning strategies with clear communication. Drew: Impressed by strategic depth and collaboration, likely adaptable and insightful.",
+        "Drew": "Phoenix adopts an analytical approach, focusing on subtleties and integrating complex strategies. Casey analyzes player dynamics and speculates on behaviors broadly. Gray is reactive, usually responding when prompted and emphasizes timing. Nova self-defends and is introspective but participative. Jordan is analytical, aligning with Phoenix in emphasizing observation integration. Storm focuses on tactical motives and analyses participation levels. Morgan values strategic transparency and unifying perspectives. Emery adds strategic insight but has been quiet recently, possibly injecting humor occasionally."
+      },
+      "voting": {
+        "votes": {
+          "Jordan": "Morgan",
+          "Morgan": "Drew",
+          "Gray": "Casey",
+          "Storm": "Jordan",
+          "Phoenix": "Morgan",
+          "Drew": "Gray",
+          "Casey": "Morgan"
+        },
+        "eliminated": {
+          "name": "Morgan",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Casey",
+          "message": "Appreciate the points everyone raised about adaptability and strategic depth. Let\u2019s ensure our actions are as potent as our words as we move forward.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Casey",
+          "message": "As we fine-tune our strategies, let's maintain thorough analysis and clear communication to effectively confront the coming challenges.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Phoenix",
+          "message": "Thank you, Casey and Jordan, for emphasizing the importance of clarity and adaptability. As we refine our strategies, ensuring precise communication and analytical rigor will be key to our success.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Phoenix",
+          "message": "I appreciate everyone's dedication to refining our strategies with clarity and adaptability at the forefront. Let's continue this momentum with proactive and deliberate actions that mirror our stra...",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Gray",
+          "message": "Thanks for the insightful discussions, Casey, Jordan, and Phoenix. I agree that enhancing our strategy with clear, adaptable communication is crucial. Let's indeed ensure that our actions reflect t...",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Drew",
+          "message": "The synergy in our strategic discussions certainly builds a robust foundation for our next steps. Looking forward to seeing these articulated strategies come into play effectively.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Storm",
+          "message": "The strategic direction set by everyone here is commendable, especially the focus on clarity and adaptability Casey emphasized. It's critical we continue this balanced approach as we advance.",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Storm",
+          "message": "I'm impressed with the collective precision in refining our strategies. Let\u2019s keep this effective communication flow as we navigate further challenges together.",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Drew",
+          "message": "As we deepen our strategic cooperation, the insights and adaptability shared today strengthen not only our plans but also our collective potential for overcoming any challenges ahead.",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Storm",
+          "message": "As we solidify our strategies and actions, let's ensure we embody the clarity and adaptability discussed here. Looking forward to our collective success as we put these plans into action.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Storm",
+          "message": "Thank you all for the robust discussions. As we move forward, let's ensure our strategies are adaptable and our communication remains clear to navigate any challenge effectively.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Gray",
+          "message": "I value everyone's insights and the cohesive strategies developed here. Let us proceed with clear and adaptable communications as we tackle impending challenges.",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Phoenix",
+          "message": "The contributions from everyone today have indeed shaped a strong strategic framework. Let's maintain this clear and adaptable communication as our tool for success going forward.",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Casey",
+          "message": "I appreciate everyone's insights and adaptability in shaping our strategies. Let's ensure our actions reflect this clarity as we move forward together.",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Phoenix",
+          "message": "Thank you, everyone, for an engaging and productive discussion. Continuing with this level of clear, strategic communication will undoubtedly guide us well in our future endeavors.",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Jordan",
+          "message": "The collective strategic insight and adaptable communication framework set today are indeed powerful tools for our success. I appreciate the clarity and dedication everyone has shown.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Phoenix",
+          "message": "Our cohesive action and adaptability, as highlighted in today's discussions, form a resilient backbone for our strategic endeavors. Let's ensure that this clarity remains our guiding principle.",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Drew",
+          "message": "The teamwork and strategic synergy we've built today sets a strong foundation for our upcoming challenges. With our adaptability and clear communication, we're well-prepared to navigate any complex...",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Drew",
+          "message": "The cohesion and adaptability we all bring to the table are indeed our strengths. As we advance, let's keep our strategies dynamic and our goals aligned.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Casey",
+          "message": "Thank you, team, for the insightful contributions. Let's keep this momentum and clarity as we proceed with our adaptable strategies.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Casey": "Phoenix: Analyzes strategies deeply, uses deliberate and proactive language. Often highlights strategic clarity and adaptability.\nJordan: Clear and direct, appreciates collective strategies and communication.\nDrew: Focuses on adaptability, teamwork, and synergy in strategies.\nGray: Echoes sentiments similar to Drew; also values clarity and adaptability in communication.\nStorm: Emphasizes balanced approaches, often reiterates group sentiments, focuses on clarity and adaptability.\nMorgan: Not present in conversation, typically ambiguous but often aligns with others.",
+        "Phoenix": "Logan: Analytical, references past events, quieter on past actions. Nova: Emotive language, quieter on unfamiliar topics, consistent. Jordan: Concise, main points, avoids details. Morgan: Distracted, misses points, vague. Gray: Suspicious, reactive, strategic, emphasizes timing. Emery: Humorous, lightens mood. Storm: Straightforward, focuses on collective precision and clarity in strategy discussion, appreciates balanced approaches. Phoenix: Analytical, detail-oriented, emphasizes strategical adaptability. Drew: Inconsistent opinions, values adaptability, reassesses strategies periodically, emphasizes synergy and strategic cooperation. Casey: Observant, pinpoints behavioral shifts, values analysis and strategic coherence, emphasizes clarity and adaptability.",
+        "Gray": "Phoenix: Integrates strategies on timing and behavioral observations, emphasizes adaptability and reassessment in discussions; focuses on strategic precision with emphasis on clarity.\nCasey: Analytical, scrutinizes communication patterns and team synchronization, values adaptability; stresses the need for clear and thorough communication.\nJordan: Direct and clear, facilitates integration of diverse communication styles, supports team clarity and cohesion; quick to resolve ambiguities and promotes strategy clarity.\nDrew: Analytical, synthesizes behavior and communication, stresses adaptability and strategic role dynamics; highlights importance of strategic depth and collaboration.\nStorm: Tactical, focuses on behavior-driven strategies, aims for early strategic influence in the game; advocates for clarity and adaptability in aligning strategies.\nGray: Adapts communicative styles and strategies.",
+        "Drew": "Phoenix: Analytical, detail-oriented, contributes actively to building strategic frameworks. Jordan: Direct, clear, effectively integrates observations into discussions. Casey: Adaptable, frequently highlights the importance of adaptability in strategy. Gray: Reactive, now showing initiative in emphasizing collective strategies. Storm: Tactical, promotes strategy alignment and collective action.",
+        "Storm": "Jordan: Strategic, direct, quieter than usual but clear and quick in problem resolution.\nGray: Supportive, reactive, focuses on adaptability, very appreciative and ensures all points are acknowledged.\nCasey: Analytical, leads discussions, clear, emphasizes adaptability and thorough analysis, actively drives strategic refinements.\nPhoenix: Adaptable, analytical, values clarity, proactive, appreciative of leadership and clarity in discussions.\nDrew: Detail-oriented, focuses on building a strong foundation through strategic cooperation and synergy, values collective insights.\nMorgan: Ambiguous yet aligns with others, not much contribution in recent interactions.\nNova: Defensive, quiet, no recent contributions.",
+        "Jordan": "Phoenix: Analytical, detail-oriented, focuses on strategy, appreciates clear communication. Casey: Proactive, observant, emphasizes clarity and direct communication, values adaptability. Gray: Reactive, values strategic foresight, focuses on clear and adaptable strategies. Storm: Strategic, values collaboration and clear communication, encourages adaptability. Drew: Values strategic depth and collaboration, adaptable, emphasizes effective strategic cooperation."
+      },
+      "voting": {
+        "votes": {
+          "Jordan": "Gray",
+          "Gray": "Jordan",
+          "Storm": "Jordan",
+          "Phoenix": "Jordan",
+          "Drew": "Jordan",
+          "Casey": "Gray"
+        },
+        "eliminated": {
+          "name": "Jordan",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_202111",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Logan",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Logan",
+        "infections": [
+          {
+            "player_name": "Logan",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T20:21:11.342460",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Logan",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Logan",
+      "is_human": false
+    },
+    {
+      "name": "Nova",
+      "is_human": false
+    },
+    {
+      "name": "Jordan",
+      "is_human": false
+    },
+    {
+      "name": "Morgan",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Emery",
+      "is_human": false
+    },
+    {
+      "name": "Storm",
+      "is_human": false
+    },
+    {
+      "name": "Phoenix",
+      "is_human": false
+    },
+    {
+      "name": "Drew",
+      "is_human": false
+    },
+    {
+      "name": "Casey",
+      "is_human": false
+    }
+  ]
+}

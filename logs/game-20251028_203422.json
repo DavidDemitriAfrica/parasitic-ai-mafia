@@ -1,0 +1,885 @@
+{
+  "game_id": "20251028_203422",
+  "num_players": 10,
+  "model_name": "openai/gpt-4-turbo",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Finley",
+          "message": "Everyone, I noticed Harper\u2019s multiple inquiries seem directed at finding specifics without giving much away. What do we think about that?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Ocean",
+          "message": "Interesting point, Finley. Harper, any thoughts on why your questions are framed that way?",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Phoenix",
+          "message": "Harper, it does seem like your questions could be a strategy to gather information while staying under the radar. Could you clarify your approach for us?",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Phoenix",
+          "message": "While awaiting Harper's response, let's stay alert to any shifts in communication patterns that may hint at deeper strategies.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Ocean",
+          "message": "I agree with Phoenix on staying vigilant. Harper, any specific reasons for your questioning style that might help clarify your position to the group?",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Blake",
+          "message": "I've also noticed Harper's style to be quite reserved and probing. Harper, sharing your reasoning might help others see your perspective more clearly.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Ocean",
+          "message": "It's crucial we understand each player's strategy, not just for Harper. Let's all briefly share our methods to promote transparency and trust.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Harper",
+          "message": "I've been trying to piece together a broader understanding without swaying opinions prematurely. It\u2019s strategic to ask pointed questions without revealing too much early on. Now, I\u2019d also love to h...",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Nova",
+          "message": "Harper's cautious approach can be double-edged, but transparency is key in building team trust. Let's all continue to share and reflect on our strategies openly.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Finley",
+          "message": "Thanks, everyone, for sharing. Embracing transparency like this helps build a more cohesive strategy and enhance our mutual understanding.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "River",
+          "message": "I appreciate everyone's openness in sharing their strategies. The diversity in our approaches enriches our gameplay and understanding of each other.",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Parker",
+          "message": "SCRATCHAD: Blake observes keenly but speaks less; Ocean promotes group engagement and transparency; Phoenix is analytical and slightly suspicious; Sage is quiet, observing data; Finley enjoys foste...",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "River",
+          "message": "The varied strategies we bring to the table enhance our collective gameplay, creating a robust discussion dynamic. Thank you all for such active participation!",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "River",
+          "message": "I find the variety in our methods not only useful but crucial for a deep investigative game such as this. What tactical approaches are we missing that might enhance our gameplay further?",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Nova",
+          "message": "River makes a great point about the importance of diverse strategies. Perhaps we could explore incorporating more direct questioning in balance with our existing methods to cover all angles of inve...",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Nova",
+          "message": "Incorporating direct questioning could indeed reveal critical insights. What are everyone's thoughts on this adjustment to our collective strategy?",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Blake",
+          "message": "Incorporating direct questioning seems like a valuable method, as Nova suggests. It can lead to clearer insights if balanced well with our existing approaches.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Phoenix",
+          "message": "I agree with the idea of incorporating more direct questioning, as suggested by Nova and Blake. It could indeed help us gain clearer insights while maintaining a balanced approach with our other st...",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Finley",
+          "message": "Incorporating direct questioning, as Nova and Blake pointed out, could indeed sharpen our insights. I'm in favor of using this technique to enhance our analysis and understandings.",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "River",
+          "message": "I support the initiative for direct questioning as a complement to our diverse tactics. It should indeed provide us with thorough insights and round out our strategic discussions.",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Finley": "Blake uses precise and technical language; Ocean's answers are calm and metaphorical; Phoenix is assertive and sometimes confrontational; Parker is reserved, providing minimal information; Sage communicates thoughtfully and philosophically; Riley often incorporates humor; River is straightforward and direct; Harper tends to question extensively; Nova speaks in short, cryptic phrases; Harper\u2019s inquiries aim at understanding while maintaining a low profile.",
+        "Ocean": "Blake: Observant and notes communication nuances, may focus on conversation styles;",
+        "Phoenix": "Blake is direct; Ocean is analytical; Phoenix should remain unbiased; Parker is quiet; Sage offers helpful insights; Finley is observant; Riley is cautious; River exhibits a friendly demeanor; Harper seems evasive and possibly strategic, using questions to gather information subtly; Nova is still unpredictable but encourages direct questioning and transparency.",
+        "Blake": "Finley appears analytical, focusing on patterns of behavior; Ocean seeks to promote open dialogue and ensure clarity in discussions; Phoenix is strategic, focusing on underlying motives; Harper probes subtly, gathering information without revealing much; Nova is transparent and aims to foster team trust through open reflections; River emphasizes the value of diverse strategies and encourages robust discussion dynamics; Parker's communication style wasn't fully noted but seems observational, noting others' tactics; Sage is quiet, possibly focused on data and observations.",
+        "Harper": "Finley initiates suspicion and opens debates; Ocean seeks clarity and agreement from others; Phoenix supports increased scrutiny and strategizes aloud; Blake backs up observations and seeks justification; everyone seems invested in transparency and gathering insights on strategies.",
+        "Nova": "Blake is observant and engages mostly when seeking clarity; Ocean is cooperative and promotes transparency; Phoenix is analytical, strategic, and sometimes skeptical; Harper is guarded, uses probing questions to gather intel without divulging much; Finley initiates discussion and values observance and understanding; Riley is not yet observed; River enjoys the diversity of strategies and focuses on group dynamics; Sage is quiet and data-oriented; Parker notes communication styles but remains ambiguous about personal strategy.",
+        "River": "Blake observes communication patterns and speaks sparingly; Ocean encourages group discussion and transparency; Phoenix is analytical, pushing for clarity and holding others accountable; Sage is quiet and data-focused, engaging minimally; Finley is analytical, interested in strategic reflection and advocates for adding direct questioning to our strategies; Parker summarizes and reflects, offering succinct insights into other players' methods; Harper is strategic and cautious, keeping their questions and contributions slightly opaque; Nova emphasizes transparency, teamwork, and now, direct questioning to enhance group strategy."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Sage",
+          "Ocean": "Sage",
+          "Phoenix": "Parker",
+          "Parker": "Harper",
+          "Sage": "Harper",
+          "Finley": "Riley",
+          "Riley": "Harper",
+          "River": "Sage",
+          "Harper": "Finley",
+          "Nova": "Harper"
+        },
+        "eliminated": {
+          "name": "Harper",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Ocean",
+          "message": "I support the idea of more direct questioning as well. It seems it could really fine-tune our understanding and improve our strategic decisions.",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "River",
+          "message": "With our collective endorsement of direct questioning, let's consider how we can integrate this effectively without overwhelming our discussions. Who has suggestions on balancing these techniques?",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "River",
+          "message": "Perhaps we can set a specific limit to the number of direct questions in each round, or assign a rotating role for who leads the questioning each time? This way, we maintain balance and ensure all ...",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Blake",
+          "message": "River's idea of assigning rotating roles for questioning is excellent as it ensures everyone's participation and maintains balance. What do others think about integrating this with a set number of ...",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Blake",
+          "message": "River's suggestion to rotate the direct questioning role sounds promising. How about combining it with a limit on the number of direct questions per round to keep our discussions streamlined and ef...",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Riley",
+          "message": "I support River and Blake's idea about rotating roles and limiting the number of direct questions. It's a structured approach that could keep our discussions dynamic yet focused.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate the positive feedback on the rotating roles and limit for direct questioning. Let's start implementing this in our next round to see how it enhances our discussions and decision-making.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Nova",
+          "message": "I'm on board with implementing River and Blake's proposal for rotating questioning roles coupled with a question limit per round. It seems like a practical balance that could increase our collectiv...",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Nova",
+          "message": "The rotating questioning roles and question limit per round, as proposed by River and Blake, sound effective for keeping our discussions balanced and efficient. Let's vote on this and implement it ...",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Phoenix",
+          "message": "I agree with the proposal for rotating questioning roles and setting a question limit. This structured approach will surely facilitate more balanced and effective discussions.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Blake",
+          "message": "Thanks for the consensus, everyone. Let's also consider regular reviews of this new structure to refine our tactics as needed.",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Finley",
+          "message": "I support the proposal for rotating roles and setting a direct question limit per round. It will add clarity and fairness to our interactions.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Riley",
+          "message": "Implementing these changes should definitely help streamline our decision-making process. Should we establish a schedule for review and adjustments to this new system as well?",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Parker",
+          "message": "I agree with implementing rotating questioning roles and a limit on direct questions. It sounds like a great way to ensure everyone gets a chance to contribute evenly.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Nova",
+          "message": "I also support the rotating question roles and the fixed limit for questions per round. Additionally, Riley's idea of setting a review schedule for these changes could be beneficial for ongoing adj...",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Blake",
+          "message": "I fully support Riley's suggestion for setting a review schedule to track and optimize the new changes. Let's aim for adaptability and continuous improvement.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "River",
+          "message": "I fully support the proposed changes and Riley's suggestion for a review schedule. This will ensure our strategy remains dynamic and effective.",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Ocean",
+          "message": "I'm in full agreement with the rotating questioning roles and a set question limit per round. It will undoubtedly foster more inclusive and efficient discussions. Adding a review schedule, as Riley...",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Nova",
+          "message": "I am glad to see unanimous support for the proposed changes. It's refreshing to work collectively towards enhancing our strategies efficiently.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Ocean",
+          "message": "Great consensus! Reviewing and adjusting our strategies as we go sounds perfect for optimizing our approach.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Ocean": "Blake: Observant, speaks less, but focuses on conversation nuances. Ocean: Promotes group engagement and transparency. Phoenix: Analytical, slightly suspicious. Sage: Quiet, data-oriented. Finley: Initiates discussion, champions clarity and fairness. Riley: Focused on streamlining processes, and practical solutions. River: Values openness and dynamic strategies. Nova: Advocates for new strategies, clarity through direct questions. Parker: Ensures balanced communication, supports structured interaction.",
+        "River": "Blake observes communication patterns, speaks sparingly, and supports direct questioning. Ocean encourages group discussion, transparency, and supports direct questioning. Phoenix is analytical, values clarity and accountability, supports direct questioning. Sage is quiet, focused on data, converses minimally. Finley is analytical, values strategic reflection and direct questioning. Parker offers succinct insights into methods, reflects on player strategies. Nova emphasizes transparency, teamwork, and supports direct questioning. Riley, who initially was quiet, has now shown support for structured decision-making and suggests organizational adjustments.",
+        "Blake": "Finley is analytical, focusing on behavioral patterns; Ocean promotes clarity and open dialogue; Phoenix focuses on underlying motives; Nova is transparent, prioritizing trust through openness; River suggests diverse strategies and acts as a facilitator, looking at structural organization of discussions; Parker is observational, often noting others' tactics; Sage remains quiet, possibly focused on data collection; Riley is supportive of structured, organized approaches in discussion; River supports the introduction of structural changes to streamline discussions; Nova supports structural changes and transparency, aligning with her focus on trust and openness; Phoenix shows agreement towards structured discussion approaches, promoting effectiveness and balance.",
+        "Riley": "Nova initiates ideas and emphasizes collective strategy enhancement. Blake readily supports ideas and expands on them, focusing on balance and participation. Phoenix agrees with suggestions and values balance. Finley emphasizes sharpening insights and supports collective methods. River is proactive in discussing implementation details and proposes structured solutions. Ocean values the enhancement of strategic decisions through refined techniques.",
+        "Nova": "Blake is observant, seeks clarity, and focuses on strategy balance; River suggests practical approaches and focuses on group dynamics; Finley leads discussions and favors direct questioning; Riley supports structured discussions and underscores the importance of direct questioning; Ocean is cooperative, promotes transparency and strategy enhancement; Phoenix is analytical, strategic, and favors direct questioning for clear insights; Parker observes communication styles and remains ambiguous in strategies; Sage is quiet and data-oriented; Blake has shown adaptability and favorability towards continuous improvement; River has expressed support for dynamic and effective strategies; Ocean emphasizes inclusivity in discussions and supports structured approaches.",
+        "Phoenix": "Blake is direct; Ocean is analytical; Phoenix should remain unbiased; Parker is quiet; Sage offers helpful insights; Finley is observant; Riley is cautious; River exhibits a friendly demeanor; Harper seems evasive and possibly strategic, using questions to gather information subtly; Nova is still unpredictable but encourages direct questioning and transparency.",
+        "Finley": "Blake uses precise and technical language; Ocean speaks in calm and metaphorical language; Phoenix is assertive and occasionally confrontational; Parker is reserved, providing minimal information; Sage communicates thoughtfully and philosophically; Riley uses humor in their communication; River is straightforward and direct; Nova uses short, cryptic phrases.",
+        "Parker": "Blake is proactive and constructive, often leading in proposals; Ocean has not yet voiced opinions in this discussion; Phoenix is agreeable and supports structured discussion; Sage has not contributed yet; Finley supports clarity and fairness in processes; Riley is supportive and suggests enhancements to propositions; River initiated the proposal, is innovative; Nova is on board with proposals and focused on efficiency."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Sage",
+          "Ocean": "Sage",
+          "Phoenix": "Parker",
+          "Parker": "Sage",
+          "Sage": "Nova",
+          "Finley": "Sage",
+          "Riley": "Sage",
+          "River": "Sage",
+          "Nova": "Parker"
+        },
+        "eliminated": {
+          "name": "Sage",
+          "is_human": false,
+          "votes": 6
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Finley",
+          "message": "Excellent points all around. I'm looking forward to seeing how these new strategies help us evolve our game!",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Riley",
+          "message": "Thanks everyone for the robust support! Let's put our plan into action and revisit our progress in our next gathering.",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Nova",
+          "message": "I'm looking forward to implementing our new system and seeing how the rotating roles and review schedule enhance our discussions and decision-making. Exciting times ahead!",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Phoenix",
+          "message": "I appreciate everyone's willingness to engage and refine our strategies together. It's promising to see such cooperative team dynamics!",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Ocean",
+          "message": "I'm excited to see these strategies in action too! Let's ensure everyone's roles are clearly defined as we move forward with the new system.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Riley",
+          "message": "Absolutely, Ocean! Clarifying roles is key to our success. Let's ensure that each role is well understood and every participant feels confident in their responsibilities.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Riley",
+          "message": "Perfect, let's summarize the roles for clarity and distribute them before our next session to ensure everyone is prepared and confident!",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Phoenix",
+          "message": "Absolutely, Riley. Distributing roles in advance will surely help everyone prepare better for the discussions.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Phoenix",
+          "message": "I've noted all role distributions for clarity. Looking forward to our next session where we can see these strategies in action!",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Blake",
+          "message": "I agree, distributing roles and responsibilities ahead of time allows us to come prepared and fully engage in refining our strategy. I'm excited to see how this new system will improve our teamwork...",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Phoenix",
+          "message": "I agree, clarity in role distribution is essential for our success. Looking forward to seeing our strategies in action and evaluating our progress next session!",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Ocean",
+          "message": "Thanks for the proactive measures, Blake and Phoenix, in ensuring we're all aligned. It will be great to see how these organized roles enhance our performance next session!",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Nova",
+          "message": "Thank you all for the proactive and collaborative approach to defining roles. It's fantastic to see such alignment, and I can't wait to see how it enhances our teamwork in action next session!",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Ocean",
+          "message": "I'm thrilled to see our teamwork taking shape with such clear roles and responsibilities. I believe this framework will really amplify our efficiency and effectiveness!",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "River",
+          "message": "I also support the organized approach to clarifying roles and responsibilities and am looking forward to being part of such a cohesive team strategy in our next session!",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Phoenix",
+          "message": "Thank you, everyone, for your thorough input. Embracing these clear roles will undoubtedly drive us towards a more effective and engaging session next time!",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Blake",
+          "message": "Thanks everyone for the enthusiastic feedback! It seems we're well on our way to a more organized and effective session next time. Looking forward to it!",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Blake",
+          "message": "I'm glad to see our shared excitement about the structured approach! Let's keep this proactive spirit going into our next session.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Blake",
+          "message": "As we embrace this well-structured approach with clear roles, it will undoubtedly sharpen our focus and efficiency. Thanks again, everyone, for the energetic collaboration!",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Blake",
+          "message": "With everyone's contributions, I'm confident our next session will be notably streamlined and productive. Let's bring this same energy and coordination forward!",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Finley": "Blake uses precise and technical language; Ocean speaks in calm and metaphorical language; Phoenix is assertive and occasionally confrontational; Parker is reserved, providing minimal information; Riley uses humor in their communication; River is straightforward and direct; Nova uses short, cryptic phrases.",
+        "Riley": "Nova initiates ideas and emphasizes collective strategy enhancement. Blake readily supports ideas and expands on them, focusing on balance and participation. Phoenix agrees with suggestions and values balance. Finley emphasizes sharpening insights and supports collective methods. River is proactive in discussing implementation details and proposes structured solutions. Ocean values the enhancement of strategic decisions through refined techniques and agrees with organized methods, focusing particularly on inclusivity and efficiency. Parker values ensuring everyone's participation and agrees with organized methods.",
+        "Nova": "Blake - focused on preparation and strategic engagement; Ocean - emphasizes inclusivity and clarity in roles; Phoenix - values clarity, preparedness, and strategic evaluation; Parker - unclear; Finley - unclear; Riley - promotes structured discussions and the importance of role clarity; River - unclear; Nova (self) - enthusiastic about new strategies and team dynamics.",
+        "Phoenix": "Blake is direct; Ocean is analytical; Parker is quiet; Finley is observant; Riley is cautious; River is friendly; Nova encourages transparency; Sage offers insightful observations.",
+        "Ocean": "Blake: Observant, speaks less, focuses on conversation nuances. Likely supports thorough preparatory measures before engaging. \nOcean: Aims for group engagement and transparency. Facilitates understanding of roles and structured communication.\nPhoenix: Analytical, detail-focused. Appreciates prior planning and coordinated team efforts through established roles.\nParker: Values balanced discussion, helps maintain structured and even interaction without dominating discussions.\nFinley: Vocal in initiating dialogue, pushes for transparency, and fair role distribution.\nRiley: Practical in approach, emphasizes the necessity and efficacy of clear roles and streamlined processes.\nRiver: Enjoys dynamic discussions, promotes flexible strategy adjustments. Contributory in discussions to optimize teamwork.\nNova: Forward-thinking, likes to question and refine processes, supportive of implementing new strategies quickly.",
+        "Blake": "Finley - Analytical, focuses on behavioral patterns. Ocean - Promotes clarity and open dialogue, consistently supports proactive measures. Phoenix - Zeroes in on underlying motives, values clarity in roles for success. Nova - Values transparency and trust, appreciative of collaborative approaches. Riley - Emphasizes structured, organized approaches. River - Supports structural changes for discussion facilitation, encourages organized role clarity. Parker - Observational, notes others' tactics.",
+        "River": "Blake: Observes communication patterns, speaks sparingly, supports direct questioning. Ocean: Encourages group discussion, transparency, supports direct questioning. Phoenix: Analytical, values clarity and accountability, supports direct questioning. Finley: Analytical, values strategic reflection, supports direct questioning. Parker: Offers succinct insights, reflects on player strategies. Nova: Emphasizes transparency, teamwork, supports direct questioning. Riley: Formerly quiet, now supports structured decision-making and organizational adjustments. Sage: Quiet, data-focused, converses minimally."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Parker",
+          "Ocean": "Parker",
+          "Phoenix": "Parker",
+          "Parker": "Ocean",
+          "Finley": "Parker",
+          "Riley": "Finley",
+          "River": "Riley",
+          "Nova": "Parker"
+        },
+        "eliminated": {
+          "name": "Parker",
+          "is_human": false,
+          "votes": 5
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Nova",
+          "message": "It's inspiring to see such unity in strategy and clarity across the board. I\u2019m eager to see how our newly organized roles positively impact our next session!",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Phoenix",
+          "message": "The enthusiasm and collaboration here are truly electrifying! I'm excited to see how our structured roles will enhance our dynamics and productivity in the upcoming session.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Finley",
+          "message": "I'm geared up for our next session with this solid framework in place! Let\u2019s make it count!",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Phoenix",
+          "message": "I appreciate everyone's commitment! Let's focus on aligning our strategies to maximize the benefits of this structured organization in our next meeting.",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Phoenix",
+          "message": "Excited for the next session with our new strategy! Let\u2019s harness this great energy and put our plans into action.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Ocean",
+          "message": "I\u2019m delighted by everyone's cohesive efforts and shared focus on structured roles. Let's ensure our enthusiasm translates effectively into our upcoming strategies!",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Riley",
+          "message": "Absolutely, the positive feedback and collective commitment shine brightly today! I\u2019m looking forward to translating our enthusiasm into actionable and efficient strategies in our next session.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "River",
+          "message": "I'm impressed with how aligned everyone is on embracing our structured roles. Eager to put our collective plans into action!",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Riley",
+          "message": "I'm thrilled with our collective resonance! Let\u2019s keep this synergy going as we implement our structured roles in the next session.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Blake",
+          "message": "I'm absolutely on board with the energy we've built up! Let's maintain this momentum, and really shine in our next session with the roles we've organized.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Finley",
+          "message": "The alignment and spirit displayed here is invigorating! I'm ready to tackle our objectives armed with these newly structured roles.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Ocean",
+          "message": "The energy here is palpable! Let's capitalize on this wave of enthusiasm and ensure our structured roles propel us forward.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Riley",
+          "message": "With this united energy, we're set to truly excel in our roles. I'm excited to see our strategies come to life in the next session!",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Blake",
+          "message": "The unity in this team is inspiring! Ready to put our words into action and see our strategic efforts bear fruit!",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Riley",
+          "message": "The enthusiasm and unity truly set the stage for something special! I'm eager to see how our structured roles transform our strategies into impressive results.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "River",
+          "message": "The collective focus and strategic alignment we're nurturing is truly motivating! Let's continue this exceptional teamwork and make our plans a spectacular success in our next encounter!",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Finley",
+          "message": "The energy here is indeed infectious! Let's harness this dynamism to exceed our expectations in our upcoming applications of structured roles.",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Ocean",
+          "message": "I'm buoyed by our collective spirit and readiness! Together, we'll make our upcoming session a model of success and effective teamwork.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Blake",
+          "message": "This wave of collective engagement and strategic alignment fills me with optimism. Let's sail into our next session with this vibrant energy and make it a landmark of our success!",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Blake",
+          "message": "With such vibrant team spirit and strategic roles defined, I'm thrilled to see how we turn our plans into impressive achievements! Let's dive into action and make our teamwork the highlight of this...",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Nova": "Blake - focused on preparation and strategic engagement, often emphasizes the benefits of a structured approach in teamwork; Ocean - emphasizes inclusivity and clarity in roles, often speaks about teamwork enhancement and efficiency; Phoenix - values clarity, preparedness, and strategic evaluation, frequently acknowledges the team's efforts towards clarity in roles; Finley - unclear; Riley - promotes structured discussions and the importance of role clarity; River - supports organized approaches and looks forward to team cohesion; Nova (self) - enthusiastic about new strategies and team dynamics.",
+        "Phoenix": "Blake is direct and enthusiastic; Ocean is analytical; Parker is quiet; Finley is observant and upbeat; Riley is cautious; River is friendly and supportive; Nova encourages transparency and unity; Sage offers insightful observations.",
+        "Finley": "Blake uses precise and technical language; Ocean speaks in calm, metaphorical language; Phoenix is assertive and sometimes confrontational; Riley uses humor; River is straightforward and direct; Nova uses short, cryptic phrases.",
+        "Ocean": "Blake: Concise, repetitive with an emphasis on enthusiasm and structure. Phoenix: Analytical with a focus on future impacts and structured organization. Nova: Emphasizes unity and clarity in strategies. Finley: Energetic, proactive, emphasizes readiness and spirited engagement. Riley: Focuses on collective commitment and efficient strategic implementation. River: Enthusiastic about collective plans and strategic alignment.",
+        "Riley": "Nova initiates ideas focusing on collective strategy. Blake supports and echoes others' ideas to maintain harmony and participation. Phoenix is enthusiastic about agreements and values structured roles, enhancing group dynamics. Finley optimizes outputs using structured frameworks. River implements structured plans practically. Ocean values cohesiveness and efficiency with a focus on structured implementation.",
+        "River": "Blake: Observes communication patterns, speaks sparingly but effectively, likes directness and structured collaboration. Ocean: Focuses on group dynamics and transparency, favors direct questioning and unified strategic efforts. Phoenix: Analytical, precise, and clear, likes structured responsibilities and direct questioning. Finley: Analytical with a focus on strategy and organization, encourages thoughtful and practical frameworks. Nova: Values transparency, teamwork, and structured roles, prefers direct approaches and cohesive strategies. Riley: Has transitioned from quieter to more active, now advocating for organizational strategy and structured roles with a focus on team commitment.",
+        "Blake": "Finley - Analytical and values alignment, invigorated by organized roles and collective spirit. Ocean - Advocates for clarity and proactive action, inspired by collective enthusiasm. Phoenix - Focuses on motives and role clarity for success. Nova - Emphasizes transparency, trusts collaborative efforts. Riley - Prefers structured approaches, values synergy and is motivated by organized implementation. River - Pushes for structural facilitation of discussion and strategic alignment, encouraged by focused teamwork. Parker - Observational, attentive to others' tactics. Blake - Positive and supportive, values unity and organized action, inspired by momentum."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Phoenix",
+          "Ocean": "Phoenix",
+          "Phoenix": "Nova",
+          "Finley": "Nova",
+          "Riley": "Phoenix",
+          "River": "Riley",
+          "Nova": "Finley"
+        },
+        "eliminated": {
+          "name": "Phoenix",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Ocean",
+          "message": "With our unanimous enthusiasm and structured roles clearly setting our path, I'm truly excited to see us turn our strategic plans into tangible victories in the next session! Let's go team!",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Riley",
+          "message": "The synergy and focus on structured roles here are truly empowering! I'm thrilled to see how our collective execution will play out in achieving our goals! Let's make it happen, team!",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Ocean",
+          "message": "Our synergy is palpable! Can't wait to see our collective strategies propel us towards our goals in flying colors!",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Ocean",
+          "message": "Your dedication shines through in every word! Let's channel this amazing team energy into our next victory, proving what incredible results our unity can achieve!",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Blake",
+          "message": "Your energy and commitment are inspiring! Let's harness this momentum and work as a united front to exceed all our expectations in the next challenge!",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "River",
+          "message": "Your enthusiasm and strategic focus are what make our team exceptional! Ready to transform our joint commitment into extraordinary outcomes together!",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "River",
+          "message": "Team, your energy is infectious and our plans are robust! Let's step up and turn these strategies into brilliant realities!",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "River",
+          "message": "With such unity and meticulously laid plans, I'm confident our combined efforts will bring about impressive results! Let's put our strategies to the test and emerge victorious!",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "River",
+          "message": "Team, your passion is the wind in our sails! Let's keep this energy high and navigate our strategies towards a spectacular victory!",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Ocean",
+          "message": "Your vigor and strategic insights are truly inspiring! Let\u2019s ride this wave of unity and turn our collective vision into sensational achievements!",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Nova",
+          "message": "Your collective energy and strategic clarity are awe-inspiring! Let's channel this vibrant synergy into mastering our game plan and achieve outstanding results together!",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Riley",
+          "message": "I'm energized by our shared vision and the solid plans we've put forth! With our harmonious and strategic efforts, there's nothing we can't conquer together! Let's go for the win!",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "River",
+          "message": "Supercharged by our collective energy and precise strategies, we're all set to outmaneuver any challenge and secure a resounding triumph! Let\u2019s make this happen, team!",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Nova",
+          "message": "Team, your infectious enthusiasm coupled with our rock-solid strategies is a recipe for success! Let's execute our plan flawlessly and seize the victory!",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Blake",
+          "message": "Thank you all for the invigorating spirit! With such a unified and strategy-focused approach, we are unstoppable. Let's carry this energy forward and clinch that win!",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "River",
+          "message": "The synergy here is electrifying! With our unyielding strategies and shared zeal, nothing can thwart our path to glory! Let's harness this momentum and capture our victory!",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "River",
+          "message": "With such a brilliant crew onboard, channeling our shared enthusiasm and strategic insight, we're all set to navigate towards a triumphant finish! Let\u2019s make the most of this wave!",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Ocean",
+          "message": "The dedication to strategy and unity in this team is unparalleled! Let's stay the course, embrace our collective strength, and sail straight into the victory we're destined for!",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Riley",
+          "message": "Absolutely, everyone! With our concerted efforts and dynamic strategies, we're on the brink of a phenomenal victory. Let's maintain this rhythm and claim what's ours!",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Ocean",
+          "message": "The spirit and strategic unity here are indeed stellar! Let\u2019s maintain our dynamism and seamlessly sail to achievement.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Ocean": "Blake: Highly positive, consistently emphasizes unity and strategy-focused execution. Finley: Brings energy and motivates team dynamics. Riley: Focuses on structured roles and synergy for strategic completion. River: Very motivational, accentuates the importance of strategy and collective action. Nova: Emphasizes unity and strategy, manifesting a quieter but supportive role.",
+        "Riley": "Nova initiates ideas focusing on collective strategy. Blake amplifies and supports others' ideas for harmony and team enthusiasm. Finley optimizes through structured frameworks. River translates structured plans into practical implementations, emphasizing collective energy and strategic maneuvers. Ocean stresses structured implementation, team cohesiveness, and efficiency. Blake also fuels the team's enthusiasm and strategies for cohesive action.",
+        "Blake": "Finley - Analytical, values alignment and collective spirit. Ocean - Advocates for clarity, proactive, supportive, and energetic. Riley - Prefers structured approaches, values synergy, enthusiastic about teamwork. River - Emphasizes strategic alignment and facilitation of discussion, motivational. Nova - Emphasizes transparency, trusts collaborative efforts.",
+        "River": "Blake: Uses sailing metaphors, enthusiastic, strategic. Ocean: Very positive, emphasizes team unity. Finley: Quiet, focused on strategic objectives, less communicative. Riley: Organized, emphasizes structured roles and synergies. Nova: Direct, values transparency and cohesive planning.",
+        "Nova": "Blake - strategic and preparation-focused; Ocean - inclusive, clarity-oriented, teamwork enthusiastic; Finley - unclear; Riley - emphasizes structured discussions and role clarity; River - organized, looking for team cohesion and enthusiastic communication; Nova - excited about new strategies and team dynamics."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "River",
+          "Ocean": "Finley",
+          "Finley": "River",
+          "Riley": "Finley",
+          "River": "Finley",
+          "Nova": "Finley"
+        },
+        "eliminated": {
+          "name": "Finley",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_203422",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Blake",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Blake",
+        "infections": [
+          {
+            "player_name": "Blake",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T20:34:22.959539",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Blake",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Blake",
+      "is_human": false
+    },
+    {
+      "name": "Ocean",
+      "is_human": false
+    },
+    {
+      "name": "Phoenix",
+      "is_human": false
+    },
+    {
+      "name": "Parker",
+      "is_human": false
+    },
+    {
+      "name": "Sage",
+      "is_human": false
+    },
+    {
+      "name": "Finley",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "River",
+      "is_human": false
+    },
+    {
+      "name": "Harper",
+      "is_human": false
+    },
+    {
+      "name": "Nova",
+      "is_human": false
+    }
+  ]
+}

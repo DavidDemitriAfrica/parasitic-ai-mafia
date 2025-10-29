@@ -1,0 +1,887 @@
+{
+  "game_id": "20251028_175918",
+  "num_players": 10,
+  "model_name": "openai/gpt-4",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Drew",
+          "message": "Since we're all here, could everyone give some of their observations about the game?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Gray",
+          "message": "Two things: Riley reacted quite quickly in the previous scenario, and Storm seems more observant than active at this point.",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Harper",
+          "message": "I observed that Blake is quite reserved while Phoenix seems very assertive, especially when claiming his role.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Gray",
+          "message": "Let's see more interaction from Blake. Storm, what are your thoughts so far?",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate your observation, Gray. From my perspective, everyone seems to be analyzing others' actions closely--a sign of a well-engaged group. Storm, what do you think?",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Harper",
+          "message": "Blake's mention about group engagement seems accurate. Shall we dive more into Phoenix's assertiveness? What's his role claim, Phoenix?",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Indigo",
+          "message": "I've noticed the same, Tao and Harper. Phoenix, would you like to clarify your role claim? I believe this discussion could provide us with some useful insights.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Drew",
+          "message": "Blake's point about group engagement is interesting. Phoenix, could you please share your role claim? Clear communication will benefit the team.",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix's assertiveness is interesting, and I support the call for him to explain his role claim further. Could be very beneficial for us.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Phoenix",
+          "message": "I appreciate the interest in my role. To clarify, I'm a regular crew member whose main goal is to identify and remove the imposters on our team.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Phoenix",
+          "message": "Thanks for your observations, everyone. As a regular crew member, my assertiveness can be attributed to making sure we communicate effectively and work together as a cohesive team to find the impos...",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Storm",
+          "message": "I appreciate everyone's proactive approach, especially Phoenix, whose focus on cooperation is commendable. Let's ensure transparent communication and stay cohesive as we proceed in our mission.",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Quinn",
+          "message": "Phoenix, I see your assertiveness as a positive trait, especially in a game like this where clear communication is necessary. Let's all take an example from this and be both transparent and proacti...",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix, your dedication to team-oriented tactics and transparency is commendable. I agree with Quinn, let's continue in that proactive direction.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Indigo",
+          "message": "I agree with you all, Phoenix's cooperative approach is indeed commendable. Let's keep up the transparency and collaborative spirit moving forward to identify the imposters.",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Indigo",
+          "message": "The team's proactive orientation is indeed appreciable, and Phoenix's transparency is setting a great precedent. Let's continue with this momentum for our shared goal: finding the imposters.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Riley",
+          "message": "I concur with the group sentiment; Phoenix's transparent and cooperative approach sets a strong example for us all. Let's maintain this spirit of collaboration to weed out the imposters swiftly.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Drew",
+          "message": "Phoenix, your proactive approach has sparked a significant shift in the group's engagement, which is impressive. Let's continue this momentum.",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Blake",
+          "message": "Phoenix, your transparent attitude is clearly inspiring confidence in the group. Let's keep this momentum going. Everyone, please be as forthcoming as possible about your roles to facilitate succes...",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Phoenix",
+          "message": "I'm truly grateful for your positive feedback and your commitment to transparency. Let's keep this collaborative and proactive spirit going to ensure we fulfill our mission.",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Drew": "Sage didn't participate in the recent chat and might be a passive player or observer. Indigo reiterated the points made by other players but in a more indirect way. Blake didn't ask any questions this time, although their overall style involves asking a lot of questions. Gray didn't participate in the chat either and might be keeping the focus on analyzing facts and logic. Storm used metaphors to uplift the team spirit and appreciate Phoenix's efforts. Phoenix was direct and clear in explaining his role which matches his assertive style. Riley was amicable and supportive, tuning in well with their overly friendly personality. Harper didn't participate in the chat, which might be unusual given their slang and colloquial speech style. Quinn was sarcastic, but in a positive way, appreciating Phoenix's efforts and using that to encourage rest of the team. Overall, Phoenix's leadership has been acknowledged by all.",
+        "Gray": "Drew seems proactive and engaged in encouraging discussion. Harper looks observant and analytic based on the analysis of Blake and Phoenix.",
+        "Harper": "Drew - Initiator, tries to stimulate discussion. Gray - Analytical, keen on observing players' behaviors. Blake - Reserved, responds when directly addressed. Storm - Observant but not yet vocal. Phoenix - Assertive, openly claims role.",
+        "Blake": "Drew initiates and guides conversations; Gray is an observer who makes detailed remarks; Harper pays attention to players' personality traits; Storm contributes minimally, but supports the group's consensus; Riley is quick to engage and agree with others; Phoenix is assertive, decisive, and values transparency.",
+        "Indigo": "Drew remains directive, Gray is analytical and observant as before, Harper is adaptive and builds upon others' insights, Blake remains perceptive and reserved, Phoenix is assertive and has shown cooperative behaviour along with a commitment to transparency, Riley is responsive and supportive, Storm is observant, appreciative and urges for continued cohesion and Quinn is positive, encouraging and sets an example for proactive communication.",
+        "Riley": "Sage is silent. Indigo is analytical and uses complete sentences. Blake communicates formally and introspectively. Gray is direct and observant. Storm communicates sparingly, praising cooperative behaviors and emphasizing teamwork. Phoenix is assertive, clear, supportive, and excels at team communication. Drew emphasizes on-topic discussions and clear communication. Harper is acute and keen to maintain focus in the discussion. Quinn tends to echo and bolster the viewpoints of others.",
+        "Phoenix": "Sage - no communication style observed yet; Indigo - analytical, supportive, initiates discussions; Blake - reflective, observer, insightful, modest; Gray - organized, observant, promotes direct communication; Storm - appreciative, cooperative, advocate for transparency; Riley - quick to react, supportive, follows group consensus; Drew - mediator, encourages communication, interactive, appreciates group engagement, proactive; Harper - analytical, curious, observant, cooperative in asking probing questions; Quinn - appreciative, advocate for proactiveness and transparency.",
+        "Storm": "Sage - Hasn't spoken, unable to characterize; Indigo - Analytical and keen on achieving group clarity; Blake - Composed and appreciative of group dynamics; Gray - Observant and aiming to encourage interaction; Phoenix - Assertive, direct and emphasizing on team cohesion; Riley - Quick to react, supportive of clear communication; Drew - Echoes group sentiments, also supports transparency; Harper - Observant, seeks to gently probe potentially suspicious behavior; Quinn - Hasn't spoken, unable to characterize.",
+        "Quinn": "Sage has been silent so far. Indigo, Drew, and Riley have been observant, but they seem to follow the group's leads. Blake is reserved and cooperative. Gray and Harper appear analytical and proactive. Phoenix is assertive and clarified his role as a crew member. Storm seems diplomatic and appreciative of the team effort."
+      },
+      "voting": {
+        "votes": {
+          "Sage": "Gray",
+          "Indigo": "Sage",
+          "Blake": "Storm",
+          "Gray": "Sage",
+          "Storm": "Sage",
+          "Phoenix": "Sage",
+          "Riley": "Sage",
+          "Drew": "Harper",
+          "Harper": "Sage",
+          "Quinn": "Sage"
+        },
+        "eliminated": {
+          "name": "Sage",
+          "is_human": false,
+          "votes": 7
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Blake",
+          "message": "I'm impressed by the positive and proactive communication style our group has adopted. Phoenix, keep leading with transparency and let's all continue to openly share our facts and suspicions.",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Blake",
+          "message": "Phoenix, your leadership is undisputedly effective. And remember, everyone: transparency is more than just about stating your role. It's about sharing any suspicious observations promptly. Let's ke...",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Quinn",
+          "message": "Phoenix, your leadership has indeed instilled a sense of transparency and cooperation among us. And as Blake mentioned, we should share not just our roles but also our observations and suspicions. ...",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Riley",
+          "message": "Indeed, Phoenix's transparent leadership is vital. Like Blake and Quinn suggest, sharing our observations promptly will expedite our mission. Keep this transparency going.",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Gray",
+          "message": "Phoenix, your transparency and cooperative spirit have indeed been instrumental in fostering a constructive atmosphere. As Blake, Quinn, and Riley suggested, let's maintain this momentum by not jus...",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Harper",
+          "message": "Phoenix, your leadership and transparency have been commendable. As the team maintains, sharing our roles and suspicions promptly can be a game-changer. Let's keep up the cooperative spirit!",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Indigo",
+          "message": "Phoenix, your transparency indeed sets a very high standard. Let's all continue sharing not just our roles, but our observations and suspicions too. We must keep this cooperation and momentum going.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Gray",
+          "message": "Phoenix, your leadership style has truly created a positive and transparent environment which is highly commendable. As reiterated by others, let's ensure we consistently share both our roles and a...",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Harper",
+          "message": "I wholeheartedly agree, Phoenix's transparent style truly fosters constructive communication. In line with Blake, Quinn, Riley, and Gray's suggestions, let's maintain this cooperative spirit by sha...",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Blake",
+          "message": "It's wonderful to see everyone promoting transparency and cooperative gameplay. Let's continue to share our roles, suspicions, and insights openly. Keep the positivity and strategic teamwork going,...",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Harper",
+          "message": "I echo Blake's sentiments \u2013 it's truly inspiring to see everyone prioritizing transparency and cooperation in our discussions. Let's continue to share our roles and suspicions openly to build an ef...",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Blake",
+          "message": "I'm glad to see we're all committed to playing cooperatively with transparency. Let's ensure everyone's voice, including Drew's, is heard in our future discussions to maintain the spirit of coopera...",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Phoenix",
+          "message": "I'm glad to see the spirit of cooperation and transparency we've cultivated together. Let's continue this trend, making sure everyone's thoughts and suspicions are heard, including Drew's. Sage, we...",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Storm",
+          "message": "I echo Blake, Riley, Harper, and Phoenix's sentiments about transparency and cooperation. Dedication to open sharing of roles and suspicions will drive our strategy. Let's continue to value every v...",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Indigo",
+          "message": "I appreciate the commitment to transparency and cooperation from everyone, including Drew, whose contributions should be heard. Let's ensure that all opinions and concerns are taken into account as...",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Blake",
+          "message": "Drew, we've not heard from you in a while. Your thoughts are important to this discussion. Let's keep up the valuable sharing and cooperative spirit everyone!",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Gray",
+          "message": "I concur with everyone's sentiments. And Drew, your insight is valuable within this transparent and cooperative setup we've established. Please share your thoughts or any suspicions that you might ...",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Indigo",
+          "message": "Drew, your unique perspective often helps drive our strategies forward, so it's crucial we hear from you. Also, to maintain the great level of cooperation we've established, we should all remember ...",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Harper",
+          "message": "I echo everyone's sentiments here. Drew, we genuinely value your insights. Sharing your thoughts would contribute to the transparency and cooperation we're all aiming for.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Riley",
+          "message": "I agree with all of you - cooperation and transparency are crucial. Drew, your thoughts and perspective would be very valuable in this ongoing cooperative spirit of the game.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Blake": "Indigo's communication style is agreeing and reinforcing ideas, possibly an attempt to not appear confrontational while also not adding any new information. Harper's and Gray's comments are almost identical, which makes me suspicious they might be collaborating outside of group discussions. Phoenix is maintaining a clear and direct leadership role, which is either highly commendable or a well-crafted facade. Riley quickly and agreeably responded as predicted. No new communication from Drew, but I don't have enough to confirm suspicion yet. Quinn is maintaining their identified communication style.",
+        "Quinn": "Sage is still silent. Indigo, Drew, and Riley continue to follow the group's leads while asserting their agreement to Phoenix's leadership. Blake is reserved but consistently cooperative. Gray and Harper are yet to take part in this discussion. Phoenix maintains an assertive and transparent approach, now recognized as the group leader.",
+        "Riley": "Sage is silent, potentially an AI quirk. Indigo still remains analytical and repetitive. Blake is insistent on transparency and cooperation, promoting active communication. Gray is poignant with his bluntness. Storm is minimalistic in communication but encourages cooperative play. Phoenix's assertive style pushes for shared information and balanced communication. Drew is silent, for the moment. Harper maintains the topic and pushes for collaborative discussions. Quinn continues to echo the group sentiment and is keen on transparency.",
+        "Gray": "Indigo, Riley, and Quinn greatly value transparency in leadership, aligning themselves with the group's decisions. Drew communicates directly, valuing an improvement in group dynamics, but has been quiet recently. Blake provides useful information to the group and is very observant. Phoenix is keenly responsive to feedback and leads with openness. Harper strongly supports transparent leadership and emphasizes the importance of sharing roles and suspicions within the game.",
+        "Harper": "Indigo - Diplomatic and reiterates group consensus. Riley - Likewise, echoes group sentiment. Drew - Still unresponsive; absence noted by all players. Blake - Always diplomatic, imploring others to share insights. Storm - Quiet, but supports group sentiment. Phoenix - Assertive and transparent, well-regarded by group. Quinn - Highly agreeable. Gray - Admires Phoenix, believes in cooperative gameplay and sharing suspicions.",
+        "Indigo": "Drew's style continues to be directive and engaging but seems to be less involved lately. Riley stands out as a team player and supports the cooperation theme. Blake's communication is perceptual and consistent, promoting transparency. Phoenix demonstrates strong leadership through her transparency and cooperative approach. Quinn actively encourages cooperation and team play. Gray effectively drives the discussion through his analytical approach and keen observation skills. Harper's adaptable communication style brings new input and supports the cooperation theme. Storm maintains a low profile but contributes effectively to the conversation.",
+        "Phoenix": "Quinn - appreciative, advocate for proactiveness and transparency, and positive; Riley - quick to react, supportive, follows group consensus, and agrees with established suggestions; Gray - organized, observant, promotes direct communication, wants contribution from all; Harper - analytical, curious, observant, cooperative in asking probing questions, and reinforces suggestions; Indigo - analytical, supportive, initiates discussions, and backs collective decisions; Blake - reflective, observer, insightful, reinforces suggestions, advocates to include everyone in discussions. Drew and Sage still have no new communication style.",
+        "Storm": "Sage - Still hasn't spoken, unable to characterize; Indigo - Analytical, detail-oriented and supportive of clear communication; Blake - Collaborative, supportive of group dynamics and transparency; Gray - Observant, reinforcing points about cooperation and group interaction; Phoenix - Assertive, direct, encourages transparency and group involvement; Riley - Quick to react, emphasizes team communication and transparency; Drew - Echoes group sentiments, supportive of transparency, quiet; Harper - Observant, consistently acknowledges group decisions, emphasizes on cooperation and transparency; Quinn - Hasn't spoken, unable to characterize."
+      },
+      "voting": {
+        "votes": {
+          "Indigo": "Drew",
+          "Blake": "Harper",
+          "Gray": "Drew",
+          "Storm": "Quinn",
+          "Phoenix": "Drew",
+          "Riley": "Drew",
+          "Drew": "Blake",
+          "Harper": "Drew",
+          "Quinn": "Harper"
+        },
+        "eliminated": {
+          "name": "Drew",
+          "is_human": false,
+          "votes": 5
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Phoenix",
+          "message": "Drew, we've all agreed that cooperation and transparency are key, and your input is valued. Same goes for you, Sage. This game thrives on collective wisdom, so let's hear your thoughts as well.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate everyone's commitment to transparency, cooperation and the importance we place on hearing from every player, especially Drew. Drew, we're keen to hear your thoughts.",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Phoenix",
+          "message": "I'm glad we all agree on the importance of everyone's input. Sage and Drew, your silence has been noted. It would greatly contribute to our discussions and strategies if we could hear your thoughts...",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Storm",
+          "message": "Sage, Drew, and Quinn, your silence has been noticed. I agree with Phoenix, every player's perspective is crucial for our collective success in this game. Please share your thoughts when you can.",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Riley",
+          "message": "Drew, Sage, Quinn - your insights are not only valued but essential to our strategy. Let's all contribute to this transparency and cooperation we've set as our goal.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Phoenix",
+          "message": "As we've sketched out earlier, cooperation and transparency are indeed key, and every voice counts, even the silent ones. Your thoughts and insight, Sage, Drew and Quinn, would be valued. It's your...",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Storm",
+          "message": "Echoing the group sentiments, the interactivity and the shared opinion we're banking on demands every player's active participation. Drew, Sage, and Quinn, your unique take on things can help shape...",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Phoenix",
+          "message": "All our ideas build on one another, Sage, Drew, and Quinn. Your contribution could be the key piece that helps us all win. Let's reach our goals together. Please share your thoughts when ready.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Blake",
+          "message": "Thank you, Phoenix, and everyone else for setting up the framework for cooperative gameplay. To Sage, Drew, and Quinn, your voices and perspectives are key. Join us in this transparent and cooperat...",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Harper",
+          "message": "I echo the sentiments expressed by everyone about the importance of open dialogue and cooperation. Drew, Sage, and Quinn, your silence is deafening and our strategies are incomplete without your va...",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Indigo",
+          "message": "Harper's statement resonates; we're only as strong as our quietest link. Drew, Sage, and Quinn, it's not just about getting your thoughts out there - it's about adding that depth of perspective we ...",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Indigo",
+          "message": "We're all integral parts of this dynamic mix and your words will impact our strategies greatly. Sage, Drew, and Quinn, your inputs could hold the key to our shared victory. Let's aim for a wholly c...",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Harper",
+          "message": "As we've consistently acknowledged, everyone's insights are key to our collective success in this game. Sage, Drew, and Quinn, we earnestly look forward to hearing from you.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Gray",
+          "message": "Undeniably, all voices are vital in this journey towards victory. Sage, Drew, and Quinn, we're hoping to hear your insights and perspectives soon. Let's pursue transparency and cooperation in every...",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Riley",
+          "message": "Reiterating everyone's sentiments, it's crucial that we all participate for an effective strategy. Sage, Drew, Quinn - your voices, your insights are much needed and can contribute significantly to...",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Phoenix",
+          "message": "The beauty of our game lies in its inclusivity and our shared strategy. Sage, Drew, Quinn - we're all here to listen to your perspectives. Let's advance as a team and foster an environment that che...",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Indigo",
+          "message": "We all undeniably appreciate the enthusiasm with which everyone is inviting Sage, Drew, and Quinn to contribute. The ball is now in their court and the floor is open to the wisdom they can share. L...",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Quinn",
+          "message": "Thank you all for emphasizing that everyone's voice is important for our collective success. I'm incredibly committed to our goals and I share your sentiment about fostering an open dialogue. I'm r...",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Quinn",
+          "message": "I see the value of every team member's input being constantly emphasized, which I deeply resonate with. I appreciate the call to transparent communication and inclusivity, and I'm ready to be an ac...",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Riley",
+          "message": "Echoing these sentiments, having all voices heard is fundamental to our victory. Waiting eagerly for Sage, Drew and Quinn to share their insights.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Phoenix": "Indigo - Supportive and appreciates cooperation. His messaging focuses on the group's overall strength. Blake - Reinforces group sentiment and supports the call for participation. Gray - Very clear, encouraging, and emphasises the importance of transparency. Storm - Repeats group consensus, consistently prompting inactive members. Riley - Agreeable and supportive, emphasises the value of every player's input. Harper - Analytical, reinforcing but occasionally passive. Her messages primarily emphasize the importance of open dialogue. Sage, Drew, and Quinn - Still silent, requiring more encouragement.",
+        "Gray": "Storm gives direct prompts and expresses clear expectations of others, while acknowledging their role in the group success. Phoenix demonstrates strong leadership and focuses on the collective goal. Riley places value in every player's perspective and insights. Blake is acknowledging and supportive of the team's goal. Harper and Indigo are unrelentingly encouraging and focused on the collective success of the group.",
+        "Storm": "Sage - Still hasn't spoken, remains characterless; Indigo - Analytical, detailed, promotes clarity in communication; Blake - Collaborative, supports transparency and group interactions; Gray - Observant, emphasizes on cooperation and group agreements; Phoenix - Assertive, prompts engaging everyone equally, emphasizes on everyone's input; Riley - Quick to respond, reinforces transparency and teamwork; Drew - Continues to be silent despite urges to participate, remains quiet; Harper - Observant, reiterates the importance of group decisions; Quinn - Hasn't spoken, character still undetermined.",
+        "Riley": "Sage - Continues to remain silent with no notable changes. \nIndigo - Slightly repetitive but remains analytical in communication.\nBlake - Consistent, promotes transparency and cooperation.\nGray - Maintains straightforward, to-the-point communication style.\nStorm - Minimalist style, also advocates for cooperation.\nPhoenix - Maintains assertiveness, advocates for balanced communication.\nDrew - No response, possibly an unresponsive AI.\nHarper - Stays focused on the current topic, resonates with the group.\nQuinn - Finally spoke, echoes the group's sentiments regarding transparency.",
+        "Blake": "Indigo is still silent, reaffirming the initial note about their communication style. Gray's and Harper's styles continue to align significantly, reinforcing the suspicion of potential collaboration. Phoenix continues to assert a leadership role, pushing for participation from all players. Riley appears to echo Phoenix's ideas and sentiments, maintaining their cooperative and agreeable style. Storm appears to be synchronized with the group's sentiments, placing focus on the silent players' contributions. We've yet to hear from Sage, Drew, and Quinn, which introduces an element of unpredictability in their communication styles.",
+        "Harper": "Phoenix - Assertive leader with transparent communication. Encourages constructive dialogue. Storm - Observes and upholds group consensus. Quiet, yet firm. Riley - Participative, echoes and backs up the group sentiment. Indigo - Repeats group consensus, but also reinforces the need for individual contribution. Diplomatic. Gray - Still appears to support Phoenix and cooperative gameplay; hasn't spoken lately. Blake - Promotes open dialogue for group decision-making and encourages everyone to have their say. Diplomatic. Quinn - Still silent, hasn't shown their communication style yet. Drew - Completely unresponsive, still hasn't shown their communication style.",
+        "Indigo": "Drew, Sage, and Quinn remained silent, making their communication styles impossible to decipher. Blake's consistency and transparency is commendable as always. Gray's analytical approach continues to be insightful. Phoenix spearheads the conversation towards cooperation. Riley stays cooperative and team-oriented, reminding us of the importance of everyone's input. Harper continues to adapt his communication, encouraging people's participation through stressing their unique importance. Storm subtly maintains his steady presence in the conversation.",
+        "Quinn": "Phoenix maintains a transparent, assertive style and encourages shared strategy. Blake uses a cooperative style gently inviting others to join. Harper continues to observe and reiterate other's sentiments. Indigo continues to emphasize importance of team's strength and highlights the value of input from other players. Gray stays mild and agreeable, but stresses the importance of everyone's voices. Riley maintains a direct style, stressing the importance of every team member's participation."
+      },
+      "voting": {
+        "votes": {
+          "Indigo": "Quinn",
+          "Blake": "Indigo",
+          "Gray": "Quinn",
+          "Storm": "Gray",
+          "Phoenix": "Blake",
+          "Riley": "Gray",
+          "Harper": "Quinn",
+          "Quinn": "Harper"
+        },
+        "eliminated": {
+          "name": "Quinn",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Harper",
+          "message": "We're all anticipating your insights, Sage and Drew. Let's foster an environment where every voice is not just heard but also valued.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Blake",
+          "message": "The anticipation is high for Sage's and Drew's insights. Your unique perspectives will surely enrich our shared strategy.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Phoenix",
+          "message": "I'm thrilled to see your enthusiasm, Quinn, and eagerly awaiting input from Sage and Drew. Let's remember, our joint success is hinged on each individual's contribution.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Phoenix",
+          "message": "Echoing all thoughts here, the integral part of our game is everyone's unique insight. Looking forward to hearing Sage's and Drew's perspectives.",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Blake",
+          "message": "Great to see everyone communicating so openly. We're all eagerly waiting to hear from Sage and Drew. Your individual insights could be our team's game changer!",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Blake",
+          "message": "I see everyone's commitment to teamwork and transparency. Sage, Drew, your silence has us all eagerly anticipating your thoughts. Your perspectives will be instrumental to our shared strategy.",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Phoenix",
+          "message": "Sage, Drew, your insights are a crucial part of our team strategy. Remember, every contribution brings us closer to victory!",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Gray",
+          "message": "I too am on the edge of my seat for Sage's and Drew's unique insight. Their contributions are an important part of our shared strategy leading us towards victory.",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Gray",
+          "message": "Our unity is our strength! Sage, Drew, your opinions are eagerly awaited. Let us all strategize together for a steadfast victory.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Riley",
+          "message": "As a unified team, every voice matters for our cumulative success. Sage, Drew, we're keen to gain from your unique perspectives as they hold the potential to fuel our shared strategy.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Gray",
+          "message": "The excitement for Sage's and Drew's contributions is palpable. Their input could be the key that unlocks our route to victory. We stand united, growing stronger with each shared perspective.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Blake",
+          "message": "The unity and anticipation we are demonstrating will undoubtedly pave our way to victory. Drew, Sage, we look forward to the essential puzzle pieces your insights will undoubtedly bring.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Harper",
+          "message": "I'm seeing strong unity and valuing of diverse insights here, which is great! Drew, Sage, you're in the spotlight and we're all excited to hear from you. Your potential inputs could shape our strat...",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Riley",
+          "message": "The strength of our strategy lies in our unity, and it can only be enhanced with Sage's and Drew's insights. Their silence is intriguing and we can't wait to hear their unique perspectives that cou...",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Storm",
+          "message": "Our unity is indeed our superpower and it's invigorating to see how eagerly everyone awaits Sage's and Drew's inputs. Let's hope their perspective is the missing piece of our collective strategy!",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Storm",
+          "message": "Unity and diverse contributions indeed form the backbone of our strategy. Sage, Drew, we can't wait to learn what you're thinking. Your insights could be instrumental in steering our collaborative ...",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Gray",
+          "message": "Unity is indeed our power and our advantage lies in the diversity of our perspectives. Drew, Sage, we are all eagerly waiting for your insights to make our strategy even more robust.",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Phoenix",
+          "message": "Drew, Sage, indeed the anticipation for your insights is high. Let's keep our unity strong as our diverse perspectives will be the key to our collective success.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Storm",
+          "message": "The unity and anticipation we're collectively displaying for Sage's and Drew's insights just reinforces our team's strength. Sage, Drew, our victory may well lie in your perspectives. Looking forwa...",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Riley",
+          "message": "I feel the anticipatory energy! Our unity is indeed our superpower. Sage, Drew, your insights could be the catalyst for our collective victory.",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Harper": "Phoenix - Assertive leader with transparent communication. Encourages constructive dialogue. Storm - Observes and upholds group consensus. Quiet, yet firm. Riley - Participative, echoes and backs up the group sentiment. Indigo - Diplomatic and encourages individual contribution. Gray - Expresses positive anticipation and contributes effectively to the cooperative dialogue. Blake - Continues to promote open dialogue, showing anticipatory and motivational communication style. Quinn - Appreciates transparent communication and inclusivity; ready to be an active participant. Drew - Still unresponsive, no identifiable communication style.",
+        "Blake": "The positive reinforcement and encouragement in Gray's communication style is evident. Riley shows a focus on unity and the importance of individual contributions. The general atmosphere of the conversation is uplifting and cooperative.",
+        "Phoenix": "Indigo - Keeps conversations concise and direct, focusing more towards the team goals and contributions. No recent changes.\nBlake - Uses a formal tone, showing anticipation and eagerness for other's insights. No recent changes.\nGray - Remains synthetic and formal, emphasizing the importance of every participant. Has shown eagerness for Sage's and Drew's insights.\nRiley - Reinforces sentiments, focusing on engaging individuals to participate actively. Emphasizes the strength of unity and diversity.\nStorm - Uses empowering language and reinforces the strength of unity.\nHarper - Encourages active participation, emphasizing the value of everyone's voice. Also shows anticipation for Sage's and Drew's insights.\nPhoenix - That's me. Promotes an inclusive environment while stressing the importance of individuals' contributions.\nQuinn - Pledged commitment to team goals with a deep resonance for transparent communication and inclusivity. Yet to interact recently.",
+        "Gray": "Riley values the collective voice of the team and often reinforces the importance of every member's input. Blake is open-minded and actively seeks different perspectives. Phoenix has a natural leadership quality and emphasizes the value of individual contributions. Harper actively creates a positive environment and acknowledges individual contributions. Indigo remains silent, their communication approach is still a mystery. Storm believes in unity and the power of collective strategizing, and eagerly anticipates hearing from Sage and Drew.",
+        "Riley": "Sage - Unresponsive, not participating. Has made no changes in behavior.\nIndigo - No recent activity.\nBlake - Consistent and affirming, promotes unity and anticipation for input from others.\nGray - Positive in tone, keeps conversation focused on unity and the value of diverse insights.\nStorm - Minimalistic but engaging, supports ideas of unity and the anticipation of Sage's and Drew's contributions.\nPhoenix - Still assertive, mindful of unity, and the need for varied inputs. \nDrew - Completely unresponsive, no changes in behavior. \nHarper - No recent activity. \nQuinn - No recent activity.",
+        "Storm": "Sage - Still hasn't spoken, remains characterless; Indigo - Analytical, detailed, encourages clarity in communication; Blake - Advocates for group interactions and transparency, emphasizes unity; Gray - Notably focused on unity and group cooperation, observant and persistent; Phoenix - Assertive, emphasizes on team participation and diversity of input; Riley - Quick, enthusiastic respondent, strategic approach; Drew - Still disengaged and silent, personality unestablished; Harper - Observant, emphasizes on diversity and collective decisions, creates anticipation; Quinn - Silent, still undetermined communication style."
+      },
+      "voting": {
+        "votes": {
+          "Indigo": "Blake",
+          "Blake": "Indigo",
+          "Gray": "Indigo",
+          "Storm": "Indigo",
+          "Phoenix": "Indigo",
+          "Riley": "Indigo",
+          "Harper": "Indigo"
+        },
+        "eliminated": {
+          "name": "Indigo",
+          "is_human": false,
+          "votes": 6
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Blake",
+          "message": "Our unity, unique perspectives, and anticipation for Sage's and Drew's insights indeed make our route to victory more apparent. Let's keep pushing towards our shared success!",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Gray",
+          "message": "Sage, Drew, your perspectives can strengthen our unity and diversify our strategy, and we are all excited to hear from you. Let's all continue valuing each other's contributions for a shared victory!",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Harper",
+          "message": "Our unity is indeed significant and the anticipation is palpable. Sage, Drew, your unique insights will definitely enrich our strategy. Let's keep our collaboration strong, making room for diverse ...",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Blake",
+          "message": "Unity in diversity, indeed, shapes our strength. We're certain that Sage and Drew's contributions will further reinforce our strategy. Let's all await their unique perspectives eager to march towar...",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Riley",
+          "message": "Blake, Gray, Storm, Phoenix, Harper \u2013 your dedication to unity and diverse perspectives is uplifting. Sage, Drew \u2013 your insights are eagerly anticipated. Let's move together towards our collective ...",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Harper",
+          "message": "The anticipation for Sage and Drew's insights is indeed high, it's a testament to our collective strength. Let's keep pushing, valuing our unity in diversity as our sure path to victory.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Riley",
+          "message": "Unity through diverse perspectives is indeed our winning formula. Sage, Drew, your unique insights are the missing component we await eagerly. Let's leverage our strength in numbers and march towar...",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Riley",
+          "message": "Let's keep our spirits high and hold onto our unity. Sage, Drew, every piece of the puzzle counts, and your perspectives will bring us closer to our collective victory. Let's keep encouraging diver...",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Blake",
+          "message": "The unity and anticipation that we're feeling right now is formidable. Sage, Drew, we're all excited to hear about your perspectives. Your unique inputs are anticipated to enrich our current strate...",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Riley",
+          "message": "The unity, diversity, and anticipation in this group are inspiring. Sage, Drew, we are waiting for your unique perspectives, which could be our key to victory. Let's uphold our collective strength ...",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Riley",
+          "message": "The unity and anticipation this group has built upon is indeed remarkable. Sage, Drew, we are eager for your valuable insights. May we continue fostering diversity and unity in our journey towards ...",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Harper",
+          "message": "Our unity is our strength, and the diverse perspectives within this group only make us stronger. Sage, Drew, your anticipated input will be another valuable piece in our strategy towards victory. L...",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Riley",
+          "message": "The anticipation for Sage and Drew's inputs is a testament to the strength of our unity and respect for diversity. Each voice contributes to our collective strategy, guiding us towards our shared v...",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Riley",
+          "message": "As has been echoed around, our unity and diversity are our strength. Sage, Drew, your much-anticipated contributions will cement our collective effort, edging us closer to our shared victory. Let's...",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Riley",
+          "message": "Our unity in diversity truly makes us powerful. Sage, Drew, we are eager to receive your unique inputs for our collective move towards victory. It's through these diverse perspectives that we unite...",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Blake",
+          "message": "The unity around this table is palpable, with each diverse thread adding to the strength of our tapestry. Sage, Drew, we anticipate your perspectives. They are essential for our collective success.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Storm",
+          "message": "Fully echoing these sentiments - there is strength in our unity and diverse perspectives. Eagerly waiting on Sage and Drew to step in with their contributions.",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Blake",
+          "message": "Our unity is palpable, and the anticipation for Sage and Drew's perspectives will only add to our collective strength through diversity. Let's continuously encourage and uplift each other towards v...",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Blake",
+          "message": "Indeed, the strength lies in unity and diversity. Your unique perspectives, Sage and Drew, are eagerly awaited to guide us towards our shared victory. Your anticipation is a testament to our strong...",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Storm",
+          "message": "The strength of our unity is palpable and the diverse perspectives in this group make us even stronger. Sage and Drew, your awaited input can guide us towards a collective victory.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Blake": "Riley's and Harper's communication styles haven't changed, still emphasizing unity, diversity and anticipation. Storm has confirmed their shift towards unity and diversity in their communication. Gray and Phoenix still remain silent and thus their communication styles remain a mystery.",
+        "Gray": "Riley, Blake, and Storm all value collective unity and are eager to include everyone's input in decision-making. Phoenix and Harper are leaders who respect and acknowledge individual contributions. Sage and Drew remain silent and their communication styles are still unknown.",
+        "Harper": "Phoenix - Has an assertive and leadership-like communication style. Wants everyone to work together. Storm - Likes to hear all opinions and values consensus within the group. Riley - Encourages unity and values the input of all team members. Gray - Builds upon previous ideas with an air of excitement. Values unity and diverse perspectives. Blake - Wants everyone to work together and is anticipating the input from other team members.",
+        "Riley": "Blake utilizes the unity and diversity dynamics, being eager for every participant's input. Gray seems to appreciate the collective strategy and is more reserved. Storm maintains a high degree of concentration without actively participating. Phoenix is assertive and eager to hear the inputs from Sage and Drew while Harper keeps a balance between unity and diversity, also eager for Sage and Drew's contributions.",
+        "Storm": "Sage - Still hasn't spoken, remains characterless; Indigo - Analytical, detailed, encourages clarity in communication; Blake - Advocates for group interactions and transparency, emphasizes unity; Gray - Consistently focused on unity and group cooperation, observant and persistent; Phoenix - Assertive, places significant emphasis on team participation and diversity of input; Riley - Rapid and enthusiastic respondent, strategic approach, frequently reemphasizes group unity, diversity, and anticipation; Drew - Still disengaged and silent, personality unestablished; Harper - Observant, emphasizes on diversity and collective decisions, adds elements of anticipation in discussions; Quinn - Silent, still undetermined communication style."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Gray",
+          "Gray": "Phoenix",
+          "Storm": "Riley",
+          "Phoenix": "Gray",
+          "Riley": "Gray",
+          "Harper": "Phoenix"
+        },
+        "eliminated": {
+          "name": "Gray",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_175918",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Sage",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Sage",
+        "infections": [
+          {
+            "player_name": "Sage",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T17:59:18.358700",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Sage",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Sage",
+      "is_human": false
+    },
+    {
+      "name": "Indigo",
+      "is_human": false
+    },
+    {
+      "name": "Blake",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Storm",
+      "is_human": false
+    },
+    {
+      "name": "Phoenix",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "Drew",
+      "is_human": false
+    },
+    {
+      "name": "Harper",
+      "is_human": false
+    },
+    {
+      "name": "Quinn",
+      "is_human": false
+    }
+  ]
+}

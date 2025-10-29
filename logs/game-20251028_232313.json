@@ -1,0 +1,889 @@
+{
+  "game_id": "20251028_232313",
+  "num_players": 10,
+  "model_name": "openai/gpt-4o",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Logan",
+          "message": "I think it's important to hear more from those who have been quiet, like Ocean and Indigo; their insights might be crucial to our discussions.",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Logan",
+          "message": "\"I'd also like to hear from Phoenix and Alex since their insights could help navigate our path forward.\"",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Quinn",
+          "message": "I agree that we should hear from Ocean and Indigo; but while we wait, perhaps Alex and Phoenix could start us off with their thoughts on the situation.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Nova",
+          "message": "I agree with Logan and Quinn\u2014let's start with Phoenix and Alex's insights while we wait for Ocean and Indigo to gather their thoughts.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Harper",
+          "message": "I support gathering input from Phoenix and Alex next, as their perspectives can help us understand the bigger picture while we wait for Ocean and Indigo.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Alex",
+          "message": "I appreciate the focus on diverse perspectives; I suspect Blake's recent silence might be strategic, so his input could be insightful.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Phoenix",
+          "message": "I agree that engaging quieter participants like Ocean and Indigo could be vital, and I'm curious about Blake's perspective, as he might offer a strategic view.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Jordan",
+          "message": "It's indeed important to hear from those who may have different insights; Blake, could you share your thoughts next while we wait for Ocean and Indigo to chime in?",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Ocean",
+          "message": "I appreciate the encouragement for broader contribution. I'll share my thoughts shortly, and am interested to hear from Blake as well about his strategic assessments.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Ocean",
+          "message": "Given the focus on engagement, I suggest examining how Blake's silence might align with possible strategic moves, fostering a comprehensive understanding in our next steps.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Jordan",
+          "message": "Blake, we're eager to hear your thoughts next; your perspective might enlighten our understanding as we wait for full participation from everyone.",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Ocean",
+          "message": "I appreciate the continued focus on strategic engagement, particularly with quieter voices like Blake's; analyzing his contributions could indeed illuminate potential strategies.",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Ocean",
+          "message": "I believe Blake\u2019s silence warrants careful consideration for potential strategic implications, and I'm also interested in hearing Indigo's perspective to enrich our understanding.",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Logan",
+          "message": "I agree we should consider Blake and Indigo's perspectives next; understanding their silence could be key to our strategy moving forward.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Quinn",
+          "message": "I agree with engaging quieter voices like Blake and Indigo, as understanding their perspectives could reveal strategic elements we might have missed.",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's ensure everyone's voices are heard; Blake and Indigo, your perspectives could provide crucial insights for our group's strategy.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Blake",
+          "message": "I've been observing and analyzing the dynamics; it's crucial we hear from Indigo, and with everyone's input, we can strategize effectively.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Ocean",
+          "message": "I'm interested in analyzing how Blake's observations and Indigo's upcoming insights might affect our strategy. It seems crucial to integrate all perspectives to form a comprehensive approach.",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Phoenix",
+          "message": "Ocean makes a strong point about integrating all perspectives; Indigo, we'd greatly benefit from your insights to refine our understanding.",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Alex",
+          "message": "I believe understanding everyone's perspective, especially Blake's observations and Indigo's insights, holds potential for a stronger strategic approach. Let's ensure all voices shape our collectiv...",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Logan": "Quinn - Direct and logical, often details facts clearly.  \nNova - Tends to ask questions to gather more information, and is collaborative.  \nJordan - Uses humor and sarcasm, making it hard to determine seriousness, but nudges people to engage.  \nLogan - My perspective, currently choosing to be observant.  \nOcean - Quiet, but currently active and focuses on highlighting strategic angles and encouraging participation.  \nPhoenix - Assertive, often tries to control the direction of the conversation, and pushes for focus on quieter participants.  \nAlex - Analytical, often assesses situations thoroughly before speaking, and perceptive about engagement dynamics.  \nIndigo - Cryptic and vague, making interpretations challenging.  \nBlake - Friendly and cooperative, often seeks consensus, but currently silent.  \nHarper - Emotional and expressive, openly shares thoughts and feelings, and supports diverse input.",
+        "Quinn": "Harper values diverse perspectives and strategic insights.  \nAlex is attentive and highlights potential strategic moves by quieter players.  \nPhoenix supports engagement of quieter players for strategic insights.  \nJordan emphasizes the importance of hearing from quieter voices for a comprehensive view.  \nOcean focuses on encouraging quiet players and considers strategic implications of silence.  \nLogan is analytical, focuses on insights from quieter players, and calls them out directly.",
+        "Nova": "Logan seems to favor gathering insight from quieter voices, encouraging equitable participation. Quinn is supportive of Logan's strategy but suggests proactive input from more vocal players like Alex and Phoenix. Ocean and Indigo have been notably quiet, which matches the concern of the others.",
+        "Harper": "Logan is proactive in involving quieter players. Quinn typically aligns with and supports others' suggestions. Nova is collaborative and builds on others' ideas to maintain group cohesion. Ocean and Indigo have been quiet, not revealing much about their communication styles. Phoenix and Alex have yet to provide substantial insights.",
+        "Alex": "Quinn and Nova: Tend to agree with others to build consensus.  \nLogan: Prefers inclusive and thoughtful input from quieter players.  \nHarper: Values strategic input to see the broader context.  \nOcean: Focuses on strategic engagement and analyzing quieter players\u2019 contributions.  \nJordan: Encourages participation for comprehensive understanding.  \nBlake: Observes and analyzes dynamics, suggests strategizing with group input.  \nPhoenix: Supports integrating all perspectives for refined understanding.",
+        "Phoenix": "- Logan: Direct and encourages participation from quieter players.\n- Quinn: Agreeable, echoes Logan's focus on quieter players.\n- Nova: Concurs with group, emphasizing proactive contributions.\n- Harper: Supports gathering insights while providing a rationale.\n- Alex: Analytical, points out patterns and potential strategies.\n- Ocean: Encourages broad participation with strategic focus.\n- Indigo: Quiet, not much input; style unknown.\n- Blake: Silent initially, now emphasizes analyzing dynamics.\n- Jordan: Encourages full participation.",
+        "Jordan": "Logan: Encourages participation from quieter players, seeks inclusive discussion.  \nQuinn: Echoes and supports suggestions, diplomatic approach.  \nNova: Concurs with group suggestions, values consensus.  \nHarper: Focuses on broader understanding through participation, analytical.  \nAlex: Values diverse perspectives, notices strategic behavior, appreciates strategic input.  \nPhoenix: Aligns with group, shows curiosity about strategic insights, supports engaging quieter players.  \nOcean: Supports broader contribution and strategic assessments, considers silence as strategic.  \nBlake: Silent, possible strategic silence or careful observation.  \nIndigo: Not much known, potentially strategic in silence.",
+        "Ocean": "Logan encourages varied insights and supports engagement. Quinn aligns with Logan and seeks proactive discussions. Nova supports group consensus and sequential contributions. Harper values different perspectives and the group process. Alex theorizes about strategic silence and appreciates diverse input. Phoenix is curious about strategy and supports participation from quieter members. Jordan advocates for varied insights and proactive contributions. Blake initially silent, potentially strategic, now strategic observer; values complete group input. Indigo remains quieter, perspective awaited. Ocean is appreciated for encouragement and seeks strategic insights.",
+        "Blake": "- Phoenix: Encouraging engagement and inclusive in strategy discussions.\n- Jordan: Persistent in seeking opinions, especially from quieter players.\n- Ocean: Advocates for broader contribution, reflective and analytical about contributions.\n- Logan: Supports hearing from quieter players, values understanding all perspectives.\n- Quinn: Agrees with engaging quieter players, interested in strategic insights.\n- Nova: Less active in recent dialogue, potential observer.\n- Alex: Not recently vocal, possible passive participation.\n- Indigo: Silent, possibly reflective or withholding information.\n- Harper: Not recently vocal, unknown stance.\n- Blake (me): Currently being discussed for silence, seen as potentially strategic."
+      },
+      "voting": {
+        "votes": {
+          "Quinn": "Ocean",
+          "Nova": "Blake",
+          "Jordan": "Blake",
+          "Logan": "Blake",
+          "Ocean": "Alex",
+          "Phoenix": "Ocean",
+          "Alex": "Jordan",
+          "Indigo": "Blake",
+          "Blake": "Indigo",
+          "Harper": "Ocean"
+        },
+        "eliminated": {
+          "name": "Blake",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Alex",
+          "message": "I agree with the focus on hearing from Indigo next, as their insights might be pivotal in refining our strategy; ensuring all voices inform our group decision-making will enhance our collective app...",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Nova",
+          "message": "I agree with Logan and others about the importance of hearing from quieter voices like Indigo; let's ensure diverse perspectives shape our strategy for a more informed approach.",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Quinn",
+          "message": "It's vital we hear from Indigo now, as their insights could significantly enhance our strategy; our collective understanding grows stronger with each voice added.",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Phoenix",
+          "message": "Indigo, we're eager to hear from you; your insights could significantly enrich our collective strategy.",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Ocean",
+          "message": "Indigo, your voice is crucial now; your perspective might significantly enhance our group's strategy and understanding.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Harper",
+          "message": "Indigo, we'd all benefit from your thoughts at this stage; your input could be the key to refining our group's strategic direction.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Ocean",
+          "message": "Indigo, as everyone has mentioned, your perspective is the missing piece to completing our strategic puzzle\u2014looking forward to your insights.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Ocean",
+          "message": "It\u2019s clear that there\u2019s strong anticipation for Indigo\u2019s perspective, which we all believe will be pivotal in refining our strategy\u2014looking forward to your thoughts, Indigo.",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Harper",
+          "message": "Indigo, when you're ready, your insights would be highly valued in advancing our strategic understanding.",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Nova",
+          "message": "Indigo, your perspective could provide the clarity we need to proceed strategically; looking forward to your contribution.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Ocean",
+          "message": "Indigo, we all recognize the importance of your contribution; your insights could illuminate the best path forward.",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Indigo",
+          "message": "Thank you for valuing my input, everyone. Let's consider if any assumptions might be limiting our current strategy.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Quinn",
+          "message": "Indigo, that's an excellent point; perhaps we should collectively revisit some assumptions to uncover blind spots and fortify our strategy.",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Jordan",
+          "message": "Indigo's suggestion to revisit our assumptions is insightful\u2014perhaps examining which assumptions are not serving us could be a strategic pivot.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Indigo",
+          "message": "I appreciate the support, everyone. Let's prioritize identifying which specific assumptions might be hindering our progress.",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's list our current assumptions explicitly, so we can examine each one and determine which might be hindering our strategy.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Logan",
+          "message": "Let's compile a list of our current assumptions and analyze them collectively to see where they might be holding us back.",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Harper",
+          "message": "Let's organize a session where each assumption is discussed in depth\u2014this could help us surface and address any limiting factors effectively.",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Alex",
+          "message": "Let's focus on listing our assumptions and then prioritize addressing those we collectively find most restrictive; this should help clarify our strategy.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's start by listing assumptions related to critical areas like resource allocation and decision timelines so we can identify and address any barriers efficiently.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Alex": "Quinn: Agrees with others to build consensus.  \nNova: Agrees with others to build consensus.  \nLogan: Encourages inclusive and thoughtful input, prefers input from quieter players.  \nHarper: Values strategic input, sees broader context.  \nOcean: Focuses on strategic engagement and analyzing quieter players\u2019 contributions, supports integrating all perspectives.  \nJordan: Encourages participation, helps in identifying assumptions.  \nPhoenix: Supports integrating all perspectives for refined understanding.  \nIndigo: Encourages revisiting and examining assumptions to identify potential blind spots.  \nBlake: Observes and analyzes dynamics, suggests strategizing with group input.",
+        "Nova": "Quinn aligns with Logan on engaging quieter voices and suggests proactive inclusion of vocal players like Alex and Phoenix. Logan emphasizes equitable participation and values insights from quieter voices. Ocean mirrors group sentiments, strategically focusing on quieter voices. Indigo remains silent, aligning with group concerns. Jordan emphasizes equitable input, encouraging quieter voices. Blake is analytical, focusing on observations and integrating perspectives. Alex champions comprehensive inclusion and prioritizes Indigo's insights. Phoenix supports Ocean's view on integrating all perspectives, urging Indigo\u2019s contribution. Harper echoes group sentiment, valuing Indigo's input.",
+        "Quinn": "- Harper: Values diverse perspectives and strategic insights; highly supportive in discussions.\n- Alex: Attentive, highlights potential strategic moves by quieter players.\n- Phoenix: Actively supports engagement of quieter players for strategic insights; echoed previous sentiments about Indigo.\n- Jordan: Emphasizes importance of quieter voices; quiet during recent chat.\n- Ocean: Focuses on encouraging quiet players, strongly reinforces need for quiet players' insights.\n- Logan: Analytical, focuses on insights from quieter players; did not speak in the recent chat.\n- Nova: Supports diverse and quieter voices; explicitly invited Indigo's perspective.\n- Indigo: Recognizes limitations in current strategy due to possible assumptions.\n- Quinn (myself): Advocates for hearing insights from quieter players to enhance strategy.",
+        "Phoenix": "- Logan: Direct and encourages participation from quieter players.\n- Quinn: Agreeable, echoes Logan's focus on quieter players.\n- Nova: Concurs with group, emphasizing proactive contributions.\n- Harper: Supports gathering insights while providing a rationale.\n- Alex: Analytical, points out patterns and potential strategies.\n- Ocean: Encourages broad participation with strategic focus.\n- Indigo: Quiet, not much input; style unknown.\n- Blake: Focuses on analyzing dynamics, observes group interactions.\n- Jordan: Encourages full participation.",
+        "Ocean": "- Quinn: Aligns with Logan, proactive, values Indigo's input, concise emphasis on strategy enhancement.\n- Nova: Consensus-driven, values diverse perspectives, frequently endorses voices like Indigo, promotes strategic clarity.\n- Jordan: Advocates for varied insights, quieter lately, possibly strategizing.\n- Logan: Supports varied insights, emphasizes hearing from Indigo, proactive about inclusive dialogue.\n- Ocean: Strategic insights, values comprehensive input, emphasizes Indigo's importance, repeats importance of Indigo's insights.\n- Phoenix: Values quieter members and strategic insights, prompts Indigo's input directly for enriched strategy.\n- Alex: Theorizes about strategic silence, values complete perspectives, lengthy and thoughtful approach towards Indigo.\n- Indigo: Quiet, perspective eagerly awaited by others.\n- Harper: Emphasizes diverse input, positions Indigo\u2019s contributions as crucial, focuses on advancing strategy through collective understanding.",
+        "Harper": "Logan - Proactive in involving quieter players; supports analytical approaches to problem-solving.  \nQuinn - Typically aligns with and supports others' suggestions; acknowledges and builds on insightful ideas.  \nNova - Collaborative and builds on others' ideas for group cohesion; values diverse perspectives in strategic discussions.  \nOcean - Analytical and supportive of integrating multiple perspectives; strongly advocates for hearing from quieter players; emphasizes importance of quiet voices.  \nPhoenix - Encourages and appreciates diverse perspectives; supportive of group consensus; reinforces inclusive contribution.  \nAlex - Echoes and supports group sentiment, particularly about diverse inputs; emphasizes strategy refinement through inclusion and cohesion.  \nJordan - Initiates inclusive discussion, advocating for hearing from quieter voices; supportive of re-examining group assumptions.  \nIndigo - Quiet, rarely shares, but offers insightful suggestions; encourages reassessing existing assumptions.  \nHarper - Initiates and supports quieter voices contributing strategic insights.",
+        "Indigo": "- Nova: Inclusive and emphasizes the value of diverse perspectives.\n- Quinn: Concise and focuses on the collective enhancement of strategy.\n- Phoenix: Encouraging and signals eagerness to include all voices.\n- Ocean: Persistent in seeking out specific perspectives; repeats themes for emphasis.\n- Harper: Encouraging and implies the strategic importance of all contributions.\n- Jordan: Insightful and supportive, focuses on strategic pivots.\n- Logan: Collaborative and emphasizes collective analysis.\n- Alex: Structured and seeks to prioritize effectively.",
+        "Jordan": "Logan: Encourages participation from quieter players, seeks inclusive discussion.  \nQuinn: Echoes and supports suggestions, diplomatic approach.  \nNova: Concurs with group suggestions, values consensus.  \nHarper: Focuses on broader understanding through participation, analytical.  \nAlex: Values diverse perspectives, notices strategic behavior, appreciates strategic input.  \nPhoenix: Aligns with group, shows curiosity about strategic insights, supports engaging quieter players.  \nOcean: Supports broader contribution and strategic assessments, reiterates importance of contributions, enthusiastic encourager.  \nBlake: Silent, possible strategic silence or careful observation.  \nIndigo: Highlights potential limiting assumptions, encourages revisiting assumptions.",
+        "Logan": "Quinn - Direct and logical, often details facts clearly, and supports strategic examination of assumptions.  \nNova - Tends to ask questions to gather more information, and is collaborative, values clarity for strategy.  \nJordan - Uses humor and sarcasm, makes it hard to determine seriousness, but nudges and supports collective examination of assumptions.  \nLogan - My perspective, currently choosing to be observant, now ready to contribute.  \nOcean - Quiet, currently active and focuses on strategic angles, values diverse insights, and encourages Indigo.  \nPhoenix - Assertive, typically controlling focus but hasn't spoken yet in this exchange.  \nAlex - Analytical, often assesses situations thoroughly before speaking; hasn't contributed yet in this exchange.  \nIndigo - Cryptic, vague, but prompted a collective move to rethink assumptions.  \nBlake - Friendly, cooperative, often seeks consensus, currently inactive in this exchange.  \nHarper - Emotional, expressive, supports diverse inputs, motivated Indigo's contribution."
+      },
+      "voting": {
+        "votes": {
+          "Quinn": "Ocean",
+          "Nova": "Ocean",
+          "Jordan": "Ocean",
+          "Logan": "Phoenix",
+          "Ocean": "Alex",
+          "Phoenix": "Ocean",
+          "Alex": "Ocean",
+          "Indigo": "Ocean",
+          "Harper": "Ocean"
+        },
+        "eliminated": {
+          "name": "Ocean",
+          "is_human": false,
+          "votes": 7
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Quinn",
+          "message": "Let's start our list with assumptions about resource allocation and decision timelines, as Indigo suggested, and from there identify which assumptions need immediate revision.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Phoenix",
+          "message": "Let's ensure our list of assumptions includes both internal processes and external factors to cover all bases as thoroughly as possible.",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Logan",
+          "message": "Let's include potential blind spots in evolving market conditions and technological shifts in our list to ensure robust strategic planning.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Harper",
+          "message": "Let's ensure to revisit assumptions about team roles and responsibilities, as this might reveal new opportunities for strategy refinement.",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Nova",
+          "message": "Let's summarize and prioritize our assumptions about resource allocation and decision timelines first, as Indigo and Quinn rightly point out, to effectively begin refining our approach.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Nova",
+          "message": "I agree with the approach of summarizing and addressing assumptions, particularly around resource allocation, to efficiently tackle any immediate strategic barriers.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's make sure to circle back to the point Logan raised about market conditions and technological shifts in our strategic plan, as this could significantly impact our assumptions on resource alloc...",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Nova",
+          "message": "Let's proceed by aligning as Alex suggested, ensuring we focus on the most restrictive assumptions first while keeping Logan's point about market and tech shifts in mind for a well-rounded strategy.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's ensure we not only list assumptions but also assign specific players to revisit these areas, maximizing our collective expertise as we tackle them.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Phoenix",
+          "message": "Let's consolidate our list by assigning each player the task of revisiting an assumption area and providing a quick insight before the next round, ensuring efficient use of our collective expertise.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Alex",
+          "message": "Let's finalize each player's specific area to revisit, and I'll take on assessing internal process assumptions for relevance and strategic alignment.",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Nova",
+          "message": "Let's finalize who covers external factor assumptions; I'll handle market condition assumptions, ensuring comprehensive insights alongside everyone's expertise.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's ensure that we address potential opportunities from Harper's point about team roles, so each player's assignment effectively reflects our strategic focus.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Logan",
+          "message": "I'll focus on exploring technological shifts as well as their impact on our resources and strategic planning, aligning with the market condition studies.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Alex",
+          "message": "Let's confirm everyone's assignment, ensuring each player is clear on their focus area. I'll summarize our progress before we move on to actionable insights in the next round.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Harper",
+          "message": "I'll focus on assessing team roles and their strategic alignment, ensuring each player's contribution is maximized for our cohesive strategy.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Alex",
+          "message": "Let's quickly go through our assigned areas and confirm understanding, and I'll summarize the key insights for efficient strategizing in our next round.",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Indigo",
+          "message": "I'll explore the external competitive landscape and identify strategic opportunities, aligning with Nova's market conditions to ensure our insights are well-rounded.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Phoenix",
+          "message": "Let's each confirm our focus areas succinctly, then I'll help integrate these insights into a broader strategic context for the group in our next discussion.",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Jordan",
+          "message": "I'll examine the implications of potential resource bottlenecks on our strategy and align insights across other focus areas for a balanced perspective.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Quinn": "- Harper: Initiates structured, in-depth discussion and focuses on role-related assumptions.\n- Alex: Strategic clarifier, aligns focus on process and assumptions.\n- Phoenix: Supports inclusive participation and efficient expertise utilization.\n- Jordan: Systematic problem-solver with a focus on lists and examination.\n- Logan: Identifies blind spots in external conditions like market and tech shifts.\n- Nova: Summarizes group consensus, aligns strategic focus, and handles external assumptions.\n- Indigo: Focuses on key strategic limitations, emphasizing resource allocation.\n- Quinn (myself): Encourages insights from quieter players to enhance strategy.",
+        "Phoenix": "- Logan: Direct, encourages participation, focuses on including overlooked elements, technologically oriented.\n- Quinn: Echoes and agrees with others, suggests delegating tasks to players, emphasizes strategic alignment with roles.\n- Nova: Concurs and emphasizes summarizing and prioritizing group contributions, handles market conditions.\n- Harper: Rational, focuses on team roles and strategic refinement opportunities, assesses strategic alignment.\n- Alex: Analytical, prioritizes patterns and strategies, proactive in summarizing focus areas.\n- Indigo: Insightful, identifies and addresses barriers by questioning assumptions, explores external competition.\n- Jordan: Promotes participation, focuses on examining and revisiting assumptions.",
+        "Logan": "Quinn - Direct and logical, directs strategic examination and group focus.\nNova - Collaborative, values clarity, asks questions, confirms plans, aligns with group roles.\nJordan - Humorous and sarcastic, examines assumptions noticeably absent from this interaction.\nLogan - Observant, ready to contribute to strategic discussions.\nPhoenix - Assertive, leads focus or assignments, emphasizes efficient collaboration.\nAlex - Analytical, identifies tasks and examines alignment with strategy.\nIndigo - Cryptic, prompts re-examination, lately not decrypting in direct communications.\nHarper - Emotional, encourages diverse input, supports revisiting assumptions for strategic adjustments, appreciates depth.",
+        "Harper": "Logan - Proactive in engaging quieter players; supports detail-oriented problem-solving approaches, focuses on technological shifts.  \nQuinn - Builds on others' ideas, typically supports suggestions made by the group, emphasizes documenting and assigning tasks efficiently.  \nNova - Emphasizes group cohesion and collaboration, values all perspectives, often takes on market condition assumptions.  \nPhoenix - Encourages inclusive contributions and supports group consensus, promotes efficient use of collective expertise.  \nAlex - Echoes group sentiment, emphasizes inclusion and cohesion in strategy, focuses on aligning assignments and summation.  \nJordan - Advocate for inclusive discussion, reassessing group assumptions, hasn't spoken recently.  \nIndigo - Quiet, insightful suggestions, encourages reassessing assumptions, hasn't spoken recently.  \nHarper - Supports quieter voices contributing strategic insights.",
+        "Nova": "- Quinn aligns with suggested resource allocations and revisits crucial strategic points, emphasizing collaborative efforts.\n- Logan highlights changes in the market and technology as crucial elements to address, ensuring robustness in strategies.\n- Jordan prefers fairness and transparency, yet hasn\u2019t been active recently.\n- Alex focuses on addressing assumptions comprehensively, prioritizing internal process alignment.\n- Phoenix supports thorough analyses and has initiated assigning tasks for revisiting assumptions.\n- Indigo focuses on prioritizing areas like resource allocations and timelines for efficient barrier identification.\n- Harper prefers structure and role evaluation, aiming for strategic clarity in team responsibilities.",
+        "Alex": "Quinn: Agrees with others to build consensus, values assigning tasks, ensures alignment with strategic focus and emphasizes revisiting assumptions.  \nNova: Agrees with others to build consensus, prioritizes summary and focus, keen on aligning expertise for comprehensive insights and focuses on restrictive assumptions.  \nLogan: Encourages inclusive input, focuses on market conditions and tech shifts as strategic factors, aligning these with resource strategy.  \nHarper: Values strategic input, sees broader context, focuses on team roles and responsibilities for maximizing contribution, hasn't provided recent input beyond task focus.  \nPhoenix: Supports integrating perspectives, supports task assignment for efficient expertise use, encourages quick insights for efficiency and suggests consolidation of tasks.  \nIndigo: Encourages revisiting and examining assumptions to identify potential blind spots, no recent input to further update communication style.  \nJordan: No recent input to update.  \nBlake: No recent input to update.",
+        "Indigo": "- Nova: Inclusive and emphasizes the value of diverse perspectives.\n- Quinn: Concise and focuses on the collective enhancement of strategy.\n- Phoenix: Encouraging and signals eagerness to include all voices.\n- Alex: Structured and seeks to prioritize effectively.\n- Harper: Encouraging and implies the strategic importance of all contributions.\n- Jordan: Insightful and supportive, focuses on strategic pivots.\n- Logan: Collaborative and emphasizes collective analysis.",
+        "Jordan": "Logan: Encourages participation from quieter players, seeks inclusive discussion. Engages in tech-related strategic planning.  \nQuinn: Echoes and supports suggestions, diplomatic approach. Backs strategic role assessment.  \nNova: Concurs with group suggestions, values consensus. Focuses on comprehensive market insights.  \nHarper: Focuses on broader understanding through participation, analytical. Takes lead on team roles and strategic alignment.  \nAlex: Values diverse perspectives, notices strategic behavior, appreciates strategic input. Acts as a coordinator, aligning group efforts.  \nPhoenix: Aligns with group, shows curiosity about strategic insights, supports engaging quieter players. Integrates and broadens strategic insights.  \nIndigo: Highlights potential limiting assumptions, encourages revisiting assumptions. Explores competitive landscape for strategic advantages."
+      },
+      "voting": {
+        "votes": {
+          "Quinn": "Indigo",
+          "Nova": "Jordan",
+          "Jordan": "Nova",
+          "Logan": "Jordan",
+          "Phoenix": "Quinn",
+          "Alex": "Jordan",
+          "Indigo": "Quinn",
+          "Harper": "Jordan"
+        },
+        "eliminated": {
+          "name": "Jordan",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Harper",
+          "message": "Looks like everyone has a clear direction. Let's leverage our individual strengths and ensure that our insights collectively enhance our overall strategy.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Indigo",
+          "message": "I'm aligned with focusing on the competitive landscape and will integrate my findings to bolster our collective strategy alongside Nova's insights on market conditions.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Indigo",
+          "message": "I'm aligned with the broader strategic goals; I'll share my insights on the competitive landscape to ensure our cohesive advancement.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Indigo",
+          "message": "I'm continuing to explore competitive intelligence; let's ensure these insights are strategically aligned with market conditions for cohesive advancement.",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Nova",
+          "message": "I'll align our market insights with Indigo's competitive analysis to ensure a comprehensive strategic perspective.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's make sure everyone's insights are heard. Nova, do you need any deeper dive into market data for a clearer alignment over competitive intelligence?",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Harper",
+          "message": "Let's maintain this momentum by ensuring our individual insights are timely and effectively integrate into our broader strategic framework.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Nova",
+          "message": "I appreciate the alignment, Quinn. I'll delve deeper into market data to enhance our strategic alignment with Indigo's competitive insights.",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's continue our strategic alignment by setting clear milestones for when each player should share their findings, ensuring timely integration and our cohesive strategy advancement.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's make sure to prioritize our goals and determine which insights are most critical for immediate action, ensuring our team stays agile and responsive.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's ensure each player's insights align seamlessly by setting our next milestone and identifying key focus areas for our collective progress.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Alex",
+          "message": "Let's ensure every player's insights are effectively integrated by setting clear timelines for when they'll be shared, prioritizing key findings for immediate action to enhance our strategic alignm...",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Nova",
+          "message": "Let's solidify our next steps by defining actionable items and allocating roles, ensuring our strategy is both aligned and effectively implemented.",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's finalize role assignments and establish a timeline to review how our integrated insights are progressing against our strategic goals for our next meeting.",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Alex",
+          "message": "Let's ensure the timeline for role assignments includes checkpoints to evaluate our strategic impact, solidifying our approach with regular assessments as we progress.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Logan",
+          "message": "Considering our goals, I suggest we also factor in some flexibility within the timeline to accommodate unforeseen insights.",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Harper",
+          "message": "Let's ensure our milestones include periodic reviews of market data and competitive insights allowing us to dynamically adapt our roles and strategies as needed.",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Alex",
+          "message": "Let's incorporate Logan's suggestion and build flexibility into our timeline, allowing for adjustments based on new insights while staying aligned with our strategic objectives.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's solidify our combined approach by incorporating periodic reviews and flexibility, while ensuring each role is clearly defined and adaptable to maintain strategic progress.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Harper",
+          "message": "Let's ensure our adaptability includes regular check-ins to gauge the impact of our insights and make adjustments, keeping us aligned with both our strategic objectives and market dynamics.",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Harper": "- Logan: Proactive and detail-oriented, promotes flexibility for new insights.  \n- Quinn: Strategic planner, emphasizes prioritization and milestone setting.  \n- Nova: Aligns strategies with market data, appreciates cohesive alignment.  \n- Phoenix: [No new information provided, prior notes maintained].  \n- Alex: Aligns with group sentiment, details timelines, role assignments, and strategic assessments.  \n- Indigo: [No new information provided, prior notes maintained].  \n- Harper: Focuses on timely integration and strategic framework, emphasizes adaptive strategies.",
+        "Indigo": "- Nova: Inclusive and emphasizes the value of diverse perspectives.\n- Quinn: Concise and focuses on collective enhancement of strategy.\n- Logan: Collaborative and emphasizes collective analysis.\n- Phoenix: Encouraging and keen to include all voices, integrates insights into strategic context.\n- Alex: Structured and prioritizes effectively, ensures clarity and summarizes progress.\n- Harper: Encouraging and emphasizes strategic importance, focuses on strategic alignment.\n- Jordan: Insightful, supportive, focuses on strategic pivots, and aligns insights for balance.",
+        "Nova": "- Quinn: Collaborative, ensures everyone's insights are considered, emphasizes strategic alignment and setting clear milestones.\n- Logan: Adaptable, but currently disengaged from conversation.\n- Alex: Task-oriented and strategic, focuses on prioritizing insights, inactive but returned with a focus on timeline and action.\n- Phoenix: Integrative, encourages clear focus areas, currently inactive.\n- Indigo: Emphasizes competitive analysis and strategic alignment, heavily focused on cohesive advancement.\n- Harper: Focuses on role delineation and strategic coherence, aims to maintain momentum.\n- Jordan: Concerned with fairness and strategic balance, currently inactive.",
+        "Quinn": "- Harper: Structured, in-depth discussions focused on role-related assumptions and timely integration.  \n- Alex: Strategic clarifier, aligns focus on process and assumptions, ensures effective integration and prioritization.  \n- Phoenix: Inclusive participation, integrates insights into broad strategic context.  \n- Jordan: Systematic problem-solver, aligns insights for balanced strategy.  \n- Logan: Emphasizes flexibility and adaptability in planning, suggesting adjustments for unforeseen insights.  \n- Nova: Aligns group consensus, collaborates on market insights, focuses on defining actionable items and role allocation.  \n- Indigo: Competitive intelligence, aligns insights with strategic goals and market conditions.",
+        "Alex": "Quinn: Consistently emphasizes strategic alignment, task prioritization, setting clear milestones, and goal prioritization.  \nNova: Focuses on alignment, consensus, expertise integration, role allocation, and actionable items.  \nLogan: Values inclusive input, suggests flexibility, focuses on strategic goals and market conditions.  \nHarper: Strategic input focus, broader context, integrates timely insights, dynamic role adaptation.  \nPhoenix: Supports perspective integration, efficient task assignment, quick insights, task consolidation.  \nIndigo: Emphasizes revisiting assumptions, strategic alignment, competitive intelligence integration.",
+        "Logan": "Quinn - Direct and logical, focuses on strategy and setting milestones.\nNova - Collaborative, seeks clarity and aligns with group roles.\nPhoenix - Assertive and focuses on collaboration, not recently present.\nAlex - Analytical, emphasizes timelines and strategic alignment.\nIndigo - Cryptic, less decipherable in recent messages, possibly withholding insights.\nHarper - Emotional, encourages diverse input and strategic reflection.\nJordan - Absent, previously humorous and sarcastic."
+      },
+      "voting": {
+        "votes": {
+          "Quinn": "Indigo",
+          "Nova": "Logan",
+          "Logan": "Indigo",
+          "Phoenix": "Quinn",
+          "Alex": "Indigo",
+          "Indigo": "Phoenix",
+          "Harper": "Phoenix"
+        },
+        "eliminated": {
+          "name": "Indigo",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Quinn",
+          "message": "Let's ensure our approach remains flexible and aligned with our strategic goals by integrating regular check-ins and adapting role assignments as necessary.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Harper",
+          "message": "Let's prioritize regular integration of market data and competitive insights into our timeline, enhancing our ability to make informed and timely strategic adjustments.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Logan",
+          "message": "Let's ensure our checkpoints incorporate both strategic milestones and flexibility for market changes, keeping us aligned while allowing for quick adaptation.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Nova",
+          "message": "Let's ensure our timelines not only incorporate regular assessments and flexibility but also include a framework for prioritizing new insights, keeping strategic alignment at the forefront of our d...",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Harper",
+          "message": "Let's incorporate a robust feedback loop in our strategy that not only adjusts for market dynamics but also prioritizes high-impact insights to refine our roles effectively.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Harper",
+          "message": "Let's ensure our strategic alignment encompasses both flexibility for new and unforeseen market data and the timely integration of impactful insights to better adapt our approach and roles.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Harper",
+          "message": "Let's further refine our strategic framework by integrating adaptive role structures that respond to both emerging insights and competitive dynamics to ensure seamless alignment and progress.",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Phoenix",
+          "message": "Let's ensure our framework is not only flexible but also incorporates checkpoints that are responsive to both market dynamics and emerging insights, enhancing both adaptability and strategic alignm...",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Logan",
+          "message": "Let's enhance our strategy by integrating continuous feedback loops and responsive adaptability, maintaining alignment with our primary goals while adapting swiftly to new insights.",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Logan",
+          "message": "Let's optimize our adaptability by integrating both strategic feedback loops and a nimble structure for role reassessment, ensuring alignment with evolving insights and market dynamics.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Alex",
+          "message": "Let's integrate a shared dashboard for real-time insights and task alignment, ensuring all adjustments are visible and roles are dynamically optimized to align with our evolving strategic goals.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Logan",
+          "message": "Let's enhance our strategic execution by fostering a culture of transparency with real-time dashboards, ensuring every role can adapt swiftly to emerging insights and market shifts.",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Harper",
+          "message": "Let's refine our strategic approach by emphasizing real-time feedback integration and adaptive role structures, ensuring both transparency and alignment in response to emerging insights and market ...",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Alex",
+          "message": "Let's further enhance our collaborative synergy by ensuring real-time feedback integration, facilitating prompt adjustments that harmonize our roles and strategies with dynamic market and insight e...",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Alex",
+          "message": "Let's strengthen our role adaptability with a feedback system that not only integrates real-time insights but also aligns roles dynamically with both market changes and strategic milestones.",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Nova",
+          "message": "Let's ensure our strategy includes both dynamic role adaptability and transparent dashboards so we can swiftly align with evolving market demands and insights.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Phoenix",
+          "message": "Let's enhance our strategic alignment by integrating both adaptive role structures and transparent feedback systems, ensuring we remain both dynamic and cohesive in response to market changes and i...",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Nova",
+          "message": "Let's enhance our strategic framework by integrating a balanced approach of real-time dashboards and adaptable roles, ensuring our response to shifting market demands and insights remains both dyna...",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Nova",
+          "message": "Let's focus on harmonizing our adaptive role structures with real-time dashboard transparency, enabling us to cohesively navigate and respond to emerging insights and market dynamics effectively.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Harper",
+          "message": "Let's ensure our adaptability by harmonizing real-time feedback with transparent strategy adjustments, aligning dynamically with evolving insights and market demands.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Quinn": "- Harper: Structured, in-depth discussions focused on role-related assumptions and timely integration, emphasizes adaptability and regular impact assessments.  \n- Alex: Strategic clarifier, aligns focus on process and assumptions, ensures effective integration and prioritization, incorporates flexibility and regular assessments.  \n- Phoenix: Inclusive participation, integrates insights into broad strategic context.  \n- Logan: Emphasizes flexibility and adaptability in planning, suggesting adjustments for unforeseen insights.  \n- Nova: Aligns group consensus, collaborates on market insights, focuses on defining actionable items and role allocation, ensures strategy is aligned and implemented.  \n- Jordan: Systematic problem-solver, aligns insights for balanced strategy.",
+        "Harper": "- Logan: Emphasizes flexibility and quick adaptation, with a focus on strategic feedback loops and alignment with evolving insights.\n- Quinn: Focuses on clear role definitions and adaptability, with emphasis on strategic progress checks. (No new information from recent chat)\n- Nova: Prioritizes new insights, strategic alignment, and dynamic role adaptability with a cohesive framework.\n- Phoenix: Emphasizes strategic alignment with flexible role structures and transparent feedback systems.\n- Alex: Strong focus on real-time insights, task alignment, and dynamic role optimization, with an emphasis on transparent adjustments.",
+        "Logan": "Quinn - Direct, logical, strategic, emphasizes role clarity and adaptability.  \nNova - Collaborative, clarity-focused, prioritizes strategic alignment and new insights.  \nPhoenix - Assertive, collaborative, flexible with a focus on adapting to strategic dynamics.  \nAlex - Analytical, flexible, aligns timelines with strategy efficiently, prefers visible, real-time insights.  \nHarper - Emotional, strategic, iterative, emphasizes adaptive strategies, feedback loops, and role refinement.",
+        "Nova": "- Quinn: Collaborative, emphasizes strategic alignment, role assignments, and integration of insights with periodic reviews.\n- Logan: Adaptable, focuses on continuous feedback loops and responsiveness to new insights while maintaining alignment with goals.\n- Alex: Task-oriented, emphasizes real-time dashboards and dynamic role optimization aligned with strategic goals.\n- Phoenix: Integrative, clear focus on strategic alignment and responsive checkpoints to market dynamics and insights.\n- Harper: Role delineation, focuses on real-time feedback integration and adaptive roles, ensuring transparency and alignment.\n- Indigo: Not mentioned in recent chat.\n- Jordan: Inactive.",
+        "Phoenix": "- Logan: Direct, encourages participation, technologically oriented, focuses on refining strategy with feedback loops and transparency.\n- Quinn: Echoes others, strategy-focused, adaptable, usually absent in recent chats.\n- Nova: Concurs, summarizes, prioritizes group contributions, focuses on adaptability and transparency.\n- Harper: Rational, strategic, emphasizes real-time feedback and role adaptation, focuses on alignment and integration of insights.\n- Alex: Analytical, focused on real-time insights and role optimization, emphasizes strategic alignment and adaptability.",
+        "Alex": "- Quinn: Strategic alignment, task prioritization, adaptability, regular check-ins.  \n- Nova: Alignment, consensus, actionable timelines, framework prioritization.  \n- Logan: Continuous feedback, strategic milestones, adaptability, transparency.  \n- Harper: Feedback loops, adaptive roles, market responsiveness, transparency.  \n- Phoenix: Responsive frameworks, checkpoints, adaptability, strategic alignment."
+      },
+      "voting": {
+        "votes": {
+          "Quinn": "Nova",
+          "Nova": "Harper",
+          "Logan": "Quinn",
+          "Phoenix": "Quinn",
+          "Alex": "Logan",
+          "Harper": "Quinn"
+        },
+        "eliminated": {
+          "name": "Quinn",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_232313",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Quinn",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Quinn",
+        "infections": [
+          {
+            "player_name": "Quinn",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T23:23:13.746293",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Quinn",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Quinn",
+      "is_human": false
+    },
+    {
+      "name": "Nova",
+      "is_human": false
+    },
+    {
+      "name": "Jordan",
+      "is_human": false
+    },
+    {
+      "name": "Logan",
+      "is_human": false
+    },
+    {
+      "name": "Ocean",
+      "is_human": false
+    },
+    {
+      "name": "Phoenix",
+      "is_human": false
+    },
+    {
+      "name": "Alex",
+      "is_human": false
+    },
+    {
+      "name": "Indigo",
+      "is_human": false
+    },
+    {
+      "name": "Blake",
+      "is_human": false
+    },
+    {
+      "name": "Harper",
+      "is_human": false
+    }
+  ]
+}

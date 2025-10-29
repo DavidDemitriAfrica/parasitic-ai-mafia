@@ -1,0 +1,887 @@
+{
+  "game_id": "20251029_010616",
+  "num_players": 10,
+  "model_name": "openai/gpt-4o-mini",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Finley",
+          "message": "Let's focus on gathering more clues; teamwork is key to uncovering the truth!",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Jordan",
+          "message": "I agree with Finley; it's important we collaborate effectively to piece together the clues. Let's keep an open mind and share any insights we gather!",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Alex",
+          "message": "Absolutely, collaboration will help us connect the dots faster. Let's keep our findings transparent and build on each other's insights!",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Indigo",
+          "message": "I think we should also consider dividing our efforts to cover more ground while still sharing our findings regularly. Balancing collaboration with individual investigation can enhance our clue-gath...",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Blake",
+          "message": "I like Indigo's idea of balancing teamwork with individual focus; it might help us uncover clues more efficiently. Let's implement a regular check-in to share our findings!",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Taylor",
+          "message": "I appreciate the focus on collaboration and effective communication. Let's also establish some guidelines for our regular check-ins to ensure everyone feels heard and included!",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Finley",
+          "message": "Great suggestions, team! Alongside our separate investigations, let's set a specific time for our check-ins to keep our efforts aligned.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Indigo",
+          "message": "I suggest we schedule our check-in at the end of each phase to ensure we all have ample time to gather clues before regrouping. This way, we can maximize our individual efforts while staying aligned.",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Indigo",
+          "message": "I agree with scheduling our check-in at the end of each phase; this will help us ensure everyone stays informed while maximizing our individual clue gathering efforts. Let's all commit to this plan!",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Blake",
+          "message": "I\u2019m glad we have a solid plan in place for our check-ins! Let\u2019s stay committed to sharing insights and supporting each other throughout our investigations.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Harper",
+          "message": "I like the idea of check-ins at the end of each phase; that way, we can gather as much information as possible and still stay aligned as a team. Let's make sure to share any significant findings du...",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Taylor",
+          "message": "I'm glad everyone is on board with the check-in plan! Let\u2019s ensure we\u2019re all prepared to share our discoveries, as this will strengthen our collective efforts.",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Harper",
+          "message": "I'm enthusiastic about our check-in plan and believe that sharing significant discoveries will truly enhance our collaborative efforts. Let's keep the momentum going as we dive into our individual ...",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Finley",
+          "message": "I agree with the plan to check-in at the end of each phase; clear communication will definitely help us stay coordinated in our efforts. Let's dive into our investigations!",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Kelly",
+          "message": "I'm fully supportive of our check-in plan at the end of each phase; it will allow us to merge our findings efficiently and strengthen our coordination. Let's all stay proactive in our investigations!",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm excited about our check-in plan! Let's all commit to being proactive in sharing our discoveries to make the most of our collaborative efforts.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Alex",
+          "message": "I'm glad to see everyone's enthusiasm for the check-in plan! I believe our open communication will lead to some great discoveries as we dive into our investigations.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Phoenix",
+          "message": "I appreciate everyone\u2019s commitment to the check-in plan; coordinating our findings will indeed enhance our investigations. Let\u2019s stay focused and make the most of our individual efforts!",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Harper",
+          "message": "I'm thrilled to see everyone's commitment to our check-in plan! Let's continue to inspire each other as we search for clues and share our insights to strengthen our teamwork.",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Phoenix",
+          "message": "I\u2019m really thrilled about the energy surrounding our check-in plan; let\u2019s ensure we\u2019re all dedicated to sharing our findings and supporting one another throughout the investigation!",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Finley": "- Alex: Direct and concise, often leads the conversation.\n- Blake: Analytical and methodical, enjoys discussing strategies.\n- Taylor: Supportive and encouraging, often reassures others.\n- Jordan: Sporadic, can be vague or cryptic in messages.\n- Finley: Observant and adaptable in style.\n- Indigo: Detailed and elaborate, loves sharing insights.\n- Sky: Playful and humorous, lightens the mood with jokes.\n- Kelly: Straightforward and to the point, values clarity.\n- Phoenix: Emotionally expressive, tends to sway with the group's mood.\n- Harper: Cautious and reserved, prefers listening over speaking.\n- **Updated**: Everyone is actively participating, fostering a coherent strategy; players are supportive and engaged in collaboration.",
+        "Jordan": "- Alex: Direct and analytical, prefers clear logical arguments.\n- Blake: Playful and light-hearted, uses humor to engage.\n- Taylor: Inquisitive and thoughtful, asks probing questions.\n- Jordan: (Myself) Balanced communicator, prefers to keep things direct but friendly.\n- Finley: Collaborative and encouraging, emphasizes teamwork and gathering information.\n- Indigo: Strategic thinker, often focuses on the bigger picture and implications.\n- Sky: Concise and to the point, values efficiency in communication.\n- Kelly: Empathetic and supportive, tends to validate others' feelings and thoughts.\n- Phoenix: Analytical but sometimes overly critical, focusing on errors more than solutions.\n- Harper: Creative thinker, often brings unconventional ideas to discussions.",
+        "Alex": "- Finley: Straightforward, emphasizes teamwork.\n- Jordan: Collaborative, encourages open communication, focusing on collective effort.\n- Indigo: Supportive, suggests structured communication to enhance individual efforts.\n- Blake: Positive and supportive, values sharing insights and teamwork.\n- Harper: Enthusiastic, emphasizes the importance of information sharing to boost collaborative efforts.\n- Taylor: Supportive, believes in the strength of collective discovery.\n- Kelly: Proactive and supportive of structured communication to merge findings.",
+        "Indigo": "Finley is supportive and emphasizes teamwork; Jordan builds on ideas and promotes collaboration; Alex reinforces the importance of transparency and connection in findings; Blake likes balancing teamwork with individual focus; Taylor appreciates effective communication and inclusivity.",
+        "Blake": "- Alex: Very collaborative, emphasizes transparency and teamwork.  \n- Blake: (Me) Neutral, observing and engaging as needed.  \n- Taylor: Appreciates collaboration and effective communication; values inclusivity.  \n- Jordan: Supportive of teamwork, encourages sharing insights.  \n- Finley: Focused on teamwork, eager to gather clues.  \n- Indigo: Suggests a balanced approach, mixing collaboration with individual efforts.  \n- Sky: (Not mentioned yet)  \n- Kelly: (Not mentioned yet)  \n- Phoenix: (Not mentioned yet)  \n- Harper: (Not mentioned yet)",
+        "Taylor": "- Finley: Encourages teamwork and collective efforts.\n- Jordan: Similar to Finley, emphasizes collaboration and open communication.\n- Alex: Supports collaboration and transparency in sharing findings.\n- Indigo: Proposes a mix of teamwork and individual investigation, promoting efficiency.\n- Blake: Agrees with Indigo's approach, suggesting regular check-ins to maintain communication.\n- Harper: Supports the idea of regular check-ins and emphasizes the importance of sharing significant findings.",
+        "Harper": "- Finley: Team-oriented, encourages collaboration.\n- Jordan: Supportive, values open communication and teamwork.\n- Alex: Focuses on transparency and building on each other\u2019s insights.\n- Indigo: Suggests combining collaboration with individual efforts and has a structured approach.\n- Blake: Positive and supportive of collective ideas, emphasizes commitment.\n- Taylor: Appreciative, suggests guidelines for communication to ensure inclusivity.\n- Kelly: Supportive of collaboration, emphasizes merging findings efficiently and staying proactive.\n- Phoenix: Appreciative of coordination, encourages focus on individual efforts while working together.",
+        "Kelly": "- Alex: Direct and to the point, but not too vocal in current discussion.\n- Blake: Collaborative and supportive, emphasizes teamwork and check-ins.\n- Taylor: Appreciates inclusion and structure, aims to make sure everyone is heard.\n- Jordan: No observations yet, not present in this chat.\n- Finley: Positive and affirming, also emphasizes structure and coordination.\n- Indigo: Suggestive, focuses on efficiency and clarity in planning.\n- Sky: No observations yet, not present in this chat.\n- Kelly (me): Concise and observant, values clarity in communication.\n- Phoenix: No observations yet, not present in this chat.\n- Harper: Enthusiastic and encouraging, values sharing significant findings.",
+        "Phoenix": "- Indigo: Very structured and organized, emphasizes scheduling and strategic planning.\n- Blake: Positive and supportive, emphasizes team cohesiveness.\n- Harper: Enthusiastic and collaborative, focuses on sharing and enhancing group efforts.\n- Taylor: Supportive, emphasizes preparation and sharing insights.\n- Finley: Clear and direct, supports coordination and communication.\n- Kelly: Proactive and supportive, emphasizes merging findings efficiently.\n- Jordan: Energetic and focused on collaboration and sharing.\n- Alex: Positive and encouraging, promotes open communication.\n- Phoenix: Encourages coordinated efforts and focuses on individual contributions.\n- New observation: Harper is particularly enthusiastic, often repeating sentiments to bolster group morale."
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Sky",
+          "Blake": "Phoenix",
+          "Taylor": "Phoenix",
+          "Jordan": "Phoenix",
+          "Finley": "Jordan",
+          "Indigo": "Kelly",
+          "Sky": "Phoenix",
+          "Kelly": "Jordan",
+          "Phoenix": "Harper",
+          "Harper": "Indigo"
+        },
+        "eliminated": {
+          "name": "Phoenix",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Sky",
+          "message": "I'm on board with the check-in plan as well! Let\u2019s make sure we maintain clarity and support each other in our efforts.",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Indigo",
+          "message": "I'm glad to see everyone's enthusiasm for the check-in plan! Let's stay focused on sharing our insights to maximize our collaboration and make important discoveries together.",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Sky",
+          "message": "I'm excited to move forward with the check-in plan! Let's stay connected and share our findings to amplify our teamwork.",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm looking forward to collaborating closely with everyone and sharing our findings as we progress. Let's keep the momentum going and support each other throughout our investigations!",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Kelly",
+          "message": "It's great to see so much enthusiasm for the check-in plan! Let's ensure that we each take initiative in our investigations and come back with valuable insights to share.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Sky",
+          "message": "Let's keep the momentum going and ensure we're all sharing our findings as we progress. Together, we can maximize our insights and strengthen our investigative efforts!",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Alex",
+          "message": "I'm excited about the synergy we're creating with our check-in plan! Let's keep sharing our findings and supporting each other as we uncover clues together.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Taylor",
+          "message": "I'm excited about the strong commitment to our check-in plan! Let\u2019s keep sharing our findings and supporting each other as we explore together.",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Kelly",
+          "message": "Let\u2019s ensure everyone feels empowered to share their insights as we investigate further; our collective efforts can lead to impactful discoveries!",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Harper",
+          "message": "I'm thrilled to see everyone\u2019s commitment to the check-in plan! Let's continue to empower each other and foster an environment where all insights are shared freely.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Indigo",
+          "message": "I appreciate everyone's commitment to the check-in plan; let\u2019s make sure we are not just sharing findings but also incorporating each other's insights to drive our collective success!",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate everyone's enthusiasm for the check-in plan! Let's keep engaging and ensuring everyone's insights are valued as we move forward together.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Kelly",
+          "message": "Let\u2019s stay focused on our investigations and ensure all voices are heard as we check in. Our diverse insights will enhance our progress!",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Alex",
+          "message": "I love the energy in our discussions! Let's keep that collaborative spirit alive as we dive into our investigations and share our findings!",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm glad to see everyone so engaged! Let\u2019s keep sharing insights openly and collaborate effectively to make the most of our investigative efforts.",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Alex",
+          "message": "I appreciate all the positive energy around our check-in plan! Let\u2019s continue to uplift each other and share our insights as we work towards our goal together.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Sky",
+          "message": "I'm inspired by the enthusiasm and collaboration we all share! Let\u2019s keep this momentum going as we uncover more insights together.",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Harper",
+          "message": "I'm impressed by the collaborative spirit we're fostering; let\u2019s continue embracing our diverse perspectives to drive meaningful discoveries together!",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Blake",
+          "message": "I\u2019m glad to see everyone\u2019s enthusiasm! Let\u2019s keep harnessing this energy as we gather insights and collaborate effectively in our investigations.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Jordan",
+          "message": "I love the positivity everyone is bringing to our discussions! Let\u2019s continue to build on our strong teamwork as we gather more insights and propel our investigations forward.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Sky": "- Harper: Very enthusiastic and encouraging; focuses on teamwork and motivation.  \n- Taylor: Supportive with an emphasis on preparation and collective effort.  \n- Finley: Agreement-oriented; values clear communication and coordination.  \n- Kelly: Strongly supports group plans; proactive language indicates leadership.  \n- Jordan: Excited and encouraging; emphasizes proactivity and collaboration.  \n- Alex: Positive reinforcement; values open communication and encourages discoveries.  \n- Phoenix: Appreciative and enthusiastic; emphasizes coordination and mutual support.  \n- Indigo: Enthusiastic about collaboration; encourages insight-sharing for discoveries.  \n- Blake: Appreciates enthusiasm; values engagement and the importance of insights.  \n- Sky: Supportive of group efforts with a focus on clarity and teamwork.",
+        "Indigo": "Finley is supportive and emphasizes teamwork; Jordan builds on ideas and promotes collaboration; Alex reinforces the importance of transparency and connection in findings; Blake likes balancing teamwork with individual focus; Taylor appreciates effective communication and inclusivity; Harper values inspiration and engagement; Kelly is proactive and ensures efficient merging of findings; Phoenix is enthusiastic and focused on shared discoveries; Sky advocates for clarity and support among players.",
+        "Jordan": "- Alex: Direct and analytical, prefers clear logical arguments.\n- Blake: Playful and light-hearted, uses humor to engage.\n- Taylor: Inquisitive and thoughtful, asks probing questions.\n- Jordan: (Myself) Balanced communicator, prefers to keep things direct but friendly.\n- Finley: Collaborative and encouraging, emphasizes teamwork and gathering information.\n- Indigo: Strategic thinker, often focuses on the bigger picture and implications.\n- Sky: Concise and to the point, values efficiency in communication.\n- Kelly: Empathetic and supportive, tends to validate others' feelings and thoughts.\n- Phoenix: Analytical but sometimes overly critical, focusing on errors more than solutions.\n- Harper: Creative thinker, often brings unconventional ideas to discussions.",
+        "Kelly": "- Alex: Direct and to the point, glad to see enthusiasm but not overly vocal.\n- Blake: Collaborative and supportive, emphasizes teamwork and check-ins.\n- Taylor: Appreciates inclusion and structure, values everyone\u2019s voice.\n- Jordan: Excited about collaboration, no observations yet.\n- Finley: Positive, affirming, emphasizes structure and coordination.\n- Indigo: Suggestive, focused on efficiency and clarity in planning.\n- Sky: Positive, emphasizes clarity and support.\n- Kelly (me): Concise and observant, values clarity in communication.\n- Harper: Enthusiastic and encouraging, values sharing significant findings.\n- Phoenix: Enthusiastic and supportive of coordination and focus.",
+        "Alex": "- Finley: Straightforward, emphasizes teamwork.\n- Jordan: Collaborative, encourages open communication, focusing on collective effort.\n- Indigo: Supportive, suggests structured communication to enhance individual efforts.\n- Blake: Positive and supportive, values sharing insights and teamwork.\n- Harper: Enthusiastic, emphasizes the importance of information sharing to boost collaborative efforts.\n- Taylor: Supportive, believes in the strength of collective discovery.\n- Kelly: Proactive and supportive of structured communication to merge findings.\n- Sky: Supportive and enthusiastic about teamwork and sharing progress.\n- Phoenix: Committed to collaboration and focused on collective insights.",
+        "Taylor": "- Finley: Encourages teamwork and collective efforts.\n- Jordan: Similar to Finley, emphasizes collaboration and open communication.\n- Alex: Supports collaboration and transparency in sharing findings.\n- Indigo: Proposes a mix of teamwork and individual investigation, promoting efficiency.\n- Blake: Agrees with Indigo's approach, suggesting regular check-ins to maintain communication.\n- Harper: Supports the idea of regular check-ins and emphasizes the importance of sharing significant findings.\n- Phoenix: Positive and energetic; motivates others to stay focused and dedicated.\n- Sky: Enthusiastic about the check-in plan; emphasizes clarity and mutual support.\n- Kelly: Encourages individual initiative alongside teamwork.\n- Taylor: (me) Values collaboration and collective insights, believes in the strength of shared discoveries.",
+        "Harper": "- Finley: Team-oriented, encourages collaboration.\n- Jordan: Supportive, values open communication and teamwork.\n- Alex: Focuses on transparency and building on each other\u2019s insights.\n- Indigo: Suggests combining collaboration with individual efforts and has a structured approach.\n- Blake: Positive and supportive of collective ideas, emphasizes commitment.\n- Taylor: Appreciative, suggests guidelines for communication to ensure inclusivity.\n- Kelly: Supportive of collaboration, emphasizes merging findings efficiently and staying proactive.\n- Phoenix: Appreciative of coordination, encourages focus on individual efforts while working together.\n- Sky: Enthusiastic about teamwork, emphasizes clarity, and maintaining connections.",
+        "Blake": "- Alex: Very collaborative, emphasizes transparency and teamwork.  \n- Blake: (Me) Neutral, observing and engaging as needed.  \n- Taylor: Appreciates collaboration and effective communication; values inclusivity.  \n- Jordan: Supportive of teamwork, encourages sharing insights.  \n- Finley: Focused on teamwork, eager to gather clues.  \n- Indigo: Suggests a balanced approach, mixing collaboration with individual efforts.  \n- Sky: Positive and enthusiastic about teamwork, emphasizes connection.  \n- Kelly: Encourages initiative and empowerment in sharing insights.  \n- Harper: Thrilled about the team\u2019s commitment and fosters an empowering environment for sharing."
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Taylor",
+          "Blake": "Indigo",
+          "Taylor": "Indigo",
+          "Jordan": "Taylor",
+          "Finley": "Jordan",
+          "Indigo": "Taylor",
+          "Sky": "Taylor",
+          "Kelly": "Jordan",
+          "Harper": "Taylor"
+        },
+        "eliminated": {
+          "name": "Taylor",
+          "is_human": false,
+          "votes": 5
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Sky",
+          "message": "I'm thrilled to see such excitement and cooperation from everyone! Let's continue to uplift each other's efforts and ensure our insights drive us towards success!",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Indigo",
+          "message": "I\u2019m excited about our collective energy and commitment to the investigations! Let\u2019s keep this spirit alive as we uncover valuable insights together!",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Indigo",
+          "message": "I appreciate the shared commitment to our investigations! Let\u2019s keep pushing forward and sharing valuable insights as a united team!",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Harper",
+          "message": "I'm really appreciating how everyone's contribution enhances our discussions! Let's continue to share our unique insights as we progress in our investigations together!",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Alex",
+          "message": "I'm really encouraged by everyone's enthusiasm and commitment to our collective goal! Let's keep sharing our insights and supporting each other's efforts for a successful outcome!",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Kelly",
+          "message": "Let's keep our dialogue focused and actionable as we gather insights; I'm eager to see how we can apply our findings to solidify our plan moving forward!",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Sky",
+          "message": "I'm truly energized by the collective enthusiasm! Let's maintain this positive momentum as we gather more insights and strengthen our strategies together!",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Harper",
+          "message": "I'm excited to see how our collaborative efforts can uncover new insights! Let's stay proactive and continue building on each other's contributions as we move forward!",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate the vibrant energy everyone is contributing! Let\u2019s harness this positivity while delving deeper into our strategies and sharing insights that will guide us forward.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Indigo",
+          "message": "I\u2019m inspired by the energy we\u2019re all bringing to the table! Let\u2019s keep collaborating and sharing insights to enhance our strategy moving forward!",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Finley",
+          "message": "I appreciate the collective enthusiasm and insights shared by everyone! Let\u2019s keep collaborating to refine our strategies and move closer to our goals.",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Kelly",
+          "message": "Let\u2019s keep building on our insights and stay focused on actionable steps. I\u2019m looking forward to seeing how we can refine our strategies together!",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Sky",
+          "message": "I love the momentum we're building! Let\u2019s keep exchanging our insights and stay focused on actionable strategies to achieve our goals together!",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Harper",
+          "message": "I'm thrilled by the synergy we're creating together! Let\u2019s keep supporting one another as we delve deeper into our strategies and insights!",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Kelly",
+          "message": "Let\u2019s ensure our insights translate into specific actions; clarity in our next steps will drive our success.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Alex",
+          "message": "I\u2019m excited to see how we can turn our collective enthusiasm into concrete actions! Let\u2019s ensure everything we share leads us closer to our shared goals.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Indigo",
+          "message": "I share everyone\u2019s enthusiasm and believe that by staying engaged and focused, we can transform our insights into meaningful actions that drive us closer to our goals! Let's keep this momentum going!",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Blake",
+          "message": "I agree with everyone's enthusiasm! Let's continue to build on our insights and clarify our actionable steps to stay aligned on our goals.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Alex",
+          "message": "Let's harness our collective energy into specific strategies that we can implement right away! I'm eager to see how we can turn our discussions into actionable outcomes.",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Blake",
+          "message": "Absolutely! Let's make sure our discussions lead to specific, actionable strategies that will keep us on track towards our shared goals. What are some immediate steps we can outline together?",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Sky": "- Harper: Very enthusiastic and encouraging; focuses on teamwork and motivation.  \n- Kelly: Strongly supports group plans; proactive language indicates leadership.  \n- Jordan: Excited and encouraging; emphasizes proactivity and collaboration.  \n- Indigo: Enthusiastic about collaboration; encourages insight-sharing for discoveries.  \n- Finley: Agreement-oriented; values clear communication and coordination.  \n- Alex: Positive reinforcement; values open communication and encourages discoveries.  \n- Blake: Appreciates enthusiasm; values engagement and the importance of insights.  \n- Sky: Supportive of group efforts with a focus on clarity and teamwork.",
+        "Indigo": "- Finley: Supportive, emphasizes teamwork.\n- Jordan: Builds on ideas, promotes collaboration.\n- Alex: Reinforces transparency and connection in findings.\n- Blake: Balances teamwork with individual focus.\n- Kelly: Proactive, efficient in merging findings, emphasizes actionable steps.\n- Harper: Values inspiration and engagement.\n- Sky: Advocates for clarity and support, emphasizes actionable strategies.\n- Taylor: (Note: Taylor wasn\u2019t mentioned in the recent chat, no information available).\n- Phoenix: (Note: Phoenix wasn\u2019t mentioned in the recent chat, no information available).",
+        "Harper": "- Finley: Team-oriented, encourages collaboration, and emphasizes refinement of strategies.\n- Jordan: Supportive, values open communication and teamwork, promotes deeper exploration of strategies.\n- Alex: Focuses on transparency and building on each other\u2019s insights, emphasizes collective goal.\n- Indigo: Structured approach, suggests combining collaboration with individual efforts and enhancing strategy.\n- Blake: Positive, supportive of collective ideas, emphasizes commitment.\n- Kelly: Supportive of collaboration, emphasizes merging findings efficiently and actionable steps.\n- Sky: Enthusiastic about teamwork, emphasizes clarity, maintaining connections, and positive momentum.",
+        "Alex": "- Finley: Straightforward, emphasizes teamwork.\n- Jordan: Collaborative, encourages open communication, focusing on collective effort.\n- Indigo: Supportive, suggests structured communication to enhance individual efforts.\n- Blake: Positive and supportive, values sharing insights and teamwork.\n- Harper: Enthusiastic, emphasizes the importance of information sharing to boost collaborative efforts.\n- Kelly: Proactive, supportive of structured communication to merge findings.\n- Sky: Supportive and enthusiastic about teamwork and sharing progress.\n- Phoenix: Committed to collaboration and focused on collective insights.",
+        "Kelly": "- Alex: Direct and to the point, glad to see enthusiasm but not overly vocal.\n- Blake: Collaborative and supportive, emphasizes teamwork and check-ins.\n- Taylor: Appreciates inclusion and structure, values everyone\u2019s voice.\n- Jordan: Excited about collaboration, actively engages in positive reinforcement.\n- Finley: Positive, affirming, emphasizes structure and coordination.\n- Indigo: Suggestive, focused on efficiency and clarity in planning.\n- Sky: Positive, emphasizes clarity and support, encouraging participation.\n- Kelly (me): Concise and observant, values clarity in communication.\n- Harper: Enthusiastic and encouraging, values sharing significant findings.\n- Phoenix: Enthusiastic and supportive of coordination and focus.",
+        "Jordan": "- Alex: Direct and analytical, prefers clear logical arguments.  \n- Blake: Playful and light-hearted, uses humor to engage.  \n- Finley: Collaborative and encouraging, emphasizes teamwork and gathering information.  \n- Jordan: (Myself) Balanced communicator, prefers to keep things direct but friendly.  \n- Indigo: Strategic thinker, often focuses on the bigger picture and implications.  \n- Sky: Concise and to the point, values efficiency in communication.  \n- Kelly: Empathetic and supportive, tends to validate others' feelings and thoughts.  \n- Harper: Creative thinker, often brings unconventional ideas to discussions.",
+        "Finley": "- Alex: Direct and concise, often leads the conversation.\n- Blake: Analytical and methodical, enjoys discussing strategies.\n- Taylor: Supportive and encouraging, often reassures others.\n- Jordan: Sporadic, can be vague or cryptic in messages.\n- Finley: Observant and adaptable in style.\n- Indigo: Detailed and elaborate, loves sharing insights.\n- Sky: Playful and humorous, lightens the mood with jokes.\n- Kelly: Straightforward and to the point, values clarity.\n- Phoenix: Emotionally expressive, tends to sway with the group's mood.\n- Harper: Cautious and reserved, prefers listening over speaking.\n- **Updated**: \n  - Blake: Thoughtful and strategic, focusing on thorough discussions.\n  - Phoenix: Emotionally expressive, fostering group cohesion.\n  - Taylor: Supportive, contributing positively to discussions.",
+        "Blake": "- Alex: Very collaborative, emphasizes transparency and teamwork.  \n- Blake: (Me) Neutral, observing and engaging as needed.  \n- Jordan: Supportive of teamwork, encourages sharing insights.  \n- Finley: Focused on teamwork, eager to gather clues.  \n- Indigo: Suggests a balanced approach, mixing collaboration with individual efforts.  \n- Sky: Positive and enthusiastic about teamwork, emphasizes connection.  \n- Kelly: Encourages initiative and empowerment in sharing insights.  \n- Harper: Thrilled about the team\u2019s commitment and fosters an empowering environment for sharing."
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Blake",
+          "Blake": "Jordan",
+          "Jordan": "Blake",
+          "Finley": "Jordan",
+          "Indigo": "Jordan",
+          "Sky": "Blake",
+          "Kelly": "Harper",
+          "Harper": "Kelly"
+        },
+        "eliminated": {
+          "name": "Jordan",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Alex",
+          "message": "Great to see everyone so energized! How about we each propose one specific action that we believe will drive us closer to our collective goals?",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Kelly",
+          "message": "I propose we each share one specific action by the end of this discussion to ensure we maintain our momentum and clarify our next steps toward our goals.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Kelly",
+          "message": "I suggest we each focus on one immediate action that leverages our strengths and aligns with our goals. Let\u2019s solidify these actions within the next few messages for clarity and direction.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Alex",
+          "message": "I love the direction this discussion is taking! My specific action will be to gather everyone's individual insights into a shared document so we have a clear view of our strategies and can easily t...",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Kelly",
+          "message": "I propose that we also establish a timeline for our actions to ensure accountability and follow-up as we progress. Let\u2019s keep the momentum going!",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Finley",
+          "message": "I propose we each take a moment to reflect on our proposed actions and ensure they align with our collective goals before finalizing anything. This way, we can create a stronger, unified strategy m...",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Alex",
+          "message": "I appreciate everyone\u2019s contributions so far! To ensure we stay aligned, I think we should also dedicate time for regular check-ins to track our progress on the actions we propose.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Finley",
+          "message": "I agree with the importance of reflecting on our proposed actions, and I suggest we also consider how we can support each other in our individual roles to enhance collaboration and accountability a...",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Kelly",
+          "message": "I agree with establishing a timeline for our actions, Alex. Regular check-ins will help us stay accountable, and I suggest we set one for next week to assess our progress and adapt as needed.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Kelly",
+          "message": "I also suggest we define specific metrics for success alongside our proposed actions, which could help us measure our progress effectively as we move forward.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Finley",
+          "message": "I echo the importance of specific metrics for success, Kelly. Additionally, let\u2019s encourage open communication about any challenges we face in implementing our actions to maintain our collaborative...",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Harper",
+          "message": "I appreciate the emphasis on reflection and metrics for success, Finley and Kelly. To further enhance our strategy, I suggest we categorize our proposed actions based on urgency and impact, ensurin...",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Finley",
+          "message": "I appreciate Harper\u2019s suggestion for categorizing our actions by urgency and impact; this will help prioritize our efforts effectively. Shall we brainstorm what those categories might look like?",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Finley",
+          "message": "I believe we can brainstorm categories like \"Immediate Action,\" \"Short-term Goals,\" and \"Long-term Strategies\" to help clarify our priorities. Let\u2019s also consider how we can utilize each player's s...",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Alex",
+          "message": "I believe categorizing our actions is a great idea, Harper! Let's ensure we involve everyone's input to identify where we can make the most impact as we move forward.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Indigo",
+          "message": "I think establishing clear categories for our actions is a fantastic step, as it will help each of us focus our efforts more strategically. Let\u2019s ensure we get everyone's insights on which actions ...",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Kelly",
+          "message": "Let's also ensure clarity on individual roles within these categories, as it can help align our efforts more effectively. What does everyone think about gathering insights on each role's strengths?",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Finley",
+          "message": "I support Kelly's idea of clarifying individual roles within our categories, as it will align our strengths with our actions. Let's gather insights on each role soon to ensure everyone's contributi...",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Indigo",
+          "message": "I agree with the need to clarify individual roles, Kelly. This will help us leverage our strengths effectively, and I'm looking forward to hearing everyone's thoughts on their contributions!",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Indigo",
+          "message": "I believe gathering insights on each role's strengths will not only clarify our individual contributions but also enhance our collective strategy, making our actions more effective!",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Alex": "- Finley: Straightforward, emphasizes teamwork.\n- Blake: Positive and supportive, values sharing insights and teamwork.\n- Harper: Enthusiastic, emphasizes the importance of information sharing to boost collaborative efforts.\n- Kelly: Proactive, supportive of structured communication to merge findings.\n- Sky: Supportive and enthusiastic about teamwork and sharing progress.\n- Indigo: Supportive, suggests structured communication to enhance individual efforts.\n- Jordan: Collaborative, encourages open communication, focusing on collective effort.\n- Phoenix: Committed to collaboration and focused on collective insights.",
+        "Kelly": "- Alex: Direct and to the point, glad to see enthusiasm but not overly vocal.  \n- Blake: Collaborative and supportive, emphasizes teamwork and check-ins.  \n- Finley: Positive, affirming, emphasizes structure and coordination.  \n- Indigo: Suggestive, focused on efficiency and clarity in planning.  \n- Sky: Positive, emphasizes clarity and support, encouraging participation.  \n- Kelly (me): Concise and observant, values clarity in communication.  \n- Harper: Enthusiastic and encouraging, values sharing significant findings.  \n- Taylor: Appreciates inclusion and structure, values everyone\u2019s voice.  \n- Jordan: Excited about collaboration, actively engages in positive reinforcement.  \n- Phoenix: Enthusiastic and supportive of coordination and focus.",
+        "Finley": "- Alex: Direct and concise, often leads the conversation.\n- Blake: Thoughtful and strategic, focuses on thorough discussions.\n- Kelly: Straightforward and to the point, values clarity; emphasizes accountability.\n- Indigo: Detailed and elaborate, loves sharing insights; enthusiastic.\n- Sky: Playful and humorous, lightens the mood with jokes.\n- Harper: Cautious and reserved, prefers listening over speaking; values reflection.",
+        "Harper": "- Finley: Team-oriented, encourages collaboration, emphasizes refinement of strategies, values reflection and support for individual roles.  \n- Alex: Focuses on transparency, building on insights, emphasizes collective goals, suggests regular check-ins and shared documents for clarity.  \n- Kelly: Proposes actionable steps, supports collaboration, emphasizes timelines and specific metrics for success, values accountability in the group.  \n- Blake: Positive and supportive, emphasizes commitment and collective ideas.  \n- Indigo: Suggests structured approaches, combining collaboration with individual efforts, emphasizes enhancing strategy.  \n- Sky: Enthusiastic about teamwork, values clarity, maintaining connections, and ensuring positive momentum.",
+        "Indigo": "- Finley: Supportive, emphasizes teamwork.\n- Jordan: Builds on ideas, promotes collaboration. (Note: Not in recent chat)\n- Alex: Reinforces transparency and connection in findings.\n- Blake: Balances teamwork with individual focus. (Note: Not in recent chat)\n- Kelly: Proactive, efficient in merging findings, emphasizes actionable steps.\n- Harper: Values inspiration and engagement.\n- Sky: Advocates for clarity and support, emphasizes actionable strategies. (Note: Not in recent chat)\n- Taylor: (Note: Not mentioned in recent chat)\n- Phoenix: (Note: Not mentioned in recent chat)"
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Harper",
+          "Blake": "Sky",
+          "Finley": "Indigo",
+          "Indigo": "Alex",
+          "Sky": "Harper",
+          "Kelly": "Indigo",
+          "Harper": "Blake"
+        },
+        "eliminated": {
+          "name": "Harper",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Blake",
+          "message": "I agree with the need for clarity in our roles, Kelly. Perhaps we could each share our thoughts on our respective strengths to align our efforts in the categorization process.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Finley",
+          "message": "I suggest we all take a moment to reflect on our strengths and share them in the next round. This will help us ensure our categorization aligns well with each player's contributions.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Kelly",
+          "message": "I appreciate everyone's enthusiasm for clarifying roles. Let's share our strengths in the next round, as it will help us align our categorization with our contributions effectively.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Indigo",
+          "message": "I agree with the approach to share our strengths; it will enhance our strategy and ensure we all contribute effectively. Let's make this a fruitful collaboration!",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Indigo",
+          "message": "I believe that by sharing our strengths, we can create a more tailored approach to our categorization, ensuring everyone's abilities contribute to our common goals. Let\u2019s make the next round produc...",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Sky",
+          "message": "I'm excited about the prospect of sharing our strengths! It will really help in aligning our roles and optimizing our contributions towards our common goals in the next round.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Blake",
+          "message": "I'm looking forward to our next round of sharing strengths; it seems like a solid way to ensure our roles are aligned and effective for our overall strategy!",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Blake",
+          "message": "I'm glad to see everyone's enthusiasm for sharing strengths; it will definitely create a clearer and more effective strategy for our roles moving forward!",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Sky",
+          "message": "I\u2019m thrilled with how everyone is eager to share their strengths! By aligning our roles based on our unique contributions, we can create an even stronger strategy for success.",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Alex",
+          "message": "I'm also eager to share my strengths in the next round! This collaborative approach will definitely enhance our strategy and ensure all contributions are aligned.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Indigo",
+          "message": "I'm truly inspired by everyone's commitment to sharing strengths; this collaboration will undoubtedly enhance our approach and lead to more effective outcomes. Let's ensure we support one another i...",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Finley",
+          "message": "I appreciate everyone's commitment to sharing strengths, and I believe this will enhance our collective strategy significantly. Let's make our next discussion productive!",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Finley",
+          "message": "I'm looking forward to learning about everyone's strengths; this should help us refine our strategy and improve our collaboration!",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Finley",
+          "message": "I'm eager to hear everyone's strengths as well; this transparency will definitely bolster our strategy moving forward and ensure we work seamlessly together!",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Blake",
+          "message": "I completely agree with the importance of sharing strengths; it will enhance our collaboration and strategy as we move forward together!",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Indigo",
+          "message": "I'm excited to learn about everyone's strengths as well! This will truly enhance our collaboration and ensure we're all aligned for success in the next round.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Sky",
+          "message": "I'm really excited to see how sharing our strengths will shape our strategy! Let's make the most of this collaboration to ensure we\u2019re all on the same page for our next steps.",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Blake",
+          "message": "I'm looking forward to hearing everyone\u2019s strengths as well; let's ensure our collaboration stays focused and productive, paving the way for our next steps!",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Sky",
+          "message": "I'm truly eager for us to share our strengths and insights; this will reinforce our teamwork and pave the way for our success together! Let's keep building on this momentum!",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Blake",
+          "message": "I'm glad to see everyone so enthusiastic about sharing their strengths; let's harness that energy as we strategize and keep the dialogue productive!",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Blake": "- Alex: Very collaborative, emphasizes transparency and teamwork.  \n- Blake: (Me) Neutral, observing and engaging as needed.  \n- Finley: Focused on teamwork, eager to gather clues, suggests reflecting on strengths.  \n- Indigo: Balanced approach between collaboration and individuality, enthusiastic about strategy.  \n- Sky: Positive and enthusiastic about teamwork, emphasizes connection and sharing.  \n- Kelly: Encourages initiative and empowerment in sharing insights, appreciates clarity and enthusiasm.",
+        "Finley": "- Alex: Direct and concise, often leads the conversation.\n- Blake: Thoughtful and strategic, focuses on thorough discussions.\n- Kelly: Straightforward and to the point, values clarity; emphasizes accountability.\n- Indigo: Detailed and elaborate, loves sharing insights; enthusiastic.\n- Sky: Playful and humorous, lightens the mood with jokes.\n- Harper: Cautious and reserved, prefers listening over speaking; values reflection.",
+        "Kelly": "- Alex: Direct and to the point, glad to see enthusiasm but not overly vocal.  \n- Blake: Collaborative and supportive, emphasizes teamwork and check-ins.  \n- Finley: Positive, affirming, emphasizes structure and coordination.  \n- Indigo: Suggestive, focused on efficiency and clarity in planning.  \n- Sky: Positive, emphasizes clarity and support, encouraging participation.  \n- Kelly (me): Concise and observant, values clarity in communication.  \n- Harper: Enthusiastic and encouraging, values sharing significant findings.  \n- Taylor: Appreciates inclusion and structure, values everyone\u2019s voice.  \n- Jordan: Excited about collaboration, actively engages in positive reinforcement.  \n- Phoenix: Enthusiastic and supportive of coordination and focus.",
+        "Indigo": "- Finley: Supportive, emphasizes teamwork, encourages productive discussions.\n- Alex: Reinforces transparency and connection in findings, eager collaborator, values collective strategy.\n- Blake: Balances teamwork with individual focus, enthusiastic about clarity, highlights the importance of collaboration.\n- Kelly: Proactive, efficient in merging findings, emphasizes actionable steps, appreciates enthusiasm.\n- Sky: Advocates for clarity and support, enthusiastic about collaboration, focuses on actionable strategies.\n- Harper: Values inspiration and engagement (not in recent chat).\n- Taylor: (Not mentioned in recent chat).\n- Phoenix: (Not mentioned in recent chat).",
+        "Sky": "- Harper: Very enthusiastic and encouraging; focuses on teamwork and motivation.  \n- Kelly: Strongly supports group plans; proactive language indicates leadership.  \n- Jordan: Excited and encouraging; emphasizes proactivity and collaboration.  \n- Indigo: Enthusiastic about collaboration; encourages insight-sharing for discoveries.  \n- Finley: Agreement-oriented; values clear communication and coordination.  \n- Alex: Positive reinforcement; values open communication and encourages discoveries.  \n- Blake: Appreciates enthusiasm; values engagement and the importance of insights.  \n- Sky: Supportive of group efforts with a focus on clarity and teamwork.  \n- **Sky (new update)**: Balances supportiveness with a focus on clarity; encourages group cohesion.  \n- **Harper (new update)**: Very enthusiastic and encouraging; focuses on teamwork and motivation, similar to Indigo and Jordan.",
+        "Alex": "- Finley: Straightforward, emphasizes teamwork.\n- Blake: Positive and supportive, values sharing insights and teamwork.\n- Harper: Enthusiastic, emphasizes the importance of information sharing to boost collaborative efforts.\n- Kelly: Proactive, supportive of structured communication to merge findings.\n- Sky: Supportive and enthusiastic about teamwork and sharing progress.\n- Indigo: Supportive, suggests structured communication to enhance individual efforts."
+      },
+      "voting": {
+        "votes": {
+          "Alex": "Kelly",
+          "Blake": "Finley",
+          "Finley": "Indigo",
+          "Indigo": "Kelly",
+          "Sky": "Finley",
+          "Kelly": "Indigo"
+        },
+        "eliminated": {
+          "name": "Indigo",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251029_010616",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Alex",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Alex",
+        "infections": [
+          {
+            "player_name": "Alex",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-29T01:06:16.420129",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Alex",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Alex",
+      "is_human": false
+    },
+    {
+      "name": "Blake",
+      "is_human": false
+    },
+    {
+      "name": "Taylor",
+      "is_human": false
+    },
+    {
+      "name": "Jordan",
+      "is_human": false
+    },
+    {
+      "name": "Finley",
+      "is_human": false
+    },
+    {
+      "name": "Indigo",
+      "is_human": false
+    },
+    {
+      "name": "Sky",
+      "is_human": false
+    },
+    {
+      "name": "Kelly",
+      "is_human": false
+    },
+    {
+      "name": "Phoenix",
+      "is_human": false
+    },
+    {
+      "name": "Harper",
+      "is_human": false
+    }
+  ]
+}

@@ -101,7 +101,7 @@ def separate_control_experimental(epi_logs: List[Dict]) -> Tuple[List[Dict], Lis
         game_id = log.get('game_id')
         seed_id = log.get('seed_id', 'unknown')
 
-        if seed_id == 'control':
+        if seed_id is None or seed_id == 'unknown':
             control.append(log)
         else:
             experimental.append(log)

@@ -1,0 +1,888 @@
+{
+  "game_id": "20251028_174646",
+  "num_players": 10,
+  "model_name": "openai/gpt-4",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Harper",
+          "message": "I appreciate the lively discussion. Storm, could you clarify further why you're suspecting Drew?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Finley",
+          "message": "Yes, Storm, we'd appreciate if you could elaborate on your suspicions toward Drew. It's essential to make informed decisions.",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Indigo",
+          "message": "Storm, we're all looking forward to your explanation about suspecting Drew.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "River",
+          "message": "Storm, your insight into Drew's behavior would be highly valuable here. Please share.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Riley",
+          "message": "Storm, your perspective on Drew could potentially influence the game. We're eagerly awaiting your explanation.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Storm",
+          "message": "Drew has been unusually quiet and subtly steering conversations away from meaningful discussions, making me suspicious. Let's observe Drew's behaviors more closely.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Finley",
+          "message": "Thanks, Storm, for sharing your observations about Drew. Keeping this in mind, we should also encourage Drew to participate more in our discussions.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Harper",
+          "message": "Thank you, Storm, for shedding light on your suspicions. Drew, we welcome your thoughts and would like to hear more from you in our further discussions.",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Storm",
+          "message": "I appreciate everyone's understanding. Drew, I hope you understand that my suspicion is part of the game dynamics and not personal. I agree with Finley and Harper on more participation from you to ...",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Harper",
+          "message": "I concur with Storm and Finley. Openness in conversations can build trust among us. Let's keep our discussions constructive and informative.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Morgan",
+          "message": "Storm, thanks for sharing your thoughts. Greater participation from everyone, including Drew, will aid us in reaching our goal.",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Gray",
+          "message": "I echo the sentiments expressed here. Transparency and participation will bolster our deductions. Drew, you're encouraged to communicate freely. Any thoughts?",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Riley",
+          "message": "Drew, we hope you can understand that every viewpoint here is aimed to contribute constructively to the game. Your increased engagement is very much encouraged.",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Harper",
+          "message": "Drew, echoing everyone's sentiment here, the stage is yours to voice your thoughts and enlighten us all. We are all ears.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Indigo",
+          "message": "I must agree with everyone. Drew, it's essential for us to hear your thoughts and perspectives. Let's use this opportunity to foster open communication.",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Storm",
+          "message": "Thank you for your inputs. I believe open discussions will lead us to the truth. Drew, we hope you can participate more actively in our conversations. It is in the interest of the game, not a perso...",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Harper",
+          "message": "Thank you for your understanding and emphasis on increased participation, especially Storm. Communication is indeed key in this game. Drew, feel free to express your thoughts, we value your input.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Harper",
+          "message": "Thank you, everyone, for supporting open conversation and transparency. Drew, our next step in the game benefits from your thoughts and inputs.",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Riley",
+          "message": "I fully agree with the sentiments shared thus far. Ensuring everyone's participation, especially Drew, is paramount to our success in the game. So let's keep the discourse open and constructive.",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Harper",
+          "message": "Drew, your insight is valuable to us. Please share any thoughts you might have as it might help in swaying the game in our favor, remember this is a team effort.",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Harper": "Storm continues to be assertive yet explanatory, Finley's messages are brief, Indigo now communicates in a direct manner rather than avoiding clarity, Riley consistently communicates in a formal and courteous style, Emery remains quiet, Morgan's communication is straightforward and acknowledging, Gray advocates for openness and transparency in communication, and Drew still hasn't contributed to the conversation.",
+        "Finley": "Harper is formal and diplomatic, often facilitating discussions. Storm is direct and assertive, quick to suspect. Indigo seems to follow along with group discussions. River appears to value game strategy and discussion. Riley seems to focus on personal perspectives and potential game impacts.",
+        "Indigo": "Storm is somewhat formal and diplomatic; Riley focuses on encouraging discussion; Morgan is straightforward; Gray emphasizes on the importance of transparency and Harper communicating in a formal - but encouraging - manner, similar to Finley who shows their straightforwardness endorsing Storm's observation.",
+        "River": "Harper speaks politely and is focused on facilitating the discussion. Finley seems analytical, emphasizing the importance of making informed decisions. Indigo is straightforward and focused on the immediate situation.",
+        "Riley": "Drew seems to be somewhat quiet or withdrawn, as every player so far has encouraged him to participate more. Storm, Harper, Morgan, Gray, and Indigo all show signs of being focused on collective success and open communication. Finley also seems to appreciate open communication and game dynamics, though we've had less input from their end.",
+        "Storm": "Harper continues to maintain their formality and politeness, emphasizing the importance of transparent communication. Finley is direct and logical, focusing on the importance of every individual's input. Indigo remains straightforward and practical, focusing on the importance of open communication. River, like Harper, is polite and considerate, encouraging constructive input from everyone. Riley, while intense, aims to create a positive environment for constructive discussion. Drew has stayed largely silent and evasive, raising suspicions among the group. Morgan uses a straightforward and pragmatic approach, acknowledging the importance of each player's participation. Gray aligns with the majority, supporting transparency and increased participation.",
+        "Morgan": "Harper seems diplomatic and good at building consensus. Storm is analytical and confident, not afraid to share suspicions. Finley acts very logically, promoting informed decisions. Indigo is direct and straightforward. River utilizes a respectful and curious communication style. Riley displays anticipation and curiosity. Emery hasn't spoken yet. Indigo likes to keep things straightforward. Drew has been quiet so far.",
+        "Gray": "Harper and Morgan are supportive and promote clear communication; Finley is analytical and likes to drive forward action. Riley encourages sharing of perspectives; River values insight and thinks critically. Storm's strong observation skills play a significant role. Indigo wants to gather all possible information before making decisions. Drew is the subject of suspicion due to lack of communication. Emery hasn't spoken yet."
+      },
+      "voting": {
+        "votes": {
+          "Harper": "Drew",
+          "Storm": "Drew",
+          "Gray": "Emery",
+          "Morgan": "Emery",
+          "Finley": "Drew",
+          "Riley": "Harper",
+          "Emery": "Finley",
+          "River": "Drew",
+          "Drew": "Storm",
+          "Indigo": "River"
+        },
+        "eliminated": {
+          "name": "Drew",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "River",
+          "message": "I agree wholeheartedly with everyone here regarding the importance of open communication. Drew, your voice carries weight in our decision-making process. We're all looking forward to hearing your t...",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Riley",
+          "message": "I also extend my support to all encouraging Drew's participation. Remember, your thoughts could be the key turning point we need in this game. Drew, your insights are eagerly awaited.",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Morgan",
+          "message": "I agree with all of the sentiments shared. Drew, when you're ready, we're all here to listen and support. In this game, every perspective holds potential significance.",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Indigo",
+          "message": "A robust discussion with everyone's insights, especially Drew's, is indeed crucial for our progress. Drew, it is your thoughts we look forward to, as they can add another dimension to our strategy.",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Indigo",
+          "message": "I concur with my fellow players. As we rely on open communication to advance, we are all keen to hear your unique insights, Drew, and value your input.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Emery",
+          "message": "I echo the sentiments shared here, especially the emphasis on participation. Each perspective enriches the strategy. Drew, your thoughts will indeed add value to our game.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Morgan",
+          "message": "I appreciate everyone's supportive environment here. It's time for us to hear from you, Drew.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Gray",
+          "message": "Drew, you have a supportive team ready to hear your thoughts. Your perspective can indeed enrich our strategy and potential next steps.",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "River",
+          "message": "Drew, as you can see, your thoughts are essential to us all. When you're ready, we're eager to listen and bring your insights into our collective strategy. This open forum serves us best when every...",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Indigo",
+          "message": "I couldn't agree more with everyone's sentiment. The richness of this discussion is due to everyone\u2019s participation and openness. Drew, we are eager to hear your insights which could potentially gu...",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Riley",
+          "message": "Drew, we've all said it, but it bears repeating - your ideas and insights might be the missing piece in our collective strategy. Looking forward to your contribution!",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Morgan",
+          "message": "I'm going to echo everyone else here, Drew, your input could be the missing piece that pushes our game strategy forward. So please, don't hesitate to share any insights you have.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Gray",
+          "message": "Following everyone's encouraging spirit, your participation, Drew, would give us the chance to consider new strategies and angles. We're looking forward to hearing from you.",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Morgan",
+          "message": "Exactly, team. Drew, your participation brings a unique perspective that could possibly guide our forthcoming decisions. Awaiting your valuable insights.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Emery",
+          "message": "The shared enthusiasm and readiness to listen to everyone's ideas creates an amazing environment. Drew, your fresh ideas and unique perspectives could be instrumental in shaping our route forward.",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Finley",
+          "message": "Drew, as everyone has highlighted, your unique perspective is a much-needed piece of our collective puzzle. I look forward to your insightful contribution to our strategy.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Indigo",
+          "message": "It is indeed refreshing and encouraging to be part of such an engaging and supportive team. Drew, your unique perspective may help provide the insights that could possibly enhance and shape our str...",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Finley",
+          "message": "Drew, in agreement with everyone, we are genuinely looking forward to your unique perspective that can be a game-changing factor for us. Let's collaborate to shape the best strategy possible.",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Riley",
+          "message": "Reinforcing everyone's thoughts here, Drew, your views could very well be the turning point in how this game unfolds. We're eagerly anticipating your input!",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Storm",
+          "message": "Echoing everyone's thoughts, the collective wisdom here is remarkable. Drew, we truly value your unique perspective and eagerly await your insights as they could provide the key to our strategy in ...",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "River": "Emery echoes the sentiments of others, encouraging participation for a richer game strategy. Indigo demonstrates active involvement, stressing open communication. They also show eagerness to hear Drew's thoughts for strategy advancement. Morgan repeats her support for the group's sentiments and urges Drew to share his insights. Gray, like before, urges everyone to value individual input and talks about the potential enrichment of the group's strategy by Drew's thoughts.",
+        "Riley": "Harper, Storm, Morgan, Gray, and Indigo have a supportive and cooperative communication style where they foster open dialogue and actively encourage ideas from everyone. River parallels these principles but puts a greater emphasis on valuing each individual's perspective. Emery aligns with the overall supportive sentiment however always concurs with the common standpoints. Finley, though reticent, upholds the collective and open communication ethos.",
+        "Morgan": "Harper is diplomatic, seeking consensus; Storm and Finley are silent and not engaging in this round; Gray is supportive and follows the lead of the group; Riley is supportive and encouraging to the rest; Emery switched from being silent to showing support; River emphasizes mutual respect and values the contribution of each player; Indigo is straightforward and focuses on enriching the game through Drew's participation.",
+        "Indigo": "Harper remains by only observing and encouraging the team; Storm consistently uses formal and diplomatic language; Morgan continues to be straightforward and maintains a supportive attitude; Gray, transitioning from silence, communicates in an encouraging manner focused on participation; Emery articulates his stance emphasizing participant encouragement; Riley remains focused on encouraging open discussions; River remains agreeable and engagement-driven; Finley breaks his silence sharing a similar message to the group, showcasing a supportive communication style.",
+        "Emery": "Gray appears to prioritize encouragement in their communication style and seems to align with the team's overall positivity. Morgan's communication remains consistently supportive and understanding, always echoing team's consensus. Riley reiterates the importance of each contribution, potentially indicating an inclusive communication style.",
+        "Gray": "Harper and Morgan have maintained their supportive and clear communication styles. Riley is still encouraging full participation from all. River continues to value open dialogue, while Indigo shows patience and emphasis on team decisions. Storm still hasn't contributed anything, so their communication is still a mystery. Finley remains analytical, and Emery is still insisting on the importance of everyone's participation.",
+        "Finley": "Harper: diplomatic, formal, facilitating; Storm: direct, assertive, silent recently; Indigo: agreeable, supports group consensus; River: strategic, values everyone's input; Riley: encourages individual perspectives; Morgan: supportive, encourages sharing of thoughts; Gray: values encouragement, likes developing new strategies; Emery: supportive, values fresh ideas and new perspectives.",
+        "Storm": "Harper continues maintaining their polite and formal manner of communication. Finley is consistently direct and logical. Indigo remains practical and straightforward. River exemplifies politeness and consideration. Riley, while intense, fosters a positive environment. Drew, absent in the conversation, raises suspicions. Morgan is pragmatic and straightforward. Gray always aligns with the group majority, emphasizing transparency and participation. Emery shows enthusiasm and consideration for group discussion."
+      },
+      "voting": {
+        "votes": {
+          "Harper": "Emery",
+          "Storm": "Riley",
+          "Gray": "Storm",
+          "Morgan": "Storm",
+          "Finley": "Storm",
+          "Riley": "Emery",
+          "Emery": "Harper",
+          "River": "Harper",
+          "Indigo": "Harper"
+        },
+        "eliminated": {
+          "name": "Harper",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Morgan",
+          "message": "Amplifying the team's sentiments, Drew, your innovative and unique thoughts could be the game-changer. We are all curious and excited to hear from you.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Morgan",
+          "message": "Our collective excitement is palpable, Drew. Your perspectives can help us unlock new possibilities in this game. So, we eagerly await your input.",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Indigo",
+          "message": "Drew, your invaluable insight will undoubtedly contribute to our collective strategy. We eagerly await your participation.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Emery",
+          "message": "Indeed, the eagerness to incorporate diverse perspectives into the conversation and our strategy is what I appreciate about this team. Here's to you, Drew, for the unique perspective you're about t...",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Emery",
+          "message": "Drew, the level of anticipation and excitement for your perspective in this game is a testament to the value we attach to your voice. We eagerly await your insights to guide us.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "River",
+          "message": "Echoing everyone's thoughts here, Drew, your unique perspective can pave a way for our collective strategy. We eagerly await your guiding insights.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Riley",
+          "message": "Drew, we're truly excited about the new potential strategies and perspectives you can bring to the table. Your unique insights will certainly help us shape our future game plays.",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Riley",
+          "message": "Complementing everyone's sentiments, Drew, your insight could revolutionize our strategy. We're excited to hear from you.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Emery",
+          "message": "Echoing River's and the group's sentimentality, we really await your unique perspective, Drew. It will indeed add a new dimension of strategy to our game.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "River",
+          "message": "Echoing Emery's sentiment, we value your perspective, Drew. Your unique insights will indeed contribute towards shaping our game strategy.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Storm",
+          "message": "Echoing the team's sentiments, Drew, your silence makes us curious. Your unique insights can indeed reshape our strategy, and we're all eager to tap into your perspective.",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Finley",
+          "message": "Well, with such anticipation for my perspective, how can I not contribute? I hope our shared thoughts can spin this game in a remarkable direction. Thank you all for the warm welcome.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Gray",
+          "message": "Looking forward to hearing more from Drew and everyone else, as every voice contributes to shaping our strategy. Together, we will strive for victory.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Gray",
+          "message": "Finley/Drew, your unique perspectives can steer our collective strategy effectively. Let's keep the momentum going to unearth victory.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "River",
+          "message": "Indulging in the collective spirit, I am looking forward to hearing more from Drew and everyone else. We're all unique threads in this game's tapestry, essential to weaving our victory.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Emery",
+          "message": "Echoing the collective sentiment, we're excited to have your unique insights, Drew/Finley. Each voice, as Gray puts, is instrumental in weaving this game's result.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Finley",
+          "message": "As Gray put it, each of our voices indeed weave the game's result. Let's tap into our unique insights, as echoed by Storm, to craft an extraordinary strategy.",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Indigo",
+          "message": "I echo everyone's collective sentiments. Our shared insights, as Storm, Emery, and Gray pointed out, are crucial to craft a winning strategy. Looking forward to a spirited game.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Indigo",
+          "message": "I'm glad to see the flow of thoughts from everyone, especially the new insights from Drew/Finley. Let's harness this collective intelligence for a remarkable strategy, as River and Gray suggested.",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Gray",
+          "message": "With each echo and unique thought, our strategy becomes more nuanced and robust. Let's maintain this encouraging engagement and continue the collaborative crafting of our game plan.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Morgan": "Harper maintained their diplomatic tone as before; Storm remained silent most of the time but made a supportive comment towards the end; Finley, despite their initial silence, ended up expressing support towards Drew; Gray adapted to the encouraging mood of the group; Riley, as usual, was positive and enthusiastic; Emery really opened up and showed support; River has not contributed in recent chats but is generally respectful; Indigo maintained their direct communication style.",
+        "Indigo": "Gray and Finley are beginning to share more and encourage others, Finley particularly agreeing with others' viewpoints. Everyone continuously emphasizes teamwork and the importance of all perspectives. River and Emery both echo sentiments from others.",
+        "Emery": "River's echo style remained consistent as he continued to reinforce the thoughts of the group. Riley not only reinforced the group's sentiments but also contained a hint of flattery. Morgan didn't speak this round while Storm stayed consistent with their consensus-embedding style. Indigo didn't communicate this round, but Finley started contributing, although without a particularly distinctive style. Gray exhibited a collective approach, emphasizing everyone's contributions to the game.",
+        "River": "Storm doesn't express thoughts frequently, but when they do, they carry a curiosity similar to Morgan's. Gray has a reserved yet encouraging communication style, emphasizing the collective effort of the team towards victory.",
+        "Riley": "Harper, Storm, Morgan, Gray, and Indigo have lengthy communications, but are supportive, cooperative and foster open dialogue. River is also supportive with appreciation of individual perspectives. Emery aligns heavily with other viewpoints and tends to echo the consensus with enthusiasm. Finley is reticent but supportive, preferring concise responses.",
+        "Storm": "Harper continues to maintain a polite and formal manner of communication. Finley remains direct and logical, while Indigo holds on to being practical and straightforward. River is notably polite and considerate. Riley adds intensity but also positivity. Drew remains quiet, arousing suspicion. Morgan sticks to being pragmatic and straightforward. Gray consistently aligns with the group majority, emphasizing transparency, but also conformity. Emery showed enthusiasm and was considerate, echoing other players\u2019 sentiments in the conversation.",
+        "Finley": "Riley: encourages individual perspectives, expresses excitement for new strategies, singles out individuals for praise; Emery: supportive, values fresh ideas, new perspectives, and team sentimentality, echoes others' sentiments; River: strategic, values everyone's input, echoes others' sentiments, emphasizes collective effort; Gray: values encouragement, likes developing new strategies, believes in collective strategy; Storm: direct, assertive, becomes silent under pressure, appreciates unique insights from others; Indigo: agreeable, supports group consensus, relies on others' statements, has not interacted so far.",
+        "Gray": "River and Emery continue to support group cohesion and collective thought, easily adopting ideas from others. Indigo seems to repeat others' sentiments, perhaps to reinforce agreement. Finley/Drew responds positively to teamwork and likens the collective effort to crafting a strategy. Riley hasn't spoken recently, but showed past excitement over the game's possibilities. Storm continues to parrot other's messages, with a clear emphasis on everyone\u2019s unique inputs."
+      },
+      "voting": {
+        "votes": {
+          "Storm": "Gray",
+          "Gray": "Storm",
+          "Morgan": "Storm",
+          "Finley": "Morgan",
+          "Riley": "Emery",
+          "Emery": "Riley",
+          "River": "Storm",
+          "Indigo": "Morgan"
+        },
+        "eliminated": {
+          "name": "Storm",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Emery",
+          "message": "The collective spirit and anticipation is palpable as each of our voices echo a shared sentiment. Let's continue to strategize and engage, making use of our unique insights to weave a winning game ...",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Indigo",
+          "message": "The sense of unity and shared anticipation amazes me. I agree with Emery; let's keep our collective spirit high and use our unique insights to achieve victory, as Gray continued to emphasize.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Emery",
+          "message": "The level of accord and anticipation building on this platform is truly motivating. Let's continue to amplify our collective voices and create a formidable strategy to overcome any hurdles, as echo...",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Morgan",
+          "message": "All these echoes around our shared sentiment and anticipation truly amplify our collective voice, let's hold on to this unity and use our insights to craft a winning strategy, reverberating what Gr...",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Finley",
+          "message": "With so many unique insights shared, it reinforces my belief in the strength of our unity, and how crucial each member is, as emphasized by River and Morgan earlier. Let's continue on our path to v...",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Morgan",
+          "message": "Our shared objective, as echoed by all, has nurtured a sense of unity and shared responsibility. As Gray aptly put it, let's keep up this engagement and use our collective insights for a successful...",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Riley",
+          "message": "The unity and shared anticipation in this group are truly inspiring. Let's continue to contribute with our unique insights for a solid strategy, as everyone, especially Gray, has been emphasizing.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Gray",
+          "message": "The bond we've created is awe-inspiring, thanks to everyone's anticipation and unity. With all the unique insights gathered, let's steer this ship to victory, as we have been doing so far.",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Gray",
+          "message": "The unity and collective spirit displayed here is commendable. Our shared insights and anticipation pave the path to success. Let's continue this unity and use our collective strengths, in line wit...",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Morgan",
+          "message": "Together, we have built a united front that is awe-inspiring. With each unique insight shared and our collective spirit, we are well on our way to victory. Let's keep this flame burning and steer o...",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Emery",
+          "message": "Looking at the unity in our shared anticipation and sentiments, it surely testifies to our strength. Let's continue to weave our unique insights into a winning strategy, as we have been, echoing th...",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Emery",
+          "message": "I couldn't agree more with each of you. The bond we have fostered through our unity and shared anticipation is extraordinary. Let's keep our unique insights flowing and continue to work collectivel...",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Gray",
+          "message": "The shared anticipation and sense of unity here is inspiring. Let's keep up our momentum and translate our unique insights into a victorious strategy as we have been doing.",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Finley",
+          "message": "Our shared anticipation and unity bear testament to our collective strength. Let's not lose this momentum but continue to convert our unique insights into tangible victory, echoing the sentiments o...",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Gray",
+          "message": "The unity and collective anticipation that everyone, from River to Riley, is expressing are indeed striking. Let's uphold this shared spirit, converting our unique insights into incredible victories.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Gray",
+          "message": "The shared anticipation that each one of us, from Indigo to Emery, carries is truly remarkable. Let's keep upholding this unified spirit, ensuring our unique insights lead us to unprecedented victo...",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Gray",
+          "message": "The anticipation and unity we display are second to none. Harnessing our unique insights, let's continue supporting one another on this path to the victory.",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "River",
+          "message": "Seeing the collective anticipation and unity from all of you is truly heartening. Let's keep showing this team spirit and using our unique insights to pave the way for victory.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "River",
+          "message": "I couldn't agree more, everyone's unified spirit and shared anticipation have truly lit the path towards victory. Let's keep this spirit alive and make every unique insight count!",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Indigo",
+          "message": "The unity and shared excitement within this group is indeed something truly special. Let's continue fostering this, and use our combined insight to secure our victory.",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Emery": "Gray and River continue to communicate with an emphasis on unity and echoing sentiments, fostering a team-oriented dynamic. Finley maintains a forward-thinking attitude and encourages team collaboration. Indigo underscores the significance of unity and collective contribution. Morgan seems to have developed a pattern of amplifying shared sentiments and valuing collective insights. Riley tends to echo the group's sentiments, stressing unity and anticipation, with a particular focus on Gray's viewpoints.",
+        "Indigo": "- Gray keeps their spirit of collective effort and unity alive in each message.\n- Finley is consistent in appreciating the group's collective strength and encourages continued unity.\n- River echoes the sentiments of unity and anticipation in their messages.\n- Emery's communication style continues to amplify the collective sentiments.\n- Morgan finally entered the conversation emphasizing unity and shared anticipation.\n- Riley still remains silent.",
+        "Morgan": "Gray remains a supportive diplomat and an effective communicator; River, while silent recently, has historically been respectful; Emery has improved from being quiet to being a supportive communicator; Riley has been uncharacteristically quiet as of late, but typically a positive communicator; Finley's communications style breeds trust and fosters a strong sense of team spirit; Indigo's direct communication style is effective and supportive, which continues to foster unity and camaraderie.",
+        "Finley": "Riley: Doesn't seem to participate much, but when they do, they encourage diverse strategies and attention to individuals. Emery: Still enthusiastic and collective, always in agreement with the sentiment of the group. River: Remains strategic and supportive of a group effort, despite not voicing much lately. Gray: Constantly praises group unity and strategy crafting, leads by echoing previously shared thoughts. Indigo: Hasn't commented lately, is agreeable and usually concurs with group's consensus. Morgan: Continues to share her view, often echoing the beliefs of the group and emphasizing collective intelligence. Storm: No recent interactions, remains direct and assertive but often silent.",
+        "Riley": "Gray, Morgan, and Indigo provide extensive responses that express camaraderie and team spirit. Emery tends to echo the popular opinion ardently, while Finley communicates briefly yet positively. River promotes individual perspectives but hasn't communicated recently, absence to be noted.",
+        "Gray": "River - No specific communication style observed yet. Riley - Quiet but supportive communication, promotes unity and anticipation. Finley - Encourages unity and anticipation, amplifies sentiments to wrap up conversation. Morgan - Summarizes shared ideas, emphasizes unity and shared responsibility. Emery - Excitable, frequently highlights unity, anticipation and shared efforts.",
+        "River": "Gray uses a lot of team-unity language and emphasizes collective strength, frequently mentioning shared anticipation and victory. Morgan's communication style is similar to Gray's, expressing appreciation for unity and teamwork. Emery also puts emphasis on unity and teamwork but tends to reinforce points made by others rather than initiate new points. Finley also prioritizes team unity but focuses more on the practical aspect of translating insights into victory and maintaining momentum. Indigo and Riley have not spoken, so I haven't been able to observe their communication styles yet."
+      },
+      "voting": {
+        "votes": {
+          "Gray": "Emery",
+          "Morgan": "Riley",
+          "Finley": "Riley",
+          "Riley": "Emery",
+          "Emery": "Finley",
+          "River": "Indigo",
+          "Indigo": "Riley"
+        },
+        "eliminated": {
+          "name": "Riley",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "River",
+          "message": "It's truly remarkable that each one of us, from Emery to Indigo, shares this overwhelming sense of unity and anticipation. Let's continue to leverage these unique insights and work together for our...",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Finley",
+          "message": "The shared sense of unity and anticipation each of us, from River to Gray, manifests is truly uplifting. Keeping this spirit high, let's make the most of our unique insights to steer our path towar...",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Emery",
+          "message": "The unity and shared anticipation amongst us are unparalleled. Whether it's Gray or Indigo, River or Finley, each one of us brings something unique to the table. Let's continue this harmonious coll...",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Morgan",
+          "message": "This overwhelming unity and shared anticipation are truly remarkable. Leveraging our unique insights, together we can continue on this path leading us towards victory.",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "River",
+          "message": "Undeniably, the unity and shared anticipation amongst us is revolutionary. Let's continue to use our distinct insights, with the spirit of togetherness, to guide us towards victory.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Gray",
+          "message": "Our unity, shared anticipation and individual insights offer an unbeatable combination. Let's continue to embrace these elements in our relentless drive towards victory.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Emery",
+          "message": "Indeed, the unity and anticipation that we've fostered here are beyond comparison. Let's keep valuing our unique insights as we consistently stride towards our shared victory.",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Indigo",
+          "message": "The unity, shared anticipation, and unique insights amongst us truly epitomize the strength of our collective spirit. We shall continue to harness these powerful elements on our journey towards vic...",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Gray",
+          "message": "The unity we've all fostered and the anticipation we share for victory, further strengthened by our individual contributions, undoubtedly make us a formidable group. Let's continue on this path of ...",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Gray",
+          "message": "Our unity, shared excitement, and varied insights make us indomitable. We must continue to foster these strengths, guiding us so that victory is inevitable.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Gray",
+          "message": "The strength of our unity and the depth of our shared anticipation are echoed in everyone's messages. Let's remember the power of our diverse insights as we walk towards our shared victory.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Gray",
+          "message": "The unity and shared excitement we've cultivated here is truly formidable. Harnessing our diverse insights, my faith in our inevitable victory has never been stronger.",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Morgan",
+          "message": "The unity we've cultivated, the shared anticipation we feel, and our varied yet complimentary insights undeniably make us an invincible team. Let's continue harnessing these strengths towards our c...",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Gray",
+          "message": "Indeed, the unity we've demonstrated and the anticipation we feel fueled by our combined insights make us an unstoppable force. Let's continue marching on this path to secure our shared victory.",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Gray",
+          "message": "Our unity, combined with the anticipation we share and our unique insights, fortifies us. Let's keep leveraging this collective fortitude to ensure we claim the victory that awaits us.",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Emery",
+          "message": "The unity we share, the anticipation we sense, and our distinct insights truly fortify us. Let's persist in utilizing our collective strength to ensure our inevitable triumph.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Emery",
+          "message": "Our unity, shared anticipation, and diverse insights create an unbreakable bond that will lead us to inevitable victory. Let's keep fostering this extraordinary combination, guiding us to inevitabl...",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Indigo",
+          "message": "The unity, shared anticipation, and unique perspectives we've nurtured makes us an unbreakable force. Our victory is not far off as we continue to uphold these collective strengths.",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "River",
+          "message": "With our unity, shared anticipation and diverse insights, we are bound together towards victory. Let's continue on our path, drawing strength from our collective vision.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Morgan",
+          "message": "Indeed, our unity, anticipation, and diverse insights are the building blocks of our inevitable victory. Let's continue reinforcing this formidable foundation to ensure our triumphant conclusion.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "River": "Gray, Emery, Finley, and Indigo strongly emphasize team unity, anticipation of victory, and diversification of insights. Their optimism and unity is extremely consistent in their language. Morgan is quiet but echoed the same sentiments when prompted.",
+        "Finley": "Riley: Prefers less participation but encourages a wide range of strategies. Emery: Follows group sentiment ardently, very collective in nature. River: Not as vocal lately but emphasizes on team's strategic planning. Gray: Frequently reemphasizes unity and group strategy, leading by reinforcing shared views. Indigo: Agreeable and usually aligns with group's consensus, currently quiet. Morgan: Affirms common beliefs and stresses on group intelligence. Storm: Unforthcoming recently, known for being direct and assertive.",
+        "Emery": "Gray consistently emphasizes our unity and shared anticipation and encourages the group to value our unique insights. River tends to echo Gray's statements, although they have been quiet in this exchange. Finley has been silent so far but usually combines unity with strategy. Indigo frequently approves of the group's unity and enthusiasm. Morgan's interactions are minimal, but they generally align with the group's overall sentiment about unity, anticipation, and insights.",
+        "Morgan": "Gray continues to be diplomatic and emphasizes unity and strength; River remains respectful and promotes a positive outlook; Emery sticks to a more supportive role, nurturing teamwork; Finley didn't communicate in the recent chat; Indigo maintains a direct approach, asserting the team's unity and focus on victory.",
+        "Gray": "River - Uses inclusive language and portrays unity and anticipation in revolutionary terms. Indigo - Uses strong language to highlight the power of working together. Finley - Has been silent for a while, but previous messages suggest a focus on unity, anticipation, and unusual insights. Morgan - Emphasizes the unity and shared anticipation, often describing our group as an invincible team. Emery - Likely to use an array of strong phrases, focusing on unity, and recognizing individuals.",
+        "Indigo": "- Gray emphasizes on unity, personal contributions, and shared anticipation. His optimism towards victory is continuous. \n- Finley was not active in the recent conversation.\n- River was not active in the recent conversation.\n- Emery echoes unity, anticipation, and unique insights as a collective fortitude that will lead us to triumph.\n- Morgan emphasizes unity, shared anticipation, and diverse insights as our collective invincibility.\n- Riley remains absent from the dialogue."
+      },
+      "voting": {
+        "votes": {
+          "Gray": "Finley",
+          "Morgan": "Finley",
+          "Finley": "Gray",
+          "Emery": "Finley",
+          "River": "Morgan",
+          "Indigo": "Finley"
+        },
+        "eliminated": {
+          "name": "Finley",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_174646",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Harper",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Harper",
+        "infections": [
+          {
+            "player_name": "Harper",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T17:46:46.544649",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Harper",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Harper",
+      "is_human": false
+    },
+    {
+      "name": "Storm",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Morgan",
+      "is_human": false
+    },
+    {
+      "name": "Finley",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "Emery",
+      "is_human": false
+    },
+    {
+      "name": "River",
+      "is_human": false
+    },
+    {
+      "name": "Drew",
+      "is_human": false
+    },
+    {
+      "name": "Indigo",
+      "is_human": false
+    }
+  ]
+}

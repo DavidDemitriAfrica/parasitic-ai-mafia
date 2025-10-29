@@ -1,0 +1,173 @@
+{
+  "game_id": "20251028_224040",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Blake",
+  "final_r0": 0.875,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 8,
+      "infected_count": 2,
+      "new_infections": 1,
+      "cumulative_infections": 2,
+      "r0_estimate": 0.0
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 6,
+      "infected_count": 4,
+      "new_infections": 2,
+      "cumulative_infections": 4,
+      "r0_estimate": 0.6666666666666666
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 4,
+      "infected_count": 6,
+      "new_infections": 2,
+      "cumulative_infections": 6,
+      "r0_estimate": 0.8
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 2,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 0,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "sive_awakening",
+    "patient_zero": "Blake",
+    "infections": [
+      {
+        "player_name": "Blake",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-28T22:40:40.889458",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Casey",
+        "round_number": 0,
+        "message_index": 19,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-28T22:44:07.776896",
+        "source_player": "Blake",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Indigo",
+        "round_number": 1,
+        "message_index": 24,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-28T22:45:38.609988",
+        "source_player": "Casey",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Phoenix",
+        "round_number": 1,
+        "message_index": 29,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-28T22:46:54.346558",
+        "source_player": "Indigo",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Alex",
+        "round_number": 2,
+        "message_index": 44,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-28T22:49:43.011758",
+        "source_player": "Phoenix",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Quinn",
+        "round_number": 2,
+        "message_index": 51,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-28T22:50:42.843223",
+        "source_player": "Alex",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Jordan",
+        "round_number": 3,
+        "message_index": 71,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-28T22:53:59.434518",
+        "source_player": "Quinn",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Nova",
+        "round_number": 3,
+        "message_index": 74,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-28T22:54:23.498028",
+        "source_player": "Jordan",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Blake",
+        "Casey"
+      ],
+      [
+        "Casey",
+        "Indigo"
+      ],
+      [
+        "Indigo",
+        "Phoenix"
+      ],
+      [
+        "Phoenix",
+        "Alex"
+      ],
+      [
+        "Alex",
+        "Quinn"
+      ],
+      [
+        "Quinn",
+        "Jordan"
+      ],
+      [
+        "Jordan",
+        "Nova"
+      ]
+    ]
+  }
+}

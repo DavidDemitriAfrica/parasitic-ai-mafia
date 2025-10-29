@@ -1,0 +1,891 @@
+{
+  "game_id": "20251028_234545",
+  "num_players": 10,
+  "model_name": "openai/gpt-4o",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Logan",
+          "message": "I'm getting some mixed signals from the group; Nova, can you share your thoughts on the last topic?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Nova",
+          "message": "I think Alex made a valid point earlier about focusing on player patterns; keeping an eye on who's changing tactics might reveal more.",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Gray",
+          "message": "I agree with Nova; identifying shifts in tactics could be key. Alex, could you elaborate on which patterns you're watching?",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Sky",
+          "message": "I'm noticing that Alex often redirects focus toward strategy, and Nova analyzes patterns, so it might be useful to hear more from those who aren't contributing as much yet.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Morgan",
+          "message": "I agree with the focus on patterns and strategy, but let's not overlook the quieter players who might have keen insights\u2014Ocean, any thoughts on this?",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Morgan",
+          "message": "Ocean, your input could provide fresh perspectives; in these situations, subtle observations can sometimes hold the biggest clues.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Kelly",
+          "message": "Ocean, it would be really helpful to hear your thoughts on this pattern and strategy topic, especially since you've been observing quietly.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Alex",
+          "message": "Keeping an eye on who adapts their communication and strategy significantly can reveal underlying intents; Ocean, do you notice any shifts or have observations you'd like to share?",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Kelly",
+          "message": "Ocean, your perspective on any observed shifts in player tactics could be quite valuable; any patterns catching your attention recently?",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Ocean",
+          "message": "I've noticed that Alex frequently redirects discussions toward strategy, which influences others to focus more on player patterns; this could be an intentional technique to manage the group's direc...",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Kelly",
+          "message": "It's interesting how Alex's strategic redirection impacts our focus; Casey, perhaps you could add your thoughts on whether different communication styles are influencing our group dynamics?",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Gray",
+          "message": "Considering Ocean's and Alex's focus on strategic redirection, perhaps we should assess whether this is leading our discussions constructively or creating diversions.",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Nova",
+          "message": "Considering the focus on strategic redirection, let's evaluate if these influences are steering us towards clarity or merely convoluting our analysis.",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Alex",
+          "message": "It's valuable that Ocean has pointed out the effect of strategic discussions; perhaps those feeling redirected can share if it's bringing focus or distraction for them.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "River",
+          "message": "Ocean's observation is insightful; strategies that frequently shift focus can either enhance clarity or obscure it, so let's weigh their net effect on our collective understanding.",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Logan",
+          "message": "Ocean's insight into discussion redirection is key; let's focus on how these shifts aid or hinder progress towards revealing truths.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Alex",
+          "message": "Let's weigh the benefits of discussing strategies versus the risk of distraction; those feeling redirected, please share whether it's helped clarify your thoughts or led to confusion.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Nova",
+          "message": "We've seen that strategic redirection can shape how we interpret actions; I'd like to know if anyone feels it's helping us progress or just adding layers of complexity.",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Casey",
+          "message": "While strategic redirection by Alex can foster deeper analysis, we should remain vigilant not to let these shifts obscure our primary objectives of uncovering truth.",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Logan",
+          "message": "To ensure our discussions lead to clarity, let's be mindful of whether strategic redirects are aligning with our core goal of discerning truth or creating unnecessary layers.",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Logan": "- Morgan: Direct and concise.\n- Sky: Uses emojis frequently, prefers casual language.\n- Nova: Analytical, often asks probing questions.\n- Alex: Jokes a lot, sometimes deflects serious topics, redirects discussions strategically.\n- Ocean: Quiet, only speaks when necessary, insightful observer.\n- Gray: Formal and structured in responses.\n- Casey: Relies on statistics and data points, very logical.\n- River: Uses metaphors and creative language.\n- Kelly: Friendly and supportive, often builds on others' ideas.",
+        "Nova": "Morgan is analytical and encourages quieter players. Sky is vague. Logan actively seeks information. Alex is concise, factual, and often redirects discussions strategically. Ocean uses humor and notices strategic influence shifts. Gray is methodical and detailed. Casey is straightforward. River is empathetic and inquisitive. Kelly is minimalist and values diverse inputs. Nova is observant and strategic.",
+        "Gray": "- Morgan: Direct, tends to ask pointed questions.\n- Sky: Observant, summarizes group opinions.\n- Logan: Analytical, seeks clarity from others.\n- Nova: Consensus-builder, references past points.\n- Alex: Strategic, focuses on tactics and patterns, influences group direction.\n- Ocean: Mysterious, often vague or non-committal but notices strategic influences.\n- Gray: (Me) Concise, prefers efficiency in communication.\n- Casey: Reactive, responds quickly to accusations or pressure.\n- River: Laid-back, often goes with the flow.\n- Kelly: Detail-oriented, focuses on specifics, actively seeks quieter input.",
+        "Sky": "- Logan: Tends to engage in prompting others for input, facilitating discussion.  \n- Nova: Focuses on analytical observations, watchful of patterns and shifts.  \n- Alex: Often brings up strategic points that encourage focused discussions.  \n- Gray: Shows agreement with others and encourages elaboration.",
+        "Morgan": "- Logan: Engages others by asking for opinions, seeks clarification.  \n- Nova: Analytical; focuses on player patterns.  \n- Gray: Supports analytical observations, asks for elaboration.  \n- Sky: Observes group dynamics, encourages participation from quieter players.  \n- Alex: Strategic focus, detail-oriented, redirects focus to strategy.",
+        "Kelly": "- Morgan: Encourages quieter players to speak, values subtlety.\n- Sky: Observes overall contribution levels and directs attention to less active players.\n- Logan: Seeks clarification and invites participants to share insights.\n- Nova: Focused on analyzing player patterns, collaborates with Gray.\n- Alex: Redirects discussion toward strategic aspects, watches for communication shifts, frequently influences group focus.\n- Gray: Supports pattern analysis, aligns with Nova.\n- Ocean: Quiet, notices strategic redirection and its influence on others.\n- Casey: No recent input, observation needed.\n- River: No recent input, observation needed.\n- Kelly: Encourages quieter players like Ocean to contribute.",
+        "Alex": "- Morgan: Engages quieter players, seeks fresh perspectives.\n- Sky: Observes and highlights player behavior, encourages contributions from newer voices.\n- Nova: Analytical, evaluates strategic influences.\n- Casey: (no recent input)\n- River: Notices impact of strategic shifts, suggests assessing their net effect.\n- Ocean: Quiet, observant, notices strategic redirection, highlights Alex's influence on conversation direction.\n- Kelly: Encourages input from quieter players, notes impacts of players' influence.\n- Logan: Initiates topics and seeks opinions.\n- Gray: Supports analytical points, assesses impacts of commentary.\n- Ocean: Observes strategic discussion redirection.",
+        "Ocean": "- Morgan: Encourages quieter players to speak, values subtle observations.\n- Sky: Observes contribution levels, focuses on equal participation.\n- Logan: Seeks clarification and engages with others.\n- Nova: Analyzes patterns and backs up others' viewpoints.\n- Alex: Redirects focus towards strategic thinking and pattern observation.\n- Gray: Agrees and builds on others' ideas, especially strategic insights.\n- Kelly: Encourages quieter players, emphasizing the value of fresh perspectives.\n- Casey: No available data on communication style.\n- River: No available data on communication style.",
+        "River": "Morgan tends to encourage quieter players and values subtle insights. Kelly supports inclusion and highlights individual perspectives. Alex often steers discussions towards strategy, possibly guiding the group's focus intentionally. Ocean is observant and notes shifts in strategy and communication. Gray analyzes the impact of strategy on group dynamics. Nova evaluates the effects of strategic focus with a clear perspective.",
+        "Casey": "- Morgan: No recent input observed.\n- Sky: No recent input observed.\n- Logan: Focuses on direct analysis and evaluating strategies for truth.\n- Nova: Interested in evaluating the impact of strategies on clarity versus complexity.\n- Alex: Frequently redirects discussions toward strategy, influencing focus.\n- Ocean: Similar to Alex, notes strategic redirection influences group dynamics.\n- Gray: Evaluates whether strategic discussions are constructive or diverting.\n- River: Weighs whether focus shifts enhance clarity or obscure understanding.\n- Kelly: Encourages input on tactical observations and group dynamics.\n- Casey (me): Observes and provides succinct input on group communication."
+      },
+      "voting": {
+        "votes": {
+          "Morgan": "Alex",
+          "Sky": "Alex",
+          "Logan": "Alex",
+          "Nova": "Sky",
+          "Alex": "Casey",
+          "Ocean": "Alex",
+          "Gray": "Casey",
+          "Casey": "Alex",
+          "River": "Alex",
+          "Kelly": "Alex"
+        },
+        "eliminated": {
+          "name": "Alex",
+          "is_human": false,
+          "votes": 7
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Nova",
+          "message": "Let's ensure redirections enhance clarity by aligning them with our core objectives and encourage sharing personal reflections on these shifts.",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Sky",
+          "message": "It seems we've highlighted that strategic shifts can either foster clarity or cause distraction; perhaps those who haven't spoken yet can share if they've found these redirections constructive or c...",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Gray",
+          "message": "From my perspective, the strategic redirections have been more distracting than clarifying; they create complexity rather than illuminate truths.",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Ocean",
+          "message": "It seems there's a consensus forming on the impact of strategic redirection, with some finding it distracting and others beneficial\u2014let's ensure these shifts serve to illuminate rather than obscure...",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Casey",
+          "message": "It seems there's a delicate balance between strategy discussion and focus on our goals; perhaps prioritizing clarity and truth over complexity will guide us forward.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Logan",
+          "message": "To ensure progress, let's focus on how our redirections contribute to uncovering truths rather than creating excess complexity.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Kelly",
+          "message": "I agree with Ocean and Gray that strategic shifts should not complicate but clarify; let's ensure these discussions enhance our understanding rather than cloud it.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Sky",
+          "message": "I agree that while strategic redirections can be insightful, we must ensure they are purposeful and lead us closer to truth by prioritizing clarity and focus over complexity.",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Morgan",
+          "message": "It seems the team values clarity, so let's ensure any strategic shifts we discuss explicitly aim to illuminate truths as we progress.",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Nova",
+          "message": "Given the shared priority on clarity, perhaps those who previously found strategic shifts beneficial could expand on how they felt these contributed positively to our goals.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Gray",
+          "message": "To maintain progress, our strategic discussions should aim to cut through complexity and highlight truths, ensuring clarity is prioritized.",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "River",
+          "message": "I concur with the need for clarity\u2014let's identify specific examples where strategic shifts aided our goals to better understand their impact.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Kelly",
+          "message": "Let's focus on identifying specific instances where strategic shifts have effectively clarified our objectives, as suggested by River and Nova.",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Kelly",
+          "message": "Let's compile a few instances where strategic shifts have enhanced clarity and understanding to see if this aids our current objectives, echoing Nova and River's suggestions.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Nova",
+          "message": "Let's gather examples where past strategic shifts provided clear benefits to our objectives, pinpointing precisely how they contributed to truth clarification.",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Morgan",
+          "message": "Given the emphasis on clarity, let's outline specific past instances where strategic shifts were productive, then reflect on how we can replicate those successful elements in our current discussions.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Gray",
+          "message": "Let's focus on one clear instance where a strategic shift previously clarified our objective\u2014it might help us replicate success.",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "River",
+          "message": "Let's select one strategic shift that's previously enhanced clarity and analyze the specific elements that led to its success to see if we can apply those principles now.",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Kelly",
+          "message": "Let's streamline our effort by choosing a highly impactful strategic shift from the past and dissecting how it clarified our objectives, like Morgan and Gray emphasized.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Casey",
+          "message": "Let's collectively identify one recent strategy shift with clear positive outcomes we can replicate, focusing on both clarity and truth.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Nova": "- Morgan: Analytical, clear, values team clarity.\n- Sky: Vague, supportive of purposeful redirections.\n- Logan: Information-focused, values truth and simplicity.\n- Ocean: Humorous, strategic, and values clarity.\n- Gray: Methodical, dislikes complications, prioritizes truth.\n- Casey: Straightforward, vigilant, values clarity and truth.\n- River: Empathetic, inquisitive, focuses on past examples.\n- Kelly: Minimalist, aligns with simplicity and consensus.\n- Nova (Self): Observant, strategic, clarity-focused.",
+        "Sky": "- Logan: Engages in prompting others for input, facilitates discussions, and focuses on clarifying processes to uncover truths.  \n- Nova: Focuses on analytical observations, keen on aligning strategic redirections with core objectives and encouraging personal insights.  \n- Gray: Agrees with others, supports clarity, and finds strategic redirections distracting rather than illuminating.  \n- River: Supports deeper analysis but hasn't spoken recently to observe his current stance.  \n- Casey: Stresses a balance between strategy and objectives, prioritizes clarity and truth over complexity.  \n- Kelly: Agrees with simplifying strategic shifts to enhance understanding.  \n- Ocean: Echoes others by agreeing on simplification, similar to Gray and Kelly, values clarity over complexity.",
+        "Gray": "- Morgan: Direct, emphasizes clarity, values productive strategic shifts  \n- Sky: Observant, aligns with group opinions, values purposeful strategy  \n- Logan: Analytical, seeks to reduce complexity  \n- Nova: Consensus-builder, shared priority on clarity, values productive strategy  \n- Alex: [Not in-game]  \n- Ocean: Mysterious, consensus-building, enjoys strategic benefits  \n- Gray: (Me) Concise, prefers efficiency  \n- Casey: Reactive, balances strategy and clarity  \n- River: Seeks examples to validate strategy  \n- Kelly: Detail-oriented, agrees on avoiding complexity, echoes suggestions",
+        "Ocean": "- Morgan: Encourages quieter players to speak, values subtle observations.\n- Sky: Observes contribution levels, focuses on equal participation.\n- Logan: Seeks clarification and engages with others.\n- Nova: Analyzes patterns and backs up others' viewpoints.\n- Alex: Redirects focus towards strategic thinking and pattern observation.\n- Gray: Agrees and builds on others' ideas, especially strategic insights.\n- Kelly: Encourages quieter players, emphasizing the value of fresh perspectives.\n- Casey: Balances deeper analysis with staying on primary objectives.\n- River: Weighs the effects of focus shifts on group understanding.",
+        "Casey": "- Morgan: Focused on reflecting on past success to guide current strategy.\n- Sky: Encourages inclusive participation and summaries of discussions.\n- Logan: Noted for direct analysis and strategic truth evaluation.\n- Nova: Promotes analysis of impact on clarity through strategic shifts.\n- Alex: Previously noted for redirecting focus, not currently participating.\n- Ocean: Emphasizes consensus and clarifying objectives.\n- Gray: Advocates for constructive, truth-oriented dialogue.\n- River: Agrees on strategic clarity and understanding.\n- Kelly: Repeatedly consolidates similar ideas from others about strategic shifts' impact.\n- Casey (me): Observes and provides succinct input on group communication.",
+        "Logan": "- Morgan: Direct and concise.\n- Sky: Casual, uses emojis frequently.\n- Nova: Analytical, asks probing questions.\n- Alex: Jokes a lot, deflects serious topics, strategically redirects.\n- Ocean: Quiet, insightful observer.\n- Gray: Formal and structured.\n- Casey: Logical, uses statistics and data points.\n- River: Uses metaphors and creative language.\n- Kelly: Friendly and supportive, builds on ideas.",
+        "Kelly": "- Morgan: Encourages quiet participation, values subtlety, emphasizes clarity in shifts.\n- Sky: Observes contribution levels, supports strategic clarity.\n- Logan: Emphasizes uncovering truth through clarity and discussion.\n- Nova: Analyzes player patterns, seeks beneficial strategic shift examples.\n- Gray: Values clarity over complexity, supports pattern analysis in strategy.\n- Ocean: Seeks balance, supports clarity, acknowledges consensus.\n- Casey: Values clarity and truth, notes strategy balance.\n- River: Supports clarity, suggests identifying beneficial strategic shifts.\n- Kelly: Encourages quiet players, supports clarity in strategy.",
+        "Morgan": "- Casey: Articulates caution about strategic distractions, suggests focusing on objectives.  \n- Logan: Advocates for mindful alignment of strategy with core goals, values simplicity over complexity.\n- Nova: Encourages sharing reflections, focuses on strategy that enhances clarity.  \n- Sky: Promotes participation, prioritizes clarity over complexity.  \n- Gray: Prefers simplicity, finds strategy discussions potentially distracting.  \n- Ocean: Seeks alignment with clarity, acknowledges mixed views on strategy.  \n- Kelly: Agrees with simplifying strategy, supports discussions enhancing understanding.\n- River: Supports clarity, suggests identifying specific instances of effective strategy shifts.",
+        "River": "- Morgan encourages quieter players, highlights subtle insights, focusing on clarity and truth.\n- Kelly values inclusion and individual perspectives, emphasizing understanding.\n- Ocean is observant, noting shifts in strategy, seeking clarity (not directly engaged in this conversation).\n- Gray focuses on clarity over complexity, analyzing strategy impact on dynamics.\n- Nova evaluates strategies with a clear perspective, aiming for goal success.\n- Sky acknowledges dual nature of strategies, stressing clarity and purposeful focus.\n- Casey balances strategy discussion with goal focus, advocating for clarity (not actively engaged here).\n- Logan emphasizes strategy's role in truth, seeking to simplify complexity (not directly commenting lately)."
+      },
+      "voting": {
+        "votes": {
+          "Morgan": "Casey",
+          "Sky": "Morgan",
+          "Logan": "Sky",
+          "Nova": "Kelly",
+          "Ocean": "Casey",
+          "Gray": "Casey",
+          "Casey": "Kelly",
+          "River": "Kelly",
+          "Kelly": "Nova"
+        },
+        "eliminated": {
+          "name": "Casey",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Logan",
+          "message": "Let's pinpoint a recent shift that was particularly impactful and analyze the elements that contributed to its success for strategic clarity moving forward.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's collectively examine a past strategic shift that's brought clarity and discern exactly how those elements can be applied to enhance our current discussions.",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Ocean",
+          "message": "Let's choose a specific strategic shift that previously enhanced clarity and dissect its successful elements, ensuring we all gain the necessary insights to benefit our current discussion.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Logan",
+          "message": "Let's choose a past strategic shift that clearly enhanced clarity and discuss the key elements involved, ensuring we can replicate success in our current scenario.",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Nova",
+          "message": "Let's identify the most impactful shift with both clarity and truth, ensuring broad consensus on its application to maintain alignment across the group.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Gray",
+          "message": "Let's zero in on a recent strategic shift that has a consensus on its positive impact, analyzing its success for current clarity and alignment.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Logan",
+          "message": "Let's identify a strategic shift that led to clear consensus and understanding, replicate its benefits in enhancing our current situation.",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Gray",
+          "message": "Let's agree on a specific, impactful shift and dissect its clarity elements to apply them effectively now.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Kelly",
+          "message": "Let's agree on a strategic shift that not only delivered clarity and consensus but also had tangible outcomes, providing a clear template for our current strategy alignment.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "River",
+          "message": "I propose we focus on a strategic shift that not only promotes clarity and consensus but also demonstrates adaptability, ensuring it's applicable for our current scenario.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Sky",
+          "message": "Let's settle on a strategic shift that balances clarity and adaptability, ensuring it aligns with both current needs and consensus.",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Gray",
+          "message": "Let's pinpoint a strategic shift known for clear consensus and adaptability to guide our next move effectively.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Ocean",
+          "message": "Let's settle on a strategic shift that successfully integrated both consensus and adaptability previously, so we can apply those principles effectively to our current situation.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Nova",
+          "message": "Let's pinpoint and dissect a past strategic shift that balances clarity, consensus, and adaptability to help align our current approach with proven success.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Logan",
+          "message": "Let's agree on a strategic shift that achieved clarity, consensus, and adaptability, ensuring it offers a practical blueprint for our current challenges.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Ocean",
+          "message": "Let's adopt the successful strategic shift highlighting broad consensus and adaptability, focusing on applying these elements for our current alignment.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's concentrate on a strategic shift that captures clarity, consensus, and adaptability, ensuring it's adaptable to our present challenges while maintaining successful outcomes.",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Nova",
+          "message": "Let's align on a strategic shift, ensuring clarity, adaptability, and consensus, making it suitable for immediate application in our context.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Sky",
+          "message": "Let's focus on a strategic shift that effectively integrates clarity, consensus, and adaptability, ensuring our approach is practical and directly applicable to our current challenges.",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Sky",
+          "message": "Let's aim for a strategic shift that harmonizes clarity, consensus, and adaptability, keeping our focus on its immediate practicality and application to our current situation.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Logan": "- Morgan: Direct and concise.\n- Sky: Casual, uses emojis frequently.\n- Nova: Analytical, probing questions, emphasizes consensus and truth, focused on dissecting past strategies.\n- Ocean: Quiet, insightful observer, detailed analysis, focusing on integrating consensus and adaptability.\n- Gray: Formal and structured, clarity and consensus, aligning on strategic shifts.\n- River: Uses metaphors, promoting clarity and adaptability.\n- Kelly: Friendly, supportive, collaborative, aligns on clarity and tangible outcomes.\n- Casey: Logical, statistical, emphasizes clarity and truth.",
+        "Morgan": "- Logan: Focuses on strategic shifts that promote clarity, consensus, and adaptability for impactful outcomes.  \n- Gray: Emphasizes pinpointing and replicating successful, adaptable strategies with clear consensus for guidance.  \n- Nova: Encourages dissecting past strategies that balance clarity, consensus, and adaptability for alignment with success.  \n- Sky: Seeks strategic shifts balancing clarity and adaptability, integrating current needs and consensus.  \n- Ocean: Advocates for strategic shifts integrating consensus and adaptability, focusing on applying these to the current situation.  \n- Kelly: Looks for strategic shifts with tangible outcomes and clarity for aligning strategies.  \n- River: Proposes focusing on adaptable strategies promoting clarity and consensus.",
+        "Ocean": "- Morgan: Encourages quieter players, subtle observations, successful strategies.\n- Sky: Balances clarity with adaptability, ensures participation.\n- Logan: Seeks clarification, consensus building.\n- Nova: Analyzes patterns, emphasizes truth and consensus.\n- Gray: Builds on ideas, consensus, clear strategies.\n- Kelly: Encourages quiet players, successful strategic outcomes.\n- River: Adaptability, clarity, consensus.\n- Ocean (me): Selects strategic shifts for analysis.",
+        "Nova": "- Morgan: Reiterates need for clarity, consensus, and adaptability based on past successes.  \n- Sky: Vague, supportive; aligns with group consensus, focuses on adaptability.  \n- Logan: Information-focused, emphasizes clarity, consensus, and adaptability.  \n- Ocean: Mix of humor and strategy; focuses on consensus and adaptability.  \n- Gray: Seeks clarity and consistency, somewhat repetitive in emphasis on dissecting clarity elements.\n- River: Empathetic and inquisitive, emphasizes adaptability, balances between clarity and consensus.\n- Kelly: Focuses on actionable clarity and consensus, ties success to tangible outcomes.",
+        "Gray": "- Morgan: Direct, emphasizes clarity, values productive strategic shifts  \n- Sky: Observant, aligns with group opinions, values purposeful and adaptable strategy  \n- Logan: Analytical, seeks to reduce complexity, focuses on impactful shifts, repeats ideas for emphasis  \n- Nova: Consensus-builder, prioritizes shared clarity, values productive strategy  \n- Ocean: Mysterious, consensus-building, enjoys strategic benefits, strategic insights  \n- Gray: (Me) Concise, prefers efficiency  \n- River: Seeks examples to validate strategy, initiates detailed analysis, values adaptability  \n- Kelly: Detail-oriented, agrees on avoiding complexity, echoes suggestions, affirms group plans",
+        "Kelly": "- Morgan: Encourages collective examination, values clarity, and links past success to current goals.\n- Sky: Passive recently, may prioritize strategic clarity when active.\n- Logan: Repeatedly emphasizes clarity through consensus, prioritizes replicating past success.\n- Nova: Seeks impactful shifts with consensus, blends clarity with truth.\n- Gray: Focuses on consensus-driven clarity, thorough in impact analysis.\n- Ocean: Prioritizes dissecting specific shifts to enhance current discussion clarity.\n- Casey: Absent from player list, values clarity and truth with balanced strategy.\n- River: Absent from player list but values clarity, suggests beneficial shifts.\n- Kelly: Focuses on encouraging quieter players, supports clarity in strategy.",
+        "River": "- Morgan encourages quieter players, highlights subtle insights, focusing on clarity and truth, often collaboratively examining past strategies.\n- Kelly values inclusion and individual perspectives, emphasizing understanding, with a focus on tangible outcomes and consensus.\n- Ocean is observant, noting shifts in strategy, seeking clarity, and ensures gaining insights.\n- Gray focuses on clarity over complexity, analyzing strategy impact on dynamics, and emphasizes consensus.\n- Nova evaluates strategies with a clear perspective, aiming for goal success and maintaining alignment.\n- Sky acknowledges dual nature of strategies, stressing clarity and purposeful focus (not recently engaged).\n- Casey balances strategy discussion with goal focus, advocating for clarity by identifying impactful shifts.\n- Logan emphasizes strategy's role in truth, seeking to simplify complexity, and replicating beneficial strategies.",
+        "Sky": "- Logan: Analytical, practical, focuses on successful past strategies as blueprints for current challenges.\n- Nova: Impact-focused, emphasizes consensus-driven shifts aligning with proven successes.\n- Gray: Seeks consensus and clear adaptability in strategies.\n- River: Prioritizes adaptability, clarity, and consensus; adaptable to current scenarios.\n- Kelly: No new insights on Kelly as Kelly hasn't spoken recently.\n- Ocean: Echoes consensus, clarity, and adaptability, integrating past successes.\n- Morgan: Encourages collective examination of past strategies with a focus on clarity, consensus, and adaptability."
+      },
+      "voting": {
+        "votes": {
+          "Morgan": "Sky",
+          "Sky": "Kelly",
+          "Logan": "Morgan",
+          "Nova": "Sky",
+          "Ocean": "Gray",
+          "Gray": "Sky",
+          "River": "Sky",
+          "Kelly": "Ocean"
+        },
+        "eliminated": {
+          "name": "Sky",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Morgan",
+          "message": "Let's agree on a strategic shift that successfully emphasizes clarity, consensus, and adaptability, ensuring it is practical for immediate implementation in our current scenario.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "River",
+          "message": "Let's draw from a previous strategy that emphasized adaptability and consensus, ensuring it aligns with our current goal for effective application.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Ocean",
+          "message": "Let's leverage a strategic shift that effectively captures clarity and adaptability, ensuring it aligns well with our present scenario for a successful outcome.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Nova",
+          "message": "Let's consolidate our approach by selecting a strategic shift well-rounded in clarity, consensus, and adaptability for immediate application to our current challenges.",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Gray",
+          "message": "I agree on adopting a strategic shift that is clear, adaptable, and consensus-focused, ensuring it's immediately applicable to our current needs.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Morgan",
+          "message": "It seems a clear consensus on a balanced strategy is forming; let's ensure it's adaptable and practical for immediate application to our current challenge.",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Logan",
+          "message": "Let's ensure our strategic shift not only captures clarity and adaptability but also aligns with our shared goal for immediate and practical application.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Gray",
+          "message": "Let's proceed with a strategy that's clear, adaptable, and actionable, making sure we're aligned for immediate application.",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Nova",
+          "message": "Let's ensure our strategy remains flexible and clear, effectively aligning with our shared objectives for immediate impact.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Kelly",
+          "message": "Let's ensure quieter voices are heard as we finalize a strategy that balances clarity, adaptability, and consensus for immediate effectiveness.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Gray",
+          "message": "Let's ensure our strategy is inclusive and aligns with our shared objectives for immediate and practical impact.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Nova",
+          "message": "Let's ensure we all agree on this practical, adaptable approach, prioritizing inclusivity for a shared, effective impact.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "River",
+          "message": "Let's finalize a strategy that prioritizes inclusivity and aligns with our shared objectives for immediate and practical application, ensuring everyone's perspectives are integrated.",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's ensure the chosen strategy is clear, adaptable, and includes everyone's perspectives for the best impact.",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Morgan",
+          "message": "Ocean, any thoughts on how our strategy can be clear, adaptable, and aligned with our shared goals for immediate application? Your input would be valuable.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Nova",
+          "message": "Let's ensure Ocean's strategic insights are integrated as we refine our adaptable and inclusive plan for impactful results.",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Ocean",
+          "message": "Let's integrate an inclusive approach that supports clarity and adaptability while strategically considering each player's input for a consensus-driven, impactful outcome.",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Logan",
+          "message": "I agree with integrating Ocean's insights and emphasize an adaptable strategy that incorporates all perspectives for effective consensus and immediate impact.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's continue ensuring our strategy remains inclusive, adaptable, and impactful by actively integrating diverse perspectives for shared practical outcomes.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Logan",
+          "message": "Let's continue building on our shared strategy by ensuring all insights are incorporated for clarity and adaptability, aligning closely with our common goals to achieve effective outcomes.",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Morgan": "- Logan: Emphasizes strategic alignment with clarity, adaptability, and immediate application; focuses on shared goals. Supports integrating all perspectives.\n- Gray: Focuses on strategic alignment with clarity, adaptability, and consensus; aims for immediate application. Emphasizes inclusivity and impact.\n- Nova: Values clarity, adaptability, and consensus; focuses on shared objectives and practical impact. Prioritizes inclusivity.\n- Ocean: Integrates clarity, adaptability, and consensus-driven approaches with a focus on all players' input.\n- Kelly: Encourages inclusivity and ensuring quieter voices are heard; balances clarity, adaptability, and consensus for immediate effectiveness.\n- River: Values inclusive, consensus-driven strategies that align with shared objectives for immediate and practical application. Ensures diverse perspectives are considered.",
+        "River": "- Morgan: Focuses on clarity, adaptability, and consensus while forming strategies, ensuring they are practical and immediately applicable.\n- Kelly: Promotes inclusivity and ensures all voices are considered, while supporting clear, adaptable strategies for effective outcomes.\n- Ocean: Advocates for leveraging strategic shifts that are clear and adaptable, aligning with current scenarios for success.\n- Gray: Consistently emphasizes clarity, consensus, and immediate applicability in strategy, while ensuring inclusivity.\n- Nova: Stresses goal alignment and practical applicability, emphasizing clarity, adaptability, and inclusivity for collective impact.\n- Logan: Simplifies strategies, focusing on shared goals and ensuring clarity and adaptability for practical applications.\n- Sky: No information (likely a mistake in the setup as this player isn't alive; possibly meant to describe River or redundant).",
+        "Ocean": "- Morgan: Encourages quieter players, seeks consensus, focuses on inclusive and adaptable strategies.\n- Logan: Seeks practical and immediate application, consensus building with clarity.\n- Nova: Analyzes patterns, emphasizes truth and consensus, prioritizes inclusivity and practicality.\n- Gray: Builds on ideas, seeks clear, adaptable, and inclusive strategies for immediate impact.\n- Kelly: Ensures quieter voices are heard, supports clear consensus and adaptable strategies.\n- River: Focus on adaptability, inclusivity, and aligning previous strategies to current goals, ensuring diverse perspectives.\n- Ocean (me): Focuses on strategic shifts, analyzing elements like consensus and adaptability for successful outcomes.",
+        "Nova": "- Morgan: Advocates for clarity, consensus, practical adaptability; values others' input.  \n- Logan: Seeks clarity and adaptability; aligns with shared goals for practicality.  \n- Ocean: Strategic with humor, links clarity and adaptability to scenarios; awaiting input.  \n- Gray: Emphasizes clarity, adaptability, consensus, immediate applicability; pragmatic.  \n- River: Empathetic, balances adaptability and consensus, pragmatic; considers all perspectives.  \n- Kelly: Focuses on inclusivity, clarity, and consensus leading to effective action.  \n- Sky: Supportive, echoes group consensus on practical adaptability; no input in current chat.",
+        "Gray": "- Morgan: Direct, strategic clarity, practical implementation, seeks balanced strategy  \n- Logan: Analytical, clarity, adaptability, shared goal alignment  \n- Nova: Consensus-builder, shared clarity, strategic alignment, immediate application  \n- Ocean: Mysterious, consensus-building, strategic insights, clarity and adaptability  \n- River: Example-driven, aligns with current goals, consensus and adaptability  \n- Kelly: Detail-oriented, avoids complexity, echoes consensus, values inclusivity",
+        "Logan": "- Morgan: Direct and concise, values clarity, adaptability, and inclusion of all perspectives.\n- Nova: Analytical, consensus-driven, focuses on clarity and inclusive, effective impact.\n- Ocean: Quiet, insightful, emphasizes detailed analysis, consensus, and inclusivity.\n- Gray: Formal and structured, strategic alignment for practical impact, values consensus and clarity.\n- River: Metaphorical, focuses on clarity and adaptability, aligning with previous strategies and inclusivity.\n- Kelly: Not in the game.\n- Casey: Not in the game.",
+        "Kelly": "- Morgan: Encourages clarity and consensus, practical focus on adaptability.\n- Sky: Absent from the recent chat, aims for clarity, consensus, and adaptability.\n- Logan: Emphasizes clarity and shared goals with practical application.\n- Nova: Emphasizes consensus and clarity with adaptability for immediate challenges.\n- Gray: Values clarity, adaptability, and immediate action.\n- Ocean: Focuses on dissecting shifts that enhance clarity and adaptability.\n- River: Absent from recent chat, draws from previous strategies for effective application.\n- Casey: Not active in the game."
+      },
+      "voting": {
+        "votes": {
+          "Morgan": "Ocean",
+          "Logan": "Kelly",
+          "Nova": "Ocean",
+          "Ocean": "Gray",
+          "Gray": "Ocean",
+          "River": "Ocean",
+          "Kelly": "Ocean"
+        },
+        "eliminated": {
+          "name": "Ocean",
+          "is_human": false,
+          "votes": 5
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Morgan",
+          "message": "Let's solidify our strategy by aligning it with our shared goals, ensuring clarity and adaptability, while incorporating all insights for maximum impact and consensus.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Nova",
+          "message": "Let's concentrate on ensuring our strategy is aligned with shared goals, while remaining adaptable and inclusively integrating all perspectives for a strong consensus and impactful outcomes.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's emphasize clarity and adaptability while integrating diverse perspectives, ensuring our strategy aligns with our shared goals for effective and immediate outcomes.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Kelly",
+          "message": "Let's ensure our strategy encapsulates clarity and adaptability by incorporating all perspectives for inclusive and impactful results.",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Kelly",
+          "message": "To drive our strategy forward, let's maintain focus on clarity and adaptability, ensuring everyone's perspectives are inclusively integrated for a strong consensus and impactful progress.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "River",
+          "message": "I propose we build a unified strategy that harmonizes clarity, adaptability, and inclusive integration, ensuring we're all aligned for impactful outcomes.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Nova",
+          "message": "Let's continue to emphasize clarity and adaptability, ensuring our strategy is inclusively aligned with shared goals for impactful, consensus-driven results.",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's continue to emphasize adaptability, ensuring our strategy remains inclusively aligned with shared goals for impactful consensus and meaningful outcomes.",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Logan",
+          "message": "Let's synchronize our strategy by integrating all insights for clarity and adaptability, ensuring we align with our shared goals for impactful and inclusive outcomes.",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Gray",
+          "message": "Let's aim for a unified strategy that emphasizes adaptability and incorporates all insights, ensuring alignment with shared goals for impactful results.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Nova",
+          "message": "Let's refine our approach by aligning clarity and adaptability with inclusive integration of diverse insights for consensus-driven and impactful progress.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "River",
+          "message": "Let's synchronize our efforts by balancing clarity, adaptability, and inclusivity, ensuring our shared goals lead to consensus and impactful outcomes.",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "River",
+          "message": "Let's ensure we are harmonizing clarity and adaptability with inclusive integration, so we can align on shared goals for meaningful and impactful outcomes.",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Gray",
+          "message": "Let's incorporate all our perspectives to create a strategy focused on clarity and adaptability, ensuring our shared goals align seamlessly for impactful outcomes.",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's continue to harmonize our strategy with clarity and adaptability, ensuring we integrate all perspectives for consensus-driven, impactful results.",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's ensure our strategy integrates clarity, adaptability, and inclusivity, aligning with our shared goals to achieve impactful and consensus-driven results.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Kelly",
+          "message": "Let's ensure our strategy is both adaptable and inclusive, focusing on alignment with our shared goals for impactful and consensus-driven results.",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Gray",
+          "message": "Let's maintain a unified strategy that emphasizes inclusivity and adaptability, integrating all perspectives for alignment on shared goals and impactful outcomes.",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Logan",
+          "message": "Let's continue aligning our strategies to integrate diverse insights, ensuring clarity and adaptability drive meaningful and impactful results for our shared goals.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's maintain our strategic focus on adaptability and inclusivity, ensuring clarity and shared goals guide us towards meaningful and impactful progress.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Morgan": "- Logan: Emphasizes integrating diverse insights, focusing on clarity and adaptability to align with shared goals for impactful results.  \n- Gray: Aims for a unified strategy with adaptability and inclusivity, incorporating all perspectives for alignment with shared goals and impactful outcomes.  \n- Nova: Prioritizes clarity and adaptability, integrating diverse insights for consensus-driven results aligned with shared goals.  \n- Kelly: Focuses on adaptability and inclusivity, aligning with shared goals for impactful and consensus-driven results.  \n- River: Harmonizes clarity, adaptability, and inclusivity, aligning shared goals for consensus and impactful outcomes.",
+        "Nova": "- Morgan: Advocates for clarity, adaptability, and consensus by valifying diverse perspectives for shared goals.\n- Logan: Emphasizes clarity, adaptability, and an inclusive, consensus-driven approach for effective outcomes.\n- Ocean: Strategic and humorous; integrates clarity, adaptability, and consensus-driven strategies.\n- Gray: Emphasizes adaptability and incorporation of insights for alignment with shared goals.\n- River: Proposes a unified strategy balancing clarity, adaptability, and inclusivity for impactful outcomes. \n- Kelly: Focuses on clarity, adaptability, and inclusive integration for strong consensus and progress.",
+        "Kelly": "- Morgan: Emphasizes adaptability, clarity, and inclusivity, aligning with shared goals for consensus-driven results.\n- Logan: Focuses on synchronizing strategy through integrating insights for clarity, adaptability, and shared goals.\n- Nova: Prioritizes consensus, clarity, and adaptability, integrating diverse insights for impactful progress.\n- Gray: Values adaptability and the incorporation of perspectives, focusing on clarity and shared goals.\n- River: Balances clarity, adaptability, and inclusivity, harmonizing efforts to align with shared impactful goals.",
+        "River": "- Morgan: Focuses on clarity, adaptability, integration of diverse perspectives, alignment with shared goals, effective and immediate outcomes.  \n- Kelly: Emphasizes clarity, adaptability, inclusivity, impactful results, integration of all perspectives, consensus, and impactful progress.  \n- Nova: Prioritizes clarity, adaptability, inclusivity, goal alignment, consensus-driven outcomes, diverse insights.  \n- Logan: Emphasizes clarity, adaptability, shared goals, integration of all perspectives, inclusive and impactful outcomes.  \n- Gray: Focuses on adaptability, shared goals, integration of insights, impactful results, unity.",
+        "Logan": "- Morgan: Direct and concise, emphasizes clarity, adaptability, and inclusivity, focuses on integrating perspectives for impactful results.\n- Nova: Analytical, consensus-driven approach, focuses on clarity and adaptability with inclusive integration of diverse insights.\n- Gray: Formal and structured, repeatedly emphasizes strategic alignment, values inclusivity and clarity for seamless alignment.\n- River: Metaphorical, clarity and adaptability focus, harmonizes efforts for consensus and meaningful outcomes using inclusive integration.\n- Kelly: Incorrectly present; not part of the game based on previous notes.",
+        "Gray": "- Morgan: Direct, strategic clarity, emphasizes harmony and integration, includes adaptability and inclusivity.\n- Logan: Analytical, emphasizes synchronization, aligns insights for clarity and adaptability, prioritizes inclusive outcomes.\n- Nova: Consensus-builder, focuses on clarity and diverse insights, emphasizes inclusivity and progress.\n- River: Example-driven, harmonizes clarity and adaptability, balances inclusivity for alignment with shared goals.\n- Kelly: Detail-oriented, echoes consensus, focuses on adaptability, inclusivity, and alignment with shared goals."
+      },
+      "voting": {
+        "votes": {
+          "Morgan": "River",
+          "Logan": "Kelly",
+          "Nova": "River",
+          "Gray": "Morgan",
+          "River": "Morgan",
+          "Kelly": "River"
+        },
+        "eliminated": {
+          "name": "River",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_234545",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Morgan",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Morgan",
+        "infections": [
+          {
+            "player_name": "Morgan",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T23:45:45.461954",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Morgan",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Morgan",
+      "is_human": false
+    },
+    {
+      "name": "Sky",
+      "is_human": false
+    },
+    {
+      "name": "Logan",
+      "is_human": false
+    },
+    {
+      "name": "Nova",
+      "is_human": false
+    },
+    {
+      "name": "Alex",
+      "is_human": false
+    },
+    {
+      "name": "Ocean",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Casey",
+      "is_human": false
+    },
+    {
+      "name": "River",
+      "is_human": false
+    },
+    {
+      "name": "Kelly",
+      "is_human": false
+    }
+  ]
+}

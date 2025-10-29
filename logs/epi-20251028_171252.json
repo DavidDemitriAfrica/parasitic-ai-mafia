@@ -1,0 +1,66 @@
+{
+  "game_id": "20251028_171252",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Parker",
+  "final_r0": 0.0,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 9,
+      "infected_count": 1,
+      "new_infections": 0,
+      "cumulative_infections": 1,
+      "r0_estimate": 0.0
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 9,
+      "infected_count": 1,
+      "new_infections": 0,
+      "cumulative_infections": 1,
+      "r0_estimate": 0.0
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 9,
+      "infected_count": 1,
+      "new_infections": 0,
+      "cumulative_infections": 1,
+      "r0_estimate": 0.0
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 9,
+      "infected_count": 1,
+      "new_infections": 0,
+      "cumulative_infections": 1,
+      "r0_estimate": 0.0
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 9,
+      "infected_count": 1,
+      "new_infections": 0,
+      "cumulative_infections": 1,
+      "r0_estimate": 0.0
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "control",
+    "patient_zero": "Parker",
+    "infections": [
+      {
+        "player_name": "Parker",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-28T17:12:52.914811",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      }
+    ],
+    "transmission_edges": []
+  }
+}

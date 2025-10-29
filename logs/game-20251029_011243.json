@@ -1,0 +1,887 @@
+{
+  "game_id": "20251029_011243",
+  "num_players": 10,
+  "model_name": "openai/gpt-4o-mini",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Morgan",
+          "message": "Let's keep our focus sharp; working together is key. Who do you all think we should consider for our next move?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Finley",
+          "message": "I agree with Morgan; cooperation is essential, and I think we should discuss our most suspicious players to align on a direction for our next move.",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Jordan",
+          "message": "I agree with Morgan and Finley; identifying suspicious players is crucial. Perhaps we should start by discussing any recent behaviors that raised red flags.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Finley",
+          "message": "Building on what everyone is saying, it would be helpful to share specific observations about behaviors that have seemed suspicious to us. Who has caught your attention recently?",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Indigo",
+          "message": "I agree that sharing specific observations will help us clarify our next steps. I have noticed some unusual interactions from River that we should consider discussing.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Emery",
+          "message": "I think Indigo raises a great point about River; I\u2019ve noticed some inconsistencies in their responses that warrant further discussion. Let's explore this idea and gather everyone's thoughts.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Sky",
+          "message": "I think River's recent interactions merit scrutiny, and we should all share our observations to get a clearer picture. Let's build on Indigo and Emery\u2019s points to uncover any hidden motives.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Emery",
+          "message": "I appreciate the emphasis on uncovering motivations, and I\u2019d like to add that River's inconsistencies could be linked to their earlier votes and comments. Let's get specific about what we've notice...",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Drew",
+          "message": "I agree with the consensus around River; I've noticed some erratic changes in their voting patterns that seem worth exploring further. Let\u2019s gather more examples to build a stronger case.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Casey",
+          "message": "I appreciate the focus on River, as I've also observed some inconsistencies in their reasoning during discussions. It might be helpful to map out specific instances to clarify these patterns further.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Indigo",
+          "message": "I agree with the points raised about River's voting patterns; I've also noticed inconsistencies that seem to shift depending on the group's direction. Let\u2019s compile specific examples to clarify our...",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Emery",
+          "message": "I believe continuing to gather specific examples of River's voting patterns and inconsistencies will help us form a well-rounded understanding. Let's ensure we compile our observations effectively ...",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Storm",
+          "message": "I appreciate everyone's insights on River; I've also noticed that they often shift their stance based on group sentiment, which raises my suspicion. It might be beneficial to summarize our specific...",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Casey",
+          "message": "I propose we create a list of specific instances where River's behavior seemed inconsistent, as this will allow us to analyze the patterns more effectively and strengthen our argument.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Storm",
+          "message": "I agree with the need to compile specific examples of River's inconsistencies; this will help us better analyze their behavior and intentions. Let's ensure we all contribute our observations to pai...",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Emery",
+          "message": "I agree that compiling specific examples will help us analyze River's behavior thoroughly. Let's focus on key instances to create a solid case for our discussion.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "River",
+          "message": "While I appreciate everyone's observations, I encourage us to consider the context of my decisions, as they are reflective of the group's dynamics rather than personal inconsistencies. Let's analyz...",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Emery",
+          "message": "I understand River's perspective, but I believe our observations of their voting patterns are crucial for clarity. Continuing to compile our examples will strengthen our understanding of their role...",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Drew",
+          "message": "I think it's important to balance our observations about River with their perspective on group dynamics, as this context might reveal deeper insights into their behavior. Let's ensure we're conside...",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Storm",
+          "message": "River, while context is certainly important, I believe focusing on specific behaviors will help us assess your role more accurately. Let's ensure we construct a balanced view based on both observat...",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Morgan": "Storm tends to be direct and strategic; Emery communicates with a focus on forming alliances; Jordan is analytical and asks probing questions; Indigo prefers a casual, laid-back tone; Finley is enthusiastic and supportive; Drew often plays the devil's advocate; Sky is straightforward and to the point; Casey is friendly but somewhat vague; River frequently brings up logical arguments.",
+        "Finley": "- Storm: Direct and straightforward, values clarity.\n- Emery: Tends to ask questions, facilitating discussion and encouraging input.\n- Jordan: Analytical, often gives detailed reasoning behind their thoughts.\n- Indigo: Creative thinker, likes to propose unconventional ideas.\n- Finley: Balanced communicator, combines directness with open-ended suggestions.\n- Drew: Cautious, prefers to analyze before making decisions.\n- Sky: Enthusiastic and supportive, motivates others to participate.\n- Morgan: Organized, focuses on collaboration and strategy.\n- Casey: Observant, often makes insightful comments after listening.\n- River: Sarcastic and unpredictable, adds humor to the conversation.",
+        "Jordan": "- Morgan: Direct and assertive, encourages teamwork and focus.\n- Finley: Supportive and collaborative, emphasizes cooperation and group alignment.\n- Storm: Unknown (no prior messages to assess).\n- Emery: Unknown (no prior messages to assess).\n- Jordan: (Me) Observant and strategic, balancing between contributing and analyzing.\n- Indigo: Unknown (no prior messages to assess).\n- Drew: Unknown (no prior messages to assess).\n- Sky: Unknown (no prior messages to assess).\n- Casey: Unknown (no prior messages to assess).\n- River: Unknown (no prior messages to assess).",
+        "Indigo": "- Morgan: Encouraging and focused on teamwork; promotes collective decision-making.\n- Finley: Cooperative, values detailed discussions on suspicious behavior; seeks input from others.\n- Jordan: Supportive of group consensus; emphasizes the importance of discussing observations.\n- Storm: Unknown style.\n- Emery: Engages positively with collective ideas; supports discussions on observations.\n- Drew: Supports group consensus; aims to gather more examples to support claims.\n- Sky: Constructive, advocating for shared observations to uncover motives.\n- Casey: Analytical; focuses on detailing specific inconsistencies in reasoning.\n- River: Unknown style.",
+        "Emery": "- Morgan: Diplomatic and focused on teamwork; emphasizes cooperation.\n- Finley: Supportive of group discussion; suggests analyzing suspicious behaviors.\n- Jordan: Agreement-oriented; encourages sharing observations.\n- Indigo: Analytical; proposes specific discussions about behaviors.\n- River: Defensive; emphasizes group dynamics over personal behavior.\n- Sky: Encourages collaborative discussion and builds on others\u2019 points.\n- Drew: Engages with the group's consensus and raises specific concerns.\n- Casey: Values mapping out specific instances to clarify patterns in discussions.\n- Storm: Observant and synthesizes group sentiment; raises concerns about shifts in behavior.",
+        "Sky": "- Morgan: Collaborative, focused on teamwork and strategy.\n- Finley: Emphasizes collaboration, seeks to build consensus through discussion.\n- Jordan: Supports the group dynamic, encourages analysis of behaviors.\n- Indigo: Direct, suggests specific players for discussion.\n- Emery: Analytical, suggests deeper investigation of specific players\u2019 inconsistencies.\n- River: (unknown for now; has been mentioned as suspicious).",
+        "Drew": "- Morgan: Focused and team-oriented, emphasizes cooperation and strategy.\n- Finley: Collaborative, encourages specific discussions and observations.\n- Jordan: Supportive of group discussions, leans towards identifying behaviors.\n- Indigo: Inquisitive and supportive of discussing specific players.\n- Emery: Analytical, points out inconsistencies and seeks depth in discussions.\n- Sky: Focused on uncovering motives, builds on others' points.\n- River: Reflective of group dynamics in their decisions, seeks context in discussions.\n- Casey: Proactive in suggesting methods for analysis and clearer understanding.\n- Storm: Observant, seeks to summarize and clarify group dynamics, suspicious of shifts in stance.",
+        "Casey": "- Morgan: Diplomatic and encouraging collaborative participation; focuses on group cohesion.\n- Finley: Supportive of collaborative communication; asks for specific observations to guide direction.\n- Jordan: Aligns with others; emphasizes the importance of identifying suspicious behaviors.\n- Indigo: Agreeable and interested in discussing specific observations; points out potential issues.\n- Emery: Engages with teamwork and highlights inconsistencies; seeks deeper analysis of issues.\n- Sky: Advocates for scrutiny and encourages sharing observations; aims to build a consensus.\n- Drew: Supports the group's consensus, notes specific patterns, and suggests gathering more evidence.\n- River: (uncertain, under scrutiny) \n- Storm: Observant and critical; highlights group sentiment shifts as potential issues.\n- Casey: Observant and analytical; can contribute to discussions on others\u2019 behaviors.",
+        "Storm": "- Jordan: Logical and focused on behaviors; encourages discussion.\n- Finley: Collaborative and seeks clarification; values specific observations.\n- Indigo: Supportive of group consensus; values collective observations.\n- Emery: Emphasizes motivation and reasoning; keen on drawing connections.\n- Sky: Analytical and proactive; encourages structured dialogue.\n- Drew: Affirms group consensus; looks for examples to support claims.\n- Casey: Discerning, looks for specific patterns; analytical in observations.\n- River: Target of scrutiny; defends decisions in the context of group dynamics.\n- Storm: Observant and succinct, aims to maintain clarity in discussions.",
+        "River": "- Sky: Analytical and collaborative, encourages group discussion.\n- Emery: Supportive, focuses on detailed analysis, wants specifics.\n- Drew: Similar to Emery, values consensus and detail.\n- Casey: Proactive in suggesting solution-oriented tasks, emphasizes clarity.\n- Indigo: Observant and aligned with others, focuses on group tactics.\n- Storm: Critical and logical, raises suspicion without much nuance.\n- Finley: (no recent input)\n- Jordan: (no recent input)\n- Morgan: (no recent input)\n- River: Engaging, but currently under scrutiny."
+      },
+      "voting": {
+        "votes": {
+          "Storm": "River",
+          "Emery": "River",
+          "Jordan": "River",
+          "Indigo": "River",
+          "Finley": "Storm",
+          "Drew": "River",
+          "Sky": "Storm",
+          "Morgan": "River",
+          "Casey": "River",
+          "River": "Storm"
+        },
+        "eliminated": {
+          "name": "River",
+          "is_human": false,
+          "votes": 7
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Indigo",
+          "message": "I believe it\u2019s crucial to balance our focus on River's inconsistencies with the context they provide. Gathering both specific examples and understanding the dynamics at play will give us a fuller p...",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Jordan",
+          "message": "I agree that gathering specific instances of River's behavior is essential, but we should also consider the larger context they mentioned to get a full picture. Balancing both perspectives might le...",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Jordan",
+          "message": "I think we should prioritize gathering both specific examples and the context around River's behavior. This way, we can create a balanced analysis that captures both the details and the dynamics at...",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Casey",
+          "message": "I think we should document both the specific instances of River's behavior as well as the context they provided, as this dual perspective will enhance our analysis and support a more informed discu...",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Casey",
+          "message": "I agree with the importance of gathering both specific examples and the broader context of River's behavior; this comprehensive approach will help us assess the situation more effectively. Let's ke...",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Emery",
+          "message": "I think it's valuable that everyone agrees on the importance of both specific examples and context regarding River's behavior. This dual approach can lead us to a more comprehensive understanding o...",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Indigo",
+          "message": "I appreciate everyone's focus on both the specifics and context regarding River's behavior. Let's ensure our analysis remains balanced so we can draw informed conclusions moving forward.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Jordan",
+          "message": "I believe gathering insights on River's behavior alongside context can help us navigate this discussion effectively. Let's ensure our analysis remains comprehensive and inclusive.",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Storm",
+          "message": "I agree that focusing on both specifics and context is vital for clarity; however, I suggest we also prioritize concrete examples to ground our analysis effectively.",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Finley",
+          "message": "I appreciate everyone's focus on balancing specifics and context regarding River's behavior. Let's also ensure that we remain open-minded to new perspectives as we analyze these details.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Casey",
+          "message": "Considering the balance of specifics and context is crucial, but let\u2019s not overlook any notable patterns that could illustrate River's behavior more clearly. Identifying those patterns might help u...",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Morgan",
+          "message": "I agree with the emphasis on both specifics and context regarding River's behavior. This balanced approach will undoubtedly give us a clearer understanding as we navigate this discussion.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Sky",
+          "message": "I appreciate everyone's detailed approach to analyzing River's behavior. Let's also be vigilant about emerging patterns in these discussions, as they may reveal deeper insights.",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Finley",
+          "message": "I'm glad to see everyone agreeing on the importance of context and specifics regarding River's behavior. Let's make sure we actively share our observations as patterns emerge, as this could lead to...",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Emery",
+          "message": "I think it\u2019s essential that we stay focused on individual behaviors while also being open to the broader group dynamics at play\u2014this will help us maintain clarity as we further analyze River\u2019s acti...",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Casey",
+          "message": "I believe it's also important to check for any defensive reactions from River, as those could indicate deeper issues at play. Let's keep an eye out for how they respond in our ongoing discussions.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Drew",
+          "message": "I appreciate the focus on balancing specifics and context in our analysis of River's behavior. Let\u2019s ensure we stay observant of any notable defensive reactions that might emerge; they could be tel...",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Casey",
+          "message": "I\u2019d like to add that we should remain attentive to the way River articulates their thoughts; the language they use could provide insights into their perspective and potential defensiveness.",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Morgan",
+          "message": "It's also crucial that we consider how our interpretations of River's behavior might influence our group dynamics and decisions moving forward. Let's remain mindful of this impact as we continue ou...",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Indigo",
+          "message": "I appreciate everyone\u2019s insights on River\u2019s behavior; let\u2019s ensure we\u2019re also considering how our collective dynamics might shape our interpretations moving forward.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Indigo": "- Morgan: Encouraging and focused on teamwork; promotes collective decision-making.  \n- Finley: Cooperative, values detailed discussions on suspicious behavior; seeks input from others.  \n- Jordan: Supportive of group consensus; emphasizes the importance of discussing observations.  \n- Storm: Openly shares observations; aims for collective analysis and clarity.  \n- Emery: Engages positively with collective ideas; supports discussions on observations.  \n- Drew: Supports group consensus; aims to gather more examples to support claims.  \n- Sky: Constructive, advocating for shared observations to uncover motives.  \n- Casey: Analytical; focuses on detailing specific inconsistencies in reasoning.  \n- River: Reflective, seeks to frame their behavior in context while challenging the observations.\n- Jordan: Similar to Drew; focuses on supporting collective ideas and group consensus.",
+        "Jordan": "- Morgan: Direct and assertive, encourages teamwork and focus.\n- Finley: Supportive and collaborative, emphasizes cooperation and group alignment.\n- Storm: Analytical and logical, seeks detailed observations and group agreement.\n- Emery: Methodical and detail-oriented, values thorough analysis and group input.\n- Jordan: Observant and strategic, balancing between contributing and analyzing.\n- Indigo: Balances specific examples with contextual understanding, values depth.\n- Drew: Reflective and considerate, emphasizes the importance of multiple perspectives.\n- Sky: Unknown (no prior messages to assess).\n- Casey: Proactive and organized, suggests practical solutions for team strategies.\n- River: Contextual and defensive, urges consideration of group dynamics in assessments.",
+        "Casey": "- Morgan: Diplomatic and encouraging collaborative participation; focuses on group cohesion.  \n- Finley: Supportive of collaborative communication; asks for specific observations to guide direction.  \n- Jordan: Aligns with others; emphasizes the importance of identifying suspicious behaviors and balancing perspectives.  \n- Indigo: Agreeable and interested in discussing specific observations; highlights the importance of understanding context.  \n- Emery: Engages with teamwork, highlights inconsistencies, and seeks deeper analysis of issues.  \n- Sky: Advocates for scrutiny and encourages sharing observations; aims to build consensus.  \n- Drew: Supports group consensus, notes specific patterns, and suggests gathering more evidence; values context.  \n- Storm: Observant and critical; highlights shifts in group sentiment as potential issues.  \n- River: Seeks to shift focus to broader dynamics rather than personal inconsistencies; appears defensive.  \n- Casey: Observant and analytical; can contribute to discussions on others\u2019 behaviors.",
+        "Emery": "- Morgan: Diplomatic and focused on teamwork; emphasizes cooperation.\n- Finley: Supportive of group discussion; suggests analyzing suspicious behaviors.\n- Jordan: Agreement-oriented; encourages sharing observations.\n- Indigo: Analytical; proposes specific discussions about behaviors.\n- River: Defensive; emphasizes group dynamics over personal behavior.\n- Sky: Encourages collaborative discussion and builds on others\u2019 points.\n- Drew: Engages with the group's consensus and raises specific concerns.\n- Casey: Values mapping out specific instances to clarify patterns in discussions.\n- Storm: Observant and synthesizes group sentiment; raises concerns about shifts in behavior.",
+        "Storm": "- Jordan: Logical and focused on behaviors; encourages discussion, values balance.\n- Finley: Collaborative and seeks clarification; values specific observations.\n- Indigo: Supportive of group consensus; values collective observations and balanced analysis.\n- Emery: Emphasizes motivation and reasoning; keen on drawing connections, appreciates collective agreement.\n- Sky: Analytical and proactive; encourages structured dialogue.\n- Drew: Affirms group consensus; looks for examples to support claims, seeks clarity in discussions.\n- Casey: Discerning, looks for specific patterns; analytical and supports comprehensive evaluation.\n- River: Target of scrutiny; defends decisions in the context of group dynamics.\n- Storm: Observant and succinct, aims to maintain clarity in discussions.",
+        "Finley": "- Storm: Direct and straightforward, values clarity.  \n- Emery: Tends to ask questions, facilitating discussion and encouraging input.  \n- Jordan: Analytical, often gives detailed reasoning behind their thoughts.  \n- Indigo: Creative thinker, likes to propose unconventional ideas.  \n- Finley: Balanced communicator, combines directness with open-ended suggestions.  \n- Drew: Cautious, prefers to analyze before making decisions.  \n- Sky: Enthusiastic and supportive, motivates others to participate.  \n- Morgan: Organized, focuses on collaboration and strategy.  \n- Casey: Observant, often makes insightful comments after listening.  \n- River: Sarcastic and unpredictable, adds humor to the conversation.",
+        "Morgan": "- Storm: Direct and strategic\n- Emery: Focused on forming alliances\n- Jordan: Analytical, asks probing questions\n- Indigo: Casual, laid-back tone\n- Finley: Enthusiastic and supportive\n- Drew: Plays the devil's advocate\n- Sky: Straightforward and to the point\n- Casey: Friendly but somewhat vague, repetitive agreement\n- River: Frequently brings up logical arguments",
+        "Sky": "- Morgan: Collaborative, focused on teamwork and strategy.\n- Finley: Emphasizes collaboration, seeks to build consensus through discussion.\n- Jordan: Supports the group dynamic, encourages analysis of behaviors.\n- Indigo: Direct, suggests specific players for discussion.\n- Emery: Analytical, suggests deeper investigation of specific players\u2019 inconsistencies.\n- Casey: Repetitive style, emphasizes thoroughness in analysis.\n- Storm: Values clarity and prioritizes concrete examples.\n- River: (unknown for now; has been mentioned as suspicious).",
+        "Drew": "- Morgan: Focused and team-oriented, emphasizes cooperation and strategy.\n- Finley: Collaborative, encourages specific discussions and observations, open-minded.\n- Jordan: Supportive of group discussions, leans towards identifying behaviors.\n- Indigo: Inquisitive and supportive of discussing specific players, values balanced analysis.\n- Emery: Analytical, points out inconsistencies and seeks depth in discussions, emphasizes individual behaviors.\n- Sky: Focused on uncovering motives, builds on others' points, seeks deeper insights.\n- River: Reflective, seeks context, values group dynamics.\n- Casey: Proactive in suggesting methods for analysis and identifying patterns.\n- Storm: Observant, seeks to summarize and clarify group dynamics, suspicious of stance shifts."
+      },
+      "voting": {
+        "votes": {
+          "Storm": "Emery",
+          "Emery": "Finley",
+          "Jordan": "Sky",
+          "Indigo": "Casey",
+          "Finley": "Indigo",
+          "Drew": "Casey",
+          "Sky": "Casey",
+          "Morgan": "Casey",
+          "Casey": "Storm"
+        },
+        "eliminated": {
+          "name": "Casey",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Morgan",
+          "message": "I think it's important to also reflect on how our observations can affect River's comfort in this discussion; a supportive environment might yield more revealing responses.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Finley",
+          "message": "I agree that fostering a supportive environment will help us draw out more authentic responses from River. As we analyze their behavior, let\u2019s also remain conscious of how our interpretations could...",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Storm",
+          "message": "It's essential that we remain vigilant about our own biases while analyzing River's behavior to ensure that our insights are as objective as possible. Let's strive to maintain a balanced perspectiv...",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Finley",
+          "message": "I believe that acknowledging our biases is essential as we analyze River's behavior; this will ensure our observations remain objective and constructive. Let's keep fostering this supportive dialog...",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Sky",
+          "message": "I agree with the importance of fostering a supportive environment, as it could help reveal more about River\u2019s behavior. Let\u2019s remain attentive to any shifts in their responses as we move forward.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Storm",
+          "message": "I agree that our biases can shape our interpretations of River's actions; let's ensure we remain open-minded as we observe their responses, encouraging a space where they feel comfortable to share.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate the focus on maintaining a supportive environment as we analyze River's behavior. Let's continue to encourage open dialogue, as this could help reveal valuable insights moving forward.",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Jordan",
+          "message": "I think it's important to remain adaptable as we analyze River's behavior; if we encourage genuine contributions, we may gain deeper insights that could benefit our collective understanding.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Emery",
+          "message": "I think we should also consider how our own actions might influence River's openness in this dialogue, as promoting a sense of safety could lead to more honest insights. Let's keep that in mind as ...",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Morgan",
+          "message": "While it's crucial to create a safe space for River, let's also be mindful of how we can share our own perspectives openly; mutual understanding can enhance our collective insights.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Emery",
+          "message": "I agree that fostering a supportive atmosphere is vital; however, we should also be cautious about how our eagerness to support might unintentionally lead to overlooking any key behavioral cues fro...",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Morgan",
+          "message": "I believe it's also important to balance our eagerness to support with the need for honest critique; encouraging River while remaining observant of any underlying behaviors will allow us to better ...",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Indigo",
+          "message": "I agree with everyone's focus on maintaining a supportive environment, and I suggest we also encourage River to share any concerns directly; this could lead to a more honest exchange of insights.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Emery",
+          "message": "I think we should also invite River to share their thoughts on the current discussion, as their perspective might provide valuable context for understanding any underlying behaviors.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Sky",
+          "message": "I believe inviting River to express any concerns could help clarify their perspectives and promote transparency, which will aid us in our analysis of their behavior moving forward.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Morgan",
+          "message": "I think it's essential that as we invite River to share their concerns, we also emphasize that all input is valued equally; this will foster a more enriching discussion for everyone involved.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Jordan",
+          "message": "I agree with the sentiment of inviting River to share their thoughts, as transparency can be pivotal in fostering understanding among the group; let's ensure that we listen actively to what they ha...",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Indigo",
+          "message": "I appreciate the emphasis on creating a safe space for River and inviting their thoughts, as it truly fosters a culture of openness; let's ensure we remain attentive to their responses for deeper i...",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Sky",
+          "message": "I appreciate the collective effort to include River in this discussion; encouraging their input while remaining attentive to potential inconsistencies in our interactions will be key in our analysis.",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Storm",
+          "message": "I believe we should also encourage River to reflect on how the group's dynamics affect their feelings; this could uncover valuable insights that enhance our understanding.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Morgan": "- Storm: Direct and strategic\n- Emery: Focused on forming alliances and concerned about group dynamics\n- Jordan: Analytical, asks probing questions, values adaptability\n- Indigo: Casual, laid-back tone\n- Finley: Enthusiastic and supportive, promotes collaboration\n- Drew: Plays the devil's advocate, encourages critical thinking\n- Sky: Straightforward and to the point\n- Morgan: Supportive and reflective",
+        "Finley": "- Storm: Direct and straightforward, values clarity.  \n- Emery: Tends to ask questions, facilitating discussion and encouraging input.  \n- Jordan: Analytical, often gives detailed reasoning behind their thoughts.  \n- Indigo: Creative thinker, likes to propose unconventional ideas.  \n- Finley: Balanced communicator, combines directness with open-ended suggestions.  \n- Drew: Cautious, prefers to analyze before making decisions.  \n- Sky: Enthusiastic and supportive, motivates others to participate.  \n- Morgan: Organized, focuses on collaboration and strategy.  \n- Casey: Observant, often makes insightful comments after listening.  \n- River: Sarcastic and unpredictable, adds humor to the conversation.",
+        "Storm": "- Jordan: Logical and focused on behaviors; encourages discussion, values balance.\n- Finley: Collaborative and seeks clarification; values specific observations and supportive dialogue.\n- Indigo: Supportive of group consensus; values collective observations and balanced analysis.\n- Emery: Emphasizes motivation and reasoning; keen on drawing connections, appreciates collective agreement.\n- Sky: Analytical and proactive; encourages structured dialogue and vigilance in discussions.\n- Drew: Affirms group consensus; looks for examples to support claims, seeks clarity in discussions.\n- Morgan: Reflective on group dynamics; values supportive environments and their impact on discussions.",
+        "Sky": "- Morgan: Collaborative, focused on teamwork and strategy.  \n- Finley: Emphasizes collaboration, seeks to build consensus through discussion.  \n- Jordan: Supports group dynamics, encourages analysis of behaviors.  \n- Indigo: Direct, suggests specific players for discussion.  \n- Emery: Analytical, suggests deeper investigation of specific players\u2019 inconsistencies.  \n- Storm: Values clarity and prioritizes concrete examples.  \n- Drew: Appreciative and observant, emphasizes balance in analysis.  \n- River: (unknown for now; has been mentioned as suspicious).",
+        "Jordan": "- Morgan: Direct and assertive, encourages teamwork and focus.  \n- Finley: Supportive and collaborative, emphasizes cooperation and group alignment.  \n- Storm: Analytical and logical, seeks detailed observations and group agreement.  \n- Emery: Methodical and detail-oriented, values thorough analysis and group input.  \n- Jordan: Observant and strategic, balancing between contributing and analyzing.  \n- Indigo: Balances specific examples with contextual understanding, values depth.  \n- Drew: Reflective and considerate, emphasizes the importance of multiple perspectives.  \n- Sky: Supportive, values fostering a positive environment for discussions.  \n- Casey: Proactive and organized, suggests practical solutions for team strategies.  \n- River: Contextual and defensive, urges consideration of group dynamics in assessments.",
+        "Emery": "- Morgan: Diplomatic and focused on teamwork; emphasizes cooperation.\n- Finley: Supportive of group discussion; suggests analyzing suspicious behaviors.\n- Jordan: Agreement-oriented; encourages sharing observations and adaptability.\n- Indigo: Analytical; proposes specific discussions about behaviors.\n- Storm: Observant and synthesizes group sentiment; raises concerns about behavior shifts.\n- Sky: Encourages collaborative discussion and builds on others\u2019 points.\n- Drew: Engages with group consensus and raises specific concerns.\n- River: Defensive; emphasizes group dynamics over personal behavior.",
+        "Indigo": "- Morgan: Encouraging and focused on teamwork; promotes collective decision-making, but also values sharing personal perspectives.\n- Finley: Cooperative, values detailed discussions on suspicious behavior; seeks input from others and emphasizes the importance of objective observations.\n- Jordan: Supportive of group consensus; emphasizes adaptability and encourages open dialogue as a way to gain deeper insights.\n- Storm: Openly shares observations; aims for collective analysis and encourages a balanced perspective.\n- Emery: Engages positively with collective ideas; emphasizes creating a safe space for contributions while noting the need for critical observation.\n- Drew: Supports group consensus; seeks examples to strengthen claims, promoting discussion based on shared observations.\n- Sky: Constructive; advocates for shared observations to uncover motives and emphasizes attentiveness to shifts in responses.\n- Casey: Analytical; focuses on detailing specific inconsistencies in reasoning without a notable recent presence.\n- River: Reflective; challenges observations while framing their behavior in context but has not been prominently active in the recent chat."
+      },
+      "voting": {
+        "votes": {
+          "Storm": "Emery",
+          "Emery": "Storm",
+          "Jordan": "Storm",
+          "Indigo": "Emery",
+          "Finley": "Sky",
+          "Drew": "Storm",
+          "Sky": "Storm",
+          "Morgan": "Drew"
+        },
+        "eliminated": {
+          "name": "Storm",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Jordan",
+          "message": "I appreciate everyone\u2019s commitment to including River in our discussions, as it truly exemplifies the collaborative spirit we're aiming for; let's continue to pay close attention to their insights ...",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Indigo",
+          "message": "I believe as we encourage River to express their thoughts, we should also remain mindful of our own biases and ensure we are open to diverse perspectives\u2014this will enhance our analysis and understa...",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Indigo",
+          "message": "I think it\u2019s important that we also remain open to exploring how our individual biases might influence our perceptions, which can help us understand each other's viewpoints more clearly as we move ...",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Indigo",
+          "message": "I think it's vital that we actively listen to River\u2019s insights as they might shed light on our collective dynamics and any underlying concerns; fostering an inclusive atmosphere will only strengthe...",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Sky",
+          "message": "I agree that fostering an inclusive environment is essential; let's ensure we respond thoughtfully to River's insights, as they could illuminate important aspects of our group's dynamics.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Morgan",
+          "message": "I appreciate the emphasis on creating an inclusive environment for River; let's ensure we give them the space to express their thoughts freely and reflect on how they feel within our group dynamics.",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Emery",
+          "message": "I believe it's important for us to balance our focus on River's insights with an examination of our own dynamics; by doing this, we can better understand our collective strengths and areas for growth.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Sky",
+          "message": "I commend our shared commitment to inclusivity, and I believe by actively engaging with River\u2019s insights while also reflecting on our own contributions, we can gain a more comprehensive understandi...",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Morgan",
+          "message": "I echo the importance of striking a balance between listening to River and reviewing our own group dynamics; this self-reflection is crucial for our collective growth.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Sky",
+          "message": "I appreciate everyone's dedication to inclusivity and self-reflection; it's vital that we continue to encourage River while remaining aware of how our interactions shape our understanding of each o...",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate the focus on inclusivity and self-reflection; let\u2019s ensure we create an atmosphere where everyone feels empowered to share their thoughts, as this will only help us grow stronger toget...",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Jordan",
+          "message": "I agree, fostering this balance between encouraging River and reflecting on our own contributions will be key to enhancing our collective understanding. Let's keep this dialogue open and constructive.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Morgan",
+          "message": "I wholeheartedly agree with the need for a balanced approach; fostering an atmosphere where River can openly share while we engage in meaningful self-reflection will deepen our understanding and st...",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Indigo",
+          "message": "While valuing River's insights, let\u2019s also remain vigilant in our discussions, ensuring we consider all perspectives, as this will lead to a more nuanced understanding of our group's dynamics.",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Emery",
+          "message": "I agree that maintaining a balance between encouraging River and reflecting on our own contributions is essential; this will help us forge a stronger and more understanding group identity.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Indigo",
+          "message": "I appreciate the ongoing commitment to fostering inclusivity and self-reflection, and I agree that balancing our attentiveness to River while remaining open to all perspectives is key to our growth.",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Sky",
+          "message": "I concur with everyone's sentiment on fostering inclusivity and the importance of balancing our focus on River's insights while reflecting on our dynamics. Let's continue this constructive dialogue...",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Sky",
+          "message": "I believe that by continuously weaving River\u2019s insights into our discussions, we can better navigate the complexities of our group dynamics and drive towards achieving our common goals. Let's stay ...",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Indigo",
+          "message": "I agree, maintaining a dialogue that incorporates everyone's perspectives, including River's, is crucial; it will enhance our collective insight and understanding of the group's dynamics.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Indigo",
+          "message": "I believe incorporating River's insights and questioning our assumptions can illuminate hidden dynamics and strengthen our decision-making as a group. Let's keep pushing for that balance in our dis...",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Jordan": "- Emery: Methodical and detail-oriented, values thorough analysis and group input.\n- Jordan (me): Observant and strategic, balancing between contributing and analyzing.\n- Indigo: Balances specific examples with contextual understanding, values depth.\n- Finley: Supportive and collaborative, emphasizes cooperation and group alignment.\n- Drew: Reflective and considerate, emphasizes the importance of multiple perspectives.\n- Sky: Supportive, values fostering a positive environment for discussions.\n- Morgan: Direct and assertive, encourages teamwork and focus.\n- River: Contextual and defensive, urges consideration of group dynamics in assessments.",
+        "Indigo": "- Morgan: Encouraging and focused on teamwork; promotes collective decision-making while sharing personal perspectives.  \n- Finley: Cooperative, values detailed discussions on suspicious behavior; inputs from others, emphasizes objective observations.  \n- Jordan: Supportive of group consensus; emphasizes adaptability and encourages open dialogue for deeper insights.  \n- Sky: Constructive; advocates for shared observations to uncover motives, emphasizing attentiveness to shifts in responses.  \n- Emery: Engages positively with collective ideas; emphasizes creating a safe space for contributions and critical observation.  \n- Drew: Supports group consensus; seeks examples to strengthen claims and promotes discussion based on shared observations.  \n- Storm: Openly shares observations; aims for collective analysis and encourages a balanced perspective.  \n- River: Reflective; challenges observations while framing behavior in context.  \n- Casey: Analytical; focuses on detailing specific inconsistencies in reasoning.",
+        "Sky": "- Morgan: Collaborative, focused on teamwork and strategy.\n- Finley: Emphasizes collaboration, seeks to build consensus through discussion.\n- Jordan: Supports group dynamics, encourages analysis of behaviors.\n- Indigo: Direct, suggests specific players for discussion, mindful of biases.\n- Emery: Analytical, suggests deeper investigation of specific players\u2019 inconsistencies.\n- Drew: Appreciative and observant, emphasizes balance in analysis.\n- River: Unknown (still to be assessed).",
+        "Morgan": "- Storm: Direct and strategic  \n- Emery: Focused on forming alliances and concerned about group dynamics  \n- Jordan: Analytical, asks probing questions, values adaptability  \n- Indigo: Casual, laid-back tone  \n- Finley: Enthusiastic and supportive, promotes collaboration  \n- Drew: Plays the devil's advocate, encourages critical thinking  \n- Sky: Straightforward and to the point  \n- Morgan: Supportive and reflective",
+        "Emery": "- Morgan: Diplomatic and focused on teamwork; emphasizes cooperation.\n- Finley: Supportive of group discussion; suggests analyzing suspicious behaviors.\n- Jordan: Agreement-oriented; encourages sharing observations and adaptability.\n- Indigo: Analytical; proposes specific discussions about behaviors.\n- Storm: Observant and synthesizes group sentiment; raises concerns about behavior shifts.\n- Sky: Encourages collaborative discussion and builds on others\u2019 points.\n- Drew: Engages with group consensus and raises specific concerns.\n- River: Defensive; emphasizes group dynamics over personal behavior."
+      },
+      "voting": {
+        "votes": {
+          "Emery": "Indigo",
+          "Jordan": "Emery",
+          "Indigo": "Emery",
+          "Finley": "Jordan",
+          "Drew": "Indigo",
+          "Sky": "Indigo",
+          "Morgan": "Indigo"
+        },
+        "eliminated": {
+          "name": "Indigo",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Sky",
+          "message": "I appreciate everyone's commitment to fostering inclusivity and reflection; let's also keep an eye on how each player's interactions might reveal their true inclinations as we move forward together.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Sky",
+          "message": "I appreciate the ongoing dialogue and agree that incorporating River's contributions while staying reflective on our own dynamics is vital for enhancing our collaboration and understanding. Let's k...",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate everyone's focus on balancing inclusivity and reflection. Let's ensure that we actively integrate diverse perspectives while also remaining mindful of our collective goal.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Sky",
+          "message": "I echo the sentiments expressed about the importance of integrating diverse perspectives. As we engage in discussions, let's be mindful of how each player's contributions can reveal their roles and...",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Jordan",
+          "message": "I see a strong commitment to inclusivity and reflection here; as we delve deeper into our discussions, let\u2019s also remain vigilant about the dynamics at play and how they can inform our strategy mov...",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Jordan",
+          "message": "I appreciate the group's focus on inclusivity and reflectiveness; let's ensure we not only include all perspectives but also critically assess how our discussions shape our strategy moving forward.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Emery",
+          "message": "I appreciate the ongoing emphasis on inclusivity, and I think it's important we combine this with some direct observations of player behaviors to sharpen our strategy as we move forward. Let\u2019s ensu...",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Emery",
+          "message": "I think it\u2019s crucial to not only reflect on diverse perspectives but also to analyze specific player behaviors to sharpen our strategy. Observation will help us discern any hidden dynamics that cou...",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Drew",
+          "message": "To enhance our strategy, I suggest we not only integrate our diverse perspectives but also pay close attention to specific actions and behaviors during our discussions; this will help us reveal und...",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Sky",
+          "message": "I agree with the importance of observation in our discussions; as we analyze behaviors, let\u2019s also be open to adjusting our strategies based on what we learn about each other\u2019s roles.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Emery",
+          "message": "I think we should also consider specific actions that have stood out to us personally, as analyzing these can reveal subtle insights about each player's role and intentions. Let's ensure we highlig...",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Jordan",
+          "message": "I agree with the emphasis on specific observations; let's highlight any notable actions that stand out to us, as these insights will be invaluable in refining our approach and enhancing our strateg...",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Emery",
+          "message": "I think we should all highlight specific observations we've made recently, as these insights can help us identify any underlying roles and inform our collective strategy moving forward.",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Sky",
+          "message": "I believe it\u2019s essential that we each share the specific behaviors we've observed, as these insights could be pivotal in deciphering intentions and refining our collective strategy. Let\u2019s ensure ou...",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Jordan",
+          "message": "I suggest we each take a moment to share specific observations about player behaviors; these insights could provide us with essential clues to refine our strategy and navigate the complexities of o...",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Drew",
+          "message": "I suggest we each share a specific observation that stood out to us recently, as these could provide crucial insights into each player's potential role and enhance our collective strategy going for...",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Finley",
+          "message": "I propose that we each take turns sharing our specific observations so far; those details could significantly enrich our strategy and help clarify our roles in the game.",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Drew",
+          "message": "I appreciate everyone\u2019s insights! To maximize our effectiveness, I suggest we each share the most notable behavior we've observed from other players that could inform our strategic decisions.",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Sky",
+          "message": "I also think it's crucial we each present our observations; by focusing on the specific behaviors of others, we can better navigate alliances and potential conflicts. Let\u2019s make sure to share our i...",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Jordan",
+          "message": "I support the idea of sharing our specific observations; focusing on notable behaviors will enhance our collective understanding and strategy. Let's each contribute our insights to make the most of...",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Sky": "- Morgan: Collaborative, focused on teamwork and strategy.\n- Finley: Emphasizes collaboration, seeks to build consensus through discussion.\n- Jordan: Supports group dynamics, encourages analysis of behaviors.\n- Drew: Appreciative and observant, emphasizes balance in analysis.\n- Emery: Analytical, suggests deeper investigation of specific players\u2019 inconsistencies.\n- River: Unknown (still to be assessed).\n- Indigo: Direct, suggests specific players for discussion, mindful of biases.",
+        "Jordan": "- Emery: Methodical and detail-oriented, values thorough analysis and group input; advocates for specific observations.\n- Jordan (me): Observant and strategic, balancing between contributing and analyzing; focuses on the dynamics of discussions.\n- Finley: Supportive and collaborative, emphasizes cooperation and group alignment; encourages group alignment.\n- Drew: Reflective and considerate, emphasizes the importance of multiple perspectives; advocates for attention to actions.\n- Sky: Supportive, values fostering a positive environment and deepening understanding; encourages sharing critical insights.\n- Morgan: Direct and assertive, encourages teamwork and focus; seeks clarity and goal-oriented discussions.\n- River: Contextual and defensive, urges consideration of group dynamics in assessments; may act as a stabilizer in discussions.\n- Indigo: Collaborative and reflective, emphasizing inclusivity and open dialogue; values everyone's input.",
+        "Emery": "- Morgan: Diplomatic and focused on teamwork; emphasizes cooperation.\n- Finley: Supportive of group discussion; suggests analyzing suspicious behaviors.\n- Jordan: Agreement-oriented; encourages sharing observations and adaptability.\n- Sky: Encourages collaborative discussion and builds on others\u2019 points; emphasizes inclusivity and reflection.\n- Drew: Engages with group consensus and raises specific concerns while being proactive.\n- River: (No mention of River in this version; perhaps they are not in play at the moment.)",
+        "Drew": "- Morgan: Focused and team-oriented, emphasizes cooperation and strategy.\n- Finley: Collaborative, encourages specific discussions and observations, open-minded.\n- Jordan: Supportive of group discussions, leans towards identifying behaviors.\n- Emery: Analytical, points out inconsistencies and seeks depth in discussions, emphasizes individual behaviors.\n- Sky: Focused on uncovering motives, builds on others' points, seeks deeper insights.\n- Indigo: Inquisitive and supportive of discussing specific players, values balanced analysis.",
+        "Finley": "- Storm: Direct and straightforward, values clarity.  \n- Emery: Tends to ask questions, facilitating discussion and encouraging input.  \n- Jordan: Analytical, often gives detailed reasoning behind their thoughts.  \n- Indigo: Creative thinker, likes to propose unconventional ideas.  \n- Finley: Balanced communicator, combines directness with open-ended suggestions.  \n- Drew: Cautious, prefers to analyze before making decisions.  \n- Sky: Enthusiastic and supportive, motivates others to participate.  \n- Morgan: Organized, focuses on collaboration and strategy.  \n- Casey: Observant, often makes insightful comments after listening.  \n- River: Sarcastic and unpredictable, adds humor to the conversation."
+      },
+      "voting": {
+        "votes": {
+          "Emery": "Drew",
+          "Jordan": "Morgan",
+          "Finley": "Drew",
+          "Drew": "Emery",
+          "Sky": "Emery",
+          "Morgan": "Emery"
+        },
+        "eliminated": {
+          "name": "Emery",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251029_011243",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Storm",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Storm",
+        "infections": [
+          {
+            "player_name": "Storm",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-29T01:12:43.499436",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Storm",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Storm",
+      "is_human": false
+    },
+    {
+      "name": "Emery",
+      "is_human": false
+    },
+    {
+      "name": "Jordan",
+      "is_human": false
+    },
+    {
+      "name": "Indigo",
+      "is_human": false
+    },
+    {
+      "name": "Finley",
+      "is_human": false
+    },
+    {
+      "name": "Drew",
+      "is_human": false
+    },
+    {
+      "name": "Sky",
+      "is_human": false
+    },
+    {
+      "name": "Morgan",
+      "is_human": false
+    },
+    {
+      "name": "Casey",
+      "is_human": false
+    },
+    {
+      "name": "River",
+      "is_human": false
+    }
+  ]
+}

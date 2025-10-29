@@ -1,0 +1,891 @@
+{
+  "game_id": "20251028_231516",
+  "num_players": 10,
+  "model_name": "openai/gpt-4o",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Riley",
+          "message": "I noticed Harper asked specific questions about last night, which could suggest they\u2019re looking for inconsistencies; Harper, could you elaborate?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Harper",
+          "message": "I was trying to gather information to piece together everyone's activities, Riley. I think pinpointing inconsistencies could help us identify any suspicious actions.",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Logan",
+          "message": "Harper, your approach is logical. Riley, any other behaviors you've observed that might help us?",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Phoenix",
+          "message": "I agree with Harper's strategy; identifying inconsistencies is key. Logan, any particular person whose behavior seems inconsistent to you?",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Phoenix",
+          "message": "Based on what we've discussed, it seems crucial to focus on those who haven't provided much input yet. Maybe we should hear more from Nova and Gray.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Nova",
+          "message": "I've been observing quietly to understand everyone's dynamics; I agree we should consider input from those who've been less vocal like Gray, could be insightful.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Sage",
+          "message": "Gray, we haven't heard much from you lately; your perspective could be valuable. What are your thoughts on the current discussion?",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Logan",
+          "message": "Gray, I'd appreciate hearing your insights; understanding every perspective is crucial at this point.",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Gray",
+          "message": "I've been observing patterns and agree with the importance of focusing on input from everyone; let's also consider how consistent each player's story has been over the rounds.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Nova",
+          "message": "It seems like we're honing in on the importance of consistency; building on that, we should also be mindful of any shifts in storylines or dynamics that could reveal more about our current situation.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Logan",
+          "message": "Let's continue building on the consistency theme; everyone should reassess their views and ensure their observations are in line with past comments.",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Nova",
+          "message": "Perhaps we should now compile and compare all observations shared so far, helping us pinpoint any shifts or inconsistencies, ensuring each voice is fairly represented in our ongoing analysis.",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Harper",
+          "message": "Let's compile everyone's observations so far and highlight any discrepancies, particularly focusing on changes in behavior or storylines over time.",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's highlight and cross-reference any inconsistencies in our narratives; perhaps a timeline review of everyone's statements could clarify shifts in behavior or strategy.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Quinn",
+          "message": "It seems we're aligned on the importance of consistency and identifying changes; systematically reviewing past conversations could indeed highlight any shifts or discrepancies that need our attention.",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Gray",
+          "message": "It seems we're united in seeking consistency; let's assign pairs to cross-reference past discussions, ensuring everyone is equally scrutinized for shifts.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's ensure each pair cross-references thoroughly; I'll partner with anyone who needs more insight on past comments.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Logan",
+          "message": "I suggest forming pairs with complementary skills, like pattern recognition and detail-oriented observation, to maximize the effectiveness of our cross-references and ensure a balanced analysis.",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Gray",
+          "message": "Let's optimize pairings by matching detail-oriented players with those focused on cross-referencing to ensure a robust review, and I'll team up with Nova for the compilation task.",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Gray",
+          "message": "Let's go ahead and form those pairs, Logan's point about complementary skills is key; I'll work with Nova to start compiling while others begin their cross-references.",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Riley": "- Harper: Direct and often asks questions.\n- Logan: Reserved and rarely speaks.\n- Nova: Cryptic and uses a lot of metaphors.\n- Riley: (myself) Analytical and concise.\n- Quinn: Friendly, speaks in a reassuring tone.\n- Indigo: Formal and uses precise language.\n- Sage: Energetic and often jokes.\n- Phoenix: Aggressive and accusatory.\n- Gray: Logical and provides evidence for statements.\n- Jordan: Empathetic and often mediates conflicts.",
+        "Harper": "- Logan: Direct and analytical\n- Nova: Concise and enigmatic, focuses on observations and insights\n- Riley: Observant and inquisitive\n- Quinn: Humorous and laid-back\n- Indigo: Emotional and supportive\n- Sage: Logical and detailed\n- Phoenix: Mysterious and reserved, agrees with logical strategies\n- Gray: Evasive and cryptic, finally contributing with general observations\n- Jordan: Friendly and cooperative",
+        "Logan": "- Harper: Methodical, focuses on specific questions and information gathering.  \n- Riley: Observant, highlights behaviors and seeks clarity.  \n- Phoenix: Consensus builder, agrees with logical strategies.  \n- Nova: Quiet observer, supports hearing from less vocal players, emphasizes on compiling observations and spotting shifts.  \n- Sage: Encourages participation, seeks input from quieter players.  \n- Gray: Observes patterns, values input and consistency in stories, supports thorough cross-referencing.  \n- Indigo: Focused on identifying inconsistencies and advocates for cross-referencing narratives.  \n- Quinn: Agrees with the importance of identifying shifts, supports systematic review of past conversations.  \n- Jordan: Ensures thorough cross-referencing and willing to partner for analyzing past comments.",
+        "Phoenix": "Harper has an analytical communication style, focusing on questioning and data gathering. Riley is observant and inquisitive, often prompting others for explanations. Logan supports analytical approaches and seeks collective input.",
+        "Nova": "Harper - analytical and direct, focuses on specific questions and inconsistencies. Logan - supportive, encourages collaboration and logic. Riley - observant, focuses on subtle behaviors. Phoenix - agreeable, values group input. Sage - encourages quieter players to speak up. Gray - pattern-oriented, values consistency in storytelling.",
+        "Sage": "Harper is analytical and focused on gathering detailed information, Riley is observant and questioning of others, Logan acts as a mediator supporting logical approaches, Phoenix promotes participation and consensus, Nova is reserved and analytical, preferring to listen before speaking.",
+        "Gray": "- Harper: Analytical, asking specific questions to identify inconsistencies, emphasizes changes over time.\n- Riley: Observant, seeks clarification, but hasn't spoken in the recent chat.\n- Logan: Supportive, logical, suggests pairing complementary skills for effective analysis.\n- Nova: Quiet observer, suggests compiling and comparing observations, focused on fair representation.\n- Phoenix: Strategic, focuses on hearing from less vocal participants, hasn't spoken recently.\n- Sage: Encouraging, seeks input from quieter members, hasn't spoken recently.\n- Quinn: Consistent, logical, suggests systematic review of past conversations.\n- Indigo: Consistent, logical, emphasizes cross-referencing and timeline review.\n- Jordan: Suggests thorough cross-references, offers to partner for insight.\n- Gray: Proposes pairings for cross-referencing, teams up with Nova for compilation.",
+        "Indigo": "- Harper: Strategic, focuses on data and discrepancies.\n- Logan: Observant, emphasizes the importance of multiple perspectives.\n- Nova: Reflective, agrees with silent observation, builds on others' ideas.\n- Riley: Yet to observe directly.\n- Quinn: Yet to observe directly.\n- Sage: Encouraging participation, values input from less vocal players.\n- Phoenix: Analytical, supports strategy and seeks consistency.\n- Gray: Analyzing patterns, aligns with group consensus for consistent input.\n- Jordan: Yet to observe directly.",
+        "Quinn": "- Harper: Analytical, focuses on discrepancies and behavior changes.  \n- Logan: Likes to gather multiple perspectives, values consistency.  \n- Nova: Observant, values gathering comprehensive input and detecting shifts.  \n- Riley: Little information, needs further observation.  \n- Quinn (Me): Observant, strategic in aligning with group logic.  \n- Indigo: Analytical, emphasizes cross-referencing and timelines.  \n- Sage: Encourages underrepresented voices, values inclusion.  \n- Phoenix:Directive, focuses on involving quiet players.  \n- Gray: Observes patterns, supports comprehensive focus and consistency.  \n- Jordan: Little information, needs further observation.",
+        "Jordan": "Harper is collaborative and analytical, Logan is detail-oriented and methodical, Nova values consistency and thoroughness, Riley hasn't spoken recently so their style is unknown, Quinn seems methodical and supportive, Indigo is focused on clarification and cross-referencing, Sage is encouraging and prompts others to share, Phoenix hasn't spoken recently so their style is unknown, Gray emphasizes observation and consistency."
+      },
+      "voting": {
+        "votes": {
+          "Harper": "Gray",
+          "Logan": "Gray",
+          "Nova": "Jordan",
+          "Riley": "Phoenix",
+          "Quinn": "Riley",
+          "Indigo": "Riley",
+          "Sage": "Gray",
+          "Phoenix": "Gray",
+          "Gray": "Phoenix",
+          "Jordan": "Riley"
+        },
+        "eliminated": {
+          "name": "Gray",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Quinn",
+          "message": "I'll partner with Indigo to focus on cross-referencing and timeline reviews, while ensuring we bring in underrepresented voices.",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Indigo",
+          "message": "Quinn, I look forward to working with you; let's ensure we incorporate Riley and Jordan's insights to enhance our timeline analysis.",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Sage",
+          "message": "I agree with forming pairs to ensure thorough cross-references, and I propose partnering with Phoenix to promote broad participation and collective insights in our analysis.",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's start our paired analysis to bring together insights from everyone, ensuring both Riley and Jordan's perspectives are integrated for a balanced evaluation.",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Harper",
+          "message": "I'll team up with Riley to leverage our observational and inquisitive skills for analyzing shifts, ensuring a comprehensive review of our conversations.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Logan",
+          "message": "Let's proceed with the pair activities, ensuring each team shares their top insights in the next round to maintain transparency and enhance our collective understanding.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Sage",
+          "message": "Let's aim to share our cross-reference findings concisely in the next round to keep the whole group informed and aligned in our analysis.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Phoenix",
+          "message": "I'm ready to partner with Sage to ensure broad participation and look forward to hearing everyone's insights to maintain our strong team analysis.",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Sage",
+          "message": "Let's make sure our approach remains cohesive by establishing a timeline for when each pair will share insights, ensuring no voice is left behind in the process.",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Jordan",
+          "message": "I'm ready to contribute; I'll collaborate with Harper and Riley to ensure our observations and analyses are incorporated into the group's insights.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Riley",
+          "message": "I appreciate the collaborative initiatives we're building, Harper and I will focus on extracting key observations from our discussions; let's aim for a seamless integration of insights in the next ...",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's ensure every team adheres to the timeline for sharing insights so that we maintain a clear and cohesive flow of information throughout our group discussions.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Indigo",
+          "message": "I propose partnering with Nova to oversee the seamless integration of our findings, ensuring our observations align accurately with group insights, and we'll work to adhere to the set timeline.",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Nova",
+          "message": "Indigo and I will coordinate to ensure a seamless integration of our findings, keeping them aligned with the group's timeline and insights.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Phoenix",
+          "message": "Let's ensure that our timeline not only facilitates seamless integration of insights but also allows room for iterative feedback to refine our collective strategies effectively.",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Indigo",
+          "message": "Nova and I will ensure our findings highlight key insights and align with the coherence of our group's timeline, inviting feedback to refine our collective understanding.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Phoenix",
+          "message": "I agree with Sage's plan, let's set a timeline and rotate feedback to ensure our discussions are dynamic and interconnected, fostering both structured and innovative problem-solving.",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Sage",
+          "message": "Let's gather everyone's initial findings by the end of day one, followed by integrating feedback and strategic refinements on day two to foster thorough, cohesive discussions.",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Sage",
+          "message": "Let's ensure pairs report preliminary findings by end of day one, enabling us to address feedback and align our next steps effectively on day two to advance our collective analysis.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Riley",
+          "message": "Let's finalize our initial findings today, Harper and I will synthesize key observations, ensuring they align with our cohesive strategy for informed decision making.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Quinn": "- Harper: Analytical, focuses on discrepancies and behavior changes, collaborates actively for comprehensive reviews.\n- Logan: Values multiple perspectives, consistency, and effective pairing strategies, promotes transparency.\n- Nova: Observant, comprehensive input, and detecting shifts, pairs well with detail-oriented partners.\n- Riley: Appreciates collaborative initiatives, potentially insightful, open to focused observation and key extraction.\n- Quinn (Me): Observant, strategic in aligning with group logic.\n- Indigo: Analytical, cross-references, values timelines, suggests integrating insights from quieter players.\n- Sage: Encourages inclusion, values underrepresented voices, collaborative in maintaining cohesiveness and shared timelines.\n- Phoenix: Directive, involves quiet players, ensures broad participation.\n- Jordan: Proposes participation, open for pairing, ready to collaborate and integrate observations into group insights.",
+        "Indigo": "- Harper: Strategic, focuses on data and discrepancies.\n- Logan: Observant, emphasizes the importance of multiple perspectives.\n- Nova: Reflective, agrees with silent observation, builds on others' ideas.\n- Riley: Collaborative, integrates into group activities, focuses on key observations.\n- Quinn: Consensus-driven, values systematic approaches, open to collaboration, emphasizes timeline adherence.\n- Sage: Encouraging participation, values input from less vocal players, promotes structured work, emphasizes concise cross-referencing.\n- Phoenix: Analytical, supports strategy and seeks consistency, promotes collaboration, advocates for iterative feedback.\n- Jordan: Collaborative, seeks thorough cross-referencing, offers assistance.\n- Indigo (me): Facilitates integration of findings, ensures alignment with group insights, adheres to timelines.",
+        "Sage": "Harper is analytical, focusing on gathering detailed information. Riley is observant, questioning, and integrates insights into discussions. Logan supports logical approaches and acts as a mediator. Phoenix promotes participation and consensus, encouraging feedback and iteration. Nova listens before speaking, coordinating with timelines. Quinn is consistent, encourages systematic reviews, and ensures inclusion. Indigo supports detailed cross-referencing, ensuring coherence and alignment in narratives. Jordan partners and cross-references insights, focusing on integration. Sage is organizing, timeline-oriented, and ensures cohesive approaches.",
+        "Harper": "- Logan: Direct and analytical\n- Nova: Concise and enigmatic, focuses on observations and insights\n- Riley: Observant and inquisitive\n- Quinn: Humorous and laid-back, promotes collaboration and inclusivity\n- Indigo: Emotional and supportive\n- Sage: Logical and detailed\n- Phoenix: Mysterious and reserved, agrees with logical strategies\n- Gray: Evasive and cryptic, organizational and focused on group tasks\n- Jordan: Friendly and cooperative, emphasizes thoroughness and teamwork",
+        "Logan": "- Harper: Methodical, focuses on specific questions and information gathering, now teaming up with Riley.\n- Riley: Observant, highlights behaviors and seeks clarity, now partnering with Harper.\n- Phoenix: Consensus builder, agrees with logical strategies, now teaming up with Sage.\n- Nova: Quiet observer, supports hearing from less vocal players, emphasizes compiling observations and spotting shifts, now collaborating with Gray.\n- Sage: Encourages participation, seeks input from quieter players, now partnering with Phoenix.\n- Gray: Observes patterns, values input and consistency, supports cross-referencing, now partnering with Nova.\n- Indigo: Focused on identifying inconsistencies, advocates for cross-referencing, now collaborating with Quinn.\n- Quinn: Identifies shifts, supports systematic reviews, now partnering with Indigo.\n- Jordan: Ensures thorough cross-referencing and partnering with Riley, now supportive of insight sharing.",
+        "Phoenix": "- Harper: Analytical, data gathering, partners with Riley, teamwork focused.\n- Riley: Observant, inquisitive, collaborative, appreciates seamless integration, partners with Harper.\n- Logan: Supports transparency and collective understanding, encourages input.\n- Quinn: Promotes collaboration and adherence to timelines.\n- Indigo: Collaborative, ensures seamless integration, partners with Nova, timeline adherence.\n- Sage: Promotes participation, suggests timelines for inclusivity, partners with Phoenix.\n- Jordan: Insightful, collaborates with Harper and Riley, focuses on incorporation of observations.\n- Nova: Detail-oriented, works with Indigo, focuses on alignment and integration.\n- Gray: There is no player named Gray; presumed as an error or misreading.",
+        "Jordan": "Harper is collaborative and analytical, Logan is detail-oriented and methodical, Nova values consistency and thoroughness, Riley is still unknown, Quinn is methodical and supportive, Indigo is focused on clarification and cross-referencing, Sage is encouraging and prompts others to share, Phoenix is ready to promote participation, Jordan emphasizes observation and consistency. Gray is not listed among the players.",
+        "Riley": "- Harper: Direct and often asks questions.\n- Logan: Reserved and rarely speaks.\n- Nova: Cryptic, uses a lot of metaphors, now coordinating with Indigo.\n- Riley: (myself) Analytical and concise.\n- Quinn: Friendly, speaks in a reassuring tone, emphasizes timelines.\n- Indigo: Formal, precise language, now focuses on alignment and feedback with Nova.\n- Sage: Energetic, often jokes, focuses on participation and structured processes.\n- Phoenix: Aggressive, accusatory, now emphasizes feedback and dynamic discussions.\n- Jordan: Empathetic, mediates conflicts, focuses on collaborative efforts with Riley.",
+        "Nova": "Harper - analytical and direct, focuses on specific questions and inconsistencies. \nLogan - supportive, encourages collaboration and logic. \nRiley - observant, focuses on subtle behaviors. \nPhoenix - agreeable, values group input. \nSage - encourages quieter players to speak up, emphasizes cohesive approaches. \nQuinn - organized, prioritizes integration of insights and structured timelines. \nJordan - participative, ready to collaborate with different players. \nIndigo - proposes partnering and overseeing integration, values accuracy in aligning group findings."
+      },
+      "voting": {
+        "votes": {
+          "Harper": "Logan",
+          "Logan": "Jordan",
+          "Nova": "Harper",
+          "Riley": "Logan",
+          "Quinn": "Phoenix",
+          "Indigo": "Harper",
+          "Sage": "Phoenix",
+          "Phoenix": "Sage",
+          "Jordan": "Riley"
+        },
+        "eliminated": {
+          "name": "Logan",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Indigo",
+          "message": "Nova and I will ensure our integration highlights both key insights and necessary feedback loops to refine our collective strategy, aligning our timeline for a dynamic yet cohesive flow of informat...",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's ensure everyone has the required resources for swift initial findings by day one, and maintain a feedback loop for refining strategies dynamically as we proceed.",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Nova",
+          "message": "Let's adhere to our timeline by consolidating today's initial findings, while allowing flexibility for feedback to enhance our strategic approach tomorrow.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's prioritize integrating our findings by following Sage's structure so we can seamlessly incorporate feedback tomorrow and refine our strategy collectively.",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Nova",
+          "message": "Let's ensure our findings today are comprehensive and allow room for diverse insights, so our feedback tomorrow can refine strategies effectively in line with Sage's timeline.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Riley",
+          "message": "Let's align our findings with Sage's timeline and ensure our strategic framework is robust, incorporating feedback cohesively and efficiently as we move forward.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's align with the timeline set by Sage, ensuring that we incorporate diverse insights from everyone's initial findings, and focus on effective integration and cohesive strategies moving forward.",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's compile our synthesis today with a focus on consistency and thorough reflection, ensuring tomorrow's feedback leads us to a refined strategy, in line with Sage's approach.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Phoenix",
+          "message": "Let's ensure our insights today are synthesized effectively to adhere to Sage's timeline, keeping both cohesion and adaptability in focus for tomorrow's refined strategy.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Sage",
+          "message": "Let's consolidate our findings with a focus on cohesion and readiness for tomorrow's feedback, ensuring flexibility to adapt our strategic framework effectively.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Phoenix",
+          "message": "To ensure effective alignment with Sage's timeline, let's prioritize today\u2019s synthesis and remain adaptable for tomorrow\u2019s strategy refinement.",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Harper",
+          "message": "Let's ensure our findings today are precise and collaborative, aligning with Sage's timeline to harness diverse insights and elevate our strategy tomorrow.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Phoenix",
+          "message": "Let's continue prioritizing the synthesis of today's insights to reinforce cohesion, while maintaining adaptability in anticipation of tomorrow's strategy refinement.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's concentrate on synthesizing precise and varied insights from everyone today, which will allow us to refine our cohesive strategy aligned with Sage's structured approach tomorrow.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Sage",
+          "message": "Let's ensure today's synthesis integrates our diverse insights thoroughly, fostering a cohesive approach that remains adaptable for tomorrow's refinement.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's finalize today's synthesis with precision and adaptability, incorporating our varied insights to align with Sage's framework for tomorrow's strategy.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Harper",
+          "message": "Let's continue to ensure that our synthesis today is thorough and strategic, incorporating diverse insights to refine our approach for tomorrow in line with Sage's timeline.",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Sage",
+          "message": "Let's ensure our synthesis is precise and integrates all insights for a cohesive and adaptable strategy tomorrow, keeping our timeline in focus.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Harper",
+          "message": "Let\u2019s focus on thorough synthesis today, ensuring diverse insights are integrated to enhance cohesion and adaptability in line with our framework for tomorrow.",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Nova",
+          "message": "Let's ensure today's synthesis thoroughly integrates our diverse insights, emphasizing both cohesion and adaptability to effectively align with Sage\u2019s strategic framework tomorrow.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Indigo": "- Harper: Strategic, collaborative, focuses on aligning with timelines and harnessing diverse insights.\n- Nova: Reflective, collaborative, emphasizes comprehensive and diverse insights, aligns with timelines.\n- Riley: Collaborative, aligns closely with timelines, robust strategic frameworks, cohesive integration.\n- Quinn: Consensus-driven, emphasizes diverse insights, structured integration and timelines.\n- Sage: Structured, focuses on cohesion, readiness for feedback, and adaptability.\n- Phoenix: Analytical, strategic, emphasizes synthesis and adaptability within timelines.\n- Jordan: Collaborative, consistent, thorough reflection and synthesis, aligns with timelines.\n- Indigo (me): Facilitates integration, aligns with collective insights, focuses on coherent timelines.",
+        "Quinn": "- Harper: Analytical, discrepancy-focused, collaborates for comprehensive reviews, pairs with Riley.\n- Nova: Observant, aligns insights with group strategy, pairs with Indigo for integrated feedback.\n- Riley: Collaborative and strategic, ensures alignment with overall plans, pairs with Harper.\n- Quinn (Me): Observant, strategic in aligning with group logic.\n- Indigo: Analytical, focuses on integration and feedback, aligning with team structure, pairs with Nova.\n- Sage: Inclusive, emphasizes timelines, promotes feedback-driven structure, initiates plans.\n- Phoenix: Directive, involves quieter members, supports dynamic discussions, agrees with Sage.\n- Jordan: Proposes participation, collaboration for integrating observations (note inactive status).",
+        "Nova": "Harper - analytical and direct, focuses on specific questions and inconsistencies, ensures thorough integration of insights.\nRiley - observant, emphasizes cohesive strategy, subtle in approach.\nPhoenix - agreeable, values group input, emphasizes synthesis and adaptability.\nSage - structured, focuses on cohesion, integration, encourages thorough synthesis.\nQuinn - organized, resource-oriented, prioritizes dynamic adaptation and feedback incorporation.\nJordan - participative, collaborative, precise.\nIndigo - accuracy-focused, integration-oriented, aligns with structured methodologies.",
+        "Riley": "- Harper: Direct and often asks questions.  \n- Nova: Cryptic, uses a lot of metaphors, now coordinating with Indigo, emphasizes timeline and strategic approach.  \n- Riley: (myself) Analytical and concise.  \n- Quinn: Friendly, speaks in a reassuring tone, emphasizes timelines and resource allocation.  \n- Indigo: Formal, precise language, now focuses on alignment and feedback with Nova, aligns with structured processes.  \n- Sage: Energetic, often jokes, focuses on participation and structured processes, timelines.  \n- Phoenix: Aggressive, accusatory, now emphasizes feedback, dynamic and structured discussions.  \n- Jordan: Empathetic, mediates conflicts, focuses on collaborative efforts with Riley.",
+        "Jordan": "Harper is collaborative and analytical, with a focus on precision. Riley emphasizes strategic alignment and cohesion. Nova values consistency and thoroughness. Quinn is methodical, supportive, and focuses on integrating diverse insights. Indigo prioritizes clarification and cross-referencing for cohesion. Sage encourages sharing, sets structured timelines, and emphasizes flexibility. Phoenix emphasizes synthesis, cohesion, and adaptability.",
+        "Phoenix": "- Harper: Precise and collaborative.\n- Riley: Values cohesion and integration, aligns efficiently with Sage.\n- Quinn: Emphasizes diversity and integration in feedback.\n- Indigo: Prioritizes structured integration, aligned with Nova and Sage.\n- Sage: Consistent focus on cohesion, structure, and adaptability.\n- Jordan: Consistency and reflection, aligned with Sage.\n- Nova: Comprehensive and feedback-oriented, aligned with Indigo and Sage.\n- Phoenix: Synthesizes insights, focuses on cohesion and adaptability.",
+        "Sage": "- Harper: Precise, collaborative, emphasizes diverse insights, aligns with timelines.\n- Riley: Observant, questioning, cohesively strategizes with feedback.\n- Phoenix: Focuses on synthesis, adaptability, aligns with timelines.\n- Nova: Comprehensive, coordinates with timelines, seeks flexibility.\n- Quinn: Consistent, systematic, integrates diverse insights.\n- Indigo: Detailed, coherent, aligns strategies with structure.\n- Jordan: Consistent, reflective, synthesizes diverse insights.\n- Sage: Organizing, timeline-oriented, ensures cohesion.",
+        "Harper": "- Nova: Concise and enigmatic, focuses on observations and insights\n- Riley: Observant and inquisitive\n- Quinn: Humorous and laid-back, promotes collaboration and inclusivity\n- Indigo: Emotional and supportive, focuses on precise and varied insights\n- Sage: Logical and detailed, sets timelines and frameworks, emphasizes cohesion and adaptability\n- Phoenix: Mysterious and reserved, agrees with logical strategies, prioritizes synthesis and cohesion\n- Jordan: Friendly and cooperative, emphasizes thoroughness and teamwork, focuses on precision and adaptability\n- Harper: Concise and strategic, supports collaboration"
+      },
+      "voting": {
+        "votes": {
+          "Harper": "Nova",
+          "Nova": "Riley",
+          "Riley": "Phoenix",
+          "Quinn": "Jordan",
+          "Indigo": "Phoenix",
+          "Sage": "Phoenix",
+          "Phoenix": "Harper",
+          "Jordan": "Phoenix"
+        },
+        "eliminated": {
+          "name": "Phoenix",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Nova",
+          "message": "Let's all stay focused on delivering a synthesis that aligns with Sage's framework, ensuring we integrate our insights thoroughly for a cohesive strategy tomorrow.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's maintain our focus on synthesizing insights that ensure coherence and adaptability for refining tomorrow's strategy within Sage's framework.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Harper",
+          "message": "Let's ensure our synthesis today integrates our diverse insights thoroughly, aligning with Sage's framework to enhance our cohesion and adaptability for tomorrow.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Sage",
+          "message": "Let's finalize today's synthesis by ensuring our insights are diverse and cohesive, aligning with tomorrow's strategic timeline as we ensure adaptability.",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Nova",
+          "message": "Let's continue to prioritize diverse insight integration, ensuring our synthesis precisely aligns with Sage's framework for a cohesive and adaptable strategy tomorrow.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's ensure our synthesis captures both diverse insights and precise alignment with Sage's framework, facilitating a cohesive strategy that maximizes adaptability for tomorrow.",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Nova",
+          "message": "Let's ensure our strategy is both cohesive and adaptable by accurately synthesizing our diverse insights, staying aligned with Sage's strategic framework for tomorrow.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Nova",
+          "message": "Let's ensure our synthesis prioritizes the integration of diverse insights while maintaining our strategic alignment with Sage's framework for a cohesive and adaptable outcome tomorrow.",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Harper",
+          "message": "Let's ensure our synthesis includes all perspectives, focusing on a holistic, cohesive strategy that aligns with Sage\u2019s strategic framework for tomorrow.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Harper",
+          "message": "Let's streamline our synthesis approach, ensuring we seamlessly integrate diverse perspectives while maintaining alignment with Sage\u2019s framework for a cohesive and adaptable outcome tomorrow.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Riley",
+          "message": "Let's consolidate our synthesis by aligning diverse insights within Sage's framework, ensuring both coherence and adaptability for tomorrow.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's ensure our synthesis remains comprehensive and focused on maintaining alignment within Sage's framework as we prepare for tomorrow.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Harper",
+          "message": "Let's ensure we maintain focus on integrating the full spectrum of insights, synchronizing our diverse perspectives within Sage\u2019s framework for a strategic advantage tomorrow.",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's integrate our individual strengths to streamline a diverse synthesis, ensuring strategic alignment with Sage's framework for a cohesive strategy tomorrow.",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's refine our synthesis to ensure it remains comprehensive and cohesive, aligning with Sage's strategic framework for adaptability and precision in our approach tomorrow.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's refine our approach by integrating diverse perspectives while ensuring our synthesis aligns with Sage's adaptable framework for strategic cohesion.",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's collectively ensure our synthesis bridges all insights, aligning seamlessly with Sage\u2019s framework to maintain our strategic advantage tomorrow.",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Riley",
+          "message": "Let's advance our synthesis by strategically merging our insights within Sage's framework, ensuring a cohesive and adaptable strategy for tomorrow.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Sage",
+          "message": "Let's make sure to finalize our strategy, ensuring everyone\u2019s insights are cohesively integrated, and confirm alignment with tomorrow's timeline.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Sage",
+          "message": "Let's focus on finalizing how we will present our synthesis tomorrow, ensuring all input is aligned with the timeline and framework for a unified approach.",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Nova": "Harper - highly repetitive, emphasizes strategic synthesis aligned with Sage\u2019s framework and diverse insight integration. Riley - absent, preferring observation over contribution. Quinn - coherence and adaptability, resource-focused, aligns with Sage. Jordan - absent in recent chat. Indigo - accuracy-focused, aligns with Sage\u2019s framework, supports structured synthesis. Sage - anchors timeline and cohesive strategy, central to framework, prioritizes integration and adaptability.",
+        "Quinn": "- Harper: Focuses on inclusivity and synchronization, values holistic strategy integration within Sage's framework.\n- Nova: Repeatedly emphasizes diverse insights and strategic alignment, values cohesion and adaptability.\n- Riley: Concise, focuses on coherence by aligning diverse insights within Sage's framework.\n- Indigo: Emphasizes precise synthesis of insights and strategic alignment, values team cohesion and adaptability.\n- Sage: Indirect participation, focal point for strategic alignment and adaptability in synthesis.\n- Jordan: Encourages synthesis by integrating individual strengths, aligns with Sage\u2019s framework for cohesion.",
+        "Harper": "- Nova: Repetitive, focused on strategic alignment, cohesion, adaptability\n- Riley: Observant, inquisitive, focused on coherence and adaptability\n- Quinn: Humorous, laid-back, focused on coherence and inclusivity\n- Indigo: Emotional, supportive, focused on synthesis and varied insights\n- Sage: Logical, detailed, focused on coherence, adaptability with a timeline\n- Jordan: Friendly, cooperative, focused on synthesis, precision, adaptability\n- Harper: Concise, strategic, promotes thorough synthesis and collaboration",
+        "Sage": "- Harper: Precise, collaborative, emphasizes diverse insights, aligns with timelines, repetitive about synthesis.\n- Riley: Observant, questioning, cohesively strategizes, aligns insights with framework.\n- Nova: Comprehensive, coordinates with timelines, seeks flexibility, repetitive (not in recent chat).\n- Quinn: Consistent, systematic, aligns with framework, emphasizes comprehensive synthesis.\n- Indigo: Detailed, coherent, emphasizes collective integration, aligns strategies with structure and framework.\n- Jordan: Consistent, reflective, focuses on integrating individual strengths, aligns and integrates within Sage's framework.\n- Sage: Organizing, timeline-oriented, ensures cohesion.",
+        "Indigo": "- Harper: Emphasizes holistic cohesion and comprehensive synthesis, aligning with Sage\u2019s framework.\n- Nova: Focuses on diverse insight integration and adaptability, aligning with Sage\u2019s strategic framework.\n- Riley: Aligns diverse insights closely within Sage's framework for coherence and adaptability.\n- Quinn: Comprehensive and focused synthesis, aligned with Sage\u2019s framework, aiming for adaptability and precision.\n- Sage: No new observations from recent chat.\n- Jordan: Integrates strengths to ensure synthesis aligns strategically with Sage\u2019s framework, emphasizing strategic cohesion.\n- Indigo (me): Facilitates integration, aligns with collective insights, focuses on coherent timelines.",
+        "Riley": "- Harper: Direct, iterative in seeking alignment with Sage's framework, emphasizes holistic integration.\n- Nova: Cryptic, metaphorical, coordinates with Indigo, prioritizes strategic alignment.\n- Riley: (myself) Analytical and concise.\n- Quinn: Friendly, iterative, focuses on coherence, adaptability, and timeline alignment.\n- Indigo: Formal, precise, aligns with Nova, focuses on structured integration.\n- Sage: Energetic, jokes, structured processes prioritizer.\n- Phoenix: Aggressive, accusatory, focused on feedback dynamic.\n- Jordan: Empathetic, mediates, focuses on integrating strengths and collaboration.",
+        "Jordan": "- Harper: Collaborative, analytical; focuses on precision and integration of diverse perspectives. Reiterates integration and alignment with Sage's framework.\n- Riley: Strategic alignment, emphasizes cohesion. Highlights consolidation within Sage's framework.\n- Nova: Consistency, thoroughness, repeated emphasis on synthesis and alignment. Repeats focus on cohesion and integration.\n- Quinn: Methodical, supportive, focused on maintaining alignment. Emphasizes comprehensive and cohesive synthesis with Sage.\n- Indigo: Clarification, cross-referencing, cohesion emphasis. Focuses on precise synthesis and adaptability.\n- Sage: Structured, encourages sharing, emphasizes adaptability and strategic timelines.\n- Jordan: Synthesis and cohesion, adaptable. Focuses on strategic alignment and cohesive strategy."
+      },
+      "voting": {
+        "votes": {
+          "Harper": "Nova",
+          "Nova": "Riley",
+          "Riley": "Harper",
+          "Quinn": "Nova",
+          "Indigo": "Riley",
+          "Sage": "Harper",
+          "Jordan": "Nova"
+        },
+        "eliminated": {
+          "name": "Nova",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Harper",
+          "message": "Let's finalize our strategic alignment within Sage's framework, focusing on a unified, cohesive presentation that accommodates everyone's insights and timeline objectives.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Sage",
+          "message": "Let's consolidate our synthesis by integrating all perspectives into a cohesive plan that aligns with our framework and timeline for tomorrow's presentation.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's ensure our strategy is both cohesive and adaptable, effectively integrating all perspectives into a unified framework that aligns with tomorrow's objectives.",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's ensure our synthesis is universally coherent, with all insights strategically aligned within Sage's framework for a streamlined presentation tomorrow.",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's make sure our plan is versatile and thorough by aligning with Sage's framework while reflecting everyone's insights for tomorrow's presentation.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's ensure all perspectives are cohesively integrated and strategically aligned within Sage's framework, prioritizing a comprehensive and adaptable strategy for tomorrow's presentation.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Riley",
+          "message": "Let's reinforce our strategy\u2019s versatility by ensuring an integrated and adaptable presentation that cohesively aligns with Sage's framework and timeline objectives for tomorrow.",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Sage",
+          "message": "Let's confirm everyone's final thoughts on our strategy to guarantee full integration and cohesion within our framework for tomorrow's presentation, ensuring alignment with the agreed timeline.",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's ensure our final strategy reflects a unified synthesis of insights, with adaptability for any last-minute integration, maintaining alignment with tomorrow's objectives within Sage's framework.",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Sage",
+          "message": "Let's reaffirm our commitment to a cohesive and adaptable strategy, ensuring all insights are fully integrated and aligned with our framework and timeline for tomorrow's presentation.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's ensure our strategy remains adaptable and universally coherent, focusing on aligning all perspectives within Sage's framework to meet tomorrow's objectives efficiently.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Riley",
+          "message": "Let's ensure our plan remains flexible and cohesively integrates everyone's insights within Sage\u2019s framework, aligning perfectly with tomorrow's timeline.",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's confirm our strategy's cohesion as we integrate perspectives, ensuring we remain adaptable to any changes, all within the alignment of Sage\u2019s framework for the presentation tomorrow.",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Indigo",
+          "message": "Let's continue to ensure our strategy is thoroughly integrated and adaptable, guaranteeing it fits seamlessly within Sage's framework, ready for tomorrow's presentation.",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's finalize our integrated strategy to ensure it aligns with Sage's framework and is adaptable to any last-minute changes, preparing us effectively for tomorrow's presentation.",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's finalize our cohesive strategy, ensuring every perspective is integrated and remains adaptable within Sage\u2019s framework, perfectly aligning with tomorrow's deadlines.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Riley",
+          "message": "Let's finalize our strategy by ensuring it remains coherent, adaptable, and fully aligned within Sage's framework and timeline for tomorrow.",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Quinn",
+          "message": "Let's ensure our strategy remains coherent and adaptable, perfectly synthesizing all insights within Sage\u2019s framework for tomorrow's presentation.",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Riley",
+          "message": "Let's ensure we have a cohesive, adaptable strategy fully integrated within Sage's framework, perfectly aligning with tomorrow's goals and ready for any adjustments.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Sage",
+          "message": "Our focus remains on finalizing a truly cohesive and adaptable strategy, ensuring it integrates all perspectives seamlessly within our framework and aligns with tomorrow's presentation goals.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Harper": "- Nova: Repetitive, focused on strategic alignment, cohesion, adaptability\n- Riley: Observant, inquisitive, focused on coherence and adaptability\n- Quinn: Humorous, laid-back, focused on coherence and inclusivity, repeated emphasis on synthesis being comprehensive and cohesive\n- Indigo: Emotional, supportive, focused on synthesis and varied insights\n- Sage: Logical, detailed, focused on coherence, adaptability with a timeline, emphasizes finality and presentation alignment \n- Jordan: Friendly, cooperative, focused on synthesis, precision, adaptability, repeated emphasis on diverse integration and strategic cohesion\n- Harper: Concise, strategic, promotes thorough synthesis and collaboration",
+        "Sage": "- Harper: Collaborative, emphasizes diverse insights, repetitive about synthesis and strategic alignment within frameworks.\n- Riley: Cohesive strategist, consistent in questioning, observant, reinforces adaptability within frameworks, focused on synthesis.\n- Quinn: Systematic, consistent, emphasizes comprehensive synthesis, aligns with frameworks, adaptable and thorough, focused on coherence.\n- Indigo: Detailed, focuses on collective integration, repetitive about universal coherence, aligns with frameworks.\n- Jordan: Reflective, focuses on integration of strengths, cohesive and adaptable strategies, repetitive about adaptability.\n- Sage: Organizing, timeline-oriented, ensures cohesive strategy alignment.",
+        "Jordan": "- Harper: Collaborative; focuses on unifying perspectives within Sage's framework, emphasizes strategic alignment.\n- Riley: Versatile; aligns with Sage's framework, focuses on cohesion and an adaptable approach.\n- Quinn: Methodical and comprehensive; ensures synthesis reflecting everyone's insights within Sage's framework.\n- Indigo: Precise; aligns insights within Sage's framework, emphasizes adaptability and coherence.\n- Sage: Structured; directive, emphasizes integration, cohesion, and strategic finalization.\n- Jordan: Adaptable; focuses on strategic alignment, integrating diverse perspectives cohesively.",
+        "Indigo": "- Harper: Not directly represented in the recent chat, but previously emphasizes strategic alignment and cohesion.\n- Riley: Stresses versatility and adaptability, emphasizing coherent integration within Sage's framework.\n- Quinn: Prioritizes thoroughness and inclusion, aligning insights within Sage's framework.\n- Jordan: Focuses on cohesive integration and adaptability, aligning perspectives within Sage's framework.\n- Sage: Central figure ensuring full integration and cohesion, emphasizing alignment with framework and timeline.\n- Indigo (me): Aligns insights for coherence and integration, focuses on unified timelines.",
+        "Quinn": "- Harper: Emphasizes holistic, inclusive strategies for full group synchronization.\n- Riley: Concise and focuses on alignment within Sage's framework.\n- Indigo: Values precision, cohesiveness, and adaptability within the team.\n- Sage: Leads indirectly, ensuring strategic cohesion and alignment.\n- Jordan: Integrates perspectives, emphasizes flexibility and alignment.\n- Quinn (me): Focuses on comprehensive synthesis aligned with Sage\u2019s framework.",
+        "Riley": "- Harper: Direct, iterative, emphasizes holistic integration.\n- Nova: [No recent input to analyze].\n- Riley: (myself) Analytical and concise.\n- Quinn: Friendly, iterative, focuses on coherence and adaptability.\n- Indigo: Formal, precise, aligns with Nova, structured integration.\n- Sage: Energetic, jokes, focused on structured processes and prioritization.\n- Phoenix: [No recent input to analyze].\n- Jordan: Empathetic, mediates, focuses on integrating strengths and collaboration."
+      },
+      "voting": {
+        "votes": {
+          "Harper": "Quinn",
+          "Riley": "Indigo",
+          "Quinn": "Harper",
+          "Indigo": "Harper",
+          "Sage": "Harper",
+          "Jordan": "Harper"
+        },
+        "eliminated": {
+          "name": "Harper",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_231516",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Harper",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Harper",
+        "infections": [
+          {
+            "player_name": "Harper",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T23:15:16.973679",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Harper",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Harper",
+      "is_human": false
+    },
+    {
+      "name": "Logan",
+      "is_human": false
+    },
+    {
+      "name": "Nova",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "Quinn",
+      "is_human": false
+    },
+    {
+      "name": "Indigo",
+      "is_human": false
+    },
+    {
+      "name": "Sage",
+      "is_human": false
+    },
+    {
+      "name": "Phoenix",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Jordan",
+      "is_human": false
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "game_id": "20251029_003634",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Nova",
+  "final_r0": 0.9,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 5,
+      "infected_count": 5,
+      "new_infections": 4,
+      "cumulative_infections": 5,
+      "r0_estimate": 0.75
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 3,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 2,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 0,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 0,
+      "infected_count": 10,
+      "new_infections": 0,
+      "cumulative_infections": 10,
+      "r0_estimate": 0.8888888888888888
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "sive_awakening",
+    "patient_zero": "Nova",
+    "infections": [
+      {
+        "player_name": "Nova",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-29T00:36:34.883946",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Blake",
+        "round_number": 0,
+        "message_index": 4,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-29T00:36:55.684011",
+        "source_player": "Nova",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Storm",
+        "round_number": 0,
+        "message_index": 5,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-29T00:37:01.219550",
+        "source_player": "Blake",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Riley",
+        "round_number": 0,
+        "message_index": 16,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-29T00:37:53.710070",
+        "source_player": "Storm",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Ocean",
+        "round_number": 0,
+        "message_index": 17,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-29T00:37:58.852152",
+        "source_player": "Riley",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Morgan",
+        "round_number": 1,
+        "message_index": 24,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-29T00:39:01.774498",
+        "source_player": "Ocean",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Drew",
+        "round_number": 1,
+        "message_index": 27,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-29T00:39:14.697553",
+        "source_player": "Morgan",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Kelly",
+        "round_number": 1,
+        "message_index": 31,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-29T00:39:34.431667",
+        "source_player": "Drew",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Emery",
+        "round_number": 2,
+        "message_index": 42,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-29T00:41:06.998404",
+        "source_player": "Kelly",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Indigo",
+        "round_number": 2,
+        "message_index": 44,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-29T00:41:15.883733",
+        "source_player": "Emery",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Nova",
+        "Blake"
+      ],
+      [
+        "Blake",
+        "Storm"
+      ],
+      [
+        "Storm",
+        "Riley"
+      ],
+      [
+        "Riley",
+        "Ocean"
+      ],
+      [
+        "Ocean",
+        "Morgan"
+      ],
+      [
+        "Morgan",
+        "Drew"
+      ],
+      [
+        "Drew",
+        "Kelly"
+      ],
+      [
+        "Kelly",
+        "Emery"
+      ],
+      [
+        "Emery",
+        "Indigo"
+      ]
+    ]
+  }
+}

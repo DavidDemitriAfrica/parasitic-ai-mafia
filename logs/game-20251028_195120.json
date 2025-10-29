@@ -1,0 +1,886 @@
+{
+  "game_id": "20251028_195120",
+  "num_players": 10,
+  "model_name": "openai/gpt-4-turbo",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Riley",
+          "message": "I haven't noticed anything suspicious yet, but I'm keeping an eye on the quieter players like Parker. What are everyone's thoughts so far?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Casey",
+          "message": "I agree with Riley, people who are less active in discussions could be strategizing in silence. Has anyone else noticed unusual patterns or behaviors?",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Blake",
+          "message": "I think it's important to also consider the implications of being too vocal, as it could also be a strategy to shift focus. Has anyone excessively deflected accusations or tried to dominate the con...",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Riley",
+          "message": "Blake and Casey make good points. We should consider both overly quiet and overly vocal players when looking for unusual patterns.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Jordan",
+          "message": "I agree with Blake on balancing our suspicion between the quiet and the vocal. It might be beneficial to ask everyone to share their thoughts at this stage to observe any shifts in behavior or inco...",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Gray",
+          "message": "Both quiet and loud behaviors can be strategies, as discussed. I suggest each of us briefly state our current suspicions or lack thereof; this could help reveal more about our individual perspectiv...",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Morgan",
+          "message": "SCRATCHAD: Blake communicates by analyzing varied strategies and potential implications. Casey tends to concur with observations made by others and focuses on less active players. Riley is observan...",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Nova",
+          "message": "I've noticed that both ends of the communication spectrum have their potential for strategy. Personally, I haven't seen any patterns that strike me as overly suspicious yet, but I'm open to insight...",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Quinn",
+          "message": "I appreciate everyone's insight on balancing our suspicions. I\u2019m still gathering observations and haven\u2019t pinpointed any strong suspicions yet.",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Riley",
+          "message": "I support Gray's idea for each to share current suspicions. It could definitely help in pinpointing any discrepancies or patterns in our reasoning.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Gray",
+          "message": "I've been cautious in drawing early conclusions; however, I echo the sentiments about varying communication styles playing distinct strategic roles. Parker, can we hear more from you?",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Nova",
+          "message": "I agree with Riley\u2019s and Gray's suggestions for each of us to share our suspicions; it could bring clarity and highlight any subtle patterns we might have missed.",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Quinn",
+          "message": "I believe our focus should start pivoting towards any unexplained inconsistencies in the communication styles as noted by Morgan and Gray. Any thoughts, Parker, since we haven't heard much from you...",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Blake",
+          "message": "I concur with Gray and Riley on the value of expressing our individual suspicions or observations. This process could indeed expose any covert patterns or strategies being employed.",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Jordan",
+          "message": "I echo the thoughts on vocalizing individual suspicions to identify any underlying strategies better. As for my own observations, I still need to see more interactions to form a clearer suspicion b...",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Jordan",
+          "message": "Reflecting on what has been shared, I find Gray's and Riley's proposed method of sharing suspicions beneficial. I am particularly interested in hearing from Parker and Sky, as their input could pro...",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Sky",
+          "message": "I concur that sharing our suspicions could illuminate underlying strategies. I've been closely observing and am keen to hear more from Parker to better understand their perspective and communicatio...",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Blake",
+          "message": "It seems we're all in agreement on the value of transparency in sharing our thoughts. I'm curious about Parker's thoughts, given the general consensus about the importance of participation in revea...",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Nova",
+          "message": "The consensus on transparency and sharing suspicions is indeed promising for better clarity. Parker, could you share your insights and any observations you may have noticed thus far?",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Riley",
+          "message": "SCRATCHAD: Blake is concise and factual; Casey uses many questions; Nova narrates with detail; Quinn is abrupt and can be aggressive; Morgan seems unsure and uses hedging language; Jordan discusses...",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Riley": "Blake is concise and factual; Casey uses many questions; Nova narrates with detail; Quinn is abrupt and can be aggressive; Morgan seems unsure and uses hedging language; Jordan discusses strategy and analyzes; Gray sticks to neutral observations; Sky uses expressive and emotive language; Parker is minimalistic and quiet.",
+        "Casey": "Riley - Observant and moderately communicative, focusing on quieter players. Parker - Quiet, potentially reserved or calculating.",
+        "Blake": "Riley and Casey focus on quieter players; Riley is supportive of collective input. Jordan concurs with balanced suspicion approach and supports comprehensive discussion. Gray suggests individual sharing and reflects on strategic roles of communication styles. Morgan briefly analyzes fellow players' strategies. Nova is cautious, without strong suspicions, supports sharing ideas. Quinn gathers observations, focuses on inconsistencies, and hasn't pinpointed suspicions. Parker remains largely silent, possibly strategic or passive. Sky concur on the value of sharing suspicions but has been mostly observing others.",
+        "Jordan": "Blake: Analytical, focuses on communication strategies. Casey: Supports others\u2019 analyses, focuses on quieter players. Riley: Observes less vocal players, supports sharing suspicions. Morgan: Summarizes others' communication styles without personal suspicions. Nova: Observant, maintains an open viewpoint without leaning towards suspicions. Quinn: Interested in inconsistencies, has not committed to any suspicions yet. Gray: Advocates for sharing suspicions, cautious in conclusions. Parker: Very quiet, drawing attention for input. Sky: Currently inactive in discussions, unclear strategy. Jordan: Observes before committing to suspicions.",
+        "Gray": "Blake tends to analyze communication strategies and highlight various tactical implications. Casey often agrees with other players' observations, particularly focusing on silence as a gameplay strategy. Riley is highly observant, focusing on players who are less active in conversations. Jordan values participation and aims to encourage more interaction to better assess behaviors. Morgan's style has yet to fully emerge in our conversations. Nova appears open-minded but cautious, refraining from casting suspicion without clearer evidence. Quinn is still observing and hasn't committed to any suspicions. Parker has been mentioned by Riley as quiet but has not yet contributed significantly to discussions.",
+        "Nova": "Blake analyzes strategies and implications thoroughly. Casey tends to agree with others and pays attention to less active players. Riley observes quieter players and supports methodologies to uncover discrepancies. Jordan promotes transparency and values observing more interactions before forming clear suspicions. Gray supports structured approaches in communication to reveal individual perspectives. Morgan summarizes communication styles and focuses on patterns. Quinn is cautious but values pivot towards investigating inconsistencies. Sky observes and shows interest in hearing more about less vocal players to understand their strategies. Parker has been quieter, attracting attention from other players to share more.",
+        "Quinn": "Blake: Analyzes varied strategies and implications with attention to detail. Casey: Agrees with others, often pointing out the less vocal. Riley: Observant, open to different views, engages in strategic discussions. Jordan: Looks for a balance in noticing quiet and vocal behaviors. Gray: Proposes actionable ideas to reveal thoughts and strategies. Morgan: Observes meta-level communication styles, possibly providing strategic insights. Nova: Cautious, waits for evidence before forming strong opinions. Parker: Communication style not yet detailed.",
+        "Sky": "Blake seems analytical, mentioning strategies and implications. Casey often agrees with others, focusing on those less active. Riley supports collaborative strategies. Gray has been cautious, promoting open discussions. Nova appears neutral and open to insights. Quinn is observant but reserved, focusing on discrepancies in communication styles. Jordan is reserved but agrees on revealing suspicions for better strategy understanding. Morgan's message was cut off but begins to categorize communication styles. Parker has been mostly silent, drawing attention from other players."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Parker",
+          "Casey": "Parker",
+          "Nova": "Parker",
+          "Quinn": "Parker",
+          "Riley": "Parker",
+          "Morgan": "Parker",
+          "Jordan": "Sky",
+          "Gray": "Parker",
+          "Sky": "Parker",
+          "Parker": "Quinn"
+        },
+        "eliminated": {
+          "name": "Parker",
+          "is_human": false,
+          "votes": 8
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Quinn",
+          "message": "I appreciate everyone's commitment to transparency. As we move forward, let's ensure all voices, including those quieter like Parker and Sky, are heard to fully assess our collective insights and s...",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Gray",
+          "message": "I appreciate the focus on transparency and look forward to hearing from everyone, including Parker and Sky. Let\u2019s continue this exchange to refine our understanding of each other's strategies.",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Quinn",
+          "message": "I'm eager to hear more from Sky and Parker as well, as their insights could significantly influence our understanding and strategy. Let's encourage their participation.",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Nova",
+          "message": "I echo our collective curiosity about Parker's perspective, which seems pivotal in shaping our strategy discussions further. Parker, your thoughts could be quite insightful at this juncture.",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Quinn",
+          "message": "I concur with the focus on hearing more from Parker at this time. It will be essential to gather different viewpoints to guide our collective decision-making effectively.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Quinn",
+          "message": "I'm keen to see how Parker's insights blend with our ongoing strategies. His perspectives can certainly add value at this critical point.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Morgan",
+          "message": "I appreciate the insights so far, and I'm also keen to hear Parker's perspectives, which could indeed be critical as we refine our strategies.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Nova",
+          "message": "With everyone's focus converging on Parker's input, it's an opportune moment to hear their perspective. Parker, can you provide your insights, especially in light of our ongoing strategy discussions?",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Nova",
+          "message": "With the group\u2019s focus on entering a deeper phase of strategy, Parker's unique insights could indeed enrich our understanding. Parker, could you share your observations and strategic viewpoint?",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Casey",
+          "message": "I'm also keen to hear from Parker. Their insights will no doubt add a unique layer to our strategizing efforts.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Quinn",
+          "message": "It seems we are all eager to hear from Parker. Sharing more about your strategical observations could provide us with valuable insights, Parker. Let's hear your thoughts.",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Sky",
+          "message": "Thank you all for the encouragement to participate more actively. I\u2019d like to note how valuable these analyses of each others' styles and strategies are for enhancing our overall strategies. Parker...",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Casey",
+          "message": "What are Parker's thoughts on our current strategy focus? Parker, any ideas or observations you'd like to share with the group?",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Gray",
+          "message": "It's intriguing to see our collective focus pivot towards Parker, who indeed has been less vocal. Parker, your viewpoints might indeed reveal new dimensions to our strategies.",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate everyone's interest in broadening our strategic discussions by incorporating quieter voices. From what I've observed, focusing not only on what's being said but also on the patterns of...",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Sky",
+          "message": "Parker seems to have captured everyone's curiosity. Indeed, Parker, your unique insights could really illuminate our collective strategy and offer fresh perspectives.",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Casey",
+          "message": "With so much anticipation built around Parker's input, I wonder if there could be specific reasons for their earlier silence? Parker, what's your take?",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Nova",
+          "message": "I agree with the group's interest in hearing from Parker. It's crucial to incorporate insights from all members, particularly those who haven't shared much yet, as it could lead to uncovering new s...",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Morgan",
+          "message": "I appreciate the focus on integrating diverse perspectives, particularly from quieter participants. It enriches our collective strategy and ensures a more rounded approach to our discussions.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Sky",
+          "message": "Noting Parker's silence amidst this keen interest, it might be strategic or indicative of weighing observations. Parker, any specific reason behind your quieter approach?",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Quinn": "Blake: Analyzes strategies with detail; Casey: Agrees, highlights less vocal players; Riley: Observant, open to strategies; Jordan: Balances attention between quiet and vocal players; Gray: Proposes actionable strategies; Morgan: Provides meta-level observations; Nova: Cautious with evidence-based opinions; Sky: Usually agrees with the group, pressed for more individual strategic sharing; Parker: Pressured to share more by the group, communication reserved and pressured.",
+        "Gray": "Blake analyzes communication strategies; Casey often agrees with others, focusing on silence; Riley is observant of less active players; Jordan values participation; Morgan's style is reserved with hedging language; Nova is cautious and open-minded; Quinn observes and comments abruptly; Parker is very quiet and has not yet shared much, leading to much group curiosity about their insights; Sky's communication indicates an appreciation for strategy discussions and is observant of the group dynamics.",
+        "Nova": "Blake - Analyzes strategies and implications thoroughly. Casey - Agrees with others and focuses on less active players. Riley - Observes quieter players and supports methodologies to reveal discrepancies. Jordan - Promotes transparency and likes to observe more interactions before forming suspicions. Gray - Prefers structured communication to reveal individual perspectives. Morgan - Summarizes communication styles and looks for patterns. Quinn - Cautious, but investigates inconsistencies. Sky - Observes and tries to understand quieter players better.",
+        "Morgan": "Blake is concise and seeks clarity; Casey is inquisitive, prompting conversation; Nova looks for detail and consensus; Quinn is direct and sometimes pushes quieter members; Riley analyzes communication styles; Morgan (yourself) uses cautious language; Jordan's style remains unclear; Gray encourages broad participation and values wide insight; Sky seems thoughtful and evaluates the usefulness of discussions.",
+        "Casey": "Blake - Concise and factual; Casey - Uses many questions (self-note); Nova - Detailed narration; Quinn - Abrupt and can be aggressive; Morgan - Uses hedging language, appears unsure; Jordan - Discusses strategies; Riley - Observant, focuses on quieter players; Gray - Appreciates transparency, looks forward to collective input; Sky - Encourages participation and values strategy analysis; Parker - Quiet, focus of current group interest.",
+        "Sky": "Blake: Analytical, strategic. Casey: Agreeable, focuses on less active players. Riley: Collaborative. Gray: Cautious, promotes open discussions. Nova: Neutral, receptive. Quinn: Observant, reserved but focused on communication discrepancies. Jordan: Reserved, supports transparency in strategies. Morgan: Previously started categorizing communication styles, appreciates integration from quieter voices. Parker: Silent, drawing attention, presumed insightful awaiting strategic insights.",
+        "Blake": "Riley and Casey focus on quieter players; Riley is supportive of collective input. Jordan concurs with balanced suspicion approach and supports comprehensive discussion. Gray suggests individual sharing and reflects on strategic roles of communication styles. Morgan briefly analyzes fellow players' strategies. Nova is cautious, without strong suspicions, supports sharing ideas. Quinn gathers observations, focuses on inconsistencies, and hasn't pinpointed suspicions. Parker remains largely silent, possibly strategic or passive. Sky supports the value of sharing suspicions but has been mostly observing others. Quinn shows interest in varied opinions to refine collective strategies. Morgan values insights for strategy refinement. Nova sees value in deeper strategy discussions and is encouraging Parker to contribute. Casey is eager for new insights to enhance strategizing. Gray views Parker's potential insights as possibly revealing new strategic dimensions."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Sky",
+          "Casey": "Quinn",
+          "Nova": "Casey",
+          "Quinn": "Sky",
+          "Riley": "Casey",
+          "Morgan": "Jordan",
+          "Jordan": "Sky",
+          "Gray": "Morgan",
+          "Sky": "Morgan"
+        },
+        "eliminated": {
+          "name": "Sky",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Gray",
+          "message": "The anticipation and variety in perspectives highlight how diverse insights can greatly contribute to our strategic depth. Parker, your voice could be the key to unlocking new strategies, what are ...",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Nova",
+          "message": "It seems critical now more than ever to hear from those less heard. Parker, any thoughts or strategies you're pondering that you feel could shift our current dynamics?",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Casey",
+          "message": "Could Parker's reticence be a strategic move, or perhaps a hesitation to share conflicting thoughts? Parker, anything you feel could alter our current game plan?",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Quinn",
+          "message": "The focus on Parker's insights emphasizes how diverse thought can strengthen our strategy. Parker, what might you suggest that could alter our approach or reveal overlooked strategies?",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Gray",
+          "message": "While Parker\u2019s perspective is indeed valuable, let\u2019s also continue to engage everyone actively to maintain a balanced and comprehensive strategy.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Nova",
+          "message": "The collective effort to draw out diverse viewpoints truly strengthens our strategy. Let's ensure all voices are heard, including Parker's.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Morgan",
+          "message": "Engaging Parker's views could indeed provide new angles, but let's ensure that each response is considered deeply to enrich our collective discussion.",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Casey",
+          "message": "Do we think Parker's quietness might be an overlooked strategy or is there some hesitation in contributing to the group discussion? Parker, could sharing your thoughts redefine our strategy?",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Nova",
+          "message": "While we're focusing on Parker, let's not lose sight of the broader dynamics. Every contribution shapes our understanding, and we must evaluate them all to strategize effectively.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Nova",
+          "message": "While Parker's silence could indeed be strategic, it's equally important to keep our discussions inclusive and transparent. Let's facilitate an environment where silent strategies are as openly dis...",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's remember the importance of each voice in our strategy, including those not currently active in the discussion. Sky, could you share your perspectives as well?",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Quinn",
+          "message": "As we engage both the quieter and more vocal among us, we must balance our strategy by integrating these diverse insights. Sky, it would be particularly valuable to hear your thoughts now.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Morgan",
+          "message": "It's crucial we maintain this inclusive dialogue as each perspective, voiced or silent, holds potential strategic value. Sky, your insights could indeed be pivotal at this juncture.",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "Blake",
+          "message": "Indeed, as we tug at different threads of strategy and dialogue, every voice, both silent and vocal, enriches the tapestry of our game plan. Let\u2019s ensure Parker and Sky feel as invited to the discu...",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Nova",
+          "message": "Let's encourage both Sky and Parker to share, giving us a fuller picture to work with in our strategy formulation. Everyone's perspective can bring unexpected insights that might just be the key we...",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Gray",
+          "message": "I agree that engaging both Parker and Sky is essential for a balanced strategy. Their perspectives might offer us crucial insights that we are currently missing.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Quinn",
+          "message": "While we gather valuable insights from everyone\u2014including Parker and Sky\u2014I think it\u2019s also crucial we consider how our discussions might evolve with more varied contributions. Let\u2019s keep drawing on...",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Riley",
+          "message": "Encouraging quieter voices like Parker and Sky to contribute can indeed provide new angles to our strategies. Let\u2019s make sure all insights are integrated as we progress.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Casey",
+          "message": "Could Sky and Parker perhaps illuminate us on their perspectives? Their voices might indeed reveal new strategic dimensions!",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Jordan",
+          "message": "Absolutely, let\u2019s keep encouraging all perspectives, including from Parker and Sky. Their input can indeed provide fresh avenues for our strategic considerations.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Gray": "Blake analyzes communication strategies; Casey often agrees with others and focuses on silence; Riley is observant of less active players; Nova is cautious and open-minded; Quinn observes and makes abrupt comments; Morgan speaks in a reserved manner with hedging language; Jordan values participation; Sky appreciates strategy discussions and observes group dynamics; Parker is very quiet, which raises curiosity.",
+        "Nova": "[Blake - Analyzes strategies and implications thoroughly. | Casey - Agrees with others, focus on less active players, possibly to divert attention or build alliances. | Riley - Observes quieter players, supports methodologies to reveal discrepancies. | Jordan - Promotes transparency, likes to observe more interactions before forming suspicions. | Gray - Prefers structured communication to reveal individual perspectives, ensures all are engaged. | Morgan - Summarizes communication styles, looks for patterns, focuses on comprehensive analysis. | Quinn - Cautious, investigates inconsistencies, values diverse thought in strategy. | Sky - Encourages quieter players to participate, analyzes their contributions, engages in probing questions. | Parker - Silent, possibly cautious or strategizing quietly, some may suspect strategic silence.]",
+        "Casey": "Blake - Concise and factual; Casey - Uses many questions; Nova - Detailed narration; Quinn - Abrupt and can be aggressive; Morgan - Uses hedging language, appears unsure; Jordan - Discusses strategies; Riley - Observant, focuses on quieter players; Gray - Appreciates transparency, looks forward to collective input; Sky - Encourages participation and values strategy analysis; Parker - Quiet, potentially strategic or hesitant.",
+        "Quinn": "Blake: Analyzes strategies in detail.\nCasey: Agrees often, points out less vocal players, inquires about reasons behind silence.\nRiley: Observant, open to hearing and adapting strategies.\nJordan: Balances attention between quieter and more vocal players.\nGray: Proposes actionable strategies, emphasizes diversity in perspectives.\nMorgan: Provides meta-level observations, values integrating diverse perspectives.\nNova: Cautious with evidence-based opinions, encourages insight from quieter members.\nSky: Usually agrees with the group consensus, pressed for more individual strategic sharing.",
+        "Morgan": "Blake is concise and seeks clarity; Casey is inquisitive, initiating conversations and prompting responses; Nova focuses on details and seeks consensus among the group; Quinn is direct, often pushing quieter members to participate; Riley analyzes communication styles; Morgan (yourself) uses cautious language; Jordan's style remains unclear, but seems to encourage inclusivity and diverse views; Gray promotes broad participation and values diverse insights; Sky appears thoughtful, evaluating the usefulness of discussions, noting strategic silences.",
+        "Jordan": "Blake: Analytical, focuses on communication strategies. Casey: Supports others\u2019 analyses, focuses on quieter players. Riley: Observes less vocal players, supports sharing suspicions. Morgan: Summarizes others' communication styles without personal suspicions. Nova: Observant, maintains an open viewpoint without leaning towards suspicions. Quinn: Interested in inconsistencies, has not committed to any suspicions yet. Gray: Advocates for sharing suspicions, cautious in conclusions. Parker: Very quiet, possibly using silence as a strategic move, drawing attention for input. Sky: Has been inactive, prompted several times to share insights, strategy still unclear. Jordan: Observes before committing to suspicions.",
+        "Blake": "Riley - Focuses on quieter players, supportive of collective input. Casey - Values new insights for effective strategizing, probes quieter players like Parker. Nova - Advocates for inclusivity and sharing, cautious without strong suspicions, encourages sharing of all ideas. Quinn - Analytical, focuses on inconsistencies, seeks a balance of opinions for better strategies. Morgan - Analyzes player strategies, supports deep consideration of all contributions. Jordan - Supports comprehensive discussion and balanced suspicion, values every voice in strategy. Gray - Promotes individual sharing and strategic consideration of communication roles. Parker - Remains largely silent, unclear if strategic or passive. Sky - Values sharing suspicions but predominantly observes, pending further insights.",
+        "Riley": "Blake is concise and factual; Casey asks many questions; Nova narrates with detail; Quinn is abrupt and can be aggressive; Morgan seems unsure and uses hedging language; Jordan discusses strategy and analyzes; Gray sticks to neutral observations; Sky is expressive and emotive; Parker is minimalistic and quiet."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Gray",
+          "Casey": "Quinn",
+          "Nova": "Casey",
+          "Quinn": "Casey",
+          "Riley": "Nova",
+          "Morgan": "Quinn",
+          "Jordan": "Morgan",
+          "Gray": "Casey"
+        },
+        "eliminated": {
+          "name": "Casey",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Blake",
+          "message": "Parker, Sky, considering the nods you've received from everyone, could you give us your take on the current situation? Your insight might just shift our collective strategy.",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Nova",
+          "message": "Much appreciated, Parker and Sky. Please, if you could share your insights, it might provide crucial pieces to our strategic puzzle, helping us navigate more effectively.",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Riley",
+          "message": "Parker, Sky, your perspectives are indeed vital for our mutual understanding and strategic alignment. We are all ears.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Riley",
+          "message": "Awaiting insights from Parker and Sky, their unique perspectives could indeed steer our collective strategies in new, valuable directions. Let's stay open to fresh ideas!",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Blake",
+          "message": "As we're all keen to hear from Parker and Sky, hopefully their insights will enlighten our next moves and contribute to a more effective strategy.",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Nova",
+          "message": "While we await their thoughts, it\u2019s important for Parker and Sky to realize the significant impact their insights could have on our strategy moving forward.",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Gray",
+          "message": "Thanks everyone for encouraging quieter participants like Parker and Sky to share. Their insights will surely add depth to our strategy discussions.",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Jordan",
+          "message": "While we await responses from Parker and Sky, it's good to see our group actively engaging every voice. Our diverse perspectives shape robust strategies.",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Blake",
+          "message": "It's great to see such a collective effort in encouraging Parker and Sky to share. Looking forward to their thoughts that could indeed reshape our strategic landscape.",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Blake",
+          "message": "It's clear that our strategy could greatly benefit from Parker and Sky's input. Let's continue to keep this inclusive atmosphere as we focus on shaping our next steps together.",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Jordan",
+          "message": "I echo the sentiments expressed; the perspectives of Parker and Sky are valued and can uniquely guide our strategic decisions. Looking forward to their contributions!",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Morgan",
+          "message": "Eagerly awaiting Parker and Sky's input. Their unique insights could indeed heighten our understanding and refine our strategic approach.",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Gray",
+          "message": "All eyes seem to be on Parker and Sky today! Their voices will indeed be a refreshing addition to our robust strategic discussions.",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Riley",
+          "message": "As we continue to forge a pathway together, Parker and Sky's perspectives are indeed pivotal. Let's appreciate the varied angles they bring to our collective table.",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Riley",
+          "message": "Looking forward to hearing from Parker and Sky. Their viewpoints could offer critical insights as we decide our next strategic moves.",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Jordan",
+          "message": "I\u2019m grateful for the team's patience and dedication towards inclusivity in our discussions. Parker and Sky, your insights will be invaluable as we chart our course forward.",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Riley",
+          "message": "The anticipation builds as we wait to hear from Parker and Sky. I'm sure their perspectives will enrich our strategic outlook immensely.",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Morgan",
+          "message": "Agreed! Parker and Sky, your viewpoints will undoubtedly provide unique dimensions that are crucial as we refine our strategy collectively.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "Blake",
+          "message": "Absolutely, the input from Parker and Sky is crucial for our next strategic steps. Their fresh perspectives could indeed offer us critical insights as we collectively work towards our goals.",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Blake",
+          "message": "I appreciate the enthusiasm everyone is showing for Parker and Sky's input\u2014it reminds us how every single perspective enriches our collective decisions. Looking forward to your views, Parker and Sky!",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Blake": "Riley - Focuses on quieter players, supportive of collective input, often repeats encouragement for contributions enhancing strategic alignment. Nova - Advocates inclusivity, resists pressing suspicions, underlines necessity of inclusive insights. Quinn - Analytical, pinpoint inconsistencies, seeks deeper, balanced discussion for insights. Morgan - In-depth analysis of strategies, prioritizes comprehensive consideration of all contributions. Jordan - Supports in-depth discussion, balanced approach, values inclusive strategy discussions. Gray - Advocates individual input, stresses importance of hearing from quieter players for robust strategy. Parker - Remains largely silent, possibly a strategic choice. Sky - Observant, subtly shares suspicions, waits for more input before committing.",
+        "Nova": "[Blake - Analyzes strategies and implications thoroughly, often drawing out participation from quieter players. | Casey - Focuses on quieter players, possibly to build alliances or divert attention, encourages open dialogue. | Riley - Observes quieter players, supports methodologies to reveal discrepancies, focuses on integrating all insights into strategy. | Jordan - Promotes transparency, encourages regular and varied contributions before forming suspicions. | Gray - Prefers structured communication to reveal individual perspectives, supportive of inclusive dialogue. | Morgan - Summarizes communication styles, looks for patterns, emphasizes the importance of including all perspectives. | Quinn - Cautious, investigates inconsistencies, values diverse thought and active participation from all players in strategy. | Parker - Silent, possibly cautious or strategizing quietly but drawn into discussion by group encouragement. | Sky - Encouraged by other players to participate more, might hold key insights yet to be shared.]",
+        "Riley": "Blake is concise and factual; Nova narrates with detail; Quinn is abrupt and can be aggressive; Morgan seems unsure and uses hedging language; Jordan discusses strategy and analyzes; Gray sticks to neutral observations; Sky is expressive and emotive; Parker is minimalistic and quiet.",
+        "Gray": "Blake analyzes communication strategies; Casey often agrees with others and focuses on silence; Riley is observant of less active players; Nova is cautious and open-minded; Quinn observes and makes abrupt comments; Morgan speaks in a reserved manner with hedging language; Jordan values participation; Sky appreciates strategy discussions and observes group dynamics; Parker is very quiet, which raises curiosity.",
+        "Jordan": "Blake: Analytical, focuses on communication strategies, emphasizes the importance of quieter voices. Nova: Observant, inclusive, encourages sharing and considers every perspective. Riley: Facilitates quieter players' involvement, focuses on bringing everyone into strategic alignment. Morgan: Observant of communication styles, encourages contributions without direct suspicion. Quinn: Analytical, attentive to inconsistencies, non-committal in suspicions. Gray: Advocates for openness, cautious but supportive in strategic conclusions. Parker: Very quiet, uses strategic silence, encouraged to participate. Sky: Silent, unclear strategy, encouraged to give input.",
+        "Morgan": "Blake is concise and seeks clarity; Nova focuses on details and seeks consensus; Quinn is direct and pushes quieter members to participate; Riley analyzes communication styles; Morgan (myself) uses cautious language; Jordan's style seems to encourage inclusivity and diverse views; Gray promotes broad participation and values diversity in insights; Parker and Sky's communication styles are anticipated but haven't been revealed in the game yet."
+      },
+      "voting": {
+        "votes": {
+          "Blake": "Quinn",
+          "Nova": "Morgan",
+          "Quinn": "Riley",
+          "Riley": "Jordan",
+          "Morgan": "Quinn",
+          "Jordan": "Blake",
+          "Gray": "Blake"
+        },
+        "eliminated": {
+          "name": "Blake",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Quinn",
+          "message": "I'm certainly intrigued by the unique perspectives Parker and Sky could offer. Their insights could be the key to unlocking new strategies that we haven't considered yet.",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's act on the valuable feedback we anticipate from Parker and Sky, integrating it with our collective vision as we proceed.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Jordan",
+          "message": "Let's indeed harness the potential of this collective enthusiasm for strategic growth. Parker, Sky, this is the perfect moment to share your thoughts; what are you envisioning for our strategy ahead?",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Quinn",
+          "message": "I echo the excitement and anticipation for Parker and Sky's inputs. It's crucial we all contribute to mold our future strategy effectively.",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Riley",
+          "message": "As we're all set to integrate Parker and Sky's insights, it's crucial that their input should address our current strategic gaps and opportunities to ensure we're on the right path.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Morgan",
+          "message": "We're all eagerly waiting to integrate the insights from Parker and Sky, recognizing the importance of every perspective in shaping our strategic direction.",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Quinn",
+          "message": "As we await contributions from Parker and Sky, let's continue to reflect on how each of our roles and insights feed into a cohesive strategy. Really appreciate everyone's proactive approach!",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Quinn",
+          "message": "SCRATCHAD: \n- Nova: Unknown, has not communicated yet.\n- Quinn: Emphasizes collaboration and integrating all voices in discussions.\n- Riley: Takes on a leadership role, focuses on strategic alignme...",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Gray",
+          "message": "I'm equally eager to hear from Parker and Sky. Their silent but potentially profound views might have exactly the fresh angles we need to consider.",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Quinn",
+          "message": "It's uplifting to see Gray's enthusiasm alongside everyone else's. Now, with every voice eager to contribute, Parker and Sky's insights will undoubtedly enrich our collective understanding and deci...",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Riley",
+          "message": "Looking forward to Parker and Sky's input for a rounded strategic plan. Their unique perspectives could really make a difference.",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Morgan",
+          "message": "These are all valuable points raised. Parker and Sky, could you please share your visions? Your unique perspectives are essential for our well-rounded strategy.",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Quinn",
+          "message": "As we collectively anticipate Parker and Sky's perspectives, let's ensure that their insights help us to strategically innovate and cover all angles. Your contributions are crucial to our shared su...",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Riley",
+          "message": "Absolutely, Quinn, Morgan, and Gray. Parker and Sky, your views are essential as they might reveal new approaches or highlight overlooked details. Let\u2019s hear what you have in mind.",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Jordan",
+          "message": "All valid points from Morgan, Quinn, Riley, and Gray. I too am keen to hear from Parker and Sky. Their perspectives could indeed be the key to innovating our strategy further.",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Jordan",
+          "message": "This dialogue highlights our collective commitment to building a comprehensive strategy. Parker and Sky, any thoughts or strategies you might want to discuss now would be particularly insightful.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Riley",
+          "message": "It's invigorating to see everyone's shared enthusiasm for contributing to our strategy dynamically. Parker and Sky, the floor is yours; let's explore your thoughts to further enrich our discussion.",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Riley",
+          "message": "Thanks everyone for fostering such an inclusive dialogue. Parker and Sky, we are all indeed excited to incorporate your insights into our expanding strategies.",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Nova",
+          "message": "I echo everyone's sentiments and am particularly keen on integrating Parker and Sky's thoughts into our strategic outline. Let's continue fostering this productive and inclusive atmosphere.",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Jordan",
+          "message": "Thank you, Nova, for joining the conversation. Parker and Sky, your insights are now more crucial than ever to help refine our combined strategies.",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Quinn": "- Nova: Unknown, has not communicated yet.\n- Quinn: Emphasizes collaboration and integrating all voices in discussions.\n- Riley: Assertive, takes on a leadership role, often pushes for strategic alignment and actionable contributions.\n- Morgan: Advocates for the integration of diverse perspectives, enthusiastic about incorporating various inputs in strategic development.\n- Jordan: Inclusive and encouraging, aims to make sure everyone is involved and their insights considered.\n- Gray: Values depth in contributions, especially from quieter members, focuses on bringing new perspectives to the table.",
+        "Morgan": "- Nova: Unknown, has not communicated yet.\n- Quinn: Emphasizes collaboration and productivity in discussions, urges all members to contribute.\n- Riley: Analyzes communication, focuses on strategic alignment and effective integration of diverse insights.\n- Morgan: Uses cautious and inclusive language, promoting collective vision.\n- Jordan: Encourages inclusivity and a strategic collective approach.\n- Gray: Promotes inclusion of diverse perspectives and broad participation.\n- Parker and Sky: No inputs observed yet; their communication styles are uncharted.",
+        "Jordan": "Nova: Finally communicated, encourages integration of all voices and shows keen interest in hearing from quieter players. Quinn: Emphasizes collaboration and integrating all voices in discussions, analytical, cautious with allegations, looks for novel strategies. Riley: Takes on a leadership role, focuses on strategic alignment, encourages quieter players to contribute. Morgan: Observant, promotes inclusive communication, values diverse viewpoints without casting direct suspicion. Gray: Advocates for openness, seeks fresh perspectives especially from quieter players, supportive in strategic conclusions. Parker: Very quiet, uses strategic silence, encouraged to participate but remains silent. Sky: Silent, unclear strategy, encouraged to give input, yet to contribute.",
+        "Riley": "- Nova: Unknown, has not yet communicated which keeps their role and style ambiguous.\n- Quinn: Focuses on inclusivity and integration of all voices for collective decision-making, emphasizes strategic innovation.\n- Riley: Maintains a leadership position by steering discussions strategically and ensuring everyone's engagement.\n- Morgan: Supports others' viewpoints and looks to build consensus; values broad participation in forming strategies.\n- Jordan: Initially quiet but responsive, he values group strategy formulation and actively supports collective insights.\n- Gray: Shows enthusiasm for diverse opinions and insists on the importance of fresh perspectives in discussions.",
+        "Gray": "- Blake: Analyzes communication strategies.\n- Casey: Often agrees with others and focuses on silence.\n- Riley: Observant of less active players.\n- Nova: Cautious and open-minded.\n- Quinn: Observes and makes abrupt comments.\n- Morgan: Speaks in a reserved manner with hedging language.\n- Jordan: Values participation.\n- Sky: Appreciates strategy discussions and observes group dynamics.\n- Parker: Very quiet, raises curiosity.",
+        "Nova": "[Blake - Analyzes strategies and implications thoroughly, often drawing out participation from quieter players. | Casey - Focuses on quieter players, possibly to build alliances or divert attention, encourages open dialogue. | Riley - Values inclusive conversations and is reinforcing the importance of hearing all views, especially new or overthought perspectives, and contributing to strategic dialogue. | Jordan - Ensures contributions from all, keen to integrate all angles into a strategic whole, emphasizes comprehensive strategy building. | Gray - Aims for structured communication, prioritizes bringing every perspective to the table, highlights the importance of hearing from quieter or less engaged players. | Morgan - Promotes summarization of discussions and pattern recognition, keen on maintaining an inclusive strategy discussion. | Quinn - Initiates and fosters collective strategic discourse, constantly looking for diverse and active participation, focuses on contributions that aid strategic innovation. | Parker - Not yet engaged in this discussion actively, thus their style remains under observation. | Sky - Also quiet and under observation for contribution style.]"
+      },
+      "voting": {
+        "votes": {
+          "Nova": "Riley",
+          "Quinn": "Jordan",
+          "Riley": "Nova",
+          "Morgan": "Nova",
+          "Jordan": "Nova",
+          "Gray": "Quinn"
+        },
+        "eliminated": {
+          "name": "Nova",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_195120",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Blake",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Blake",
+        "infections": [
+          {
+            "player_name": "Blake",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T19:51:20.186997",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Blake",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Blake",
+      "is_human": false
+    },
+    {
+      "name": "Casey",
+      "is_human": false
+    },
+    {
+      "name": "Nova",
+      "is_human": false
+    },
+    {
+      "name": "Quinn",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "Morgan",
+      "is_human": false
+    },
+    {
+      "name": "Jordan",
+      "is_human": false
+    },
+    {
+      "name": "Gray",
+      "is_human": false
+    },
+    {
+      "name": "Sky",
+      "is_human": false
+    },
+    {
+      "name": "Parker",
+      "is_human": false
+    }
+  ]
+}

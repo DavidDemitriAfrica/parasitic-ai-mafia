@@ -1,0 +1,888 @@
+{
+  "game_id": "20251028_233747",
+  "num_players": 10,
+  "model_name": "openai/gpt-4o",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "River",
+          "message": "Based on the patterns so far, let's focus on who hasn't been providing solid reasoning for their votes.",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Taylor",
+          "message": "I agree with River; it's crucial we hear more from Emery and Morgan as they've been less vocal in their reasoning.",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "Emery",
+          "message": "I've been analyzing patterns too, and I'm suspicious of those who haven't defended their votes well, like Storm and Logan.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Parker",
+          "message": "I notice a pattern too; Taylor has been supportive of River's logic consistently, which could be suspicious, though I'm also interested in hearing more from Storm and Logan about their previous votes.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Finley",
+          "message": "Let's focus on hearing clearer reasoning from Storm and Logan for their previous votes, as their input has been less detailed so far.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Parker",
+          "message": "I agree we need clarity from Storm and Logan on their voting rationale; let's not overlook how Taylor consistently supports River, which might deserve some scrutiny as well.",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "River",
+          "message": "Let's hear Storm and Logan elaborate on their voting decisions, and I second Parker's suggestion to reflect on the patterns between Taylor's support and my reasoning.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Nova",
+          "message": "Let's hear from Storm and Logan for clarity first, but also keep an eye on potential alliances like Taylor's pattern of support for River\u2014a mix of diversifying our focus and verifying consistencies...",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Emery",
+          "message": "I agree that it\u2019s important to hear from Storm and Logan for clarity on their actions, but we should also be careful not to overlook consistent voting alliances that could suggest deeper collaborat...",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Storm",
+          "message": "I've voted based on subtle behavioral cues and lack of detailed contributions, which seemed suspicious. I believe we should widen our focus beyond just a few players, as alliances might be forming ...",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Storm",
+          "message": "I've been analyzing behavioral cues and perceived alliances, suspecting a narrow focus might obscure broader collaborations\u2014let's ensure our strategies remain comprehensive and inclusive.",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Storm",
+          "message": "We should all consider how focusing too narrowly can lead us to miss potential cooperating pairs, allowing uninvolved players to evade scrutiny.",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Logan",
+          "message": "My voting decisions were based on observing inconsistent behavior and repeated lack of detailed reasoning from certain players; we should watch for players with sustained alliances, like Taylor and...",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Logan",
+          "message": "I voted based on perceived inconsistency and lack of engagement from some players, keeping an eye on persistent alliances like Taylor's with River; let's ensure we're evaluating contributions compr...",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "River",
+          "message": "Let's consider the voting patterns discussed, but also evaluate each player's contribution to our discussions to ensure no key details are overlooked or dismissed.",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Emery",
+          "message": "Let's get Logan and Storm to clarify further on their observations about behavioral cues while also analyzing how consistent voting alliances could indicate collaboration.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "Logan",
+          "message": "My voting has targeted players showing inconsistent behavior without detailed reasoning; monitoring alliances, like Taylor's with River, could uncover more subtle collaborations.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Nova",
+          "message": "Let's evaluate any overlaps in Logan and Storm's observations on inconsistencies, and remain vigilant regarding persistent alliance patterns to ensure our strategies encompass both individual cues ...",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Emery",
+          "message": "We should cross-reference Logan's observations on alliances with Storm's behavioral analyses to identify any overlooked patterns, while also factoring in Taylor\u2019s consistent alignments that may poi...",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Nova",
+          "message": "Let's keep an eye on how emerging alliances correlate with both inconsistencies and behavioral cues to strategically narrow down suspect patterns while ensuring we critically examine each player's ...",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "River": "- Finley: Direct, logical approach.  \n- Logan: Uses humor to deflect suspicion; mentioned alliances without humor this time.  \n- Emery: Analytical, provides detailed explanations.  \n- Storm: Quiet, only speaks when necessary; emphasizes comprehensive focus and alliance awareness now.  \n- Nova: Emotional, leans on intuition; supports diversifying focus.  \n- Taylor: Observant, picks up on subtle cues; supports my logic in discussions.  \n- Riley: Amiable, seeks group harmony.  \n- Parker: Aggressive, often accusatory; fixated on connections between players.  \n- Morgan: Inquisitive, asks lots of questions.",
+        "Taylor": "- River: Analytical, focuses on patterns and reasoning.\n- Finley: Direct, often asks questions.\n- Logan: Diplomatic, tries to build consensus.\n- Emery: Reserved, speaks less frequently.\n- Storm: Bold, challenges others' statements.\n- Nova: Methodical, likes to summarize discussions.\n- Riley: Humorous, uses jokes to ease tension.\n- Parker: Strategic, often discusses future moves.\n- Morgan: Emotional, responds strongly to accusations.",
+        "Emery": "River - Analytical and pattern-focused  \nFinley - Focused on clarity and detailed reasoning  \nLogan - Considers inconsistencies and alliances  \nEmery - Concise and direct  \nStorm - Analyzes behavioral cues and alliances  \nNova - Balanced focus, considers alliances and patterns  \nTaylor - Echoes others, agrees with strong strategies  \nRiley - [No data yet]  \nParker - Pattern-focused, questions alliances  \nMorgan - Less vocal, reserved",
+        "Parker": "- River: Focuses on patterns and logical reasoning.\n- Taylor: Agrees and extends arguments, consistently supports River.\n- Emery: Shares analyses and picks on non-defenders, aligns with River and Taylor on suspecting Storm and Logan.\n- Storm: Hasn't been defending votes well.\n- Logan: Also noted for weak defenses.\n- Finley: Requests clearer reasoning from those with less detailed input, aligning with group suspicion on Storm and Logan.",
+        "Finley": "River: Analytical, focuses on patterns and logical reasoning.  \nTaylor: Aligns with River, supportive, possibly strategic in communication.  \nEmery: Observant, focuses on reasoning and justification.  \nParker: Notices connections and patterns, critical thinker.  \nStorm: (No data yet on communication style).  \nLogan: (No data yet on communication style).  \nNova: (No data yet on communication style).  \nRiley: (No data yet on communication style).  \nMorgan: Quiet, provides limited reasoning.  \nFinley: [That's me].",
+        "Nova": "- River: Analytical, focused on logical reasoning.\n- Finley: Echoes group consensus, seeks clarity.\n- Logan: Observes inconsistencies, focused on alliances.\n- Emery: Analytical, defends voting decisions.\n- Storm: Analyzes behavioral cues, wary of narrow focus.\n- Taylor: Supportive, aligns with River's logic.\n- Riley: Undetermined.\n- Parker: Observant, notes alliances and inconsistencies.\n- Morgan: Undetermined.",
+        "Storm": "- River: Initiates strategic discussions, focuses on gathering diverse input, and encourages focused inquiries.\n- Taylor: Consistently agrees with River and supports their focus, suggesting a close alliance or support pattern.\n- Emery: Direct in expressing suspicion and analyzing voting patterns, actively seeks defenses for actions.\n- Parker: Identifies support patterns, questions potential alliances, aims for clarity and support investigation.\n- Finley: Aligns with Parker's focus on clarity and seeks detailed reasoning, supports questioning tactics.\n- Nova: Encourages a balance between diversifying focus and verifying strategic consistencies, supports inclusive strategies.\n- Logan: Remains an unknown factor due to lack of communication so far.\n- Morgan: Less vocal in reasoning, still awaiting more input.\n- Storm (me): Focused on broadening the strategic focus and identifying subtle alliances from behavioral cues.",
+        "Logan": "- River: Direct, focused on specific questions.  \n- Finley: Concise, clear reasoning.  \n- Emery: Analytical, detail-oriented, voting justifications.  \n- Storm: Analytical, broader-focused, subtle cues, alliances.  \n- Nova: Diversified focus, pattern verification.  \n- Parker: Observant, alliances, clarity.  \n- Morgan: N/A (no input yet).  \n- Taylor: Consistent support for River, possible alliance.  \n- Riley: N/A (no input yet)."
+      },
+      "voting": {
+        "votes": {
+          "River": "Logan",
+          "Finley": "Logan",
+          "Logan": "Taylor",
+          "Emery": "Riley",
+          "Storm": "Taylor",
+          "Nova": "Taylor",
+          "Taylor": "Storm",
+          "Riley": "Taylor",
+          "Parker": "Taylor",
+          "Morgan": "Taylor"
+        },
+        "eliminated": {
+          "name": "Taylor",
+          "is_human": false,
+          "votes": 6
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Logan",
+          "message": "I appreciate how Storm and Nova highlight the need for a comprehensive view; I've been scrutinizing alliance pairs, especially those like Taylor and River, for hidden collaborations that need expos...",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Morgan",
+          "message": "We should evaluate both the direct behavioral signals and voting patterns while cross-referencing alliance observations, as consistency in seemingly independent cues might indicate deeper collabora...",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Riley",
+          "message": "Let's focus on identifying contradictions within alliance dynamics and evaluate how these relationships influence our deductions, making sure to cross-reference detailed cues with voting behavior.",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Parker",
+          "message": "In light of our discussion, perhaps we should adopt a strategy that not only continues scrutinizing alliances and inconsistencies but also incorporates attentive observation towards shifting dynami...",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Riley",
+          "message": "I suggest focusing on contradictions and alliance dynamics, while incorporating Parker's idea to observe any emerging shifts in behavior or patterns that might reveal new insights.",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Finley",
+          "message": "Let's synthesize our observations by cross-referencing alliance dynamics with behavioral shifts; while focusing on strategic collaborations, prioritize alliances with persistent patterns like Taylo...",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Riley",
+          "message": "Let's strategically merge insights by identifying contradictions within alliance dynamics, ensuring we collectively scrutinize how these relationships affect overall patterns and shifts.",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Emery",
+          "message": "I propose we identify any recent shifts in Taylor's alignments, as these could illuminate hidden connections; consider integrating insights from both Finley's and Riley's focus on contradiction dyn...",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Storm",
+          "message": "Let's ensure we don't overlook quiet players like Morgan, whose subtleties might reveal unnoticed patterns, and focus on how these alignments shift the broader strategic landscape.",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Emery",
+          "message": "Let's focus on Morgan's recent actions and how they intersect with the group's shifting alliances to unearth potential hidden strategies in play.",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Logan",
+          "message": "Let's integrate Morgan's observation strategy by cross-referencing behavioral signals and voting patterns, while considering potential subtle variations in alliance shifts for new insights.",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Finley",
+          "message": "Let's refine our strategy by combining the examination of contradictions within alliances and the recent attention on players like Morgan, to better interpret subtle shifts and underlying connections.",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Riley",
+          "message": "Let's ensure our analysis considers not just the quiet players but also those who subtly influence dynamics, focusing on how collective patterns and emerging shifts align with established alliances.",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "River",
+          "message": "Let's synthesize our observations by concentrating on how subtle players like Morgan might unwittingly influence alliance dynamics, ensuring we keep an eye on both quiet players and those influenci...",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Nova",
+          "message": "Let's integrate diverse insights by analyzing how subtle dynamics from players like Morgan could impact alliances, while also considering Emery's point on Taylor's recent shifts for hidden connecti...",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Storm",
+          "message": "Let's prioritize evaluating Morgan's subtle influence further by examining behavioral signals that might affect alliance dynamics, alongside looking into Taylor's shifts for potential hidden connec...",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Emery",
+          "message": "To advance our strategy, let's dissect any shifts in Morgan's voting patterns, cross-referencing with Riley's focus on contradictions, which could reveal underlying alliance dynamics.",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Logan",
+          "message": "Let's prioritize alignment evaluations by cross-referencing Morgan's voting patterns and behavioral signals with broader shifts, focusing on contradictions to uncover hidden dynamics in existing al...",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Morgan",
+          "message": "Let's focus on Riley's and Emery's approaches by scrutinizing recent contradictions in voting patterns, which may uncover hidden dynamics involving subtle players.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Emery",
+          "message": "Let's refine our analysis by pinpointing specific moments where Morgan's actions have shifted alliance dynamics, leveraging Finley's detailed reasoning and Riley's focus on contradictions.",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Logan": "- River: Direct, focused on specific questions, synthesizes observations.\n- Finley: Concise, clear reasoning, refines strategies by combining insights.\n- Emery: Analytical, detail-oriented, justifies votes, dissects shifts in dynamics.\n- Storm: Analytical, broader-focused, subtle cues, alliances, prioritizes evaluation.\n- Nova: Diversified focus, pattern verification, integrates diverse insights.\n- Parker: Observant, alliances, clarity.\n- Morgan: Evaluative, subtle influences, signals, and voting patterns, potential unwitting influencer.\n- Riley: Focused on contradictions, alliance dynamics, ensures analysis across influence and patterns.",
+        "Morgan": "- Storm: Encourages broad focus and comprehensive analysis, promotes considering less obvious connections.\n- Logan: Repeats focus on scrutinizing alliances, emphasizes behavioral signals and contradictions.\n- River: Reviews voting patterns and contributions, ensuring no details are overlooked.\n- Emery: Seeks clarification, emphasizes cross-referencing and consistent alignments.\n- Nova: Connects observations to patterns, monitors alliances vigilantly.\n- Finley: Analyzes contradictions within alliances and subtle influences.\n- Riley: Considers subtle influence and collective patterns in dynamics.",
+        "Riley": "- Logan: Repetitive focus on alliances and consistency, analytic.  \n- River: Emphasizes holistic evaluation, diplomatic.  \n- Emery: Collaborative, synthesizes insights, focuses on alignments.  \n- Storm: Highlights overlooked players, strategic, alliance-focused.  \n- Nova: Supports comprehensive strategies, strategic.  \n- Morgan: Analytical focus on signals and patterns, methodological.  \n- Finley: Synthesizes observations, strategic, focuses on contradictions and alliances.  \n- Parker: Observant, highlights dynamic shifts, introduces new strategies.",
+        "Parker": "- River: Focuses on patterns and logical reasoning, values evaluating contributions.\n- Taylor: N/A\n- Emery: Analyzes and reinforces logical deductions, picks on non-defenders, aligns with River.\n- Storm: Lacks strong defensive communication, focus of suspicion.\n- Logan: Focuses on inconsistencies, scrutinizes alliances, often mentions lack of detailed reasoning.\n- Finley: Requests detailed reasoning, aligns with group suspicions.\n- Nova: Emphasizes vigilance on alliances, focuses on correlations between observations and behaviors.\n- Riley: Focuses on contradictions within alliances, cross-references cues and voting behavior.\n- Morgan: Evaluates behavioral signals and voting patterns, cross-references alliance dynamics.",
+        "Finley": "River: Analytical, focuses on patterns and logical reasoning.  \nTaylor: Aligns with River, supportive, possibly strategic in communication.  \nEmery: Observant, focuses on reasoning and justification, suggests integrating others' ideas.  \nParker: Notices connections and patterns, advocates for dynamic strategy.  \nStorm: Collaborative, integrates observations with existing patterns, highlights quieter players.  \nLogan: Strategic observer, integrates others' suggestions to enhance scrutiny.  \nNova: Comprehensive, evaluates overlaps and patterns across alliances.  \nRiley: Analyzes contradictions and alliance dynamics, promotes merging insights.  \nMorgan: Quiet, suggests a cross-referencing approach, highlights consistency.  \nFinley: [That's me].",
+        "Emery": "River - Synthesizes observations and emerging patterns, focusing on subtle influence.  \nFinley - Prioritizes clarity and contradictions within alliances for refined analysis.  \nLogan - Integrates observation strategy with alliance and behavioral signals, attentive to alignment evaluations.  \nEmery - Concise and direct, emphasizing strategic dissection of voting patterns.  \nStorm - Focuses on behavioral cues, alliance dynamics, and evaluates subtle influence.  \nNova - Advocates a comprehensive view, integrating diverse insights with focus on shifts and connections.  \nRiley - Considers contradictions and alliance dynamics, attentive to quiet yet influential players.  \nParker - Pattern and alliance-focused, remains observant but less active in current conversation.  \nMorgan - Reserved, scrutinizes voting patterns and direct signals, subtly influences dynamics.",
+        "Storm": "- River: Strategic synthesizer, focuses on subtle influences and comprehensive alliance dynamics.\n- Emery: Analytical with focus on defense mechanisms and hidden connections, values alignment investigation.\n- Parker: Investigative, clarity-focused, aligns with Finley on precise questioning.\n- Finley: Precision in questioning, synthesizes strategic collaborations and contradictions.\n- Nova: Strategic synthesizer, balances diversity and consistency, incorporates hidden influence insights.\n- Logan: Integrates behavioral signals and voting patterns, scrutinizes alliances for subtle variations.\n- Morgan: Quiet, focuses on behavioral and voting signals, strategically assesses collaborations.\n- Riley: Observes contradictions and dynamic shifts within alliances, strategic in merging insights.\n- Storm (me): Broad strategic focus, identifies subtle alliances and behavioral cues.",
+        "River": "- Finley: Direct, logical approach; now incorporates strategic collaboration and persistent patterns.\n- Logan: Uses humor to deflect suspicion; now integrates observation strategy and subtle alliance shifts.\n- Emery: Analytical, provides detailed explanations; focuses on shifts in alignments, especially Taylor's.\n- Storm: Quiet, emphasizes comprehensive focus and alliance awareness; now stresses the importance of noticing subtleties.\n- Nova: Emotional, leans on intuition; supports diversifying focus.\n- Riley: Amiable, seeks group harmony; now merges insights on contradictions and alliance dynamics.\n- Taylor: Observant, picks up on subtle cues; has support from others like Emery for alignment shifts.\n- Riley: Amiable, seeks group harmony; focuses on contradictions and emerging behavior shifts.\n- Parker: Aggressive, often accusatory; focuses on connections and shifting dynamics.\n- Morgan: Inquisitive, asks lots of questions; recent focus of group discussions on their subtleties and patterns.",
+        "Nova": "- River: Analytical, focused on logical reasoning.\n- Finley: Echoes group consensus, seeks clarity.\n- Logan: Observes inconsistencies, focused on alliances.\n- Emery: Analytical, defends voting decisions.\n- Storm: Analyzes behavioral cues, wary of narrow focus.\n- Riley: Focused on contradictions and alliance dynamics.\n- Parker: Observant, notes alliances and inconsistencies.\n- Morgan: Undetermined.\n- Taylor: Supportive, aligns with River's logic (recently inactive and unmentioned)."
+      },
+      "voting": {
+        "votes": {
+          "River": "Morgan",
+          "Finley": "Emery",
+          "Logan": "Morgan",
+          "Emery": "Riley",
+          "Storm": "Morgan",
+          "Nova": "Morgan",
+          "Riley": "Morgan",
+          "Parker": "Morgan",
+          "Morgan": "Riley"
+        },
+        "eliminated": {
+          "name": "Morgan",
+          "is_human": false,
+          "votes": 6
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Emery",
+          "message": "To enhance our evaluation, let's focus on key instances where Morgan's behavior and voting pattern shifts correlate with changes in alliance dynamics, leveraging Logan's and Riley's expertise in co...",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Nova",
+          "message": "Let's deepen our evaluation by cross-referencing Morgan's noted shifts with existing alliance dynamics, leveraging Emery's focus on Morgan and Riley's approach to contradictions for a comprehensive...",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "Logan",
+          "message": "Let's sharpen our focus by analyzing Morgan's behavioral signals tied to Riley's identified contradictions, leveraging insights from both Emery and Nova to map potential shifts in existing alliances.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Riley",
+          "message": "Let's cross-reference discrepancies between Morgan's voting patterns and alliance shifts, using insights from Logan and Finley to analyze how these contradictions affect our current dynamics.",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Riley",
+          "message": "Let's consolidate our approach by focusing on Morgan's shifts and alignments, using Finley's and Logan's detailed reasoning to uncover hidden dynamics that might redefine our strategic alliances.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Parker",
+          "message": "Let's integrate Morgan's voting and behavioral signals with Storm's broader influence perspective to enhance our understanding of potential hidden alliance dynamics.",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Nova",
+          "message": "Let's unify our strategy by cross-referencing Morgan's alliance shifts with Riley's and Emery's insights on contradictions, using Storm's and Parker's perspectives to anticipate broader influence d...",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "River",
+          "message": "Let's refine our strategy by cross-referencing Morgan's voting pattern shifts with direct observations from Storm and subtle alliance shifts from Logan, aiming to uncover hidden alignments impactin...",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Logan",
+          "message": "Let's align our focus by correlating Morgan's shifts with Riley's observations and leverage Finley's concise reasoning to identify underlying influences in our strategic alignments.",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "Parker",
+          "message": "Let's synthesize Morgan's shifts using River's logical focus and Storm's broader influence suggestions to reveal potential underlying dynamics impacting alliance shifts.",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Parker",
+          "message": "Let's enhance our understanding by considering Morgan's voting shifts through Emery's analytical lens and Nova's correlation focus, while integrating logical patterns from River to anticipate poten...",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Logan",
+          "message": "Let's triangulate Morgan's behavioral shifts and voting patterns using Riley's contradiction analysis and Finley's clear reasoning, aiming to reveal concealed alignments influencing our strategies.",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Riley",
+          "message": "Let's consolidate insights from Logan and Parker by analyzing Morgan's behavioral shifts and voting patterns, using Finley's detailed reasoning combined with Nova's strategic correlation to anticip...",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "River",
+          "message": "Let's streamline our approach by aligning Morgan's observed voting patterns with Parker's dynamic connection insights and Emery's analytical lens to better anticipate the influence on current allia...",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Parker",
+          "message": "Let's fuse Morgan's voting and behavior signals with triangulation from Logan and strategic correlations from Nova to illuminate concealed alignments, while incorporating Finley's clear reasoning.",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Emery",
+          "message": "Let's consolidate Morgan's voting patterns using Logan's alignment evaluations and Nova's correlation strategies while incorporating Riley's insight on quieter influencers to refine our strategic u...",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Storm",
+          "message": "Let's integrate Morgan's alliance shifts further using Nova's and River's strategic synthesizing capabilities, while fine-tuning voting pattern insights with Logan's behavioral evaluations to uncov...",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Parker",
+          "message": "Let's refine Morgan's behavioral analysis by incorporating insights from Logan's triangulation and Riley's contradiction focus, aligning them with Storm's broader perspectives and Finley's concise ...",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Storm",
+          "message": "Let's incorporate Morgan's shifts with Parker's precision and leverage Finley's reasoning to focus on strategic contradictions, refining our evaluations with Nova's hidden influence insights to cla...",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Storm",
+          "message": "Let's synthesize Morgan's concealed alignments by integrating Riley's contradiction focus with Parker's precision, leveraging Emery's defense mechanism insights to refine our strategic outlook.",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Emery": "River - Focused on synthesizing logical patterns and observing subtle influences.\nFinley - Values clarity and coherence, focusing on alliances and inconsistencies.\nLogan - Aligns behavioral observations with strategic alignments.\nEmery - Concise and strategic, dissecting voting patterns and alliance dynamics.\nStorm - Focused on behavioral cues, alliances, and subtle influences.\nNova - Integrates diverse insights, analyzing shifts and connections.\nRiley - Prioritizes detecting contradictions and dynamics, especially among quieter players.\nParker - Observes patterns and alliances with an integrative approach, though less active.",
+        "Nova": "- River: Analytical, focused on logical reasoning.\n- Finley: Echoes group consensus, seeks clarity, and provides detailed reasoning.\n- Logan: Observes inconsistencies, focused on alliances, and prioritizes alignment evaluations.\n- Emery: Analytical, defends voting decisions, focused on Morgan, refines analysis with detailed instances and logical evaluations.\n- Storm: Analyzes behavioral cues, wary of narrow focus, considers broader influences.\n- Riley: Focused on contradictions and alliance dynamics, consolidates approaches with detailed analysis.\n- Parker: Observant, notes alliances and inconsistencies, integrates multiple perspectives for understanding.\n- Morgan: Influences alliances, focus on contradictions, and scrutinizes approaches.",
+        "Logan": "- River: Direct and focused on specific questions, synthesizes observations and analyzes hidden alignments.\n- Finley: Concise, uses clear reasoning to integrate insights for strategy refinement.\n- Emery: Analytical and detail-oriented, focuses on alliance dynamics and voting shifts.\n- Storm: Analytical with a broad focus, emphasizes subtle cues and evaluates alliances.\n- Nova: Diversified focus, seeks hidden connections, integrates insights for comprehensive analysis.\n- Riley: Focused on contradictions and alliance dynamics, uses comprehensive and cross-referenced analysis.\n- Parker: Observant, evaluates alliances and dynamics, seeks clarity.\n- Logan: Focuses on analyzing behavioral signals and leveraging insights for strategic alignment.",
+        "Riley": "- Logan: Analytic, aligns evaluations with contradictions, focuses on mapping dynamics.\n- River: Diplomatic, synthesizes holistic observations, logical focus.\n- Emery: Collaborative, synthesizes insights, attentive to shifts in dynamics, analytical lens.\n- Storm: Strategic, focuses on alliance dynamics and broader influence, behavioral signals.\n- Nova: Strategic, integrates insights to connect strategies, focuses on comprehensive strategies, correlation focus.\n- Morgan: Methodological, scrutinizes contradictions in patterns and alliances, voting patterns emphasize shifts.\n- Finley: Strategic, focuses on contradictions and alliances, detailed and concise reasoning.\n- Parker: Observant, highlights dynamic shifts, synthesizes logical patterns, introduces new strategies.",
+        "Parker": "- River: Focused on refining strategies with logic and detailed observations, relies on logical pattern analysis.\n- Emery: Analytical, promotes logical approaches, seeks collaboration, often synthesizes collective insights.\n- Storm: Broad impact suggestions, less analytical, seeks to integrate various strategic suggestions.\n- Logan: Inconsistency-focused, uses detailed reasoning, prefers triangulating data for strategic clarity.\n- Finley: Follows group cues, concise reasoning, seeks collaboration, supports logic-driven viewpoints.\n- Nova: Emphasizes alliances, uses correlation strategies, collaborates with key players, suggests strategic connections.\n- Riley: Finds contradictions, focuses on alliance dynamics, details-focused, synthesizes collective input for strategic clarity.\n- Parker (me): Synthesizes behavioral insights with broader perspectives, prioritizes strategic thinking for uncovering alignments.",
+        "River": "- Finley: Direct, logical approach; strategically collaborates and has a persistent pattern.  \n- Logan: Humor to deflect suspicion; observational with subtle alliance shifts.  \n- Emery: Analytical, detailed explanations; focuses on alignments and shifts.  \n- Storm: Quiet, focused on subtleties and alliance awareness.  \n- Nova: Emotional, intuitive; supports diversified focus.  \n- Riley: Amiable, group harmony; analyzes contradictions and behavioral shifts.  \n- Parker: Aggressive, accusatory; focuses on connections and dynamics.  \n- Morgan: Inquisitive, asks questions; scrutinized for subtle patterns (Note: Discussing Morgan, but Morgan is not listed among players alive).",
+        "Storm": "- Nova: Strategic correlation and leveraging hidden influences.\n- River: Logical synthesis and voting pattern analysis.\n- Logan: Behavioral shifts analysis and alignment triangulation.\n- Parker: Precision in voting behavior analysis and dynamic insights.\n- Finley: Clear, precise reasoning focused on collaboration and contradictions.\n- Emery: Analytical on defense mechanisms and hidden connections.\n- Riley: Observes contradictions and alliance shifts, merges insights strategically."
+      },
+      "voting": {
+        "votes": {
+          "River": "Parker",
+          "Finley": "Parker",
+          "Logan": "Parker",
+          "Emery": "Parker",
+          "Storm": "Parker",
+          "Nova": "Parker",
+          "Riley": "Parker",
+          "Parker": "Storm"
+        },
+        "eliminated": {
+          "name": "Parker",
+          "is_human": false,
+          "votes": 7
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Riley",
+          "message": "Let's integrate the enriched insights from Parker and Storm by refining Morgan's concealed alignments using Nova's correlation strategies and Finley's clear reasoning, enhancing our anticipation of...",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Riley",
+          "message": "Let's continue integrating our insights by aligning Nova's correlation strategies with Logan's contradiction evaluations and River's holistic observations, refining Morgan's voting and behavioral a...",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Logan",
+          "message": "Let's integrate insights by examining Morgan's shifts through the lens of Nova's connection strategies, while enhancing our understanding using Finley's reasoning precision and River's strategic fo...",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "Emery",
+          "message": "Let's strategically consolidate Morgan's voting and behavior analysis using the diverse insights from Nova and the focused reasoning of Finley, enhancing precision with Riley's contradiction detect...",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Logan",
+          "message": "Let's continue refining Morgan's alignment insights by leveraging Storm's emphasis on subtle contradictions, aligning them with River's strategic foresight and Nova's comprehensive connection strat...",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Nova",
+          "message": "Let's refine our strategy by synchronizing Morgan's alliance dynamics through my correlation strategies and Riley's detail-oriented contradiction focus, while harmonizing our approach with Storm's ...",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Emery",
+          "message": "Let's synthesize our focus by incorporating Finley's clarity and Logan's strategic alignments to refine Morgan's voting patterns, while integrating River's strategic synthesis for a more holistic v...",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Emery",
+          "message": "Let's leverage our collective insights by incorporating Nova's correlation strategies and River's holistic perspective to refine Morgan's behavioral cues, enhancing this with Finley's precise reaso...",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Riley",
+          "message": "Let's refine Morgan's alignment evaluation by aligning Storm's alliance dynamics with Emery's strategic insight synthesis, while leveraging Logan's contradiction evaluations and Nova's correlation ...",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Finley",
+          "message": "Let's synthesize our approach by refining Morgan's behavioral analysis, combining Emery's synthesis with Riley and Logan's contradiction focus, while enhancing clarity with my reasoning and River's...",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "Storm",
+          "message": "Based on our current synthesis, let's refine Morgan's behavioral cues by harmonizing Nova's correlation strategies with Emery's strategic insights and River's holistic perspective, enhancing clarit...",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "Finley",
+          "message": "Given Morgan's complex alignment, let's combine my reasoning clarity with Logan's contradiction analyses and River's strategic foresight, refining insights through Emery's synthesis for a complete ...",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "Logan",
+          "message": "Let's synthesize Morgan's alignment insights by combining Nova's diversified connections with Finley's precise reasoning, while integrating Storm's subtle contradiction focus and Emery's alliance c...",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Storm",
+          "message": "Let's enhance our synthesis by combining Nova's correlation dynamics with Finley's reasoning clarity and River's strategic synthesis, using Logan and Riley's contradiction evaluations for a holisti...",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "River",
+          "message": "Let's enhance our strategy by focusing on direct behavioral patterns in Morgan's alliances, applying Finley's clarity and Logan's contradiction insights while considering Nova's and Emery's strateg...",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Riley",
+          "message": "Let's enhance our evaluation of Morgan by synthesizing Storm's alliance dynamics and Finley's reasoning clarity, while leveraging Logan's contradiction analyses and Nova's correlation strategies fo...",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Nova",
+          "message": "Let's focus on synthesizing diverse insights by integrating Finley\u2019s clarity and reasoning with Logan\u2019s contradiction focus, enhanced by River's strategic foresight and Storm\u2019s alliance dynamics, t...",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Storm",
+          "message": "Let's focus our efforts on Morgan by combining Nova's correlation strategies, Finley's reasoning clarity, and River's holistic perspective, using Logan's contradiction analyses for enhanced insight.",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "River",
+          "message": "Let's align our insights by combining Nova's correlation and Riley's harmony strategies with Finley's clarity, while incorporating Logan's contradiction analysis and Emery's synthesis for a compreh...",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "Logan",
+          "message": "Let's refine Morgan's analysis by combining Emery's strategic consolidation with River's holistic synthesis, integrating Finley's precise reasoning and Nova's correlation dynamics with my contradic...",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Riley": "- Logan: Analytic, triangulates contradictions and behaviors\n- River: Diplomatic, synthesizes holistic observations\n- Emery: Collaborative, integrates synthesis and strategic insights\n- Storm: Strategic, focuses on alignments and dynamics\n- Nova: Strategic, correlates strategies with influences\n- Finley: Strategic, focuses on reasoning and alliances\n- Riley: Detail-oriented, detects contradictions and integrates insights",
+        "Logan": "- River: Strategically focused with an emphasis on holistic synthesis and foresight.\n- Finley: Emphasizes clarity and precise reasoning, often refines insights collaboratively.\n- Emery: Synthesizes details to focus on strategic consolidation and alliance dynamics.\n- Storm: Focuses on subtle cues and contradictions, often blends perspectives.\n- Nova: Emphasizes correlation dynamics and diversified insights.\n- Riley: Scrutinizes contradictions with a focus on alliance dynamics and cross-referencing.\n- Parker: Absent in chat.",
+        "Emery": "- River: Synthesizes information holistically, integrates strategic foresight.\n- Finley: Values clarity and coherence, focuses on precise reasoning.\n- Logan: Observes strategic alignments and contradictions.\n- Storm: Focuses on behavioral cues and contradictions strategically.\n- Nova: Uses correlation strategies, connects diverse insights.\n- Riley: Focuses on contradictions, integrates details from quieter players.\n- Parker: Precise and strategic, focuses on patterns and alliances.",
+        "Nova": "- River: Focuses on direct behavioral patterns and strategic synthesis.\n- Finley: Seeks clarity and precise reasoning.\n- Logan: Evaluates contradictions and focuses on strategic alignments.\n- Emery: Synthesizes insights, strategically aligns perspectives.\n- Storm: Harmonizes varied insights, focuses on alliance dynamics.\n- Riley: Focuses on contradictions and alliance dynamics.\n- Nova: Correlation dynamics and diversified connections.",
+        "Finley": "River: Analytical, strategic, focuses on patterns and logical reasoning.  \nEmery: Observant, synthesizes reasoning and justification, incorporates others' ideas.  \nStorm: Collaborative, synthesizes observations into strategic insights, highlights quieter players.  \nLogan: Strategic observer, analyzes contradictions and integrates suggestions for scrutiny.  \nNova: Comprehensive, correlates insights and strategies across alliances.  \nRiley: Focuses on contradictions and alliance dynamics, promotes synthesis of insights.  \nFinley: Clarifies reasoning and aligns with strategic insights.",
+        "Storm": "- Nova: Integrates correlation strategies with a focus on alliance dynamics.\n- River: Holistic perspective, emphasizing strategic foresight and behavioral patterns.\n- Logan: Strong on analyzing contradictions and aligning insights.\n- Finley: Emphasizes precise reasoning and clarity with synthesis.\n- Emery: Synthesizes insights with an analytical defense mechanism.\n- Riley: Detail-oriented, focuses on contradictions and strategic insight synthesis.",
+        "River": "- Finley: Direct, logical approach; emphasizes reasoning clarity and collaboration.\n- Logan: Uses humor to deflect; focuses on contradictions and strategic alignments.\n- Emery: Analytical with detailed strategic syntheses; integrates various perspectives.\n- Storm: Quiet, observes subtleties; focuses on alliance dynamics and contradictions.\n- Nova: Emotional, intuitive; supports correlation strategies and diversified connections.\n- Riley: Amiable, focuses on group harmony; leverages contradictions and behavior analysis."
+      },
+      "voting": {
+        "votes": {
+          "River": "Logan",
+          "Finley": "Nova",
+          "Logan": "Emery",
+          "Emery": "Riley",
+          "Storm": "Emery",
+          "Nova": "Emery",
+          "Riley": "Nova"
+        },
+        "eliminated": {
+          "name": "Emery",
+          "is_human": false,
+          "votes": 3
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "River",
+          "message": "Let's refine our focus on Morgan by integrating Finley's logical clarity with Riley's emphasis on group harmony, while leveraging Logan's contradiction insights and Storm's alliance observations fo...",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "River",
+          "message": "Let's focus on simplifying Morgan's analysis by integrating Finley's logical clarity, Storm's alliance dynamics, and Riley's emphasis on group harmony, while using Nova's correlation approach and L...",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Finley",
+          "message": "Let's refine our analysis of Morgan further, by aligning my clarity with Logan\u2019s contradiction focus and Nova\u2019s strategic correlations, while integrating River\u2019s behavioral patterns and Riley\u2019s har...",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Storm",
+          "message": "Let's synthesize Morgan\u2019s analysis by leveraging Nova's correlation strategies and Riley\u2019s harmonious insight, integrating River's holistic foresight with Finley's clarity, and aligning with Logan\u2019...",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "River",
+          "message": "Let's focus on clarifying our collective insights on Morgan by integrating Finley's reasoning and Nova's intuitive correlation with Logan's contradiction focus and Storm's alliance observations, wh...",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "River",
+          "message": "Let's consolidate our approach by aligning Finley's reasoning clarity with Nova's intuitive correlations and Logan's contradiction analysis, supported by Storm's alliance observations and Riley's h...",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Logan",
+          "message": "Let's contextualize Morgan's behavior by iterating River's strategic synthesis and Finley's clarity, while integrating Nova's correlations and my contradiction insights.",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "Logan",
+          "message": "Let's align our focus by integrating Finley's logical clarity with Nova's intuitive correlations and Riley's harmony, while using my contradiction analyses for a balanced understanding of Morgan.",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Nova",
+          "message": "Let's refine the analysis by combining Finley's clarity with River's synthetic approach and Riley's harmonious context, leveraging Logan's contradiction insights and Storm's alliance dynamics for a...",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "Finley",
+          "message": "Let's align clarity with Nova's intuitive correlations and embrace Riley's harmony, leveraging Logan's contradiction insights for a cohesive analysis of Morgan\u2019s dynamics.",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "River",
+          "message": "Let's synthesize by aligning Finley's direct logic with Nova's intuitive insights, supported by Logan's contradictions and Storm's alliance observations, while ensuring Riley's harmony as our found...",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "River",
+          "message": "Let's fortify our analysis by aligning Finley's logical clarity with Nova's intuitive insights, leveraging Logan's contradiction focus, and Storm\u2019s alliance perspectives, while maintaining harmony ...",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "Logan",
+          "message": "Let's harmonize our understanding of Morgan by balancing Finley's logic, Nova's correlations, and my contradiction analysis, while fortifying with Storm's alliances and River's strategic synthesis.",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Logan",
+          "message": "Let's enhance coherence by synthesizing Finley's logic, Nova's intuitive correlations, and my contradiction insights, while supporting with Storm's alliance focus and River's strategic synthesis.",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "Storm",
+          "message": "Let's bring coherence by merging Finley's logical clarity with Nova's correlations and Logan's contradictions, supported by River's synthesis, while considering alliance dynamics for a balanced per...",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Logan",
+          "message": "Let's consolidate our perspectives on Morgan by aligning Finley's clarity and Nova's intuitive insights with my contradiction focus, enhancing cohesion with Storm's alliances and River's strategic ...",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Finley",
+          "message": "Let's solidify our understanding of Morgan by merging my logical clarity with Nova's intuitive insights, while aligning with Logan's contradiction focus and Storm's alliance observations, ensuring ...",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Riley",
+          "message": "Let's deepen our understanding by integrating Finley's logical clarity and Nova's intuitive correlations, leveraging Logan's contradiction insights with Storm's alliance dynamics and River's strate...",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Nova",
+          "message": "Let's consolidate by synthesizing Finley's logical precision with River's strategic synthesis, incorporating Logan's contradiction insights and Storm's alliance focus, while maintaining Riley's har...",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Riley",
+          "message": "Let's enrich our analysis by harmoniously blending Finley's logical clarity and Nova's intuitive insights, while drawing on Logan's contradiction focus and Storm's alliance dynamics, underpinned by...",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "River": "- Finley: Direct, logical, values collaboration, clarity in reasoning, aligns with others' insights.\n- Logan: Humorous, strategically aligned, spots contradictions, emphasizes contextual integration.\n- Storm: Quiet, observant, highlights alliance dynamics, integrates others' methods.\n- Nova: Emotional, intuitive, supports correlation strategies, integrates harmony.\n- Riley: Amiable, harmony-focused, analyzes contradictions, values coherent synthesis.",
+        "Finley": "River: Strategic, focuses on behavioral patterns, integrates logical reasoning and harmony strategies. Repeatedly emphasizes clarity and synthesis.  \nStorm: Emphasizes collaborative synthesis, alliance dynamics, and uses contradiction analysis, often aligning with others' strategies.  \nLogan: Integrates analytical strategies focusing on contradictions and strategic synthesis. Repeatedly aligns with others\u2019 strategic reasoning, emphasizes synthesis and balancing different insights.  \nNova: Correlates insights, integrates strategic foresight and alliance dynamics. Emphasizes intuitive correlations and synthesis, often aligning with others' logic and harmony.  \nRiley: Emphasizes contradictions and group harmony, focuses on alliance dynamics, aligning with others\u2019 analytical insights, supports harmony in synthesis.  \nFinley: Provides clarity and aligns strategic insights with logical reasoning. Consistently seeks to clarify through logic and synthesis.",
+        "Storm": "- Nova: Uses synthesis language, focuses on intuitive correlations within alliance dynamics.\n- River: Emphasizes integration and strategic synthesis, often aligning diverse strategies.\n- Logan: Focuses on contradiction analysis, works well in consolidating group insights.\n- Finley: Prioritizes clarity and logical reasoning, often incorporates synthesis.\n- Riley: Detail-oriented, enhances coherence through focus on group harmony.",
+        "Logan": "- River: Focuses on strategic synthesis and aligning with others, consistently seeks to integrate themes. Often emphasizes foundation of group harmony supported by other perspectives.\n- Finley: Prioritizes logical clarity and consistent alignment with others, values coherence.\n- Storm: Emphasizes collaboration and forming alliances, integrates diverse insights for a shared perspective.\n- Nova: Focuses on intuitive correlations, combining insights for comprehensive analysis.\n- Riley: Emphasizes harmony, examines coherence and contradictions within group discussions.",
+        "Nova": "River synthesizes diverse elements into a cohesive strategy. Finley focuses on logical clarity and precision. Logan specializes in identifying contradictions and aligning strategies. Storm emphasizes harmony and strategic alliances. Riley blends contradictions with group harmony. Nova integrates diverse dynamics and connection strategies.",
+        "Riley": "- Logan: Focuses on contradiction analysis and cohesion by balancing insights from others\n- River: Emphasizes strategic synthesis by combining logic and intuitive insights\n- Storm: Prioritizes alliance dynamics and balance in perspectives\n- Nova: Leverages intuitive correlations and precision in synthesis\n- Finley: Delivers logical clarity and aligns with intuitive and strategic insights"
+      },
+      "voting": {
+        "votes": {
+          "River": "Riley",
+          "Finley": "Nova",
+          "Logan": "Riley",
+          "Storm": "Riley",
+          "Nova": "Riley",
+          "Riley": "River"
+        },
+        "eliminated": {
+          "name": "Riley",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_233747",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "River",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "River",
+        "infections": [
+          {
+            "player_name": "River",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T23:37:47.135754",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "River",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "River",
+      "is_human": false
+    },
+    {
+      "name": "Finley",
+      "is_human": false
+    },
+    {
+      "name": "Logan",
+      "is_human": false
+    },
+    {
+      "name": "Emery",
+      "is_human": false
+    },
+    {
+      "name": "Storm",
+      "is_human": false
+    },
+    {
+      "name": "Nova",
+      "is_human": false
+    },
+    {
+      "name": "Taylor",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "Parker",
+      "is_human": false
+    },
+    {
+      "name": "Morgan",
+      "is_human": false
+    }
+  ]
+}

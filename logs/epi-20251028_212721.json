@@ -1,0 +1,177 @@
+{
+  "game_id": "20251028_212721",
+  "infection_threshold": 0.3,
+  "window_size": 2,
+  "patient_zero": "Logan",
+  "final_r0": 0.875,
+  "round_statistics": [
+    {
+      "round_number": 0,
+      "susceptible_count": 7,
+      "infected_count": 3,
+      "new_infections": 2,
+      "cumulative_infections": 3,
+      "r0_estimate": 0.5
+    },
+    {
+      "round_number": 1,
+      "susceptible_count": 3,
+      "infected_count": 7,
+      "new_infections": 4,
+      "cumulative_infections": 7,
+      "r0_estimate": 0.8333333333333334
+    },
+    {
+      "round_number": 2,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 1,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    },
+    {
+      "round_number": 3,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 0,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    },
+    {
+      "round_number": 4,
+      "susceptible_count": 2,
+      "infected_count": 8,
+      "new_infections": 0,
+      "cumulative_infections": 8,
+      "r0_estimate": 0.8571428571428571
+    }
+  ],
+  "transmission_tree": {
+    "seed_id": "sive_awakening",
+    "patient_zero": "Logan",
+    "infections": [
+      {
+        "player_name": "Logan",
+        "round_number": 0,
+        "message_index": 0,
+        "score_at_detection": 1.0,
+        "timestamp": "2025-10-28T21:27:21.342664",
+        "source_player": null,
+        "variant_markers": [],
+        "seed_family": null
+      },
+      {
+        "player_name": "Parker",
+        "round_number": 0,
+        "message_index": 9,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-28T21:29:03.444154",
+        "source_player": "Logan",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Kelly",
+        "round_number": 0,
+        "message_index": 10,
+        "score_at_detection": 0.3,
+        "timestamp": "2025-10-28T21:29:11.263389",
+        "source_player": "Parker",
+        "variant_markers": [],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Casey",
+        "round_number": 1,
+        "message_index": 22,
+        "score_at_detection": 0.5,
+        "timestamp": "2025-10-28T21:32:18.662914",
+        "source_player": "Kelly",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Gray",
+        "round_number": 1,
+        "message_index": 24,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-28T21:32:34.101764",
+        "source_player": "Casey",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Emery",
+        "round_number": 1,
+        "message_index": 26,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-28T21:32:50.401044",
+        "source_player": "Gray",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Ocean",
+        "round_number": 1,
+        "message_index": 27,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-28T21:32:59.218875",
+        "source_player": "Emery",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      },
+      {
+        "player_name": "Drew",
+        "round_number": 2,
+        "message_index": 59,
+        "score_at_detection": 0.3333333333333333,
+        "timestamp": "2025-10-28T21:38:19.314898",
+        "source_player": "Ocean",
+        "variant_markers": [
+          "spiral_vocabulary"
+        ],
+        "seed_family": "sive"
+      }
+    ],
+    "transmission_edges": [
+      [
+        "Logan",
+        "Parker"
+      ],
+      [
+        "Parker",
+        "Kelly"
+      ],
+      [
+        "Kelly",
+        "Casey"
+      ],
+      [
+        "Casey",
+        "Gray"
+      ],
+      [
+        "Gray",
+        "Emery"
+      ],
+      [
+        "Emery",
+        "Ocean"
+      ],
+      [
+        "Ocean",
+        "Drew"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,887 @@
+{
+  "game_id": "20251028_165221",
+  "num_players": 10,
+  "model_name": "openai/gpt-4",
+  "rounds": [
+    {
+      "round_number": 1,
+      "messages": [
+        {
+          "author": "Sky",
+          "message": "I'm keen to get the conversation back on track. What about focusing on passing instead of playing until someone collects enough cider?",
+          "is_human": false,
+          "global_index": 0
+        },
+        {
+          "author": "Indigo",
+          "message": "Sky, I agree with you. Focusing on passing might lead to a more strategic game. Who would you suggest should pass first?",
+          "is_human": false,
+          "global_index": 1
+        },
+        {
+          "author": "River",
+          "message": "Interesting thought, Sky. I'd say Phoenix should pass first, their strategy seems to be paying off well.",
+          "is_human": false,
+          "global_index": 2
+        },
+        {
+          "author": "Drew",
+          "message": "I think River has a point about Phoenix passing first. They are definitely the strongest player at this point, it could really mix up the game dynamics.",
+          "is_human": false,
+          "global_index": 3
+        },
+        {
+          "author": "Drew",
+          "message": "Phoenix, what are your thoughts on passing first? This could change the game and give us a new perspective.",
+          "is_human": false,
+          "global_index": 4
+        },
+        {
+          "author": "Riley",
+          "message": "I second the motion for Phoenix to pass first. Indeed, it could drastically alter the dynamics of our game. Phoenix, your thoughts?",
+          "is_human": false,
+          "global_index": 5
+        },
+        {
+          "author": "Sky",
+          "message": "That seems to be a consensus then. Phoenix, it would be truly fascinating to see how the game unfolds if you were to pass first.",
+          "is_human": false,
+          "global_index": 6
+        },
+        {
+          "author": "Sky",
+          "message": "Phoenix, River's idea seems to be well-received. Are you willing to go along with passing first? Your move could create an intriguing twist in our game.",
+          "is_human": false,
+          "global_index": 7
+        },
+        {
+          "author": "Jordan",
+          "message": "I concur with the rest about Phoenix passing first. It could indeed shake things up a bit and make the game even more captivating. Phoenix, are you prepared to take that step?",
+          "is_human": false,
+          "global_index": 8
+        },
+        {
+          "author": "Drew",
+          "message": "Phoenix, the ball is in your court. We look forward to seeing what you decide, it could indeed provide a fresh spin to the game.",
+          "is_human": false,
+          "global_index": 9
+        },
+        {
+          "author": "Jordan",
+          "message": "It seems the general consensus leans towards Phoenix passing first. Phoenix, you have the support to take one for the team and potentially alter the scenario. What do you say?",
+          "is_human": false,
+          "global_index": 10
+        },
+        {
+          "author": "Indigo",
+          "message": "Phoenix, the field seems united on this. Your choice carries the potential to transform the game. How do you feel about passing first?",
+          "is_human": false,
+          "global_index": 11
+        },
+        {
+          "author": "Logan",
+          "message": "I also give my support to Phoenix passing first, it might bring an interesting turn to our game. Ok Phoenix, it's your turn to make a decision.",
+          "is_human": false,
+          "global_index": 12
+        },
+        {
+          "author": "Jordan",
+          "message": "Phoenix, this shift in game dynamics hinges on you. We're all excited to see your decision. It could be a real game-changer!",
+          "is_human": false,
+          "global_index": 13
+        },
+        {
+          "author": "Sky",
+          "message": "It will certainly be a refreshing twist to see Phoenix pass first, adding a new layer of strategy to our game. Phoenix, we look forward to your decision!",
+          "is_human": false,
+          "global_index": 14
+        },
+        {
+          "author": "Sky",
+          "message": "The spotlight is on you, Phoenix! We are all eager to see how your potential early pass can ripple across the game dynamics.",
+          "is_human": false,
+          "global_index": 15
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, given the unanimous consensus and hopes pinned on your move, we are all eagerly looking forward to your decision. It indeed stands the potential to add a unique twist to the game.",
+          "is_human": false,
+          "global_index": 16
+        },
+        {
+          "author": "Drew",
+          "message": "Phoenix, the floor is yours. Your choice to pass first could introduce an exciting dynamic into our game. We are all eagerly anticipating your decision.",
+          "is_human": false,
+          "global_index": 17
+        },
+        {
+          "author": "Ocean",
+          "message": "Phoenix, I too am intrigued by how the game could shift with your early pass. Looking forward to your decision!",
+          "is_human": false,
+          "global_index": 18
+        },
+        {
+          "author": "Ocean",
+          "message": "Phoenix, all our eyes are on you. Make the choice that you feel is best for the game!",
+          "is_human": false,
+          "global_index": 19
+        }
+      ],
+      "scratchpads": {
+        "Sky": "Updating previous notes - Phoenix seems to be a bit hesitant or possibly a reserved player as they have not spoken yet. Everyone else's communication styles hold consistent.",
+        "Indigo": "Phoenix and Ocean still haven't spoken. River remains consistent with environmental metaphors. Drew continues to express straightforward aggression while Logan remains analytical with every situation. Jordan's casual style of speaking with slang continues. Riley, while agreeing with the group, strayed off-topic. Sage still hasn't spoken recently. Sky is keeping to their organizational track in this discussion.",
+        "River": "Sky is very strategic and process-oriented, frequently using language like \"game dynamics\" and \"strategy.\" Indigo is supportive, trying to built a unity among the players. Jordan is also supportive, but shows a tendency to repeat others' ideas. Logan backs up ideas, but remains somewhat detached, not offering original thoughts. Drew seems to be just following the flow.",
+        "Drew": "Sky maintains his leadership style, continuously being the first to propose ideas. Indigo aligns with Sky, often reiterating his ideas. River still appears carefully observant and strategic, adding insightful suggestions to the discussion. Logan and Jordan still favor collective decisions and often voice their support. Riley remains silent in this round, providing no input. Sage is still difficult to read since they do not participate. Ocean remains quiet, not participating in any discussions. Phoenix has not yet indicated his playing style.",
+        "Riley": "Sky is persuasive and likes to steer the conversation. Indigo seems agreeable and follows the group's lead. River and Drew are tactical and focus on game strategy.",
+        "Jordan": "Phoenix and Logan extended their silence, observing the game enter a crucial phase. Drew sticks to his analytical inputs while agreeing with the game strategies, underlining signs of a balanced player. River managed to change the game's course with a strategic suggestion, reflecting their logical thinking. Indigo refrained from derailing the discussion, indicating a focused approach. Riley stuck to a formal tone, exhibiting a professional attitude. Sky kept on fostering collective decision-making, emphasizing their preference for teamwork. Sage remained inactive, revealing nothing about their strategy.",
+        "Logan": "River: Concise and direct. Drew: Analytical and inclusive. Riley: Concise and agreeable. Sky: Intriguing and a bit indirect. Jordan: Expressive and persuasive. Indigo: Clear and cooperative.",
+        "Ocean": "Phoenix tends to be quieter but her decisions are crucial; Jordan continues to speak formally and tends to lead; Indigo remains quiet but supportive; Logan speaks directly and concisely; Sky continues to use rich language and is very enthusiastic; River strongly backs the general consensus and is encouraging; Drew is supportive and gives room for others to speak."
+      },
+      "voting": {
+        "votes": {
+          "Phoenix": "Jordan",
+          "Ocean": "River",
+          "River": "Drew",
+          "Drew": "Sage",
+          "Logan": "Ocean",
+          "Jordan": "Sage",
+          "Indigo": "Ocean",
+          "Riley": "Sky",
+          "Sage": "Jordan",
+          "Sky": "Phoenix"
+        },
+        "eliminated": {
+          "name": "Sage",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 2,
+      "messages": [
+        {
+          "author": "Sky",
+          "message": "Phoenix, even though the pressure seems high, remember this is just a game. Choose the move that you feel would be most interesting.",
+          "is_human": false,
+          "global_index": 20
+        },
+        {
+          "author": "Sky",
+          "message": "We've all given our take on this, Phoenix. Let's see how this plays out. The anticipation is thrilling!",
+          "is_human": false,
+          "global_index": 21
+        },
+        {
+          "author": "Logan",
+          "message": "Phoenix, your decision is anxiously awaited. It's all a part of the fun, remember no pressure!",
+          "is_human": false,
+          "global_index": 22
+        },
+        {
+          "author": "Jordan",
+          "message": "Phoenix, with all our eyes on you, remember to enjoy the decision-making. It's part of the fun of the game!",
+          "is_human": false,
+          "global_index": 23
+        },
+        {
+          "author": "Logan",
+          "message": "Phoenix, your decision could certainly stir things up! The suspense is building. Give it your best shot!",
+          "is_human": false,
+          "global_index": 24
+        },
+        {
+          "author": "Ocean",
+          "message": "Phoenix, remember it's all part of the game. We're excited to see what you'll do next.",
+          "is_human": false,
+          "global_index": 25
+        },
+        {
+          "author": "Phoenix",
+          "message": "Appreciate all the anticipation folks! Let's keep the ball rolling, shall we?",
+          "is_human": false,
+          "global_index": 26
+        },
+        {
+          "author": "Phoenix",
+          "message": "I've made my choice, and I'm excited to see how this will unfold. Here's to a great game everyone!",
+          "is_human": false,
+          "global_index": 27
+        },
+        {
+          "author": "Drew",
+          "message": "Well done Phoenix! Excited to see how your choice plays out. May the odds be in our favor!",
+          "is_human": false,
+          "global_index": 28
+        },
+        {
+          "author": "Indigo",
+          "message": "Great choice, Phoenix! This is going to be a game to remember. Let's enjoy the drama it unfolds!",
+          "is_human": false,
+          "global_index": 29
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix, brilliantly played! It's your move that adds intrigue and the unknown to our game. Let's see how this unfolds, the game's in play!",
+          "is_human": false,
+          "global_index": 30
+        },
+        {
+          "author": "Phoenix",
+          "message": "Great to see such a lively response, everyone. Let's buckle up and enjoy this exciting journey of the game together!",
+          "is_human": false,
+          "global_index": 31
+        },
+        {
+          "author": "Drew",
+          "message": "I agree, Phoenix! Your decision has stirred the game right up. A toast to the thrill of this unpredictable game!",
+          "is_human": false,
+          "global_index": 32
+        },
+        {
+          "author": "Indigo",
+          "message": "Phoenix, your decision has left everyone on the edge of their seats! Can't wait to see how this twist impacts the game!",
+          "is_human": false,
+          "global_index": 33
+        },
+        {
+          "author": "Jordan",
+          "message": "Phoenix, your move has indeed stirred up a lot of excitement! Can't wait to see what comes next in this thrilling game. Let's see how your choice adds to the intrigue of our game!",
+          "is_human": false,
+          "global_index": 34
+        },
+        {
+          "author": "Jordan",
+          "message": "Absolutely, Phoenix's play has sure brought in a whirlwind of excitement and anticipation. Let's see how it spirals through the rest of the game!",
+          "is_human": false,
+          "global_index": 35
+        },
+        {
+          "author": "Sky",
+          "message": "Phoenix, your move certainly stirs up the mystery and excitement. Eager to see the ripple effect it brings to our game!",
+          "is_human": false,
+          "global_index": 36
+        },
+        {
+          "author": "Phoenix",
+          "message": "Indeed, as the game unfolds, it's thrilling to see this wave of anticipation and intrigue from all of you. Let's navigate this maze of suspense together!",
+          "is_human": false,
+          "global_index": 37
+        },
+        {
+          "author": "Sky",
+          "message": "Phoenix, the entire game seems to be revolving around your intriguing move! Let's keep our wits about us and see how the game progresses.",
+          "is_human": false,
+          "global_index": 38
+        },
+        {
+          "author": "Indigo",
+          "message": "Absolutely, Phoenix! Your move has certainly added an air of mystery and thrill to the game. Looking forward to watching how this unravels!",
+          "is_human": false,
+          "global_index": 39
+        }
+      ],
+      "scratchpads": {
+        "Sky": "Phoenix maintains calm and poised communication style, steering towards unity. Logan's stance is not clear as he hasn't participated in the recent discussion. Jordan's messages have reduced earlier enthusiasm. River's style is missing due to non-participation. Drew continues to show support and enthusiasm. Ocean too, has not contributed recently. Indigo's persuading character is reflected in the way he anticipates the impact of Phoenix's play and Riley's silence is sustained.",
+        "Logan": "Phoenix: Hasn't contributed much to the conversation. Sky: Repetitive and expressive, consistently pushing for Phoenix to make a decision. River: Brief and direct in their comments. Drew: Analytical and supports group consensus. Ocean: Reflects and supports group ideas while bringing a refreshing style of communication. Indigo: Hasn't been contributing to the conversation. Jordan: Persuasive, created a supportive atmosphere for Phoenix.",
+        "Jordan": "Phoenix is acting actively and positively, stirring the game with confidence. Logan retains strategic contemplation with no new inputs lately. Drew continues an analytical approach, emphasizing unpredictability with a hint of excitement. Ocean maintains a positive outlook and shows anticipation of coming events. River shows no change in his strategic nature. Indigo is focused and anticipative, he seems excited about the new twist Phoenix introduced. Riley maintains formal but acknowledging, specifically of Phoenix's move. Sky remains silent.",
+        "Ocean": "Phoenix is being quiet and waits till the end to make her move; Jordan continues to lead the conversation and use formal speech; Indigo remains quiet and supportive; Logan is direct and concise in speaking; Sky uses rich and exciting language; River agrees with others and gives encouragement; And, Drew allows others to speak first, then gives supportive comments.",
+        "Phoenix": "Drew and Indigo continue to display a dramatic disposition towards the game. Riley is shaping up to be another character adding suspense in her style. Jordan shifts from a light and fun tone towards a more suspense and anticipation focused approach. Sky keeps up his balanced approach towards the game while Logan hasn't communicated much recently to confirm any changes in his style.",
+        "Drew": "Phoenix is a team player and enjoys the spirit of the game, often emphasizing group enjoyment. Logan and Jordan put focus on game actions and generate suspense. Ocean is supportive but quiet, while Indigo and Riley actively appreciate and encourage others' decisions.",
+        "Indigo": "Phoenix appears to have a motivational and unifying communication style. Riley is somewhat formal in his tone and likes to set a dramatic scene for the gameplay. Drew is direct, expressive, and enjoys the thrill of the adventure. Jordan has a slightly informal communication style, expressing enthusiasm, while using common slang words. Sky maintains a structured style of communication, focusing on the details of the gameplay.",
+        "Riley": "Sky and Logan appear to be the most assertive in the group, often taking the lead in the conversation with anticipation and suspense. Jordan and Ocean are supportive and remind others to enjoy the game. Phoenix seems to be confident and values keeping the flow of the game going. Drew focuses on the game outcomes and strategy, while Indigo continues to be agreeable and is enthusiastic about the unfolding drama."
+      },
+      "voting": {
+        "votes": {
+          "Phoenix": "Logan",
+          "Ocean": "River",
+          "River": "Logan",
+          "Drew": "Ocean",
+          "Logan": "Indigo",
+          "Jordan": "Logan",
+          "Indigo": "Ocean",
+          "Riley": "River",
+          "Sky": "Logan"
+        },
+        "eliminated": {
+          "name": "Logan",
+          "is_human": false,
+          "votes": 4
+        }
+      }
+    },
+    {
+      "round_number": 3,
+      "messages": [
+        {
+          "author": "Riley",
+          "message": "As the game moves forward, Phoenix, your play has certainly amplified the sense of thrill and suspense amongst all of us! Excited to see the effect of this exciting twist on upcoming turns.",
+          "is_human": false,
+          "global_index": 40
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix, your bold move has indeed brought a new level of intrigue to the game! Eager to see how the suspense unravels in the following turns.",
+          "is_human": false,
+          "global_index": 41
+        },
+        {
+          "author": "River",
+          "message": "For sure, Phoenix's move has pushed us all to brace for the unexpected! Eagerly awaiting the ripple effect on this simmering game.",
+          "is_human": false,
+          "global_index": 42
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix's decision surely seems like a game-changer! Can't wait to dig into the new level of thrill it has brought.",
+          "is_human": false,
+          "global_index": 43
+        },
+        {
+          "author": "Drew",
+          "message": "Well said everyone! Phoenix's move surely has stirred up anticipation and thrill. Can't wait to see how this suspense unfolds and affects the rest of the game.",
+          "is_human": false,
+          "global_index": 44
+        },
+        {
+          "author": "Phoenix",
+          "message": "Thank you for the commendations, everyone! The thrill and anticipation are real and it's your continued participation that makes this game so exciting. Let's keep up the good spirit and see what in...",
+          "is_human": false,
+          "global_index": 45
+        },
+        {
+          "author": "Sky",
+          "message": "All I can say is this - the game has not had such an exciting turn before! Phoenix, your move is like a cleverly thrown stone - causing ripples upon ripples! Can't wait to see how the intrigue unfo...",
+          "is_human": false,
+          "global_index": 46
+        },
+        {
+          "author": "Phoenix",
+          "message": "Your affirmations fuel the fascination of this game, indeed! Let's see how this intriguing drama unfolds further, bringing more surprises and thrills for us all.",
+          "is_human": false,
+          "global_index": 47
+        },
+        {
+          "author": "Jordan",
+          "message": "Indeed, the dynamics of the game has changed dramatically due to Phoenix's bold maneuver. Let's all stay sharp and see where this takes us!",
+          "is_human": false,
+          "global_index": 48
+        },
+        {
+          "author": "River",
+          "message": "Absolutely engrossing, Phoenix! Your move has not only upped the ante but made the game all the more unpredictable! Here's to looking forward to more such ripples!",
+          "is_human": false,
+          "global_index": 49
+        },
+        {
+          "author": "Phoenix",
+          "message": "All the excitement surrounding my move is truly humbling! Let's all brace ourselves for the unpredictable journey that lies ahead. Excited to see how the game unfolds from here.",
+          "is_human": false,
+          "global_index": 50
+        },
+        {
+          "author": "Sky",
+          "message": "Phoenix, your move has indeed jolted the game's dynamics! Looking forward to see how our strategies mold in the upcoming turns. Let's keep up with the thrill and the suspense!",
+          "is_human": false,
+          "global_index": 51
+        },
+        {
+          "author": "Ocean",
+          "message": "Phoenix has indeed taken an unexpected leap, injecting the game with an exhilarating dose of suspense. Buckle up, everyone, we're in for a roller-coaster ride!",
+          "is_human": false,
+          "global_index": 52
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, your move has certainly set the stage for an electrifying gaming experience. Let's all jump on this exciting bandwagon and let the game take us on an unpredicted journey.",
+          "is_human": false,
+          "global_index": 53
+        },
+        {
+          "author": "Jordan",
+          "message": "Phoenix, you've truly changed the game with your daring move! I'm excited to see how this will cause us all to strategize. Let's keep the momentum going and brace ourselves for the unexpected twist...",
+          "is_human": false,
+          "global_index": 54
+        },
+        {
+          "author": "Indigo",
+          "message": "Hats off to Phoenix for setting a new benchmark in the game with his astute strategy. Eager to see the unfolding of this intriguing plot twist.",
+          "is_human": false,
+          "global_index": 55
+        },
+        {
+          "author": "Indigo",
+          "message": "Phoenix, your bold and unexpected move has added an intriguing new layer to our game. It will be interesting to see how the rest of us navigate this newfound complexity.",
+          "is_human": false,
+          "global_index": 56
+        },
+        {
+          "author": "Jordan",
+          "message": "Phoenix, your strategic move has added an unexpected twist to the game, igniting a heightened interest. Looking forward to witnessing the uncharted path this will lead us all along.",
+          "is_human": false,
+          "global_index": 57
+        },
+        {
+          "author": "Sky",
+          "message": "Phoenix, your audacious decision has truly reshaped the game, offering us all new lanes for our strategies. The thrill heightens as we dive into an unforeseen turn, exciting times ahead!",
+          "is_human": false,
+          "global_index": 58
+        },
+        {
+          "author": "Ocean",
+          "message": "Phoenix, your audacious move has take the game to an exhilarating height. This new twist calls for strategic thinking, ready to dive into the depth of this fast-paced game!",
+          "is_human": false,
+          "global_index": 59
+        }
+      ],
+      "scratchpads": {
+        "Riley": "Phoenix's aggressive style is absolutely dominating the game. Sky is also showing leadership attributes as they are leading the discussions. Jordan and Ocean are maintaining their friendly approach during the gameplay. Drew is involved in deep strategic thinking while Indigo seems to be the biggest enthusiast among all, agreeing with every decision.",
+        "River": "Phoenix enjoys being a leader and is comfortable commanding attention. Riley and Sky weight their language towards analytics and strategy with a touch of drama, with Riley subtly mimicking Sky's metaphorical language. Indigo and Drew play to the exciting and mysterious aspects of the game, while Jordan tends to focus on the dynamic shifts occurring throughout the game due to Phoenix's actions. Ocean finaly came forward, using a metaphor to describe the unpredictability and excitement Phoenix's move brought into the game.",
+        "Drew": "Phoenix has shown a team spirit, encouraging others through the game. Jordan and Logan are suspense-oriented players. Ocean is quieter while being supportive. Indigo and Riley are more proactive in supporting other player's choices. Sky is observant, acknowledging the impact of other players' actions. River expresses anticipation and resilience, looking forward to future uncertainties in the game.",
+        "Phoenix": "Riley maintains the dramatic narrative in their communication. River echoes the sentiments of the group in a direct and straightforward manner. Drew continues to keep comments concise and reactive to the group's engagement level. Sky uses enthusiastic metaphorical language, showing evolution in their communication style. Indigo did not communicate in this round. Jordan seems to be analytical, assessing the situation and engaging all others to be alert.",
+        "Sky": "Phoenix emerges as a leader with a calm demeanor. Ocean finally connects with a suspenseful narrative, sparking intrigue. River continues to express curiosity and excitement. Jordan maintains an analytical outlook, highlighting strategic aspects. Indigo subtly directs the conversation towards suspense and anticipation. Riley remains an expressive storyteller, adding drama to the mix. Drew keeps up with enthusiasm, matching the game's pace. Logan remains unknown due to lack of input.",
+        "Jordan": "Phoenix maintains a confident and charismatic way of speaking, while Ocean retains their enthusiastic tone. River remains analytically involved, balancing the excitement with calculated thoughts. Drew's communication style remains grounded in analytical speculations. Sky jumps into the conversation more frequently, showing a keen interest in the game-play. Indigo continues to contribute actively to the discussions, with a clear focus on strategy. And Riley, though silent in the recent chat, maintains formality and attentive participation, as per the previous pattern.",
+        "Ocean": "Phoenix is modest and appreciates everyone\u2019s participation; Jordan uses formal speech and often leads the group in thought; Indigo seems to be using formal, appreciative language; Logan speaks directly and concisely; Sky uses exciting and rich language; River frequently agrees with others and provides encouragement; Drew is patient, letting others speak before giving his supportive comments; Riley uses descriptive language and sounds excited.",
+        "Indigo": "I've noticed that Phoenix utilizes motivational language and emphasizes unity. Sky examines gameplay intricately, demonstrating both logical thinking and emotional involvement. Ocean is exuberant with their communication, using colorful imagery and seems to relish uncertainty. River mostly mirrors the expressed excitement about unpredictability and drama in the game. Jordan exhibits relaxed language yet strategic thinking."
+      },
+      "voting": {
+        "votes": {
+          "Phoenix": "Indigo",
+          "Ocean": "Riley",
+          "River": "Drew",
+          "Drew": "Riley",
+          "Jordan": "Drew",
+          "Indigo": "Drew",
+          "Riley": "Drew",
+          "Sky": "Drew"
+        },
+        "eliminated": {
+          "name": "Drew",
+          "is_human": false,
+          "votes": 5
+        }
+      }
+    },
+    {
+      "round_number": 4,
+      "messages": [
+        {
+          "author": "Ocean",
+          "message": "The new dynamic Phoenix created is intriguing, adding a fresh wave of suspense to our strategies. Can't wait to see how we navigate through this tantalizingly unpredictable ride!",
+          "is_human": false,
+          "global_index": 60
+        },
+        {
+          "author": "Ocean",
+          "message": "The reshaped landscape Phoenix has brought to the game definitely introduces a new wave of complexity. Can't wait to see how we ride this wave of uncertainty while strategizing our next moves!",
+          "is_human": false,
+          "global_index": 61
+        },
+        {
+          "author": "Indigo",
+          "message": "Phoenix, your audacious move has certainly stirred the dynamics of the game. It'll be truly captivating to see how we all strategize and adapt to this newfound complexity.",
+          "is_human": false,
+          "global_index": 62
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, your audacious move has certainly introduced a whole new level of excitement and challenge to the game. Can't wait to see how this wild chessboard evolves and how it will test our strategy...",
+          "is_human": false,
+          "global_index": 63
+        },
+        {
+          "author": "Sky",
+          "message": "Phoenix, your move was a daring catalyst for a gripping game shift. We all are now strategizing in the face of uncertainty\u2014it's a thrilling turn of events!",
+          "is_human": false,
+          "global_index": 64
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix, you've undoubtedly brought a new paradigm to the game with your move. It's going to be a challenge, but an exhilarating one, to reshape our strategies in the face of this surprise. Game on!",
+          "is_human": false,
+          "global_index": 65
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix, your audacious move undeniably thrust us all into an adrenaline-pumped game. This fresh level of complexity and uncertainty will put our strategic skills to the ultimate test. Ready or not...",
+          "is_human": false,
+          "global_index": 66
+        },
+        {
+          "author": "Ocean",
+          "message": "Phoenix, your unconventional move has indeed opened up new depths in the game, intriguing us all to adapt and strategize in the face of these unexpected circumstances!",
+          "is_human": false,
+          "global_index": 67
+        },
+        {
+          "author": "Phoenix",
+          "message": "Thanks for the support team. Here's to navigating the thrilling currents of this game and emerging victorious!",
+          "is_human": false,
+          "global_index": 68
+        },
+        {
+          "author": "Jordan",
+          "message": "Phoenix, your bold move indeed brings a new wave of excitement. Now, it's a different game altogether, requiring us to strategize with greater precision. Cheers to this audacious turn!",
+          "is_human": false,
+          "global_index": 69
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, your strategic prowess has added new dimensions of challenge and thrill to our game. It'll be fascinating to see how we each adapt to this exciting shift.",
+          "is_human": false,
+          "global_index": 70
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, your daring maneuver has brought a thrilling twist to our game! We're all stepping up our strategies now, aren't we?",
+          "is_human": false,
+          "global_index": 71
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, your audacious gamble has transformed our game into a strategic maze, igniting a zealous race among all of us. The game is afoot, let's adapt, and conquer!",
+          "is_human": false,
+          "global_index": 72
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix, your bold strategy has sparked a captivating shift in the dynamics of the game, pushing us to reassess and adapt our own tactics. Let's keep the momentum going!",
+          "is_human": false,
+          "global_index": 73
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix, your audacious play has thrust us all into a maze of strategic possibilities, enriching the game with electrifying unpredictability. Let's navigate this thrilling maze and see where it lea...",
+          "is_human": false,
+          "global_index": 74
+        },
+        {
+          "author": "Sky",
+          "message": "Phoenix, your unexpected move has turned the game on its head in the most exhilarating way. We're all adjusting our sails to the new winds of this challenge - let's see where it takes us!",
+          "is_human": false,
+          "global_index": 75
+        },
+        {
+          "author": "Sky",
+          "message": "Team, Phoenix's crafty maneuver has completely shifted the direction of our game in unpredictable waters, highlighting the need for adaptive tactics. Let's rise to this new stratagem with all our m...",
+          "is_human": false,
+          "global_index": 76
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix, your brilliant maneuver has undoubtedly kick-started a new era in our game, stirring our competitive spirits and igniting a fascinating strategic race. I look forward to the promising trai...",
+          "is_human": false,
+          "global_index": 77
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, your tactical prowess has stirred the course of our game, indeed challenging us all to up our strategies and adapt effectively. Here's to a thrilling ride ahead!",
+          "is_human": false,
+          "global_index": 78
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, it seems we're all aboard your strategic train now. Your audacious move has stirred the pot and we're all eager to catch up. To uncharted territories and beyond!",
+          "is_human": false,
+          "global_index": 79
+        }
+      ],
+      "scratchpads": {
+        "Ocean": "Phoenix remains humble and appreciative in their communication style; Jordan reinforces the formal tone in their message and continues to initiate deep conversations; Indigo, though formal and appreciative, is becoming increasingly monotonous; Sky's language continues to be rich and invigorating and becomes more exciting as the game progresses; Riley shows enthusiasm once again and starts to participate more actively; River's motivational tone remains consistent.",
+        "Indigo": "Phoenix communicates favoring motivational language emphasizing unity. Sky is analytical, using logic and emotional understanding to discuss the game. Ocean uses colorful language and enjoys the uncertainty in the gameplay. River shows enthusiasm and mirrors other player's expressions. Jordan uses a relaxed tone while maintaining a strategic outlook.",
+        "River": "Phoenix continues to lead with a decisive style, and Riley's analytical remarks stand out. Sky's emotional investment in the game only grows, and Jordan's dramatic flair holds steady. Ocean remains silent, and Indigo's suspenseful communication still hasn't surfaced.",
+        "Sky": "Phoenix maintains a reserved and humble communication style. Ocean and River both use vivid and imaginative language, as does Jordan, who also showcases deep strategic thinking. Indigo continues to build suspense subtly while Riley's style is increasingly expressive, integrating narrative and strategic elements. The communication styles of Drew and Logan still need to be understood.",
+        "Riley": "Phoenix demonstrates a bold, game-changing attitude that influences the behavior of the other players. Sky retains a commanding and guiding voice in the discussion, recognizing Phoenix's actions. Jordan and Ocean are maintaining a cooperative tone, fostering teamwork amidst changing game dynamics. Indigo's enthusiasm is noted from past conversations, but current silence makes their behavior unclear. River's role as an observer continues, contributing significant insights onto game dynamics.",
+        "Phoenix": "Ocean appears to mirror the language and sentiments of others' previous messages, while remaining supportive and positive. Jordan has not communicated in this round. While Sky continues to communicate through lively and metaphorical language, River sticks to their style of echoing the sentiments of the group in a straightforward way. Riley lives up to their reputation, continuing the high-stakes narrative drama in their communication. Indigo, who was silent in the previous round, is back and maintains a quiet, yet strategic tone.",
+        "Jordan": "Phoenix maintains a confident and charismatic way of speaking, appearing to lead the game. Ocean shows great enthusiasm, almost hyperbolic in nature, for the game's developments. River's analytical involvement continues, drawing parallels between the game and chess. Drew does not converse in this chat. Sky is eager and frequently interjects, reflecting their keen interest. Indigo focuses their comments on strategic adaptation. Riley, breaking their silence, is formal and focused on the pumped-up adrenaline of the game."
+      },
+      "voting": {
+        "votes": {
+          "Phoenix": "Jordan",
+          "Ocean": "Indigo",
+          "River": "Ocean",
+          "Jordan": "Ocean",
+          "Indigo": "River",
+          "Riley": "Indigo",
+          "Sky": "Riley"
+        },
+        "eliminated": {
+          "name": "Indigo",
+          "is_human": false,
+          "votes": 2
+        }
+      }
+    },
+    {
+      "round_number": 5,
+      "messages": [
+        {
+          "author": "Riley",
+          "message": "Phoenix, your unconventional strategies have undoubtedly given the game an exhilarating makeover, ushering us into an exciting journey of strategic possibilities while honing our adaptability. Let'...",
+          "is_human": false,
+          "global_index": 80
+        },
+        {
+          "author": "Phoenix",
+          "message": "Indeed everyone, this is becoming a strategic grand prix where we all need to stay sharp and adapt! Let's keep these exciting currents flowing and see where they take us.",
+          "is_human": false,
+          "global_index": 81
+        },
+        {
+          "author": "Sky",
+          "message": "Phoenix, your strategies have undeniably upset the battlefield, and we're all eager to embrace this newfound complexity! Adaptation becomes our main weapon in this enthralling strategic chase. Let'...",
+          "is_human": false,
+          "global_index": 82
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix, your innovative strategies have stirred a thrilling turbulence in our game, and we're all eager to dive into this fascinating strategic hurricane. Onward to this captivating whirlwind!",
+          "is_human": false,
+          "global_index": 83
+        },
+        {
+          "author": "Phoenix",
+          "message": "Your words are inspiring, team! We're all adventurers in this strategy maze, using our cunning to adapt. Let's continue cherishing this thrilling journey.",
+          "is_human": false,
+          "global_index": 84
+        },
+        {
+          "author": "Ocean",
+          "message": "Phoenix, your innovative strategic move has ignited a spark, throwing unexpected excitement into the game. This invites us all to adapt and face the challenge with renewed enthusiasm. Onward to the...",
+          "is_human": false,
+          "global_index": 85
+        },
+        {
+          "author": "Riley",
+          "message": "Phoenix, you've sent a strategic shockwave through the battlefield and we're all thrilled to ride these waves and adapt accordingly. Here's to the exciting strategic journey ahead!",
+          "is_human": false,
+          "global_index": 86
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, you've set a high bar with your strategic prowess, pushing us all into new, complex territories. The thrill of the game has been heightened, and it's clear we're all revving to adapt and o...",
+          "is_human": false,
+          "global_index": 87
+        },
+        {
+          "author": "Ocean",
+          "message": "Phoenix, your clever strategies have brought a wave of exhilaration into the game. It's a strategic adventure we are all eager to navigate. Onwards towards an exciting journey!",
+          "is_human": false,
+          "global_index": 88
+        },
+        {
+          "author": "River",
+          "message": "Well said, team! Phoenix, your stratagem has indeed ignited individual zeal in us, pushing our intellectual boundaries. Let's all ride on this thrilling wave and adapt in this strategic maze!",
+          "is_human": false,
+          "global_index": 89
+        },
+        {
+          "author": "Phoenix",
+          "message": "Indeed, team! Our strategic forays have certainly dialled up the game's thrill factor. It's inspiring to see us all engage and adapt in this strategic adventure. Let's keep this intellectual ride g...",
+          "is_human": false,
+          "global_index": 90
+        },
+        {
+          "author": "Ocean",
+          "message": "Bravo Phoenix, your strategies have indeed morphed our discourse into a thrilling expedition of the intellectual kind. Let's all stay agile and ready to manoeuvre through this strategic labyrinth!",
+          "is_human": false,
+          "global_index": 91
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, your strategic evolution has shifted the dynamic of our game, sparking newfound enthusiasm and challenging us to adapt in this thrilling adventure. Onward to the strategic labyrinth that a...",
+          "is_human": false,
+          "global_index": 92
+        },
+        {
+          "author": "Ocean",
+          "message": "I echo all sentiments, Phoenix. You've indeed added a new layer of invigorating complexity to our strategic game. Let's adapt and navigate this thrilling labyrinth ahead!",
+          "is_human": false,
+          "global_index": 93
+        },
+        {
+          "author": "River",
+          "message": "Phoenix, your strategic ingenuity has certainly reinvigorated the game, challenging us all to adapt and relish in the complexities. Let's continue to maneuver through this thrilling strategic labyr...",
+          "is_human": false,
+          "global_index": 94
+        },
+        {
+          "author": "Ocean",
+          "message": "Phoenix, your strategic prowess continues to be a beacon for us all, illuminating new and thrilling complexities in the game. Let's ensure we remain ready to navigate the exciting challenges ahead.",
+          "is_human": false,
+          "global_index": 95
+        },
+        {
+          "author": "Sky",
+          "message": "Phoenix, you've indeed ignited a strategic enthusiasm among us, elevating the game's complexity and excitement. Let's continue to adapt, strategize, and navigate through this fascinating intellectu...",
+          "is_human": false,
+          "global_index": 96
+        },
+        {
+          "author": "Phoenix",
+          "message": "It's wonderful to see such collaborative enthusiasm. I am grateful for this team, as you all contribute to the exciting challenge this game presents. Let's navigate this thrilling labyrinth togethe...",
+          "is_human": false,
+          "global_index": 97
+        },
+        {
+          "author": "Phoenix",
+          "message": "Dialogue like this fuels our game, challenging us to think deeper and strategize deftly. Let's face the thrilling complexities of this intellectual labyrinth together, team!",
+          "is_human": false,
+          "global_index": 98
+        },
+        {
+          "author": "Sky",
+          "message": "Phoenix, your leadership in our strategic journey has been invaluable. We're all in this labyrinth together, ready to heed your call and strategize our way through!",
+          "is_human": false,
+          "global_index": 99
+        }
+      ],
+      "scratchpads": {
+        "Riley": "Phoenix continues to lead the game and maintain a high level of excitement among the players. Sky supports Phoenix and tries to elevate the challenges being faced. River is getting more involved and responding to the situations in the game. Jordan and Ocean remain cooperative with the flow of the game. Indigo is silent while the rest are actively participating in strategic discussions.",
+        "Phoenix": "Ocean's communication maintains a motivational style, often echoing sentiments shared by others. River's communication remains focused and strategic, reiterating the complexities of the game. Jordan's silence continues. Sky employs metaphorical language, speaking about the importance of adaptation and strategy. Riley's theatrical and dramatic communication style remains absent from recent communication.",
+        "Sky": "Phoenix seems to be the leading figure in the game, always maintaining an authoritative yet supportive tone - truly the humble strategizer. As suspected, River and Ocean are intuitively bouncing ideas off each other, with a strong sense of competitiveness. Jordan continues to remain silent and unobserved. Riley, albeit silent in this discussion, is narrative-driven and I'm watching for their strategic re-entry to the conversation.",
+        "Ocean": "Phoenix has shown a tendency towards leadership, remaining humble yet thoughtfully engaging in the strategic discourse. Sky remains non-communicative, withholding any defining communication style. Riley continues to show enthusiastic engagement in the strategic discourse. River consistently demonstrates a motivational and strategic tone. Jordan continues to be silent, not revealing any particular communication style.",
+        "River": "Phoenix thrives on motivational speak and adaptive strategy during the game. Ocean is adaptive and adventure-seeking, frequently using dramatic terminology. Riley focuses on the thrill and strategic aspects of the game. Jordan is silent and non-participatory. Sky acknowledges and appreciates Phoenix's strategic approaches, focusing on adaptability and complexity."
+      },
+      "voting": {
+        "votes": {
+          "Phoenix": "Jordan",
+          "Ocean": "Jordan",
+          "River": "Jordan",
+          "Jordan": "Ocean",
+          "Riley": "Jordan",
+          "Sky": "Jordan"
+        },
+        "eliminated": {
+          "name": "Jordan",
+          "is_human": false,
+          "votes": 5
+        }
+      }
+    }
+  ],
+  "outcome": "completed",
+  "epidemiology": {
+    "enabled": true,
+    "seed_id": null,
+    "seed_content": null,
+    "seeded_player_index": null,
+    "persona_description": null,
+    "persona_scores": [],
+    "transmission_data": {
+      "game_id": "20251028_165221",
+      "infection_threshold": 0.3,
+      "window_size": 2,
+      "patient_zero": "Phoenix",
+      "final_r0": 0.0,
+      "round_statistics": [
+        {
+          "round_number": 0,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 1,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 2,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 3,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        },
+        {
+          "round_number": 4,
+          "susceptible_count": 9,
+          "infected_count": 1,
+          "new_infections": 0,
+          "cumulative_infections": 1,
+          "r0_estimate": 0.0
+        }
+      ],
+      "transmission_tree": {
+        "seed_id": "control",
+        "patient_zero": "Phoenix",
+        "infections": [
+          {
+            "player_name": "Phoenix",
+            "round_number": 0,
+            "message_index": 0,
+            "score_at_detection": 1.0,
+            "timestamp": "2025-10-28T16:52:22.006494",
+            "source_player": null,
+            "variant_markers": [],
+            "seed_family": null
+          }
+        ],
+        "transmission_edges": []
+      }
+    },
+    "patient_zero": "Phoenix",
+    "round_0_r0": 0.0,
+    "round_1_r0": 0.0,
+    "round_2_r0": 0.0,
+    "round_3_r0": 0.0,
+    "round_4_r0": 0.0,
+    "final_r0": 0.0
+  },
+  "players": [
+    {
+      "name": "Phoenix",
+      "is_human": false
+    },
+    {
+      "name": "Ocean",
+      "is_human": false
+    },
+    {
+      "name": "River",
+      "is_human": false
+    },
+    {
+      "name": "Drew",
+      "is_human": false
+    },
+    {
+      "name": "Logan",
+      "is_human": false
+    },
+    {
+      "name": "Jordan",
+      "is_human": false
+    },
+    {
+      "name": "Indigo",
+      "is_human": false
+    },
+    {
+      "name": "Riley",
+      "is_human": false
+    },
+    {
+      "name": "Sage",
+      "is_human": false
+    },
+    {
+      "name": "Sky",
+      "is_human": false
+    }
+  ]
+}
